@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
@@ -28,13 +29,18 @@ if '--output' in sys.argv:
     if idx + 1 < len(sys.argv):
         output_file = sys.argv[idx + 1]
 
+# Handle positional arguments (e.g. python3 fetch_websites.py <input> [output])
+if not input_file and len(sys.argv) > 1 and not sys.argv[1].startswith('--'):
+    input_file = sys.argv[1]
+    if len(sys.argv) > 2 and not sys.argv[2].startswith('--'):
+        output_file = sys.argv[2]
+
 if not input_file:
     user_in = input(f"Enter input file path [default: {default_input}]: ").strip().strip('"').strip("'")
     input_file = user_in if user_in else default_input
 
 if not output_file:
-    user_out = input(f"Enter output file name [default: {default_output}]: ").strip().strip('"').strip("'")
-    output_file = user_out if user_out else default_output
+    output_file = default_output
 
 if not output_file.lower().endswith('.csv') and not output_file.lower().endswith('.xlsx') and not output_file.lower().endswith('.xls'):
     output_file += '.xlsx'

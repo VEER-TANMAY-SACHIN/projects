@@ -1,0 +1,48 @@
+{
+  "company": {
+    "srNo": 1527,
+    "companyName": "Orchasp Limited",
+    "readymadeWebsite": "",
+    "assignedTo": "Unassigned",
+    "contactPerson": "N/A",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Website",
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "",
+    "source": "readymade-fallback",
+    "confidence": "FAILED",
+    "hasConflict": false
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "N/A",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Not Found"
+    },
+    "regardingAccessibility": [],
+    "overallStatus": "Not Found",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [],
+  "status": "Inaccessible",
+  "totalViolations": 0,
+  "altTextViolations": 0,
+  "contrastViolations": 0,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 0,
+  "deliverables": {},
+  "remarks": "Inaccessible: Could not resolve valid website URL",
+  "timestamp": "2026-08-10T13:17:21.283Z"
+}

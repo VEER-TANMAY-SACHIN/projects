@@ -1,0 +1,46 @@
+{
+  "company": {
+    "srNo": 21,
+    "companyName": "AKI India Limited",
+    "readymadeWebsite": "https://akinator.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Not Found",
+    "emailId": "Not Found",
+    "verifiedBy": "Yes",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "",
+    "source": "self-search",
+    "confidence": "FAILED",
+    "hasConflict": false
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "N/A",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Not Found"
+    },
+    "regardingAccessibility": [],
+    "overallStatus": "Not Found",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [],
+  "status": "Inaccessible",
+  "totalViolations": 0,
+  "altTextViolations": 0,
+  "contrastViolations": 0,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 0,
+  "deliverables": {},
+  "remarks": "Inaccessible: Could not resolve valid website URL",
+  "timestamp": "2026-08-10T13:21:59.786Z"
+}

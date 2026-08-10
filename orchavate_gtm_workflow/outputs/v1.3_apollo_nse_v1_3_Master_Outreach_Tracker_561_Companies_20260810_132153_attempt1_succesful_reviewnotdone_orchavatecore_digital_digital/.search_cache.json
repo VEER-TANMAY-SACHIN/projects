@@ -1,0 +1,38 @@
+{
+  "3m india limited": {
+    "companyName": "3M India Limited",
+    "resolvedUrl": "",
+    "confidence": "FAILED",
+    "timestamp": 1786368115043
+  },
+  "aaa technologies limited": {
+    "companyName": "AAA Technologies Limited",
+    "resolvedUrl": "",
+    "confidence": "FAILED",
+    "timestamp": 1786368116627
+  },
+  "abb india limited": {
+    "companyName": "ABB India Limited",
+    "resolvedUrl": "",
+    "confidence": "FAILED",
+    "timestamp": 1786368118206
+  },
+  "aki india limited": {
+    "companyName": "AKI India Limited",
+    "resolvedUrl": "",
+    "confidence": "FAILED",
+    "timestamp": 1786368119785
+  },
+  "ask automotive limited": {
+    "companyName": "ASK Automotive Limited",
+    "resolvedUrl": "",
+    "confidence": "FAILED",
+    "timestamp": 1786368121353
+  },
+  "au small finance bank limited": {
+    "companyName": "AU Small Finance Bank Limited",
+    "resolvedUrl": "",
+    "confidence": "FAILED",
+    "timestamp": 1786368122932
+  }
+}
