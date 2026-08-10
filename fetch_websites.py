@@ -5,12 +5,12 @@ from bs4 import BeautifulSoup
 import re
 import urllib3
 import time
+import sys
+import os
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # Disable SSL warnings
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-
-import sys
-import os
 
 default_input = '/workspaces/projects/SME_EQUITY_L_562.csv'
 default_output = 'nse_tracker_enriched_clearbit.xlsx'
@@ -54,11 +54,10 @@ try:
         df = pd.read_excel(input_file)
 except FileNotFoundError:
     print(f"Error: Could not find {input_file}. Please check the file name.")
-    exit()
+    sys.exit(1)
 except Exception as e:
     print(f"Error loading file: {e}")
-    exit()
-
+    sys.exit(1)
 
 
 # Find the company name column dynamically
@@ -69,96 +68,78 @@ for name in ['NAME OF COMPANY', 'COMPANY NAME', 'Company Name', 'Company', 'NAME
         break
 
 if not company_col:
-    company_col = df.columns[1]  # Default to second column
+    print("Error: Could not find a Company Name column.")
+    sys.exit(1)
 
-print(f"Using column '{company_col}' for Clearbit search.\n")
 total_rows = len(df)
+print(f"Found {total_rows} companies to process using column '{company_col}'.")
+
+headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
 
 def clean_company_name(name):
-    """Removes legal suffixes so Clearbit can find the brand."""
     if pd.isna(name): return ""
     name = str(name)
-    # Remove common legal suffixes
-    clean = re.sub(r'\b(Limited|Ltd|Ltd\.|India|Corporation|Inc|Incorporated|Technologies|Enterprises)\b', '', name, flags=re.IGNORECASE)
-    # Remove special characters like () or -
-    clean = re.sub(r'[^\w\s]', '', clean)
-    return " ".join(clean.split())
-
-def extract_page_data(domain):
-    data = {"Emails": "None", "LinkedIn": "None", "PDFs": "None"}
-    url = f"https://www.{domain}"
-    
-    try:
-        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
-        response = requests.get(url, headers=headers, timeout=10, verify=False)
-        soup = BeautifulSoup(response.text, 'html.parser')
-        
-        emails = set()
-        for a in soup.find_all('a', href=re.compile(r'^mailto:')):
-            emails.add(a.get('href').replace('mailto:', '').strip().lower())
-        
-        if not emails:
-            raw_emails = re.findall(r'[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9_-]+', response.text)
-            emails.update([e.lower() for e in raw_emails])
-            
-        target_emails = [e for e in emails if re.search(r'investor|compliance|grievance|secretarial|cs@', e)]
-        if target_emails: data["Emails"] = " | ".join(target_emails)
-            
-        linkedin = soup.find('a', href=re.compile(r'linkedin\.com/company'))
-        if linkedin: data["LinkedIn"] = linkedin.get('href')
-            
-        pdfs = [a.get('href') for a in soup.find_all('a', href=re.compile(r'\.pdf$'))]
-        if pdfs: data["PDFs"] = " | ".join(list(set(pdfs))[:2])
-            
-    except Exception:
-        pass
-        
-    return data
+    suffixes = [
+        r'\blimited\b', r'\bltd\b', r'\bprivate\b', r'\bpvt\b', r'\binc\b', r'\bllp\b',
+        r'\bcorp\b', r'\bcorporation\b', r'\bholdings\b', r'\bindustries\b', r'\benterprises\b',
+        r'\btechnologies\b', r'\btech\b', r'\bservices\b', r'\bsolutions\b', r'\bgroup\b',
+        r'\bfinance\b', r'\bcapital\b', r'\bpharma\b', r'\bpharmaceuticals\b', r'\bhealthcare\b'
+    ]
+    cleaned = name.lower()
+    for s in suffixes:
+        cleaned = re.sub(s, '', cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r'\(.*?\)', '', cleaned)
+    cleaned = re.sub(r'[^a-zA-Z0-9\s]', '', cleaned)
+    return cleaned.strip()
 
 def query_clearbit(query_name):
-    """Helper function to make the API call safely."""
+    if not query_name: return None
     try:
-        time.sleep(0.5) 
         url = f"https://autocomplete.clearbit.com/v1/companies/suggest?query={query_name}"
-        res = requests.get(url, timeout=10)
+        res = requests.get(url, headers=headers, timeout=5)
         if res.status_code == 200 and len(res.json()) > 0:
             return res.json()[0]['domain']
     except Exception:
         pass
     return None
 
-def process_company(company_name, current_index):
-    print(f"[{current_index}/{total_rows}] Analyzing: {company_name}")
-    result = {"Authentic_Website": "Not Found", "Target_Emails": "None", "LinkedIn": "None", "PDF_Links": "None"}
+def process_company(args):
+    index, company_name = args
+    result = {
+        "index": index,
+        "Authentic_Website": "Not Found",
+        "Target_Emails": "None",
+        "LinkedIn": "None",
+        "PDF_Links": "None"
+    }
     if pd.isna(company_name): return result
         
-    # Attempt 1: Exact Match
     domain = query_clearbit(company_name)
-    
-    # Attempt 2: Cleaned Brand Name
     if not domain:
         cleaned_name = clean_company_name(company_name)
         if cleaned_name and cleaned_name.lower() != str(company_name).lower():
             domain = query_clearbit(cleaned_name)
             
     if domain:
-        result["Authentic_Website"] = domain
-        print(f"   [+] Verified Domain: {domain}")
-        extracted = extract_page_data(domain)
-        result["Target_Emails"] = extracted["Emails"]
-        result["LinkedIn"] = extracted["LinkedIn"]
-        result["PDF_Links"] = extracted["PDFs"]
+        result["Authentic_Website"] = f"https://{domain}" if not domain.startswith('http') else domain
+        print(f"[{index+1}/{total_rows}] [+] {company_name} -> {result['Authentic_Website']}")
     else:
-        print(f"   [-] Not found on Clearbit (Tried exact and cleaned names).")
+        print(f"[{index+1}/{total_rows}] [-] {company_name} -> Not Found")
         
     return result
 
-results = [process_company(name, i+1) for i, name in enumerate(df[company_col])]
+results = [None] * total_rows
 
-df['Authentic Website'] = [res["Authentic_Website"] for res in results]
-df['Target Emails'] = [res["Target_Emails"] for res in results]
-df['LinkedIn'] = [res["LinkedIn"] for res in results]
-df['PDF Links'] = [res["PDF_Links"] for res in results]
+# Fast Multi-threaded execution (30 parallel workers)
+print("\n🚀 Starting Fast Multi-Threaded Website Discovery (30 workers)...")
+with ThreadPoolExecutor(max_workers=30) as executor:
+    futures = [executor.submit(process_company, (i, name)) for i, name in enumerate(df[company_col])]
+    for future in as_completed(futures):
+        res = future.result()
+        results[res["index"]] = res
+
+df['Authentic Website'] = [res["Authentic_Website"] if res else "Not Found" for res in results]
+df['Website'] = df['Authentic Website']
 
 print("\nSaving updated tracker...")
 try:
@@ -166,10 +147,6 @@ try:
         df.to_csv(output_file, index=False)
     else:
         df.to_excel(output_file, index=False)
-    print(f"Done! Saved as {output_file}")
-except Exception as err:
-    fallback_csv = output_file.replace('.xlsx', '.csv').replace('.xls', '.csv')
-    if not fallback_csv.endswith('.csv'):
-        fallback_csv += '.csv'
-    df.to_csv(fallback_csv, index=False)
-    print(f"Done! Saved as {fallback_csv} (CSV fallback)")
+    print(f"🎉 Done! Saved as {output_file}")
+except Exception as e:
+    print(f"Error saving output file: {e}")

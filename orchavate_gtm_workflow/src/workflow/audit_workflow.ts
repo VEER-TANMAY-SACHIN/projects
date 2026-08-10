@@ -74,8 +74,17 @@ export async function runWorkflowV11(
   const circuitBreakerEvents: string[] = [];
   let totalSearchAttempts = 0;
   let totalSearchDurationMs = 0;
-
-  const browser = await chromium.launch({ headless: true });
+  const browser = await chromium.launch({
+    headless: true,
+    args: [
+      '--no-sandbox',
+      '--disable-setuid-sandbox',
+      '--disable-dev-shm-usage',
+      '--disable-gpu',
+      '--no-zygote',
+      '--disable-extensions'
+    ]
+  });
 
   console.log(`\n===============================================================`);
   console.log(`Starting Accessibility Audit Tool — v1.1 Final Spec`);

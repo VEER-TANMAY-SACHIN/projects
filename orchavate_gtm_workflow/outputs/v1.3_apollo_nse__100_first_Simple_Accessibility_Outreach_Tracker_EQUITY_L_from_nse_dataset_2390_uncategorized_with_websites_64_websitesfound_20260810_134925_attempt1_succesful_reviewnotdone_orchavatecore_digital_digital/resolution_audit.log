@@ -1,0 +1,4 @@
+[2026-08-10T13:49:33.629Z] COMPANY: "20 Microns Limited" | QUERIES: ["20 Microns Limited" official website] | CANDIDATES: [] | SELECTED: "" | CONFIDENCE: FAILED | TIME: 8331ms | REASON: Resolved via self-search
+[2026-08-10T13:49:57.635Z] COMPANY: "3i Infotech Limited" | QUERIES: ["3i Infotech Limited" official website] | CANDIDATES: [] | SELECTED: "" | CONFIDENCE: FAILED | TIME: 24004ms | REASON: Resolved via self-search
+[2026-08-10T13:50:21.639Z] COMPANY: "3M India Limited" | QUERIES: ["3M India Limited" official website] | CANDIDATES: [] | SELECTED: "" | CONFIDENCE: FAILED | TIME: 24003ms | REASON: Resolved via self-search
+[2026-08-10T13:50:45.646Z] COMPANY: "63 moons technologies limited" | QUERIES: ["63 moons technologies limited" official website] | CANDIDATES: [] | SELECTED: "" | CONFIDENCE: FAILED | TIME: 24006ms | REASON: Resolved via self-search
