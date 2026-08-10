@@ -1,0 +1,178 @@
+{
+  "company": {
+    "srNo": 47,
+    "companyName": "ACS Technologies Limited",
+    "readymadeWebsite": "https://acstechnologies.co.in",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (ACS Technologies Limited)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://acstechnologies.co.in",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://acstechnologies.co.in"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "info@acstechnologies.co.in",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://acstechnologies.co.in"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "info@acstechnologies.co.in",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://acstechnologies.co.in"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://acstechnologies.co.in",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".section-title.aos-animate.container > h2",
+          "html": "<h2>About</h2>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".section-title.aos-animate.container > p > .description-title",
+          "html": "<span class=\"description-title\">Started</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "input[type=\"submit\"]",
+          "html": "<input type=\"submit\" value=\"Subscribe\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".mt-2",
+          "html": "<p class=\"mt-2\" style=\"font-size:13px; color: color-mix(in srgb, var(--default-color), transparent 30%);\">Founded 1980. Delivering IT innovation across India and the Gulf for over four decades.</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".col-12 > p",
+          "html": "<p style=\"font-size:13px; color: color-mix(in srgb, var(--default-color), transparent 40%);\">© 2025 ACS Technologies Ltd. All rights reserved.</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/label?application=playwright",
+          "category": "form_labels",
+          "selector": "input[type=\"email\"]",
+          "html": "<input type=\"email\" name=\"email\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".linkedin",
+          "html": "<a href=\"https://www.linkedin.com/in/acstechnologiesltd/?skipRedirect=true\" class=\"linkedin\"><i class=\"bi bi-linkedin\"></i></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".logo",
+          "html": "<a href=\"index.html\" class=\"logo d-flex align-items-center\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 68,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/ACS_Technologies_Limited/screenshots/ACS_Technologies_Limited_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/ACS_Technologies_Limited/screenshots/ACS_Technologies_Limited_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/ACS_Technologies_Limited/screenshots/ACS_Technologies_Limited_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 8,
+  "altTextViolations": 0,
+  "contrastViolations": 5,
+  "labelViolations": 1,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 68,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/ACS_Technologies_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/ACS_Technologies_Limited/screenshots/ACS_Technologies_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — ACS Technologies Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `68 / 100`  \n> **Total WCAG Violations:** `8`  \n> **Verified Contact Email:** `info@acstechnologies.co.in`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `info@acstechnologies.co.in` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **68/100** on automated WCAG 2.1 AA accessibility testing with **8 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `68/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `1` | Serious: `7` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 5 violations\n- 📝 **Form & Structural Labels:** 1 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (5 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Form Labels & ARIA (1 issues):** Associate all `<input>` and `<select>` elements with explicit `<label for=\"...\">` tags or `aria-label` attributes.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** ACS Technologies Limited\n- **Resolved URL:** [https://acstechnologies.co.in](https://acstechnologies.co.in)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@acstechnologies.co.in` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `info@acstechnologies.co.in` | **Status:** `Verified` | **Source Page:** https://acstechnologies.co.in\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.section-title.aos-animate.container > h2`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.section-title.aos-animate.container > p > .description-title`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `input[type=\"submit\"]`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.mt-2`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.col-12 > p`\n6. **`[form_labels] label`** (CRITICAL)\n   - **Help:** Form elements must have labels\n   - **Selector:** `input[type=\"email\"]`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.linkedin`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.logo`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/ACS_Technologies_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/ACS_Technologies_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/ACS_Technologies_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/ACS_Technologies_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/ACS_Technologies_Limited/screenshots/ACS_Technologies_Limited_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — ACS Technologies Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `68 / 100`  \n> **Total WCAG Violations:** `8`  \n> **Verified Contact Email:** `info@acstechnologies.co.in`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `info@acstechnologies.co.in` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **68/100** on automated WCAG 2.1 AA accessibility testing with **8 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `68/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `1` | Serious: `7` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 5 violations\n- 📝 **Form & Structural Labels:** 1 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (5 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Form Labels & ARIA (1 issues):** Associate all `<input>` and `<select>` elements with explicit `<label for=\"...\">` tags or `aria-label` attributes.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** ACS Technologies Limited\n- **Resolved URL:** [https://acstechnologies.co.in](https://acstechnologies.co.in)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@acstechnologies.co.in` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `info@acstechnologies.co.in` | **Status:** `Verified` | **Source Page:** https://acstechnologies.co.in\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.section-title.aos-animate.container > h2`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.section-title.aos-animate.container > p > .description-title`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `input[type=\"submit\"]`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.mt-2`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.col-12 > p`\n6. **`[form_labels] label`** (CRITICAL)\n   - **Help:** Form elements must have labels\n   - **Selector:** `input[type=\"email\"]`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.linkedin`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.logo`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/ACS_Technologies_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/ACS_Technologies_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/ACS_Technologies_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/ACS_Technologies_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/ACS_Technologies_Limited/screenshots/ACS_Technologies_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — ACS Technologies Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `68 / 100`  \n> **Total WCAG Violations:** `8`  \n> **Verified Contact Email:** `info@acstechnologies.co.in`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `info@acstechnologies.co.in` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **68/100** on automated WCAG 2.1 AA accessibility testing with **8 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `68/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `1` | Serious: `7` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 5 violations\n- 📝 **Form & Structural Labels:** 1 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (5 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Form Labels & ARIA (1 issues):** Associate all `<input>` and `<select>` elements with explicit `<label for=\"...\">` tags or `aria-label` attributes.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** ACS Technologies Limited\n- **Resolved URL:** [https://acstechnologies.co.in](https://acstechnologies.co.in)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@acstechnologies.co.in` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `info@acstechnologies.co.in` | **Status:** `Verified` | **Source Page:** https://acstechnologies.co.in\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.section-title.aos-animate.container > h2`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.section-title.aos-animate.container > p > .description-title`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `input[type=\"submit\"]`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.mt-2`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.col-12 > p`\n6. **`[form_labels] label`** (CRITICAL)\n   - **Help:** Form elements must have labels\n   - **Selector:** `input[type=\"email\"]`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.linkedin`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.logo`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/ACS_Technologies_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/ACS_Technologies_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/ACS_Technologies_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 8. Lighthouse A11y: 68/100.",
+  "timestamp": "2026-08-10T14:07:59.013Z"
+}

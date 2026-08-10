@@ -1,0 +1,937 @@
+{
+  "company": {
+    "srNo": 36,
+    "companyName": "ABM Knowledgeware Limited",
+    "readymadeWebsite": "https://abmindia.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (ABM Knowledgeware Limited)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://abmindia.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://abmindia.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "egovernance@abmindia.com, cs@abmindia.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://abmindia.com/home/contact_us"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "egovernance@abmindia.com, cs@abmindia.com",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://abmindia.com/home/contact_us"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://abmindia.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "description": "Ensure an element's role supports its ARIA attributes",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-allowed-attr?application=playwright",
+          "category": "other",
+          "selector": "#slick-slide00",
+          "html": "<li class=\"slick-active\" aria-hidden=\"false\" role=\"presentation\" aria-selected=\"true\" aria-controls=\"navigation00\" id=\"slick-slide00\"><button type=\"button\" data-role=\"none\" role=\"button\" tabindex=\"0\">1</button></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "description": "Ensure an element's role supports its ARIA attributes",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-allowed-attr?application=playwright",
+          "category": "other",
+          "selector": "#slick-slide70",
+          "html": "<li class=\"slick-active\" aria-hidden=\"false\" role=\"presentation\" aria-selected=\"true\" aria-controls=\"navigation70\" id=\"slick-slide70\"><button type=\"button\" data-role=\"none\" role=\"button\" tabindex=\"0\">1</button></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "description": "Ensure an element's role supports its ARIA attributes",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-allowed-attr?application=playwright",
+          "category": "other",
+          "selector": "#slick-slide60",
+          "html": "<li class=\"slick-active\" aria-hidden=\"false\" role=\"presentation\" aria-selected=\"true\" aria-controls=\"navigation60\" id=\"slick-slide60\"><button type=\"button\" data-role=\"none\" role=\"button\" tabindex=\"0\">1</button></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": ".front-baner.hero-banner[data-slick-index=\"5\"]",
+          "html": "<section class=\"hero-banner homepage front-baner slick-slide slick-cloned\" style=\"height: 1080px; width: 1920px;\" data-slick-index=\"5\" aria-hidden=\"true\" tabindex=\"-1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "#slick-slide01",
+          "html": "<li aria-hidden=\"true\" role=\"presentation\" aria-selected=\"false\" aria-controls=\"navigation01\" id=\"slick-slide01\"><button type=\"button\" data-role=\"none\" role=\"button\" tabindex=\"0\">2</button></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "#slick-slide02",
+          "html": "<li aria-hidden=\"true\" role=\"presentation\" aria-selected=\"false\" aria-controls=\"navigation02\" id=\"slick-slide02\"><button type=\"button\" data-role=\"none\" role=\"button\" tabindex=\"0\">3</button></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "#slick-slide03",
+          "html": "<li aria-hidden=\"true\" role=\"presentation\" aria-selected=\"false\" aria-controls=\"navigation03\" id=\"slick-slide03\"><button type=\"button\" data-role=\"none\" role=\"button\" tabindex=\"0\">4</button></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "#slick-slide04",
+          "html": "<li aria-hidden=\"true\" role=\"presentation\" aria-selected=\"false\" aria-controls=\"navigation04\" id=\"slick-slide04\"><button type=\"button\" data-role=\"none\" role=\"button\" tabindex=\"0\">5</button></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "#slick-slide71",
+          "html": "<li aria-hidden=\"true\" role=\"presentation\" aria-selected=\"false\" aria-controls=\"navigation71\" id=\"slick-slide71\"><button type=\"button\" data-role=\"none\" role=\"button\" tabindex=\"0\">2</button></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "#slick-slide72",
+          "html": "<li aria-hidden=\"true\" role=\"presentation\" aria-selected=\"false\" aria-controls=\"navigation72\" id=\"slick-slide72\"><button type=\"button\" data-role=\"none\" role=\"button\" tabindex=\"0\">3</button></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "#slick-slide73",
+          "html": "<li aria-hidden=\"true\" role=\"presentation\" aria-selected=\"false\" aria-controls=\"navigation73\" id=\"slick-slide73\"><button type=\"button\" data-role=\"none\" role=\"button\" tabindex=\"0\">4</button></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "#slick-slide74",
+          "html": "<li aria-hidden=\"true\" role=\"presentation\" aria-selected=\"false\" aria-controls=\"navigation74\" id=\"slick-slide74\"><button type=\"button\" data-role=\"none\" role=\"button\" tabindex=\"0\">5</button></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "#slick-slide75",
+          "html": "<li aria-hidden=\"true\" role=\"presentation\" aria-selected=\"false\" aria-controls=\"navigation75\" id=\"slick-slide75\"><button type=\"button\" data-role=\"none\" role=\"button\" tabindex=\"0\">6</button></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "#slick-slide76",
+          "html": "<li aria-hidden=\"true\" role=\"presentation\" aria-selected=\"false\" aria-controls=\"navigation76\" id=\"slick-slide76\"><button type=\"button\" data-role=\"none\" role=\"button\" tabindex=\"0\">7</button></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "#slick-slide77",
+          "html": "<li aria-hidden=\"true\" role=\"presentation\" aria-selected=\"false\" aria-controls=\"navigation77\" id=\"slick-slide77\"><button type=\"button\" data-role=\"none\" role=\"button\" tabindex=\"0\">8</button></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "#slick-slide78",
+          "html": "<li aria-hidden=\"true\" role=\"presentation\" aria-selected=\"false\" aria-controls=\"navigation78\" id=\"slick-slide78\"><button type=\"button\" data-role=\"none\" role=\"button\" tabindex=\"0\">9</button></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "#slick-slide79",
+          "html": "<li aria-hidden=\"true\" role=\"presentation\" aria-selected=\"false\" aria-controls=\"navigation79\" id=\"slick-slide79\"><button type=\"button\" data-role=\"none\" role=\"button\" tabindex=\"0\">10</button></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "#slick-slide710",
+          "html": "<li aria-hidden=\"true\" role=\"presentation\" aria-selected=\"false\" aria-controls=\"navigation710\" id=\"slick-slide710\"><button type=\"button\" data-role=\"none\" role=\"button\" tabindex=\"0\">11</button></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "#slick-slide711",
+          "html": "<li aria-hidden=\"true\" role=\"presentation\" aria-selected=\"false\" aria-controls=\"navigation711\" id=\"slick-slide711\"><button type=\"button\" data-role=\"none\" role=\"button\" tabindex=\"0\">12</button></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "#slick-slide712",
+          "html": "<li aria-hidden=\"true\" role=\"presentation\" aria-selected=\"false\" aria-controls=\"navigation712\" id=\"slick-slide712\"><button type=\"button\" data-role=\"none\" role=\"button\" tabindex=\"0\">13</button></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "#slick-slide713",
+          "html": "<li aria-hidden=\"true\" role=\"presentation\" aria-selected=\"false\" aria-controls=\"navigation713\" id=\"slick-slide713\"><button type=\"button\" data-role=\"none\" role=\"button\" tabindex=\"0\">14</button></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "#slick-slide714",
+          "html": "<li aria-hidden=\"true\" role=\"presentation\" aria-selected=\"false\" aria-controls=\"navigation714\" id=\"slick-slide714\"><button type=\"button\" data-role=\"none\" role=\"button\" tabindex=\"0\">15</button></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "#slick-slide61",
+          "html": "<li aria-hidden=\"true\" role=\"presentation\" aria-selected=\"false\" aria-controls=\"navigation61\" id=\"slick-slide61\"><button type=\"button\" data-role=\"none\" role=\"button\" tabindex=\"0\">2</button></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "#slick-slide62",
+          "html": "<li aria-hidden=\"true\" role=\"presentation\" aria-selected=\"false\" aria-controls=\"navigation62\" id=\"slick-slide62\"><button type=\"button\" data-role=\"none\" role=\"button\" tabindex=\"0\">3</button></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "#slick-slide63",
+          "html": "<li aria-hidden=\"true\" role=\"presentation\" aria-selected=\"false\" aria-controls=\"navigation63\" id=\"slick-slide63\"><button type=\"button\" data-role=\"none\" role=\"button\" tabindex=\"0\">4</button></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "#slick-slide64",
+          "html": "<li aria-hidden=\"true\" role=\"presentation\" aria-selected=\"false\" aria-controls=\"navigation64\" id=\"slick-slide64\"><button type=\"button\" data-role=\"none\" role=\"button\" tabindex=\"0\">5</button></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "#slick-slide65",
+          "html": "<li aria-hidden=\"true\" role=\"presentation\" aria-selected=\"false\" aria-controls=\"navigation65\" id=\"slick-slide65\"><button type=\"button\" data-role=\"none\" role=\"button\" tabindex=\"0\">6</button></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-input-field-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA input field has an accessible name",
+          "help": "ARIA input fields must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-input-field-name?application=playwright",
+          "category": "other",
+          "selector": ".wooslider > .slick-list[aria-live=\"polite\"] > .slick-track[role=\"listbox\"]",
+          "html": "<div class=\"slick-track\" style=\"opacity: 1; height: 7560px; transform: translate3d(0px, -1080px, 0px);\" role=\"listbox\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-input-field-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA input field has an accessible name",
+          "help": "ARIA input fields must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-input-field-name?application=playwright",
+          "category": "other",
+          "selector": "#home_slider > .draggable.slick-list[aria-live=\"polite\"] > .slick-track[role=\"listbox\"]",
+          "html": "<div class=\"slick-track\" style=\"opacity: 1; width: 9600px; transform: translate3d(-1920px, 0px, 0px);\" role=\"listbox\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-input-field-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA input field has an accessible name",
+          "help": "ARIA input fields must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-input-field-name?application=playwright",
+          "category": "other",
+          "selector": ".main-client-strip-slider > .draggable.slick-list[aria-live=\"polite\"] > .slick-track[role=\"listbox\"]",
+          "html": "<div class=\"slick-track\" style=\"opacity: 1; width: 5600px; transform: translate3d(-1400px, 0px, 0px);\" role=\"listbox\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-input-field-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA input field has an accessible name",
+          "help": "ARIA input fields must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-input-field-name?application=playwright",
+          "category": "other",
+          "selector": ".testimonial-slider > .draggable.slick-list[aria-live=\"polite\"] > .slick-track[role=\"listbox\"]",
+          "html": "<div class=\"slick-track\" style=\"opacity: 1; width: 23800px; transform: translate3d(-1400px, 0px, 0px);\" role=\"listbox\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-input-field-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA input field has an accessible name",
+          "help": "ARIA input fields must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-input-field-name?application=playwright",
+          "category": "other",
+          "selector": "#employeespeak_slider > .draggable.slick-list[aria-live=\"polite\"] > .slick-track[role=\"listbox\"]",
+          "html": "<div class=\"slick-track\" style=\"opacity: 1; width: 5560px; transform: translate3d(-695px, 0px, 0px);\" role=\"listbox\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-required-children",
+          "impact": "critical",
+          "description": "Ensure elements with an ARIA role that require child roles contain them",
+          "help": "Certain ARIA roles must contain particular children",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-required-children?application=playwright",
+          "category": "other",
+          "selector": ".slick-dots-front",
+          "html": "<ul class=\"slick-dots slick-dots-front\" style=\"display: block;\" role=\"tablist\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-required-children",
+          "impact": "critical",
+          "description": "Ensure elements with an ARIA role that require child roles contain them",
+          "help": "Certain ARIA roles must contain particular children",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-required-children?application=playwright",
+          "category": "other",
+          "selector": ".testimonial-slider > .slick-dots[role=\"tablist\"]",
+          "html": "<ul class=\"slick-dots\" style=\"display: block;\" role=\"tablist\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-required-children",
+          "impact": "critical",
+          "description": "Ensure elements with an ARIA role that require child roles contain them",
+          "help": "Certain ARIA roles must contain particular children",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-required-children?application=playwright",
+          "category": "other",
+          "selector": "#employeespeak_slider > .slick-dots[role=\"tablist\"]",
+          "html": "<ul class=\"slick-dots\" style=\"display: block;\" role=\"tablist\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "description": "Ensure all ARIA attributes have valid values",
+          "help": "ARIA attributes must conform to valid values",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-valid-attr-value?application=playwright",
+          "category": "other",
+          "selector": "#slick-slide00",
+          "html": "<li class=\"slick-active\" aria-hidden=\"false\" role=\"presentation\" aria-selected=\"true\" aria-controls=\"navigation00\" id=\"slick-slide00\"><button type=\"button\" data-role=\"none\" role=\"button\" tabindex=\"0\">1</button></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "description": "Ensure all ARIA attributes have valid values",
+          "help": "ARIA attributes must conform to valid values",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-valid-attr-value?application=playwright",
+          "category": "other",
+          "selector": "#slick-slide70",
+          "html": "<li class=\"slick-active\" aria-hidden=\"false\" role=\"presentation\" aria-selected=\"true\" aria-controls=\"navigation70\" id=\"slick-slide70\"><button type=\"button\" data-role=\"none\" role=\"button\" tabindex=\"0\">1</button></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "description": "Ensure all ARIA attributes have valid values",
+          "help": "ARIA attributes must conform to valid values",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-valid-attr-value?application=playwright",
+          "category": "other",
+          "selector": "#slick-slide60",
+          "html": "<li class=\"slick-active\" aria-hidden=\"false\" role=\"presentation\" aria-selected=\"true\" aria-controls=\"navigation60\" id=\"slick-slide60\"><button type=\"button\" data-role=\"none\" role=\"button\" tabindex=\"0\">1</button></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div[aria-describedby=\"slick-slide70\"] > .right-side.bg-white > h5",
+          "html": "<h5 class=\"fc-primary fw-semi-bold\">ABM’s Founder &amp; MD recognized as Most Promising Business Leaders of Asia\nby Times Now</h5>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".col-lg-4 > .fn > .--title.mbpx-14.fs-medium",
+          "html": "<p class=\"--title fc-grey fs-medium fw-semi-bold mbpx-14\">Offerings</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".col-lg-3 > .fn > .--title.mbpx-14.fs-medium",
+          "html": "<p class=\"--title fc-grey fs-medium fw-semi-bold mbpx-14\">About</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".text-lg-center",
+          "html": "<div class=\"text-lg-center text-xs-right\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".text-lg-center > .fs-small.fc-grey[title=\"Quality Policy\"]",
+          "html": "<a href=\"https://abmindia.com/home/abm_quality_policy\" class=\"fs-small fc-grey\" title=\"Quality Policy\">Quality Policy</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".text-lg-center > .fs-small.fc-grey[title=\"Corporate policies\"]",
+          "html": "<a href=\"https://abmindia.com/home/investors/Corporate%20Governance%20Policies\" title=\"Corporate policies\" class=\"fs-small fc-grey\">Corporate Policies</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[title=\"Privacy Policy\"]",
+          "html": "<a href=\"https://abmindia.com/privacy_policy.html\" title=\"Privacy Policy\" class=\"fs-small fc-grey\">Privacy Policy</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".mtpx-20.mbpx-10.fs-small",
+          "html": "<p class=\"mtpx-20 mbpx-10 fc-grey fs-small\">© <script>document.write(new Date().getFullYear())</script>2026  Copyright © 2019 ABM KNOWLEDGEWARE LTD. All Rights Reserved</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "html-has-lang",
+          "impact": "serious",
+          "description": "Ensure every HTML document has a lang attribute",
+          "help": "<html> element must have a lang attribute",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/html-has-lang?application=playwright",
+          "category": "other",
+          "selector": "html",
+          "html": "<html class=\"no-js\" lang=\"\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".white > img",
+          "html": "<img src=\"assets-web/images/logo-abm2.png\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "ul[aria-describedby=\"slick-slide10\"] > .bleft.first.--home-box-client > a[href=\"javascript:;\"] > img[src$=\"14.png\"]",
+          "html": "<img src=\"assets-web/images/14.png\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "ul[aria-describedby=\"slick-slide10\"] > .--home-box-client.box.clearfix:nth-child(2) > a[href=\"javascript:;\"] > img[src$=\"13.png\"]",
+          "html": "<img src=\"assets-web/images/13.png\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "ul[aria-describedby=\"slick-slide10\"] > .--home-box-client.box.clearfix:nth-child(3) > a[href=\"##\"] > img[src$=\"msrdc.jpg\"]",
+          "html": "<img src=\"assets-web/images/msrdc.jpg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "ul[aria-describedby=\"slick-slide10\"] > .--home-box-client.box.clearfix:nth-child(4) > a[href=\"javascript:;\"] > img[src$=\"21.png\"]",
+          "html": "<img src=\"assets-web/images/21.png\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "ul[aria-describedby=\"slick-slide10\"] > .--home-box-client.box.clearfix:nth-child(5) > a[href=\"javascript:;\"] > img[src$=\"22.png\"]",
+          "html": "<img src=\"assets-web/images/22.png\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "ul[aria-describedby=\"slick-slide10\"] > .--home-box-client.box.clearfix:nth-child(6) > a[href=\"javascript:;\"] > img[src$=\"23.png\"]",
+          "html": "<img src=\"assets-web/images/23.png\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "ul[aria-describedby=\"slick-slide10\"] > .--home-box-client.box.clearfix:nth-child(7) > a[href=\"javascript:;\"] > img[src$=\"24.png\"]",
+          "html": "<img src=\"assets-web/images/24.png\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "ul[aria-describedby=\"slick-slide10\"] > .bleft.--home-box-client.box:nth-child(8) > a[href=\"javascript:;\"] > img[src$=\"10.png\"]",
+          "html": "<img src=\"assets-web/images/10.png\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "ul[aria-describedby=\"slick-slide10\"] > .--home-box-client.box.clearfix:nth-child(9) > a[href=\"javascript:;\"] > img[src$=\"16.png\"]",
+          "html": "<img src=\"assets-web/images/16.png\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "ul[aria-describedby=\"slick-slide10\"] > .--home-box-client.box.clearfix:nth-child(10) > a[href=\"javascript:;\"] > img[src$=\"18.png\"]",
+          "html": "<img src=\"assets-web/images/18.png\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "ul[aria-describedby=\"slick-slide10\"] > .bleft.--home-box-client.box:nth-child(11) > a[href=\"##\"] > img[src=\"assets-web/images/1.png\"]",
+          "html": "<img src=\"assets-web/images/1.png\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "ul[aria-describedby=\"slick-slide10\"] > .last.--home-box-client.box > a[href=\"javascript:;\"] > img[src=\"assets-web/images/9.png\"]",
+          "html": "<img src=\"assets-web/images/9.png\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "div[aria-describedby=\"slick-slide70\"] > .left-side > img",
+          "html": "<img src=\"assets-web/images/awards/abm.png\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": "ul[aria-describedby=\"slick-slide10\"] > .bleft.first.--home-box-client",
+          "html": "<li class=\"box --home-box-client clearfix bleft first\">\n            <a href=\"javascript:;\" tabindex=\"0\"><img src=\"assets-web/images/14.png\">\n            <span class=\"client-title\">MCGM\n</span></a>\n        </li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": "ul[aria-describedby=\"slick-slide10\"] > .--home-box-client.box.clearfix:nth-child(2)",
+          "html": "<li class=\"box --home-box-client clearfix \">\n            <a href=\"javascript:;\" tabindex=\"0\"><img src=\"assets-web/images/13.png\">\n            <span class=\"client-title\">KDMC</span></a>\n        </li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": "ul[aria-describedby=\"slick-slide10\"] > .--home-box-client.box.clearfix:nth-child(3)",
+          "html": "<li class=\"box --home-box-client clearfix\">\n            <a href=\"##\" tabindex=\"0\"><img src=\"assets-web/images/msrdc.jpg\">\n            <span class=\"client-title\">msrdc\n\n</span></a>\n        </li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": "ul[aria-describedby=\"slick-slide10\"] > .--home-box-client.box.clearfix:nth-child(4)",
+          "html": "<li class=\"box --home-box-client clearfix \">\n            <a href=\"javascript:;\" tabindex=\"0\"><img src=\"assets-web/images/21.png\">\n            <span class=\"client-title\">DEHRADUN SMART CITY</span></a>\n        </li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": "ul[aria-describedby=\"slick-slide10\"] > .--home-box-client.box.clearfix:nth-child(5)",
+          "html": "<li class=\"box --home-box-client clearfix\">\n            <a href=\"javascript:;\" tabindex=\"0\"><img src=\"assets-web/images/22.png\">\n            <span class=\"client-title\">THANE SMART CITY </span></a>\n        </li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": "ul[aria-describedby=\"slick-slide10\"] > .--home-box-client.box.clearfix:nth-child(6)",
+          "html": "<li class=\"box --home-box-client clearfix \">\n            <a href=\"javascript:;\" tabindex=\"0\"><img src=\"assets-web/images/23.png\">\n            <span class=\"client-title\">Aligarh Smart City\n</span></a>\n        </li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": "ul[aria-describedby=\"slick-slide10\"] > .--home-box-client.box.clearfix:nth-child(7)",
+          "html": "<li class=\"box --home-box-client clearfix \">\n            <a href=\"javascript:;\" tabindex=\"0\"><img src=\"assets-web/images/24.png\">\n            <span class=\"client-title\">Prayagraj smartcity Limited\n</span></a>\n</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": "ul[aria-describedby=\"slick-slide10\"] > .bleft.--home-box-client.box:nth-child(8)",
+          "html": "<li class=\"box --home-box-client clearfix bleft\">\n            <a href=\"javascript:;\" tabindex=\"0\"><img src=\"assets-web/images/10.png\">\n            <span class=\"client-title\">SUDA </span></a>\n        </li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": "ul[aria-describedby=\"slick-slide10\"] > .--home-box-client.box.clearfix:nth-child(9)",
+          "html": "<li class=\"box --home-box-client clearfix \">\n            <a href=\"javascript:;\" tabindex=\"0\"><img src=\"assets-web/images/16.png\">\n            <span class=\"client-title\">MP UADD\n</span></a>\n        </li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": "ul[aria-describedby=\"slick-slide10\"] > .--home-box-client.box.clearfix:nth-child(10)",
+          "html": "<li class=\"box --home-box-client clearfix \">\n            <a href=\"javascript:;\" tabindex=\"0\"><img src=\"assets-web/images/18.png\">\n            <span class=\"client-title\">NICSI</span></a>\n        </li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": "ul[aria-describedby=\"slick-slide10\"] > .bleft.--home-box-client.box:nth-child(11)",
+          "html": "<li class=\"box --home-box-client clearfix bleft\">\n            <a href=\"##\" tabindex=\"0\"><img src=\"assets-web/images/1.png\">\n            <span class=\"client-title\">MTDC</span></a>\n        </li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": "ul[aria-describedby=\"slick-slide10\"] > .last.--home-box-client.box",
+          "html": "<li class=\"box --home-box-client clearfix last\">\n            <a href=\"javascript:;\" tabindex=\"0\"><img src=\"assets-web/images/9.png\">\n            <span class=\"client-title\">Department of Revenue\n</span></a>\n        </li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "meta-viewport",
+          "impact": "moderate",
+          "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+          "help": "Zooming and scaling must not be disabled",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/meta-viewport?application=playwright",
+          "category": "other",
+          "selector": "meta[name=\"viewport\"]",
+          "html": "<meta name=\"viewport\" content=\"width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "help": "Interactive controls must not be nested",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/nested-interactive?application=playwright",
+          "category": "other",
+          "selector": "#myDiv22",
+          "html": "<section class=\"hero-banner homepage front-baner slick-slide slick-current slick-active\" id=\"myDiv22\" style=\"height: 1080px; width: 1920px;\" data-slick-index=\"0\" aria-hidden=\"false\" tabindex=\"-1\" role=\"option\" aria-describedby=\"slick-slide00\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "help": "Interactive controls must not be nested",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/nested-interactive?application=playwright",
+          "category": "other",
+          "selector": "ul[aria-describedby=\"slick-slide10\"]",
+          "html": "<ul class=\"unstyled client-list slick-slide slick-current slick-active\" data-slick-index=\"0\" aria-hidden=\"false\" style=\"width: 1400px;\" tabindex=\"-1\" role=\"option\" aria-describedby=\"slick-slide10\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "select-name",
+          "impact": "critical",
+          "description": "Ensure select element has an accessible name",
+          "help": "Select element must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/select-name?application=playwright",
+          "category": "other",
+          "selector": "select",
+          "html": "<select name=\"select_purpose\" class=\"required cService\" required=\"\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/ABM_Knowledgeware_Limited/screenshots/ABM_Knowledgeware_Limited_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/ABM_Knowledgeware_Limited/screenshots/ABM_Knowledgeware_Limited_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/ABM_Knowledgeware_Limited/screenshots/ABM_Knowledgeware_Limited_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 77,
+  "altTextViolations": 14,
+  "contrastViolations": 8,
+  "labelViolations": 0,
+  "keyboardViolations": 24,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/ABM_Knowledgeware_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/ABM_Knowledgeware_Limited/screenshots/ABM_Knowledgeware_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — ABM Knowledgeware Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `77`  \n> **Verified Contact Email:** `egovernance@abmindia.com, cs@abmindia.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `egovernance@abmindia.com, cs@abmindia.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **77 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `24` | Serious: `52` | Moderate: `1`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 14 violations\n- 🎨 **Color Contrast Failures:** 8 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 24 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (14 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (8 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Keyboard & Focus Management (24 issues):** Ensure all interactive buttons/links are focusable via `Tab` key and visual focus outlines are visible.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** ABM Knowledgeware Limited\n- **Resolved URL:** [https://abmindia.com](https://abmindia.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `egovernance@abmindia.com, cs@abmindia.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `egovernance@abmindia.com, cs@abmindia.com` | **Status:** `Verified` | **Source Page:** https://abmindia.com/home/contact_us\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `#slick-slide00`\n2. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `#slick-slide70`\n3. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `#slick-slide60`\n4. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `.front-baner.hero-banner[data-slick-index=\"5\"]`\n5. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#slick-slide01`\n6. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#slick-slide02`\n7. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#slick-slide03`\n8. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#slick-slide04`\n9. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#slick-slide71`\n10. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#slick-slide72`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/ABM_Knowledgeware_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/ABM_Knowledgeware_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/ABM_Knowledgeware_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/ABM_Knowledgeware_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/ABM_Knowledgeware_Limited/screenshots/ABM_Knowledgeware_Limited_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — ABM Knowledgeware Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `77`  \n> **Verified Contact Email:** `egovernance@abmindia.com, cs@abmindia.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `egovernance@abmindia.com, cs@abmindia.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **77 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `24` | Serious: `52` | Moderate: `1`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 14 violations\n- 🎨 **Color Contrast Failures:** 8 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 24 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (14 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (8 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Keyboard & Focus Management (24 issues):** Ensure all interactive buttons/links are focusable via `Tab` key and visual focus outlines are visible.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** ABM Knowledgeware Limited\n- **Resolved URL:** [https://abmindia.com](https://abmindia.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `egovernance@abmindia.com, cs@abmindia.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `egovernance@abmindia.com, cs@abmindia.com` | **Status:** `Verified` | **Source Page:** https://abmindia.com/home/contact_us\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `#slick-slide00`\n2. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `#slick-slide70`\n3. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `#slick-slide60`\n4. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `.front-baner.hero-banner[data-slick-index=\"5\"]`\n5. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#slick-slide01`\n6. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#slick-slide02`\n7. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#slick-slide03`\n8. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#slick-slide04`\n9. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#slick-slide71`\n10. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#slick-slide72`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/ABM_Knowledgeware_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/ABM_Knowledgeware_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/ABM_Knowledgeware_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/ABM_Knowledgeware_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/ABM_Knowledgeware_Limited/screenshots/ABM_Knowledgeware_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — ABM Knowledgeware Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `77`  \n> **Verified Contact Email:** `egovernance@abmindia.com, cs@abmindia.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `egovernance@abmindia.com, cs@abmindia.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **77 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `24` | Serious: `52` | Moderate: `1`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 14 violations\n- 🎨 **Color Contrast Failures:** 8 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 24 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (14 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (8 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Keyboard & Focus Management (24 issues):** Ensure all interactive buttons/links are focusable via `Tab` key and visual focus outlines are visible.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** ABM Knowledgeware Limited\n- **Resolved URL:** [https://abmindia.com](https://abmindia.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `egovernance@abmindia.com, cs@abmindia.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `egovernance@abmindia.com, cs@abmindia.com` | **Status:** `Verified` | **Source Page:** https://abmindia.com/home/contact_us\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `#slick-slide00`\n2. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `#slick-slide70`\n3. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `#slick-slide60`\n4. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `.front-baner.hero-banner[data-slick-index=\"5\"]`\n5. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#slick-slide01`\n6. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#slick-slide02`\n7. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#slick-slide03`\n8. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#slick-slide04`\n9. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#slick-slide71`\n10. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#slick-slide72`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/ABM_Knowledgeware_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/ABM_Knowledgeware_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/ABM_Knowledgeware_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 77. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-10T14:03:51.849Z"
+}

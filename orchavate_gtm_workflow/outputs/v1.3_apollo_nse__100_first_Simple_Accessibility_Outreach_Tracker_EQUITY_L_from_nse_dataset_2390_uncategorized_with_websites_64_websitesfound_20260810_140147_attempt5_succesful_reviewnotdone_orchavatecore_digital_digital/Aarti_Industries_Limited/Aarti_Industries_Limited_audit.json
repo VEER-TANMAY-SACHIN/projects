@@ -1,0 +1,260 @@
+{
+  "company": {
+    "srNo": 19,
+    "companyName": "Aarti Industries Limited",
+    "readymadeWebsite": "aarti-industries.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (Aarti Industries Limited)",
+    "emailId": "None",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://aarti-industries.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://aarti-industries.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "info@aarti-industries.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Unverified - guessed pattern"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "info@aarti-industries.com",
+        "type": "general",
+        "label": "General Contact Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      },
+      {
+        "address": "contact@aarti-industries.com",
+        "type": "compliance_grievance",
+        "label": "Investor Grievance Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      }
+    ],
+    "overallStatus": "Unverified - guessed pattern",
+    "evidenceScreenshots": [
+      "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_140147_attempt5_succesful_reviewnotdone_orchavatecore_digital_digital/Aarti_Industries_Limited/screenshots/Aarti_Industries_Limited_EmailEvidence_NotFound_ContactPage.png"
+    ]
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://aarti-industries.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".leading-\\[136\\%\\].md\\:text-\\[14px\\].py-\\[10px\\]:nth-child(2)",
+          "html": "<div class=\"relative z-10 cursor-pointer font-alte-hans leading-[136%]\n                        py-[10px] px-[12px] md:px-[24px] text-[12px] md:text-[14px]\n                        rounded-[40px] transition-all duration-300\n                        text-white\">By End Use</div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".w-fit[href=\"/products?category=by-end-use\"][target=\"_self\"] > .animated-underline.underline.underline-offset-\\[4px\\]",
+          "html": "<button class=\"animated-underline w-fit cursor-pointer text-orange-200 text-[16px]\n              font-normal leading-[100%] font-alte-hans underline underline-offset-[4px]\n              [text-underline-position:under] undefined\"> Discover Our Industry Solutions</button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".mt-6 > .text-orange-200.md\\:text-\\[16px\\].leading-\\[154\\%\\]",
+          "html": "<p class=\"font-normal text-[14px] md:text-[16px] leading-[154%] font-roboto text-orange-200\">0<!-- -->1<!-- -->-<span>0<!-- -->3</span></p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".mt-6 > .text-orange-200.md\\:text-\\[16px\\].leading-\\[154\\%\\] > span",
+          "html": "<span>0<!-- -->3</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".max-w-full.md\\:max-w-fit.overflow-x-auto > .w-full > .p-\\[4px\\].whitespace-nowrap.rounded-\\[40px\\] > .gap-x-\\[5px\\].md\\:gap-x-\\[10px\\].px-1 > .md\\:text-\\[14px\\].py-\\[10px\\].px-\\[12px\\]:nth-child(2)",
+          "html": "<div class=\"text-grey-400 cursor-pointer  md:text-[14px] text-[12px] font-alte-hans py-[10px]  md:px-[24px] px-[12px] rounded-[40px] relative z-10 transition-all text-white\">News</div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".bg-orange-200 > .lg\\:mt-\\[22px\\].md\\:flex-row.gap-\\[12px\\] > .gap-x-\\[12px\\].group[target=\"_blank\"] > .bg-transparent.lg\\:text-\\[16px\\].text-white",
+          "html": "<p class=\"font-normal font-alte-hans bg-transparent text-white text-[14px] lg:text-[16px]\">Product Brochure </p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".bg-orange-300 > .w-\\[80\\%\\]",
+          "html": "<h6 class=\"font-normal text-[18px] md:text-[22px] xl:text-[24px] leading-[140%] font-alte-hans text-white w-[80%]\">Get to Know Us Better</h6>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".bg-orange-300 > .lg\\:mt-\\[22px\\].md\\:flex-row.gap-\\[12px\\] > .gap-x-\\[12px\\].group[target=\"_blank\"] > .bg-transparent.lg\\:text-\\[16px\\].text-white",
+          "html": "<p class=\"font-normal font-alte-hans bg-transparent text-white text-[14px] lg:text-[16px]\">Corporate Brochure</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".mb-\\[14px\\]",
+          "html": "<p class=\"text-[#FF7932] font-medium text-[14px] font-roboto mb-[14px] uppercase !text-orange-200\">Company</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div:nth-child(1) > .mb-\\[7px\\].lg\\:mb-\\[14px\\].text-\\[\\#FF7932\\]",
+          "html": "<p class=\"text-[#FF7932] font-medium text-[14px] font-roboto mb-[7px] lg:mb-[14px] uppercase !text-orange-200\">Business</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div:nth-child(2) > .mb-\\[7px\\].lg\\:mb-\\[14px\\].text-\\[\\#FF7932\\]",
+          "html": "<p class=\"text-[#FF7932] font-medium text-[14px] font-roboto mb-[7px] lg:mb-[14px] uppercase !text-orange-200\">Sustainability</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div:nth-child(3) > .mb-\\[7px\\].lg\\:mb-\\[14px\\].text-\\[\\#FF7932\\]",
+          "html": "<p class=\"text-[#FF7932] font-medium text-[14px] font-roboto mb-[7px] lg:mb-[14px] uppercase !text-orange-200\">Investors</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div:nth-child(4) > .mb-\\[7px\\].lg\\:mb-\\[14px\\].text-\\[\\#FF7932\\]",
+          "html": "<p class=\"text-[#FF7932] font-medium text-[14px] font-roboto mb-[7px] lg:mb-[14px] uppercase !text-orange-200\">Resources</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div:nth-child(5) > .mb-\\[7px\\].lg\\:mb-\\[14px\\].text-\\[\\#FF7932\\]",
+          "html": "<p class=\"text-[#FF7932] font-medium text-[14px] font-roboto mb-[7px] lg:mb-[14px] uppercase !text-orange-200\">Career</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div:nth-child(6) > .mb-\\[7px\\].lg\\:mb-\\[14px\\].text-\\[\\#FF7932\\]",
+          "html": "<p class=\"text-[#FF7932] font-medium text-[14px] font-roboto mb-[7px] lg:mb-[14px] uppercase !text-orange-200\">Contact</p>",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 40,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_140147_attempt5_succesful_reviewnotdone_orchavatecore_digital_digital/Aarti_Industries_Limited/screenshots/Aarti_Industries_Limited_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_140147_attempt5_succesful_reviewnotdone_orchavatecore_digital_digital/Aarti_Industries_Limited/screenshots/Aarti_Industries_Limited_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_140147_attempt5_succesful_reviewnotdone_orchavatecore_digital_digital/Aarti_Industries_Limited/screenshots/Aarti_Industries_Limited_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 15,
+  "altTextViolations": 0,
+  "contrastViolations": 15,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 40,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_140147_attempt5_succesful_reviewnotdone_orchavatecore_digital_digital/Aarti_Industries_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_140147_attempt5_succesful_reviewnotdone_orchavatecore_digital_digital/Aarti_Industries_Limited/screenshots/Aarti_Industries_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Aarti Industries Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `40 / 100`  \n> **Total WCAG Violations:** `15`  \n> **Verified Contact Email:** `info@aarti-industries.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@aarti-industries.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **40/100** on automated WCAG 2.1 AA accessibility testing with **15 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `40/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `15` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 15 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (15 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Aarti Industries Limited\n- **Resolved URL:** [https://aarti-industries.com](https://aarti-industries.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@aarti-industries.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@aarti-industries.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@aarti-industries.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.leading-\\[136\\%\\].md\\:text-\\[14px\\].py-\\[10px\\]:nth-child(2)`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.w-fit[href=\"/products?category=by-end-use\"][target=\"_self\"] > .animated-underline.underline.underline-offset-\\[4px\\]`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.mt-6 > .text-orange-200.md\\:text-\\[16px\\].leading-\\[154\\%\\]`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.mt-6 > .text-orange-200.md\\:text-\\[16px\\].leading-\\[154\\%\\] > span`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.max-w-full.md\\:max-w-fit.overflow-x-auto > .w-full > .p-\\[4px\\].whitespace-nowrap.rounded-\\[40px\\] > .gap-x-\\[5px\\].md\\:gap-x-\\[10px\\].px-1 > .md\\:text-\\[14px\\].py-\\[10px\\].px-\\[12px\\]:nth-child(2)`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.bg-orange-200 > .lg\\:mt-\\[22px\\].md\\:flex-row.gap-\\[12px\\] > .gap-x-\\[12px\\].group[target=\"_blank\"] > .bg-transparent.lg\\:text-\\[16px\\].text-white`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.bg-orange-300 > .w-\\[80\\%\\]`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.bg-orange-300 > .lg\\:mt-\\[22px\\].md\\:flex-row.gap-\\[12px\\] > .gap-x-\\[12px\\].group[target=\"_blank\"] > .bg-transparent.lg\\:text-\\[16px\\].text-white`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.mb-\\[14px\\]`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `div:nth-child(1) > .mb-\\[7px\\].lg\\:mb-\\[14px\\].text-\\[\\#FF7932\\]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Aarti_Industries_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Aarti_Industries_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Aarti_Industries_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_140147_attempt5_succesful_reviewnotdone_orchavatecore_digital_digital/Aarti_Industries_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_140147_attempt5_succesful_reviewnotdone_orchavatecore_digital_digital/Aarti_Industries_Limited/screenshots/Aarti_Industries_Limited_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Aarti Industries Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `40 / 100`  \n> **Total WCAG Violations:** `15`  \n> **Verified Contact Email:** `info@aarti-industries.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@aarti-industries.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **40/100** on automated WCAG 2.1 AA accessibility testing with **15 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `40/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `15` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 15 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (15 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Aarti Industries Limited\n- **Resolved URL:** [https://aarti-industries.com](https://aarti-industries.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@aarti-industries.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@aarti-industries.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@aarti-industries.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.leading-\\[136\\%\\].md\\:text-\\[14px\\].py-\\[10px\\]:nth-child(2)`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.w-fit[href=\"/products?category=by-end-use\"][target=\"_self\"] > .animated-underline.underline.underline-offset-\\[4px\\]`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.mt-6 > .text-orange-200.md\\:text-\\[16px\\].leading-\\[154\\%\\]`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.mt-6 > .text-orange-200.md\\:text-\\[16px\\].leading-\\[154\\%\\] > span`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.max-w-full.md\\:max-w-fit.overflow-x-auto > .w-full > .p-\\[4px\\].whitespace-nowrap.rounded-\\[40px\\] > .gap-x-\\[5px\\].md\\:gap-x-\\[10px\\].px-1 > .md\\:text-\\[14px\\].py-\\[10px\\].px-\\[12px\\]:nth-child(2)`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.bg-orange-200 > .lg\\:mt-\\[22px\\].md\\:flex-row.gap-\\[12px\\] > .gap-x-\\[12px\\].group[target=\"_blank\"] > .bg-transparent.lg\\:text-\\[16px\\].text-white`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.bg-orange-300 > .w-\\[80\\%\\]`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.bg-orange-300 > .lg\\:mt-\\[22px\\].md\\:flex-row.gap-\\[12px\\] > .gap-x-\\[12px\\].group[target=\"_blank\"] > .bg-transparent.lg\\:text-\\[16px\\].text-white`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.mb-\\[14px\\]`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `div:nth-child(1) > .mb-\\[7px\\].lg\\:mb-\\[14px\\].text-\\[\\#FF7932\\]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Aarti_Industries_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Aarti_Industries_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Aarti_Industries_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_140147_attempt5_succesful_reviewnotdone_orchavatecore_digital_digital/Aarti_Industries_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_140147_attempt5_succesful_reviewnotdone_orchavatecore_digital_digital/Aarti_Industries_Limited/screenshots/Aarti_Industries_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Aarti Industries Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `40 / 100`  \n> **Total WCAG Violations:** `15`  \n> **Verified Contact Email:** `info@aarti-industries.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@aarti-industries.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **40/100** on automated WCAG 2.1 AA accessibility testing with **15 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `40/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `15` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 15 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (15 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Aarti Industries Limited\n- **Resolved URL:** [https://aarti-industries.com](https://aarti-industries.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@aarti-industries.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@aarti-industries.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@aarti-industries.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.leading-\\[136\\%\\].md\\:text-\\[14px\\].py-\\[10px\\]:nth-child(2)`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.w-fit[href=\"/products?category=by-end-use\"][target=\"_self\"] > .animated-underline.underline.underline-offset-\\[4px\\]`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.mt-6 > .text-orange-200.md\\:text-\\[16px\\].leading-\\[154\\%\\]`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.mt-6 > .text-orange-200.md\\:text-\\[16px\\].leading-\\[154\\%\\] > span`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.max-w-full.md\\:max-w-fit.overflow-x-auto > .w-full > .p-\\[4px\\].whitespace-nowrap.rounded-\\[40px\\] > .gap-x-\\[5px\\].md\\:gap-x-\\[10px\\].px-1 > .md\\:text-\\[14px\\].py-\\[10px\\].px-\\[12px\\]:nth-child(2)`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.bg-orange-200 > .lg\\:mt-\\[22px\\].md\\:flex-row.gap-\\[12px\\] > .gap-x-\\[12px\\].group[target=\"_blank\"] > .bg-transparent.lg\\:text-\\[16px\\].text-white`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.bg-orange-300 > .w-\\[80\\%\\]`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.bg-orange-300 > .lg\\:mt-\\[22px\\].md\\:flex-row.gap-\\[12px\\] > .gap-x-\\[12px\\].group[target=\"_blank\"] > .bg-transparent.lg\\:text-\\[16px\\].text-white`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.mb-\\[14px\\]`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `div:nth-child(1) > .mb-\\[7px\\].lg\\:mb-\\[14px\\].text-\\[\\#FF7932\\]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Aarti_Industries_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Aarti_Industries_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Aarti_Industries_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 15. Lighthouse A11y: 40/100.",
+  "timestamp": "2026-08-10T14:04:41.635Z"
+}

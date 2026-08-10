@@ -1,0 +1,145 @@
+{
+  "company": {
+    "srNo": 35,
+    "companyName": "ABM International Limited",
+    "readymadeWebsite": "https://abmintl.in",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (ABM International Limited)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://abmintl.in",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://abmintl.in"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "info@abmintl.in",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://abmintl.in"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "info@abmintl.in",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://abmintl.in"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://abmintl.in",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[href$=\"Eminent.aspx\"]",
+          "html": "<a href=\"Eminent.aspx\">Home</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[href$=\"mailto:info@abmintl.in\"]",
+          "html": "<a href=\"mailto:info@abmintl.in\" target=\"_blank\">Mail Us</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[href$=\"Impt-announcement.aspx\"] > span",
+          "html": "<span style=\"color: red; margin-left: 300px;\">IMPORTANT ANNOUNCEMENTS</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "html-has-lang",
+          "impact": "serious",
+          "description": "Ensure every HTML document has a lang attribute",
+          "help": "<html> element must have a lang attribute",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/html-has-lang?application=playwright",
+          "category": "other",
+          "selector": "html",
+          "html": "<html xmlns=\"http://www.w3.org/1999/xhtml\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "img[src$=\"banner-1.png\"]",
+          "html": "<img src=\"images/banner-1.png\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 80,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/ABM_International_Limited/screenshots/ABM_International_Limited_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/ABM_International_Limited/screenshots/ABM_International_Limited_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/ABM_International_Limited/screenshots/ABM_International_Limited_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 5,
+  "altTextViolations": 1,
+  "contrastViolations": 3,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 80,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/ABM_International_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/ABM_International_Limited/screenshots/ABM_International_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — ABM International Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `80 / 100`  \n> **Total WCAG Violations:** `5`  \n> **Verified Contact Email:** `info@abmintl.in`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `info@abmintl.in` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **80/100** on automated WCAG 2.1 AA accessibility testing with **5 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `80/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `1` | Serious: `4` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 1 violations\n- 🎨 **Color Contrast Failures:** 3 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (1 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (3 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** ABM International Limited\n- **Resolved URL:** [https://abmintl.in](https://abmintl.in)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@abmintl.in` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `info@abmintl.in` | **Status:** `Verified` | **Source Page:** https://abmintl.in\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"Eminent.aspx\"]`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"mailto:info@abmintl.in\"]`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"Impt-announcement.aspx\"] > span`\n4. **`[other] html-has-lang`** (SERIOUS)\n   - **Help:** <html> element must have a lang attribute\n   - **Selector:** `html`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `img[src$=\"banner-1.png\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/ABM_International_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/ABM_International_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/ABM_International_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/ABM_International_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/ABM_International_Limited/screenshots/ABM_International_Limited_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — ABM International Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `80 / 100`  \n> **Total WCAG Violations:** `5`  \n> **Verified Contact Email:** `info@abmintl.in`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `info@abmintl.in` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **80/100** on automated WCAG 2.1 AA accessibility testing with **5 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `80/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `1` | Serious: `4` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 1 violations\n- 🎨 **Color Contrast Failures:** 3 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (1 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (3 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** ABM International Limited\n- **Resolved URL:** [https://abmintl.in](https://abmintl.in)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@abmintl.in` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `info@abmintl.in` | **Status:** `Verified` | **Source Page:** https://abmintl.in\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"Eminent.aspx\"]`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"mailto:info@abmintl.in\"]`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"Impt-announcement.aspx\"] > span`\n4. **`[other] html-has-lang`** (SERIOUS)\n   - **Help:** <html> element must have a lang attribute\n   - **Selector:** `html`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `img[src$=\"banner-1.png\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/ABM_International_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/ABM_International_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/ABM_International_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/ABM_International_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/ABM_International_Limited/screenshots/ABM_International_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — ABM International Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `80 / 100`  \n> **Total WCAG Violations:** `5`  \n> **Verified Contact Email:** `info@abmintl.in`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `info@abmintl.in` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **80/100** on automated WCAG 2.1 AA accessibility testing with **5 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `80/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `1` | Serious: `4` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 1 violations\n- 🎨 **Color Contrast Failures:** 3 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (1 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (3 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** ABM International Limited\n- **Resolved URL:** [https://abmintl.in](https://abmintl.in)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@abmintl.in` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `info@abmintl.in` | **Status:** `Verified` | **Source Page:** https://abmintl.in\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"Eminent.aspx\"]`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"mailto:info@abmintl.in\"]`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"Impt-announcement.aspx\"] > span`\n4. **`[other] html-has-lang`** (SERIOUS)\n   - **Help:** <html> element must have a lang attribute\n   - **Selector:** `html`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `img[src$=\"banner-1.png\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/ABM_International_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/ABM_International_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/ABM_International_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 5. Lighthouse A11y: 80/100.",
+  "timestamp": "2026-08-10T14:03:39.377Z"
+}

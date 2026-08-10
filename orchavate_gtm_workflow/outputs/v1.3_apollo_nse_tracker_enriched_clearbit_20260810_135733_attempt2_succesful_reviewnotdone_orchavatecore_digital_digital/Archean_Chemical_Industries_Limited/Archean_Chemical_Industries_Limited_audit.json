@@ -1,0 +1,211 @@
+{
+  "company": {
+    "srNo": 44,
+    "companyName": "Archean Chemical Industries Limited",
+    "readymadeWebsite": "https://archeanchemicals.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (Archean Chemical Industries Limited)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://archeanchemicals.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://archeanchemicals.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "info@archeanchemicals.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://archeanchemicals.com"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "info@archeanchemicals.com",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://archeanchemicals.com"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://archeanchemicals.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "aria-input-field-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA input field has an accessible name",
+          "help": "ARIA input fields must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-input-field-name?application=playwright",
+          "category": "other",
+          "selector": ".slick-track",
+          "html": "<div class=\"slick-track\" role=\"listbox\" style=\"opacity: 1; width: 7680px; transform: translate3d(-1920px, 0px, 0px);\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".rs-menu > .nav-menu > .current-menu-item > a",
+          "html": "<a href=\"https://www.archeanchemicals.com/investor-relations\">Investor Relations</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".mb-45 > .sub-text.sub-text5",
+          "html": "<span class=\"sub-text sub-text5\">About Us</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".mb-35 > .sub-text.sub-text5",
+          "html": "<span class=\"sub-text sub-text5\">Archean Chemical Industries limited</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".clearfix > li > a[target=\"_blank\"]",
+          "html": "<a target=\"_blank\" href=\"https://www.linkedin.com/company/archean-chemical-industries-limited\"><i class=\"fa fa-linkedin\"></i></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".red-btn-text[href$=\"bromine.html\"]",
+          "html": "<a class=\"red-btn-text\" href=\"bromine.html\"><i class=\"fa flaticon-right-arrow\"></i></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".red-btn-text[href$=\"industrial-salt.html\"]",
+          "html": "<a class=\"red-btn-text\" href=\"industrial-salt.html\"><i class=\"fa flaticon-right-arrow\"></i></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".red-btn-text[href$=\"sop.html\"]",
+          "html": "<a class=\"red-btn-text\" href=\"sop.html\"><i class=\"fa flaticon-right-arrow\"></i></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".footer-logo > a[href=\"index.html\"]",
+          "html": "<a href=\"index.html\"><img src=\"assets/images/logo-white.png\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".footer-social > li > a[target=\"_blank\"]",
+          "html": "<a target=\"_blank\" href=\"https://www.linkedin.com/company/archean-chemical-industries-limited\"><i class=\"fa fa-linkedin\"></i></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "help": "Interactive controls must not be nested",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/nested-interactive?application=playwright",
+          "category": "other",
+          "selector": ".slick-current",
+          "html": "<div class=\"slider-item slick-slide slick-current slick-active\" data-slick-index=\"0\" aria-hidden=\"false\" tabindex=\"-1\" role=\"option\" aria-describedby=\"slick-slide00\" style=\"width: 1920px;\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 56,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/Archean_Chemical_Industries_Limited/screenshots/Archean_Chemical_Industries_Limited_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/Archean_Chemical_Industries_Limited/screenshots/Archean_Chemical_Industries_Limited_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/Archean_Chemical_Industries_Limited/screenshots/Archean_Chemical_Industries_Limited_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 11,
+  "altTextViolations": 0,
+  "contrastViolations": 3,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 56,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/Archean_Chemical_Industries_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/Archean_Chemical_Industries_Limited/screenshots/Archean_Chemical_Industries_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Archean Chemical Industries Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `56 / 100`  \n> **Total WCAG Violations:** `11`  \n> **Verified Contact Email:** `info@archeanchemicals.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `info@archeanchemicals.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **56/100** on automated WCAG 2.1 AA accessibility testing with **11 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `56/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `11` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 3 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (3 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Archean Chemical Industries Limited\n- **Resolved URL:** [https://archeanchemicals.com](https://archeanchemicals.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@archeanchemicals.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `info@archeanchemicals.com` | **Status:** `Verified` | **Source Page:** https://archeanchemicals.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-input-field-name`** (SERIOUS)\n   - **Help:** ARIA input fields must have an accessible name\n   - **Selector:** `.slick-track`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.rs-menu > .nav-menu > .current-menu-item > a`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.mb-45 > .sub-text.sub-text5`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.mb-35 > .sub-text.sub-text5`\n5. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.clearfix > li > a[target=\"_blank\"]`\n6. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.red-btn-text[href$=\"bromine.html\"]`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.red-btn-text[href$=\"industrial-salt.html\"]`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.red-btn-text[href$=\"sop.html\"]`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.footer-logo > a[href=\"index.html\"]`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.footer-social > li > a[target=\"_blank\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Archean_Chemical_Industries_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Archean_Chemical_Industries_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Archean_Chemical_Industries_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/Archean_Chemical_Industries_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/Archean_Chemical_Industries_Limited/screenshots/Archean_Chemical_Industries_Limited_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Archean Chemical Industries Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `56 / 100`  \n> **Total WCAG Violations:** `11`  \n> **Verified Contact Email:** `info@archeanchemicals.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `info@archeanchemicals.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **56/100** on automated WCAG 2.1 AA accessibility testing with **11 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `56/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `11` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 3 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (3 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Archean Chemical Industries Limited\n- **Resolved URL:** [https://archeanchemicals.com](https://archeanchemicals.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@archeanchemicals.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `info@archeanchemicals.com` | **Status:** `Verified` | **Source Page:** https://archeanchemicals.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-input-field-name`** (SERIOUS)\n   - **Help:** ARIA input fields must have an accessible name\n   - **Selector:** `.slick-track`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.rs-menu > .nav-menu > .current-menu-item > a`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.mb-45 > .sub-text.sub-text5`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.mb-35 > .sub-text.sub-text5`\n5. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.clearfix > li > a[target=\"_blank\"]`\n6. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.red-btn-text[href$=\"bromine.html\"]`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.red-btn-text[href$=\"industrial-salt.html\"]`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.red-btn-text[href$=\"sop.html\"]`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.footer-logo > a[href=\"index.html\"]`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.footer-social > li > a[target=\"_blank\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Archean_Chemical_Industries_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Archean_Chemical_Industries_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Archean_Chemical_Industries_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/Archean_Chemical_Industries_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/Archean_Chemical_Industries_Limited/screenshots/Archean_Chemical_Industries_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Archean Chemical Industries Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `56 / 100`  \n> **Total WCAG Violations:** `11`  \n> **Verified Contact Email:** `info@archeanchemicals.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `info@archeanchemicals.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **56/100** on automated WCAG 2.1 AA accessibility testing with **11 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `56/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `11` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 3 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (3 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Archean Chemical Industries Limited\n- **Resolved URL:** [https://archeanchemicals.com](https://archeanchemicals.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@archeanchemicals.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `info@archeanchemicals.com` | **Status:** `Verified` | **Source Page:** https://archeanchemicals.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-input-field-name`** (SERIOUS)\n   - **Help:** ARIA input fields must have an accessible name\n   - **Selector:** `.slick-track`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.rs-menu > .nav-menu > .current-menu-item > a`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.mb-45 > .sub-text.sub-text5`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.mb-35 > .sub-text.sub-text5`\n5. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.clearfix > li > a[target=\"_blank\"]`\n6. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.red-btn-text[href$=\"bromine.html\"]`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.red-btn-text[href$=\"industrial-salt.html\"]`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.red-btn-text[href$=\"sop.html\"]`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.footer-logo > a[href=\"index.html\"]`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.footer-social > li > a[target=\"_blank\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Archean_Chemical_Industries_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Archean_Chemical_Industries_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Archean_Chemical_Industries_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 11. Lighthouse A11y: 56/100.",
+  "timestamp": "2026-08-10T14:07:27.366Z"
+}

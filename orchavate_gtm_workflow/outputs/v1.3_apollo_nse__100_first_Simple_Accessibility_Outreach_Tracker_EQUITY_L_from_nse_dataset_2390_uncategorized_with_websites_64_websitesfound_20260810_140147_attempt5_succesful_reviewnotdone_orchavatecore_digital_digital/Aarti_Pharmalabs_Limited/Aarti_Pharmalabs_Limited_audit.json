@@ -1,0 +1,88 @@
+{
+  "company": {
+    "srNo": 20,
+    "companyName": "Aarti Pharmalabs Limited",
+    "readymadeWebsite": "aartipharmalabs.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (Aarti Pharmalabs Limited)",
+    "emailId": "None",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://aartipharmalabs.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://aartipharmalabs.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "info@aartipharmalabs.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://aartipharmalabs.com"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "info@aartipharmalabs.com",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://aartipharmalabs.com"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://aartipharmalabs.com",
+      "accessible": true,
+      "axeViolations": [],
+      "lighthouseScore": 100,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_140147_attempt5_succesful_reviewnotdone_orchavatecore_digital_digital/Aarti_Pharmalabs_Limited/screenshots/Aarti_Pharmalabs_Limited_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_140147_attempt5_succesful_reviewnotdone_orchavatecore_digital_digital/Aarti_Pharmalabs_Limited/screenshots/Aarti_Pharmalabs_Limited_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_140147_attempt5_succesful_reviewnotdone_orchavatecore_digital_digital/Aarti_Pharmalabs_Limited/screenshots/Aarti_Pharmalabs_Limited_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 0,
+  "altTextViolations": 0,
+  "contrastViolations": 0,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 100,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_140147_attempt5_succesful_reviewnotdone_orchavatecore_digital_digital/Aarti_Pharmalabs_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_140147_attempt5_succesful_reviewnotdone_orchavatecore_digital_digital/Aarti_Pharmalabs_Limited/screenshots/Aarti_Pharmalabs_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Aarti Pharmalabs Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `100 / 100`  \n> **Total WCAG Violations:** `0`  \n> **Verified Contact Email:** `info@aartipharmalabs.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟢 Excellent (Low Risk)\n- **What this Score Means:** The website adheres well to WCAG 2.1 AA accessibility standards. Disabled users and screen reader operators can navigate the platform with minimal friction.\n- **Business & Legal Risk:** Low compliance risk. Minor polish needed for complete digital inclusion.\n- **Primary Outreach Contact:** `info@aartipharmalabs.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **100/100** on automated WCAG 2.1 AA accessibility testing with **0 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `100/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `0` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Clean Codebase:** No automated DOM accessibility defects found on scanned pages. Keep auditing dynamic components.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Aarti Pharmalabs Limited\n- **Resolved URL:** [https://aartipharmalabs.com](https://aartipharmalabs.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@aartipharmalabs.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `info@aartipharmalabs.com` | **Status:** `Verified` | **Source Page:** https://aartipharmalabs.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n*No WCAG accessibility violations detected.*\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Aarti_Pharmalabs_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Aarti_Pharmalabs_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Aarti_Pharmalabs_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_140147_attempt5_succesful_reviewnotdone_orchavatecore_digital_digital/Aarti_Pharmalabs_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_140147_attempt5_succesful_reviewnotdone_orchavatecore_digital_digital/Aarti_Pharmalabs_Limited/screenshots/Aarti_Pharmalabs_Limited_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Aarti Pharmalabs Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `100 / 100`  \n> **Total WCAG Violations:** `0`  \n> **Verified Contact Email:** `info@aartipharmalabs.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟢 Excellent (Low Risk)\n- **What this Score Means:** The website adheres well to WCAG 2.1 AA accessibility standards. Disabled users and screen reader operators can navigate the platform with minimal friction.\n- **Business & Legal Risk:** Low compliance risk. Minor polish needed for complete digital inclusion.\n- **Primary Outreach Contact:** `info@aartipharmalabs.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **100/100** on automated WCAG 2.1 AA accessibility testing with **0 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `100/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `0` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Clean Codebase:** No automated DOM accessibility defects found on scanned pages. Keep auditing dynamic components.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Aarti Pharmalabs Limited\n- **Resolved URL:** [https://aartipharmalabs.com](https://aartipharmalabs.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@aartipharmalabs.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `info@aartipharmalabs.com` | **Status:** `Verified` | **Source Page:** https://aartipharmalabs.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n*No WCAG accessibility violations detected.*\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Aarti_Pharmalabs_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Aarti_Pharmalabs_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Aarti_Pharmalabs_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_140147_attempt5_succesful_reviewnotdone_orchavatecore_digital_digital/Aarti_Pharmalabs_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_140147_attempt5_succesful_reviewnotdone_orchavatecore_digital_digital/Aarti_Pharmalabs_Limited/screenshots/Aarti_Pharmalabs_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Aarti Pharmalabs Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `100 / 100`  \n> **Total WCAG Violations:** `0`  \n> **Verified Contact Email:** `info@aartipharmalabs.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟢 Excellent (Low Risk)\n- **What this Score Means:** The website adheres well to WCAG 2.1 AA accessibility standards. Disabled users and screen reader operators can navigate the platform with minimal friction.\n- **Business & Legal Risk:** Low compliance risk. Minor polish needed for complete digital inclusion.\n- **Primary Outreach Contact:** `info@aartipharmalabs.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **100/100** on automated WCAG 2.1 AA accessibility testing with **0 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `100/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `0` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Clean Codebase:** No automated DOM accessibility defects found on scanned pages. Keep auditing dynamic components.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Aarti Pharmalabs Limited\n- **Resolved URL:** [https://aartipharmalabs.com](https://aartipharmalabs.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@aartipharmalabs.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `info@aartipharmalabs.com` | **Status:** `Verified` | **Source Page:** https://aartipharmalabs.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n*No WCAG accessibility violations detected.*\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Aarti_Pharmalabs_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Aarti_Pharmalabs_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Aarti_Pharmalabs_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 0. Lighthouse A11y: 100/100.",
+  "timestamp": "2026-08-10T14:05:54.307Z"
+}

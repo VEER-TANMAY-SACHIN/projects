@@ -1,0 +1,331 @@
+{
+  "company": {
+    "srNo": 16,
+    "companyName": "Aaron Industries Limited",
+    "readymadeWebsite": "aaronindustries.net",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (Aaron Industries Limited)",
+    "emailId": "None",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://aaronindustries.net",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://aaronindustries.net"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "tds@bigshareonline.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://aaronindustries.net/investor-information/"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "tds@bigshareonline.com",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://aaronindustries.net/investor-information/"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://aaronindustries.net",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#content-089f0246a789193d86a6-tab > .elementskit-tab-title",
+          "html": "<span class=\"elementskit-tab-title\">Manufacturing Units</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".elementor-element-ce5b196 > .elementor-widget-container > h2",
+          "html": "<h2 class=\"elementor-heading-title elementor-size-default\">@ Copyright 2025 by AARON INDUSTRIES LTD | Web Design, SMM &amp; SEO by 3rd Eye Developer</h2>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".elementor-element-4f0f463 > .elementor-widget-container > a[href$=\"aaronindustries.net/\"]",
+          "html": "<a href=\"https://aaronindustries.net/\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".elementor-element-4126e15 > .elementor-widget-container > .elementor-icon-wrapper > .elementor-icon",
+          "html": "<a class=\"elementor-icon\" href=\"#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjIzMjYiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D\">\n\t\t\t<i aria-hidden=\"true\" class=\"icon icon-chat\"></i>\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".elementor-element-41619bb > .elementor-widget-container > a[target=\"_blank\"]",
+          "html": "<a href=\"https://docs.google.com/forms/d/e/1FAIpQLSdCC9KbhCrnh6k64KyMxZvL87winL9MKWtShj4bX6dgmW7Fpw/viewform\" target=\"_blank\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".elementor-element-9f12401 > .elementor-widget-container > a[href$=\"aaronindustries.net/\"]",
+          "html": "<a href=\"https://aaronindustries.net/\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "help": "Interactive controls must not be nested",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/nested-interactive?application=playwright",
+          "category": "other",
+          "selector": "#sm-17863706092991616-1",
+          "html": "<a role=\"button\" aria-expanded=\"false\" href=\"https://aaronindustries.net/company/\" class=\"elementor-item menu-link has-submenu\" id=\"sm-17863706092991616-1\" aria-haspopup=\"true\" aria-controls=\"sm-17863706092991616-2\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "help": "Interactive controls must not be nested",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/nested-interactive?application=playwright",
+          "category": "other",
+          "selector": "#sm-17863706092991616-3",
+          "html": "<a role=\"button\" aria-expanded=\"false\" href=\"https://aaronindustries.net/business/\" class=\"elementor-item menu-link has-submenu\" id=\"sm-17863706092991616-3\" aria-haspopup=\"true\" aria-controls=\"sm-17863706092991616-4\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "help": "Interactive controls must not be nested",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/nested-interactive?application=playwright",
+          "category": "other",
+          "selector": "#sm-17863706092991616-5",
+          "html": "<a role=\"button\" aria-expanded=\"false\" href=\"https://aaronindustries.net/investors/\" class=\"elementor-item menu-link has-submenu\" id=\"sm-17863706092991616-5\" aria-haspopup=\"true\" aria-controls=\"sm-17863706092991616-6\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "role-img-alt",
+          "impact": "serious",
+          "description": "Ensure [role=\"img\"] elements have alternative text",
+          "help": "[role=\"img\"] elements must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/role-img-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".swiper-slide-duplicate[aria-label=\"5 / 7\"][data-swiper-slide-index=\"4\"] > .elementor-carousel-image[aria-label=\"\"][role=\"img\"]",
+          "html": "<div class=\"elementor-carousel-image\" role=\"img\" aria-label=\"\" style=\"background-image: url('https://aaronindustries.net/wp-content/uploads/2025/07/2020-Fire-Training-1.jpeg')\">\n\n\t\t\t\n\t\t\t\t\t</div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "role-img-alt",
+          "impact": "serious",
+          "description": "Ensure [role=\"img\"] elements have alternative text",
+          "help": "[role=\"img\"] elements must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/role-img-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".swiper-slide-duplicate[aria-label=\"6 / 7\"][data-swiper-slide-index=\"5\"] > .elementor-carousel-image[aria-label=\"\"][role=\"img\"]",
+          "html": "<div class=\"elementor-carousel-image\" role=\"img\" aria-label=\"\" style=\"background-image: url('https://aaronindustries.net/wp-content/uploads/2025/07/2020-Steam-Machine-distribute-to-fight-against-corona.jpg')\">\n\n\t\t\t\n\t\t\t\t\t</div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "role-img-alt",
+          "impact": "serious",
+          "description": "Ensure [role=\"img\"] elements have alternative text",
+          "help": "[role=\"img\"] elements must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/role-img-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".swiper-slide-prev[aria-label=\"7 / 7\"][data-swiper-slide-index=\"6\"] > .elementor-carousel-image[aria-label=\"\"][role=\"img\"]",
+          "html": "<div class=\"elementor-carousel-image\" role=\"img\" aria-label=\"\" style=\"background-image: url('https://aaronindustries.net/wp-content/uploads/2025/07/2020-Fire-Training.jpeg')\">\n\n\t\t\t\n\t\t\t\t\t</div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "role-img-alt",
+          "impact": "serious",
+          "description": "Ensure [role=\"img\"] elements have alternative text",
+          "help": "[role=\"img\"] elements must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/role-img-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".swiper-slide-visible.swiper-slide-active[aria-label=\"1 / 7\"] > .elementor-carousel-image[aria-label=\"\"][role=\"img\"]",
+          "html": "<div class=\"elementor-carousel-image\" role=\"img\" aria-label=\"\" style=\"background-image: url('https://aaronindustries.net/wp-content/uploads/2025/07/2019-Blood-Camp-2.jpg')\">\n\n\t\t\t\n\t\t\t\t\t</div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "role-img-alt",
+          "impact": "serious",
+          "description": "Ensure [role=\"img\"] elements have alternative text",
+          "help": "[role=\"img\"] elements must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/role-img-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".swiper-slide-next.swiper-slide-visible[aria-label=\"2 / 7\"] > .elementor-carousel-image[aria-label=\"\"][role=\"img\"]",
+          "html": "<div class=\"elementor-carousel-image\" role=\"img\" aria-label=\"\" style=\"background-image: url('https://aaronindustries.net/wp-content/uploads/2025/07/2019-Amar-Doshi-Owner.jpg')\">\n\n\t\t\t\n\t\t\t\t\t</div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "role-img-alt",
+          "impact": "serious",
+          "description": "Ensure [role=\"img\"] elements have alternative text",
+          "help": "[role=\"img\"] elements must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/role-img-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".swiper-slide-visible[aria-label=\"3 / 7\"][data-swiper-slide-index=\"2\"] > .elementor-carousel-image[aria-label=\"\"][role=\"img\"]",
+          "html": "<div class=\"elementor-carousel-image\" role=\"img\" aria-label=\"\" style=\"background-image: url('https://aaronindustries.net/wp-content/uploads/2025/07/2019-Blood-Camp-1.jpg')\">\n\n\t\t\t\n\t\t\t\t\t</div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "role-img-alt",
+          "impact": "serious",
+          "description": "Ensure [role=\"img\"] elements have alternative text",
+          "help": "[role=\"img\"] elements must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/role-img-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "div[aria-label=\"4 / 7\"] > .elementor-carousel-image[aria-label=\"\"][role=\"img\"]",
+          "html": "<div class=\"elementor-carousel-image\" role=\"img\" aria-label=\"\" style=\"background-image: url('https://aaronindustries.net/wp-content/uploads/2025/07/2019-Blood-Camp.jpg')\">\n\n\t\t\t\n\t\t\t\t\t</div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "role-img-alt",
+          "impact": "serious",
+          "description": "Ensure [role=\"img\"] elements have alternative text",
+          "help": "[role=\"img\"] elements must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/role-img-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "div[aria-label=\"5 / 7\"][data-swiper-slide-index=\"4\"][aria-roledescription=\"slide\"]:nth-child(8) > .elementor-carousel-image[aria-label=\"\"][role=\"img\"]",
+          "html": "<div class=\"elementor-carousel-image\" role=\"img\" aria-label=\"\" style=\"background-image: url('https://aaronindustries.net/wp-content/uploads/2025/07/2020-Fire-Training-1.jpeg')\">\n\n\t\t\t\n\t\t\t\t\t</div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "role-img-alt",
+          "impact": "serious",
+          "description": "Ensure [role=\"img\"] elements have alternative text",
+          "help": "[role=\"img\"] elements must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/role-img-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "div[aria-label=\"6 / 7\"][data-swiper-slide-index=\"5\"][aria-roledescription=\"slide\"]:nth-child(9) > .elementor-carousel-image[aria-label=\"\"][role=\"img\"]",
+          "html": "<div class=\"elementor-carousel-image\" role=\"img\" aria-label=\"\" style=\"background-image: url('https://aaronindustries.net/wp-content/uploads/2025/07/2020-Steam-Machine-distribute-to-fight-against-corona.jpg')\">\n\n\t\t\t\n\t\t\t\t\t</div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "role-img-alt",
+          "impact": "serious",
+          "description": "Ensure [role=\"img\"] elements have alternative text",
+          "help": "[role=\"img\"] elements must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/role-img-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".swiper-slide-duplicate-prev[aria-label=\"7 / 7\"][data-swiper-slide-index=\"6\"] > .elementor-carousel-image[aria-label=\"\"][role=\"img\"]",
+          "html": "<div class=\"elementor-carousel-image\" role=\"img\" aria-label=\"\" style=\"background-image: url('https://aaronindustries.net/wp-content/uploads/2025/07/2020-Fire-Training.jpeg')\">\n\n\t\t\t\n\t\t\t\t\t</div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "role-img-alt",
+          "impact": "serious",
+          "description": "Ensure [role=\"img\"] elements have alternative text",
+          "help": "[role=\"img\"] elements must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/role-img-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".swiper-slide-duplicate-active[aria-label=\"1 / 7\"][data-swiper-slide-index=\"0\"] > .elementor-carousel-image[aria-label=\"\"][role=\"img\"]",
+          "html": "<div class=\"elementor-carousel-image\" role=\"img\" aria-label=\"\" style=\"background-image: url('https://aaronindustries.net/wp-content/uploads/2025/07/2019-Blood-Camp-2.jpg')\">\n\n\t\t\t\n\t\t\t\t\t</div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "role-img-alt",
+          "impact": "serious",
+          "description": "Ensure [role=\"img\"] elements have alternative text",
+          "help": "[role=\"img\"] elements must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/role-img-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".swiper-slide-duplicate-next[aria-label=\"2 / 7\"][data-swiper-slide-index=\"1\"] > .elementor-carousel-image[aria-label=\"\"][role=\"img\"]",
+          "html": "<div class=\"elementor-carousel-image\" role=\"img\" aria-label=\"\" style=\"background-image: url('https://aaronindustries.net/wp-content/uploads/2025/07/2019-Amar-Doshi-Owner.jpg')\">\n\n\t\t\t\n\t\t\t\t\t</div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "role-img-alt",
+          "impact": "serious",
+          "description": "Ensure [role=\"img\"] elements have alternative text",
+          "help": "[role=\"img\"] elements must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/role-img-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".swiper-slide-duplicate[aria-label=\"3 / 7\"][data-swiper-slide-index=\"2\"] > .elementor-carousel-image[aria-label=\"\"][role=\"img\"]",
+          "html": "<div class=\"elementor-carousel-image\" role=\"img\" aria-label=\"\" style=\"background-image: url('https://aaronindustries.net/wp-content/uploads/2025/07/2019-Blood-Camp-1.jpg')\">\n\n\t\t\t\n\t\t\t\t\t</div>",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_140147_attempt5_succesful_reviewnotdone_orchavatecore_digital_digital/Aaron_Industries_Limited/screenshots/Aaron_Industries_Limited_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_140147_attempt5_succesful_reviewnotdone_orchavatecore_digital_digital/Aaron_Industries_Limited/screenshots/Aaron_Industries_Limited_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_140147_attempt5_succesful_reviewnotdone_orchavatecore_digital_digital/Aaron_Industries_Limited/screenshots/Aaron_Industries_Limited_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 22,
+  "altTextViolations": 13,
+  "contrastViolations": 2,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_140147_attempt5_succesful_reviewnotdone_orchavatecore_digital_digital/Aaron_Industries_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_140147_attempt5_succesful_reviewnotdone_orchavatecore_digital_digital/Aaron_Industries_Limited/screenshots/Aaron_Industries_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Aaron Industries Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `22`  \n> **Verified Contact Email:** `tds@bigshareonline.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `tds@bigshareonline.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **22 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `22` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 13 violations\n- 🎨 **Color Contrast Failures:** 2 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (13 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (2 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Aaron Industries Limited\n- **Resolved URL:** [https://aaronindustries.net](https://aaronindustries.net)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `tds@bigshareonline.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `tds@bigshareonline.com` | **Status:** `Verified` | **Source Page:** https://aaronindustries.net/investor-information/\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#content-089f0246a789193d86a6-tab > .elementskit-tab-title`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-element-ce5b196 > .elementor-widget-container > h2`\n3. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.elementor-element-4f0f463 > .elementor-widget-container > a[href$=\"aaronindustries.net/\"]`\n4. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.elementor-element-4126e15 > .elementor-widget-container > .elementor-icon-wrapper > .elementor-icon`\n5. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.elementor-element-41619bb > .elementor-widget-container > a[target=\"_blank\"]`\n6. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.elementor-element-9f12401 > .elementor-widget-container > a[href$=\"aaronindustries.net/\"]`\n7. **`[other] nested-interactive`** (SERIOUS)\n   - **Help:** Interactive controls must not be nested\n   - **Selector:** `#sm-17863706092991616-1`\n8. **`[other] nested-interactive`** (SERIOUS)\n   - **Help:** Interactive controls must not be nested\n   - **Selector:** `#sm-17863706092991616-3`\n9. **`[other] nested-interactive`** (SERIOUS)\n   - **Help:** Interactive controls must not be nested\n   - **Selector:** `#sm-17863706092991616-5`\n10. **`[missing_alt_text] role-img-alt`** (SERIOUS)\n   - **Help:** [role=\"img\"] elements must have alternative text\n   - **Selector:** `.swiper-slide-duplicate[aria-label=\"5 / 7\"][data-swiper-slide-index=\"4\"] > .elementor-carousel-image[aria-label=\"\"][role=\"img\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Aaron_Industries_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Aaron_Industries_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Aaron_Industries_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_140147_attempt5_succesful_reviewnotdone_orchavatecore_digital_digital/Aaron_Industries_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_140147_attempt5_succesful_reviewnotdone_orchavatecore_digital_digital/Aaron_Industries_Limited/screenshots/Aaron_Industries_Limited_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Aaron Industries Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `22`  \n> **Verified Contact Email:** `tds@bigshareonline.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `tds@bigshareonline.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **22 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `22` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 13 violations\n- 🎨 **Color Contrast Failures:** 2 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (13 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (2 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Aaron Industries Limited\n- **Resolved URL:** [https://aaronindustries.net](https://aaronindustries.net)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `tds@bigshareonline.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `tds@bigshareonline.com` | **Status:** `Verified` | **Source Page:** https://aaronindustries.net/investor-information/\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#content-089f0246a789193d86a6-tab > .elementskit-tab-title`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-element-ce5b196 > .elementor-widget-container > h2`\n3. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.elementor-element-4f0f463 > .elementor-widget-container > a[href$=\"aaronindustries.net/\"]`\n4. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.elementor-element-4126e15 > .elementor-widget-container > .elementor-icon-wrapper > .elementor-icon`\n5. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.elementor-element-41619bb > .elementor-widget-container > a[target=\"_blank\"]`\n6. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.elementor-element-9f12401 > .elementor-widget-container > a[href$=\"aaronindustries.net/\"]`\n7. **`[other] nested-interactive`** (SERIOUS)\n   - **Help:** Interactive controls must not be nested\n   - **Selector:** `#sm-17863706092991616-1`\n8. **`[other] nested-interactive`** (SERIOUS)\n   - **Help:** Interactive controls must not be nested\n   - **Selector:** `#sm-17863706092991616-3`\n9. **`[other] nested-interactive`** (SERIOUS)\n   - **Help:** Interactive controls must not be nested\n   - **Selector:** `#sm-17863706092991616-5`\n10. **`[missing_alt_text] role-img-alt`** (SERIOUS)\n   - **Help:** [role=\"img\"] elements must have alternative text\n   - **Selector:** `.swiper-slide-duplicate[aria-label=\"5 / 7\"][data-swiper-slide-index=\"4\"] > .elementor-carousel-image[aria-label=\"\"][role=\"img\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Aaron_Industries_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Aaron_Industries_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Aaron_Industries_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_140147_attempt5_succesful_reviewnotdone_orchavatecore_digital_digital/Aaron_Industries_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_140147_attempt5_succesful_reviewnotdone_orchavatecore_digital_digital/Aaron_Industries_Limited/screenshots/Aaron_Industries_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Aaron Industries Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `22`  \n> **Verified Contact Email:** `tds@bigshareonline.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `tds@bigshareonline.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **22 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `22` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 13 violations\n- 🎨 **Color Contrast Failures:** 2 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (13 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (2 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Aaron Industries Limited\n- **Resolved URL:** [https://aaronindustries.net](https://aaronindustries.net)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `tds@bigshareonline.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `tds@bigshareonline.com` | **Status:** `Verified` | **Source Page:** https://aaronindustries.net/investor-information/\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#content-089f0246a789193d86a6-tab > .elementskit-tab-title`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-element-ce5b196 > .elementor-widget-container > h2`\n3. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.elementor-element-4f0f463 > .elementor-widget-container > a[href$=\"aaronindustries.net/\"]`\n4. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.elementor-element-4126e15 > .elementor-widget-container > .elementor-icon-wrapper > .elementor-icon`\n5. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.elementor-element-41619bb > .elementor-widget-container > a[target=\"_blank\"]`\n6. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.elementor-element-9f12401 > .elementor-widget-container > a[href$=\"aaronindustries.net/\"]`\n7. **`[other] nested-interactive`** (SERIOUS)\n   - **Help:** Interactive controls must not be nested\n   - **Selector:** `#sm-17863706092991616-1`\n8. **`[other] nested-interactive`** (SERIOUS)\n   - **Help:** Interactive controls must not be nested\n   - **Selector:** `#sm-17863706092991616-3`\n9. **`[other] nested-interactive`** (SERIOUS)\n   - **Help:** Interactive controls must not be nested\n   - **Selector:** `#sm-17863706092991616-5`\n10. **`[missing_alt_text] role-img-alt`** (SERIOUS)\n   - **Help:** [role=\"img\"] elements must have alternative text\n   - **Selector:** `.swiper-slide-duplicate[aria-label=\"5 / 7\"][data-swiper-slide-index=\"4\"] > .elementor-carousel-image[aria-label=\"\"][role=\"img\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Aaron_Industries_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Aaron_Industries_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Aaron_Industries_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 22. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-10T14:03:41.386Z"
+}
