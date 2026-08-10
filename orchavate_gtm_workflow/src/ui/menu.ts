@@ -28,35 +28,7 @@ function promptUser(query: string): Promise<string> {
  * Prompt for the input file path (Excel/JSON with company list).
  * Returns the validated file path or empty string if skipped.
  */
-export async function promptForApolloKey(): Promise<string> {
-  const existingKey = process.env.APOLLO_API_KEY || process.env.APOLLO_KEY;
-  if (existingKey) {
-    return existingKey;
-  }
 
-  console.log(`\n=====================================================`);
-  console.log(`🔑 Apollo API Key Required`);
-  console.log(`=====================================================\n`);
-  console.log(`Apollo API is required for verified contact & email enrichment.`);
-  console.log(`Enter your Apollo API Key to proceed (will be saved securely in .env).\n`);
-
-  const enteredKey = (await promptUser(`Enter Apollo API Key: `)).replace(/^['"]|['"]$/g, '');
-
-  if (enteredKey) {
-    process.env.APOLLO_API_KEY = enteredKey;
-    try {
-      const envPath = '.env';
-      if (!fs.existsSync(envPath) || !fs.readFileSync(envPath, 'utf8').includes('APOLLO_API_KEY')) {
-        fs.appendFileSync(envPath, `\nAPOLLO_API_KEY=${enteredKey}\n`, 'utf8');
-        console.log(`✓ Saved Apollo API Key securely to .env file.`);
-      }
-    } catch {}
-    return enteredKey;
-  } else {
-    console.warn(`\n⚠️ Warning: No Apollo API Key supplied. Only strictly verified on-page contacts will be extracted (no dummy/guessed emails will be output).\n`);
-    return '';
-  }
-}
 
 export async function promptForInputFile(): Promise<string> {
   console.log(`\n=====================================================`);
@@ -177,7 +149,7 @@ export async function renderVersionMenu(): Promise<'v1.2' | 'v1.3_semifinal'> {
   console.log(`\n=====================================================`);
   console.log(`Select Digital Audit Output Version:`);
   console.log(`[1] v1.2 Standard Tracker (Legacy Format)`);
-  console.log(`[2] v1.3 Apollo 17-Column Master Tracker (GitHub Image Links, Designation, Wave/Axe/LH Scores)`);
+  console.log(`[2] v1.3 17-Column Master Tracker (GitHub Image Links, Designation, Wave/Axe/LH Scores)`);
   console.log(`=====================================================\n`);
 
   const choice = await promptUser(`Select version (1 or 2) [default 2]: `);

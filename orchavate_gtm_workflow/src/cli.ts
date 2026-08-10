@@ -14,33 +14,6 @@ async function main() {
   const cliConfig = parseCliConfig(cliArgs);
   const config: AppConfig = { ...defaultConfig, ...cliConfig };
 
-  const apolloKeyIdx = cliArgs.indexOf('--apollo-key');
-  if (apolloKeyIdx !== -1 && cliArgs[apolloKeyIdx + 1]) {
-    process.env.APOLLO_API_KEY = cliArgs[apolloKeyIdx + 1].trim().replace(/^['"]|['"]$/g, '');
-  }
-
-  if (cliArgs.includes('--apollo-pull')) {
-    if (!process.env.APOLLO_API_KEY && !config.nonInteractive && process.stdin.isTTY) {
-      const { promptForApolloKey } = await import('./ui/menu.js');
-      await promptForApolloKey();
-    }
-    const key = process.env.APOLLO_API_KEY || process.env.APOLLO_KEY || '';
-
-    let inputPath = '';
-    const inputIdx = cliArgs.indexOf('--input');
-    if (inputIdx !== -1 && cliArgs[inputIdx + 1]) {
-      inputPath = cliArgs[inputIdx + 1].trim().replace(/^['"]|['"]$/g, '');
-    }
-
-    if (inputPath && fs.existsSync(inputPath)) {
-      const { enrichExcelDatasetWithApollo } = await import('./apollo_exporter.js');
-      await enrichExcelDatasetWithApollo(inputPath, key);
-    } else {
-      const { pullAndExportApolloContacts } = await import('./apollo_exporter.js');
-      await pullAndExportApolloContacts(key);
-    }
-    return;
-  }
 
 
   let pipelineChoice: PipelineType = 'digital';

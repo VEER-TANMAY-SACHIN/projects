@@ -268,32 +268,15 @@ export async function runWorkflowV11(
       continue;
     }
 
-    // Step 3: Apollo API & POC Contact Enrichment (v1.3 Apollo Edition)
-    console.log(`  -> Running Apollo API & On-Page POC Discovery (Prioritizing Statutory Nodal Officer)...`);
-    const { enrichPocWithApollo } = await import('../apollo_discoverer.js');
-    const apolloPocResult = await enrichPocWithApollo(company.companyName, resolution.resolvedUrl, page);
+    // Step 3: On-Page & Disclosures POC Contact Discovery (Prioritizing Statutory Nodal Officer & Compliance)
+    console.log(`  -> Running On-Page & Disclosure POC Discovery (Prioritizing Statutory Nodal Officer & Compliance)...`);
+    const emailDiscovery = await discoverEmailsAndEvidence(page, company.companyName, resolution.resolvedUrl, companyScreenshotsDir);
 
     if (!company.contactPerson || company.contactPerson === 'N/A') {
-      company.contactPerson = apolloPocResult.contact1.name;
+      company.contactPerson = `Company Secretary (${company.companyName})`;
     }
 
-    const emailDiscovery = await discoverEmailsAndEvidence(page, company.companyName, resolution.resolvedUrl, companyScreenshotsDir);
-    if ((!emailDiscovery.primaryEmail.address || emailDiscovery.primaryEmail.address === 'N/A' || emailDiscovery.primaryEmail.address === 'info@company.com') && apolloPocResult.contact1.email) {
-      emailDiscovery.primaryEmail.address = apolloPocResult.contact1.email;
-      emailDiscovery.primaryEmail.status = 'Verified';
-    }
-
-    if (apolloPocResult.contact2.email && (!emailDiscovery.regardingAccessibility || emailDiscovery.regardingAccessibility.length === 0)) {
-      emailDiscovery.regardingAccessibility.push({
-        address: apolloPocResult.contact2.email,
-        type: 'compliance_grievance',
-        label: apolloPocResult.contact2.name,
-        status: 'Verified'
-      });
-    }
-
-    console.log(`  ✓ Primary POC Target (#1 Nodal/Compliance): ${company.contactPerson} <${emailDiscovery.primaryEmail.address}>`);
-    console.log(`  ✓ Secondary POC Target (#2 Legal/Governance): ${apolloPocResult.contact2.name} <${apolloPocResult.contact2.email}>`);
+    console.log(`  ✓ Primary POC Target (#1 Nodal/Compliance/CS): ${company.contactPerson} <${emailDiscovery.primaryEmail.address || 'Not Found'}>`);
 
 
     // Step 4: Accessibility Tool Scans & Compulsory 3 Screenshots (WAVE, Axe DevTools, Lighthouse)
