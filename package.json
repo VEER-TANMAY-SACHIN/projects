@@ -5,8 +5,7 @@
   "description": "Automated digital accessibility outreach platform for SEBI-listed companies.",
   "main": "dist/cli.js",
   "bin": {
-    "orachavate": "dist/cli.js",
-    "infoharvester": "bin/infoharvester"
+    "orachavate": "dist/cli.js"
   },
   "scripts": {
     "clean": "rm -rf dist node_modules .turbo .cache",

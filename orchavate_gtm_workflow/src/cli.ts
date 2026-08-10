@@ -42,24 +42,6 @@ async function main() {
     return;
   }
 
-  if (cliArgs.includes('--infoharvester')) {
-    const { runInfoHarvesterBatch } = await import('./infoharvester/batch_writer.js');
-    let inputPath = '';
-    const inputIdx = cliArgs.indexOf('--input');
-    if (inputIdx !== -1 && cliArgs[inputIdx + 1]) {
-      inputPath = cliArgs[inputIdx + 1].trim().replace(/^['"]|['"]$/g, '');
-    }
-    if (!inputPath) {
-      inputPath = path.join(process.cwd(), 'v1.3_Master_Outreach_Tracker_561_Companies.xlsx');
-    }
-    let outputPath = inputPath;
-    const outputIdx = cliArgs.indexOf('--output');
-    if (outputIdx !== -1 && cliArgs[outputIdx + 1]) {
-      outputPath = cliArgs[outputIdx + 1].trim().replace(/^['"]|['"]$/g, '');
-    }
-    await runInfoHarvesterBatch(inputPath, outputPath);
-    return;
-  }
 
   let pipelineChoice: PipelineType = 'digital';
   const pipelineIdx = cliArgs.indexOf('--pipeline');
