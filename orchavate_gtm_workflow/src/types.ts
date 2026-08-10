@@ -103,6 +103,8 @@ export interface CompanyAuditReportV11 {
   labelViolations: number;
   keyboardViolations: number;
   lighthouseAvgScore: number;
+  waveAimScore?: number;         // Real WAVE AIM Score from wave.webaim.org (e.g. 2.3)
+  waveAimScoreStr?: string;      // e.g. "2.3 out of 10"
   deliverables: {
     websitePair: DeliverablePair;
     emailPair: DeliverablePair;
@@ -238,7 +240,7 @@ export interface DigitalV13TrackerRow {
   websiteVerified: string;
   scanCompleted: string;
   screenshotTaken: string;
-  waveScore: number;
+  waveAimScore: string;     // Real WAVE AIM Score from wave.webaim.org (e.g. "2.3 out of 10")
   axeScore: number;
   lhScore: number;
   screenshotLink: string; // GitHub markdown link syntax

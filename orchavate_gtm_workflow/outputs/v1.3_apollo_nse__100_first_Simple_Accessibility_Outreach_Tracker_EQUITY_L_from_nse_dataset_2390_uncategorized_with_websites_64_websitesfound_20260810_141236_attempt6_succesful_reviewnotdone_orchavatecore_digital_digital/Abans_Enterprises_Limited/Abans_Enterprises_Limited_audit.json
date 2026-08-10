@@ -1,0 +1,386 @@
+{
+  "company": {
+    "srNo": 26,
+    "companyName": "Abans Enterprises Limited",
+    "readymadeWebsite": "aban.net",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (Abans Enterprises Limited)",
+    "emailId": "None",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://aban.net",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://aban.net"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "aban@aban.net",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://aban.net"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "aban@aban.net",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://aban.net"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://aban.net",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "description": "Ensure an element's role supports its ARIA attributes",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-allowed-attr?application=playwright",
+          "category": "other",
+          "selector": ".accordion-navigation.wpfs[_ngcontent-qva-c60=\"\"]:nth-child(1) > a[_ngcontent-qva-c60=\"\"]",
+          "html": "<a _ngcontent-qva-c60=\"\" aria-expanded=\"false\">افراد مجاز به فروش سهام عدالت</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "description": "Ensure an element's role supports its ARIA attributes",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-allowed-attr?application=playwright",
+          "category": "other",
+          "selector": ".accordion-navigation.wpfs[_ngcontent-qva-c60=\"\"]:nth-child(2) > a[_ngcontent-qva-c60=\"\"]",
+          "html": "<a _ngcontent-qva-c60=\"\" aria-expanded=\"false\">فروش سهام عدالت</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "description": "Ensure an element's role supports its ARIA attributes",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-allowed-attr?application=playwright",
+          "category": "other",
+          "selector": ".accordion-navigation.wpfs[_ngcontent-qva-c60=\"\"]:nth-child(3) > a[_ngcontent-qva-c60=\"\"]",
+          "html": "<a _ngcontent-qva-c60=\"\" aria-expanded=\"false\">دریافت وجه حاصل از فروش سهام عدالت</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "description": "Ensure an element's role supports its ARIA attributes",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-allowed-attr?application=playwright",
+          "category": "other",
+          "selector": ".accordion-navigation.wpfs[_ngcontent-qva-c60=\"\"]:nth-child(4) > a[_ngcontent-qva-c60=\"\"]",
+          "html": "<a _ngcontent-qva-c60=\"\" aria-expanded=\"false\">دریافت کد بورسی و معاملات آنلاین با آبان</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "dt:nth-child(2)",
+          "html": "<dt _ngcontent-qva-c71=\"\">۱۵۱۱۷۱۳۳۱۱</dt>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".info[_ngcontent-qva-c71=\"\"] > strong",
+          "html": "<strong _ngcontent-qva-c71=\"\">بیانیه رفع مسئولیت</strong>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[ng-reflect-router-link=\"/disclaimer\"]",
+          "html": "<a _ngcontent-qva-c71=\"\" target=\"_blank\" ng-reflect-target=\"_blank\" ng-reflect-router-link=\"/disclaimer\" href=\"/disclaimer\">ادامه</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".medium-12 > strong",
+          "html": "<strong _ngcontent-qva-c71=\"\"> © کلیه حقوق این وب سایت متعلق به شرکت کارگزاری آبان می باشد. </strong>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "definition-list",
+          "impact": "serious",
+          "description": "Ensure <dl> elements are structured correctly",
+          "help": "<dl> elements must only directly contain properly-ordered <dt> and <dd> groups, <script>, <template> or <div> elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/definition-list?application=playwright",
+          "category": "other",
+          "selector": ".work-time > dl",
+          "html": "<dl _ngcontent-qva-c71=\"\"><dd _ngcontent-qva-c71=\"\">شنبه تا چهار شنبه از ساعت ۷ الی ۱۶</dd></dl>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".logo",
+          "html": "<img _ngcontent-qva-c70=\"\" src=\"../assets/images/logo.png\" class=\"logo\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "a[routerlink=\"/training/start-point\"] > i > .normal.style-svg[with=\"32px\"]",
+          "html": "<img _ngcontent-qva-c59=\"\" with=\"32px\" src=\"../../../assets/images/start.svg\" class=\"normal style-svg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "a[routerlink=\"/training/start-point\"] > i > .hover.style-svg",
+          "html": "<img _ngcontent-qva-c59=\"\" src=\"../../../assets/images/start.svg\" class=\"hover style-svg\" style=\"fill: #cd2027;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "a[routerlink=\"/aban/cooperation-request\"][ng-reflect-router-link=\"/aban/cooperation-request\"][href$=\"cooperation-request\"] > i > .normal.style-svg[with=\"32px\"]",
+          "html": "<img _ngcontent-qva-c59=\"\" with=\"32px\" src=\"../../../assets/images/cooperation.svg\" class=\"normal style-svg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "a[routerlink=\"/aban/cooperation-request\"][ng-reflect-router-link=\"/aban/cooperation-request\"][href$=\"cooperation-request\"] > i > .hover.style-svg",
+          "html": "<img _ngcontent-qva-c59=\"\" src=\"../../../assets/images/cooperation.svg\" class=\"hover style-svg\" style=\"fill: #cd2027;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".normal[src$=\"job.svg\"][with=\"32px\"]",
+          "html": "<img _ngcontent-qva-c59=\"\" with=\"32px\" src=\"../../../assets/images/job.svg\" class=\"normal style-svg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".hover.style-svg[src$=\"job.svg\"]",
+          "html": "<img _ngcontent-qva-c59=\"\" src=\"../../../assets/images/job.svg\" class=\"hover style-svg\" style=\"fill: #cd2027;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "img[src$=\"trading.svg\"]",
+          "html": "<img _ngcontent-qva-c62=\"\" src=\"assets/images/trading.svg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "img[src$=\"investment.svg\"]",
+          "html": "<img _ngcontent-qva-c62=\"\" src=\"assets/images/investment.svg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "img[src$=\"graph.svg\"]",
+          "html": "<img _ngcontent-qva-c62=\"\" src=\"assets/images/graph.svg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".logoimg",
+          "html": "<img _ngcontent-qva-c71=\"\" src=\"../../assets/images/footer-logo.png\" class=\"logoimg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".imgimg",
+          "html": "<img _ngcontent-qva-c71=\"\" src=\"../../assets/images/footer-img.png\" class=\"imgimg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[ng-reflect-router-link=\"/\"]",
+          "html": "<a _ngcontent-qva-c70=\"\" target=\"_blank\" ng-reflect-target=\"_blank\" ng-reflect-router-link=\"/\" href=\"/\"><img _ngcontent-qva-c70=\"\" src=\"../assets/images/logo.png\" class=\"logo\"><img _ngcontent-qva-c70=\"\" src=\"../assets/images/mini-logo.png\" class=\"mini-logo\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".right[ng-reflect-router-link=\"/services/kousar-fund\"][href$=\"kousar-fund\"]",
+          "html": "<a _ngcontent-qva-c63=\"\" target=\"_blank\" class=\"right\" ng-reflect-target=\"_blank\" ng-reflect-router-link=\"/services/kousar-fund\" href=\"/services/kousar-fund\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".right[ng-reflect-router-link=\"/services/pars-fund\"][href$=\"pars-fund\"]",
+          "html": "<a _ngcontent-qva-c63=\"\" target=\"_blank\" class=\"right\" ng-reflect-target=\"_blank\" ng-reflect-router-link=\"/services/pars-fund\" href=\"/services/pars-fund\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".right[ng-reflect-router-link=\"/services/yekom-fund\"][href$=\"yekom-fund\"]",
+          "html": "<a _ngcontent-qva-c63=\"\" target=\"_blank\" class=\"right\" ng-reflect-target=\"_blank\" ng-reflect-router-link=\"/services/yekom-fund\" href=\"/services/yekom-fund\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".right[ng-reflect-router-link=\"/services/sustainable-growth-f\"][_ngcontent-qva-c63=\"\"]",
+          "html": "<a _ngcontent-qva-c63=\"\" target=\"_blank\" class=\"right\" ng-reflect-target=\"_blank\" ng-reflect-router-link=\"/services/sustainable-growth-f\" href=\"/services/sustainable-growth-fund\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[referrerpolicy=\"origin\"][_ngcontent-qva-c71=\"\"][target=\"_blank\"]",
+          "html": "<a _ngcontent-qva-c71=\"\" referrerpolicy=\"origin\" target=\"_blank\" href=\"https://trustseal.enamad.ir/?id=175304&Code=nZ6joKImqMdmSeJoUkZL\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_141236_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Abans_Enterprises_Limited/screenshots/Abans_Enterprises_Limited_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_141236_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Abans_Enterprises_Limited/screenshots/Abans_Enterprises_Limited_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_141236_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Abans_Enterprises_Limited/screenshots/Abans_Enterprises_Limited_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 27,
+  "altTextViolations": 12,
+  "contrastViolations": 4,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_141236_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Abans_Enterprises_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_141236_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Abans_Enterprises_Limited/screenshots/Abans_Enterprises_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Abans Enterprises Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `27`  \n> **Verified Contact Email:** `aban@aban.net`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `aban@aban.net` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **27 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `16` | Serious: `11` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 12 violations\n- 🎨 **Color Contrast Failures:** 4 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (12 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (4 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Abans Enterprises Limited\n- **Resolved URL:** [https://aban.net](https://aban.net)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `aban@aban.net` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `aban@aban.net` | **Status:** `Verified` | **Source Page:** https://aban.net\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `.accordion-navigation.wpfs[_ngcontent-qva-c60=\"\"]:nth-child(1) > a[_ngcontent-qva-c60=\"\"]`\n2. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `.accordion-navigation.wpfs[_ngcontent-qva-c60=\"\"]:nth-child(2) > a[_ngcontent-qva-c60=\"\"]`\n3. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `.accordion-navigation.wpfs[_ngcontent-qva-c60=\"\"]:nth-child(3) > a[_ngcontent-qva-c60=\"\"]`\n4. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `.accordion-navigation.wpfs[_ngcontent-qva-c60=\"\"]:nth-child(4) > a[_ngcontent-qva-c60=\"\"]`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `dt:nth-child(2)`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.info[_ngcontent-qva-c71=\"\"] > strong`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[ng-reflect-router-link=\"/disclaimer\"]`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.medium-12 > strong`\n9. **`[other] definition-list`** (SERIOUS)\n   - **Help:** <dl> elements must only directly contain properly-ordered <dt> and <dd> groups, <script>, <template> or <div> elements\n   - **Selector:** `.work-time > dl`\n10. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.logo`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Abans_Enterprises_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Abans_Enterprises_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Abans_Enterprises_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_141236_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Abans_Enterprises_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_141236_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Abans_Enterprises_Limited/screenshots/Abans_Enterprises_Limited_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Abans Enterprises Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `27`  \n> **Verified Contact Email:** `aban@aban.net`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `aban@aban.net` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **27 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `16` | Serious: `11` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 12 violations\n- 🎨 **Color Contrast Failures:** 4 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (12 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (4 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Abans Enterprises Limited\n- **Resolved URL:** [https://aban.net](https://aban.net)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `aban@aban.net` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `aban@aban.net` | **Status:** `Verified` | **Source Page:** https://aban.net\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `.accordion-navigation.wpfs[_ngcontent-qva-c60=\"\"]:nth-child(1) > a[_ngcontent-qva-c60=\"\"]`\n2. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `.accordion-navigation.wpfs[_ngcontent-qva-c60=\"\"]:nth-child(2) > a[_ngcontent-qva-c60=\"\"]`\n3. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `.accordion-navigation.wpfs[_ngcontent-qva-c60=\"\"]:nth-child(3) > a[_ngcontent-qva-c60=\"\"]`\n4. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `.accordion-navigation.wpfs[_ngcontent-qva-c60=\"\"]:nth-child(4) > a[_ngcontent-qva-c60=\"\"]`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `dt:nth-child(2)`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.info[_ngcontent-qva-c71=\"\"] > strong`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[ng-reflect-router-link=\"/disclaimer\"]`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.medium-12 > strong`\n9. **`[other] definition-list`** (SERIOUS)\n   - **Help:** <dl> elements must only directly contain properly-ordered <dt> and <dd> groups, <script>, <template> or <div> elements\n   - **Selector:** `.work-time > dl`\n10. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.logo`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Abans_Enterprises_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Abans_Enterprises_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Abans_Enterprises_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_141236_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Abans_Enterprises_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_141236_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Abans_Enterprises_Limited/screenshots/Abans_Enterprises_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Abans Enterprises Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `27`  \n> **Verified Contact Email:** `aban@aban.net`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `aban@aban.net` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **27 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `16` | Serious: `11` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 12 violations\n- 🎨 **Color Contrast Failures:** 4 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (12 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (4 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Abans Enterprises Limited\n- **Resolved URL:** [https://aban.net](https://aban.net)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `aban@aban.net` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `aban@aban.net` | **Status:** `Verified` | **Source Page:** https://aban.net\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `.accordion-navigation.wpfs[_ngcontent-qva-c60=\"\"]:nth-child(1) > a[_ngcontent-qva-c60=\"\"]`\n2. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `.accordion-navigation.wpfs[_ngcontent-qva-c60=\"\"]:nth-child(2) > a[_ngcontent-qva-c60=\"\"]`\n3. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `.accordion-navigation.wpfs[_ngcontent-qva-c60=\"\"]:nth-child(3) > a[_ngcontent-qva-c60=\"\"]`\n4. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `.accordion-navigation.wpfs[_ngcontent-qva-c60=\"\"]:nth-child(4) > a[_ngcontent-qva-c60=\"\"]`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `dt:nth-child(2)`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.info[_ngcontent-qva-c71=\"\"] > strong`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[ng-reflect-router-link=\"/disclaimer\"]`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.medium-12 > strong`\n9. **`[other] definition-list`** (SERIOUS)\n   - **Help:** <dl> elements must only directly contain properly-ordered <dt> and <dd> groups, <script>, <template> or <div> elements\n   - **Selector:** `.work-time > dl`\n10. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.logo`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Abans_Enterprises_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Abans_Enterprises_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Abans_Enterprises_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 27. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-10T14:16:05.416Z"
+}

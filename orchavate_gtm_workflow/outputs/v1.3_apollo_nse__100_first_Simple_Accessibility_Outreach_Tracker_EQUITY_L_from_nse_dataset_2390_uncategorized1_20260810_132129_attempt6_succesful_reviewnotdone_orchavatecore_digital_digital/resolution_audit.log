@@ -1,1 +1,3 @@
 [2026-08-10T13:21:31.418Z] COMPANY: "20 Microns Limited" | QUERIES: ["20 Microns Limited" official website] | CANDIDATES: [] | SELECTED: "" | CONFIDENCE: FAILED | TIME: 1708ms | REASON: Resolved via self-search
+[2026-08-10T14:22:28.270Z] COMPANY: "21st Century Management Services Limited" | QUERIES: ["21st Century Management Services Limited" official website] | CANDIDATES: [] | SELECTED: "" | CONFIDENCE: FAILED | TIME: 3656850ms | REASON: Resolved via self-search
+[2026-08-10T14:22:52.335Z] COMPANY: "360 ONE WAM LIMITED" | QUERIES: ["360 ONE WAM LIMITED" official website] | CANDIDATES: [] | SELECTED: "" | CONFIDENCE: FAILED | TIME: 24002ms | REASON: Resolved via self-search

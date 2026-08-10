@@ -1,0 +1,48 @@
+{
+  "company": {
+    "srNo": 18,
+    "companyName": "Aarti Drugs Limited",
+    "readymadeWebsite": "aartidrugs.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "N/A",
+    "emailId": "None",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://aartidrugs.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://aartidrugs.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "N/A",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Not Found"
+    },
+    "regardingAccessibility": [],
+    "overallStatus": "Not Found",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": true,
+    "signatureMatched": "cloudflare"
+  },
+  "pages": [],
+  "status": "Blocked (Bot Protection)",
+  "totalViolations": 0,
+  "altTextViolations": 0,
+  "contrastViolations": 0,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 0,
+  "deliverables": {},
+  "remarks": "Blocked by Bot Protection (cloudflare)",
+  "timestamp": "2026-08-10T14:15:01.254Z"
+}

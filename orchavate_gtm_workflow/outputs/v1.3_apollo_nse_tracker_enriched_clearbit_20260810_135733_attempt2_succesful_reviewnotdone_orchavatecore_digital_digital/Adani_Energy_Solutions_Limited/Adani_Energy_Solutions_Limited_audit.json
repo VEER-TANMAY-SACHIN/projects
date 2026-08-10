@@ -1,0 +1,910 @@
+{
+  "company": {
+    "srNo": 49,
+    "companyName": "Adani Energy Solutions Limited",
+    "readymadeWebsite": "https://adanienergysolutions.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (Adani Energy Solutions Limited)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://adanienergysolutions.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://adanienergysolutions.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "info@adanienergysolutions.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Unverified - guessed pattern"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "info@adanienergysolutions.com",
+        "type": "general",
+        "label": "General Contact Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      },
+      {
+        "address": "contact@adanienergysolutions.com",
+        "type": "compliance_grievance",
+        "label": "Investor Grievance Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      }
+    ],
+    "overallStatus": "Unverified - guessed pattern",
+    "evidenceScreenshots": [
+      "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/Adani_Energy_Solutions_Limited/screenshots/Adani_Energy_Solutions_Limited_EmailEvidence_NotFound_ContactPage.png"
+    ]
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://adanienergysolutions.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "aria-required-children",
+          "impact": "critical",
+          "description": "Ensure elements with an ARIA role that require child roles contain them",
+          "help": "Certain ARIA roles must contain particular children",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-required-children?application=playwright",
+          "category": "other",
+          "selector": ".nav",
+          "html": "<ul class=\"nav nav-tabs nav-border-bottom mt-5\" role=\"tablist\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-required-parent",
+          "impact": "critical",
+          "description": "Ensure elements with an ARIA role that require parent roles are contained by them",
+          "help": "Certain ARIA roles must be contained by particular parents",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-required-parent?application=playwright",
+          "category": "other",
+          "selector": "#tab-1",
+          "html": "<a class=\"nav-link active\" id=\"tab-1\" data-bs-toggle=\"tab\" href=\"#cont-tab-1\" role=\"tab\" aria-controls=\"tab1\" aria-selected=\"true\">Transmission</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-required-parent",
+          "impact": "critical",
+          "description": "Ensure elements with an ARIA role that require parent roles are contained by them",
+          "help": "Certain ARIA roles must be contained by particular parents",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-required-parent?application=playwright",
+          "category": "other",
+          "selector": "#tab-2",
+          "html": "<a class=\"nav-link\" id=\"tab-2\" data-bs-toggle=\"tab\" href=\"#cont-tab-2\" role=\"tab\" aria-controls=\"tab2\" aria-selected=\"false\">Distribution</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "description": "Ensure all ARIA attributes have valid values",
+          "help": "ARIA attributes must conform to valid values",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-valid-attr-value?application=playwright",
+          "category": "other",
+          "selector": "#tab-1",
+          "html": "<a class=\"nav-link active\" id=\"tab-1\" data-bs-toggle=\"tab\" href=\"#cont-tab-1\" role=\"tab\" aria-controls=\"tab1\" aria-selected=\"true\">Transmission</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".bootstrape-dot[role=\"button\"]:nth-child(1)",
+          "html": "<button role=\"button\" class=\"bootstrape-dot active\"><span></span></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".bootstrape-dot.active[role=\"button\"]",
+          "html": "<button role=\"button\" class=\"bootstrape-dot\"><span></span></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".bootstrape-dot[role=\"button\"]:nth-child(3)",
+          "html": "<button role=\"button\" class=\"bootstrape-dot\"><span></span></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".case-study > .bootstrape-nav > .bootstrape-prev[role=\"presentation\"][type=\"button\"]",
+          "html": "<button type=\"button\" role=\"presentation\" class=\"bootstrape-prev\"><i class=\"fa fa-chevron-left\"></i></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".case-study > .bootstrape-nav > .bootstrape-next[role=\"presentation\"][type=\"button\"]",
+          "html": "<button type=\"button\" role=\"presentation\" class=\"bootstrape-next\"><i class=\"fa fa-chevron-right\"></i></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": "#other-ventures > .bootstrape-nav > .bootstrape-prev[role=\"presentation\"][type=\"button\"]",
+          "html": "<button type=\"button\" role=\"presentation\" class=\"bootstrape-prev\"><i class=\"fa fa-chevron-left\"></i></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": "#other-ventures > .bootstrape-nav > .bootstrape-next[role=\"presentation\"][type=\"button\"]",
+          "html": "<button type=\"button\" role=\"presentation\" class=\"bootstrape-next\"><i class=\"fa fa-chevron-right\"></i></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".footerPanel2.row:nth-child(1) > .ft-submenu.col-6.col-lg-3 > h5",
+          "html": "<h5>Businesses</h5>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".footerPanel2.row:nth-child(1) > .col-6.col-lg-3.d-lg-block:nth-child(2) > h5",
+          "html": "<h5>Sustainability</h5>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".h-blocks-parent > .bg-images > img[loading=\"lazy\"]",
+          "html": "<img src=\"-/media/DFC11D8F99FA4F7F86D6C01D41136C75.ashx\" loading=\"lazy\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "a[href$=\"Environment\"] > .h-blocks.p-4 > .bg-images > .img-fluid[loading=\"lazy\"]",
+          "html": "<img src=\"-/media/1354C5CC55AE4F909F9ED6F027C6B977.ashx\" class=\"img-fluid\" loading=\"lazy\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "a[href$=\"Communities\"] > .h-blocks.p-4 > .bg-images > .img-fluid[loading=\"lazy\"]",
+          "html": "<img src=\"-/media/1B39B8FF40ED4313857254269B3B2462.ashx\" class=\"img-fluid\" loading=\"lazy\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".col-lg-4:nth-child(3) > a > .h-blocks.p-4 > .bg-images > .img-fluid[loading=\"lazy\"]",
+          "html": "<img src=\"-/media/11011BEF5DC74A32A89C44D5CBD3BCA0.ashx\" class=\"img-fluid\" loading=\"lazy\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".col-md-6:nth-child(2) > .w-100.img-fluid.h-100",
+          "html": "<img src=\"-/media/A6E3C1B03B7448299187007DFB89B3F7\" class=\"h-100 img-fluid w-100\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "a[href$=\"adani.com/\"][target=\"_blank\"] > .img-fluid[loading=\"lazy\"]",
+          "html": "<img src=\"%2F-%2Fmedia%2F41F1F040918C46E3BCACE28BD97FA71C.ashx\" class=\"img-fluid\" loading=\"lazy\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[href$=\"#firstsection\"]",
+          "html": "<a href=\"#firstsection\">\n\t\t\t\t<span class=\"blink blink-infinite blink-1\"></span><span class=\"blink blink-infinite blink-2\"></span><span class=\"blink blink-infinite blink-3\"></span><span class=\"blink blink-infinite blink-4\"></span><span class=\"blink blink-infinite blink-5\"></span></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.bootstrape-item:nth-child(1) > .zoomin.item > a[href$=\"adaniwilmar.com/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adaniwilmar.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/default-website/adani-wilmar.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.bootstrape-item:nth-child(2) > .zoomin.item > a[rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adanibunkering.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/default-website/adani-bunker.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.bootstrape-item:nth-child(3) > .zoomin.item > a[rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adaniagrilogistics.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/default-website/adani-agri-logistics.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.bootstrape-item:nth-child(4) > .zoomin.item > a[href$=\"farmpik.com/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.farmpik.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/default-website/farmpik.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.bootstrape-item:nth-child(5) > .zoomin.item > a[href$=\"adanicapital.in/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adanicapital.in/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/default-website/adani-capital.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.bootstrape-item:nth-child(6) > .zoomin.item > a[href$=\"adanihousing.in/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adanihousing.in/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/default-website/adanihousing.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.bootstrape-item:nth-child(7) > .zoomin.item > a[href$=\"aii.ac.in/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.aii.ac.in/\" target=\"_blank\"><img alt=\"\" height=\"119\" width=\"126\" src=\"/-/media/default-website/all.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.bootstrape-item:nth-child(8) > .zoomin.item > a[rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adanividyamandir.org/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/default-website/adani-vidyamandir.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.bootstrape-item:nth-child(9) > .zoomin.item > a[rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adaniinternationalschool.org/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/project/power/group-of-website/ais.jpg\" class=\"mb-2\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.bootstrape-item:nth-child(10) > .zoomin.item > a[rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adanihospitals.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/default-website/adani-hospital.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.bootstrape-item:nth-child(11) > .zoomin.item > a[href$=\"aptri.org/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.aptri.org/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/default-website/aptri.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.bootstrape-item:nth-child(12) > .zoomin.item > a[href$=\"adanidefence.com/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adanidefence.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/default-website/adani-defence.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.bootstrape-item:nth-child(13) > .zoomin.item > a[href$=\"aimsl.in/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.aimsl.in/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/default-website/aimsl.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".active.bootstrape-item:nth-child(14) > .zoomin.item > a[href$=\"adanione.com/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adanione.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/project/adani/home/adanione.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".active.bootstrape-item:nth-child(15) > .zoomin.item > a[rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adanifoundation.org/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/default-website/adani-foundation1_219247847b77693ac3f28a52853c9615.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".active.bootstrape-item:nth-child(16) > .zoomin.item > a[href$=\"adani.com/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adani.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/default-website/adani_group.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".active.bootstrape-item:nth-child(17) > .zoomin.item > a[href$=\"adaniports.com/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adaniports.com/\" target=\"_blank\"><img alt=\"\" height=\"119\" width=\"126\" src=\"/-/media/default-website/port.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".active.bootstrape-item:nth-child(18) > .zoomin.item > a[rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adanienterprises.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/default-website/adani-enterprises.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".active.bootstrape-item:nth-child(19) > .zoomin.item > a[rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adanigreenenergy.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/default-website/adani-green-energy.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".active.bootstrape-item:nth-child(20) > .zoomin.item > a[href$=\"adanigas.com/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adanigas.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/default-website/adani-gas.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bootstrape-item:nth-child(21) > .zoomin.item > a[href$=\"adanipower.com/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adanipower.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/default-website/adani-power.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bootstrape-item:nth-child(22) > .zoomin.item > a[rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adanielectricity.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/default-website/adani-electricity.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bootstrape-item:nth-child(23) > .zoomin.item > a[href$=\"adanisolar.com/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://adanisolar.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/default-website/adani-solar.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bootstrape-item:nth-child(24) > .zoomin.item > a[rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adaniaustralia.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/default-website/adani-australia.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bootstrape-item:nth-child(25) > .zoomin.item > a[href$=\"www.adanirealty.com\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adanirealty.com\" target=\"_blank\"><img alt=\"\" src=\"/-/media/default-website/realty.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bootstrape-item:nth-child(26) > .zoomin.item > a[href$=\"adaniwilmar.com/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adaniwilmar.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/default-website/adani-wilmar.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bootstrape-item:nth-child(27) > .zoomin.item > a[rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adanibunkering.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/default-website/adani-bunker.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bootstrape-item:nth-child(28) > .zoomin.item > a[rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adaniagrilogistics.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/default-website/adani-agri-logistics.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bootstrape-item:nth-child(29) > .zoomin.item > a[href$=\"farmpik.com/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.farmpik.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/default-website/farmpik.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bootstrape-item:nth-child(30) > .zoomin.item > a[href$=\"adanicapital.in/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adanicapital.in/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/default-website/adani-capital.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bootstrape-item:nth-child(31) > .zoomin.item > a[href$=\"adanihousing.in/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adanihousing.in/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/default-website/adanihousing.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bootstrape-item:nth-child(32) > .zoomin.item > a[href$=\"aii.ac.in/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.aii.ac.in/\" target=\"_blank\"><img alt=\"\" height=\"119\" width=\"126\" src=\"/-/media/default-website/all.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bootstrape-item:nth-child(33) > .zoomin.item > a[rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adanividyamandir.org/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/default-website/adani-vidyamandir.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bootstrape-item:nth-child(34) > .zoomin.item > a[rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adaniinternationalschool.org/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/project/power/group-of-website/ais.jpg\" class=\"mb-2\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bootstrape-item:nth-child(35) > .zoomin.item > a[rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adanihospitals.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/default-website/adani-hospital.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bootstrape-item:nth-child(36) > .zoomin.item > a[href$=\"aptri.org/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.aptri.org/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/default-website/aptri.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bootstrape-item:nth-child(37) > .zoomin.item > a[href$=\"adanidefence.com/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adanidefence.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/default-website/adani-defence.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bootstrape-item:nth-child(38) > .zoomin.item > a[href$=\"aimsl.in/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.aimsl.in/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/default-website/aimsl.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.bootstrape-item:nth-child(39) > .zoomin.item > a[href$=\"adanione.com/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adanione.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/project/adani/home/adanione.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.bootstrape-item:nth-child(40) > .zoomin.item > a[rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adanifoundation.org/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/default-website/adani-foundation1_219247847b77693ac3f28a52853c9615.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.bootstrape-item:nth-child(41) > .zoomin.item > a[href$=\"adani.com/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adani.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/default-website/adani_group.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.bootstrape-item:nth-child(42) > .zoomin.item > a[href$=\"adaniports.com/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adaniports.com/\" target=\"_blank\"><img alt=\"\" height=\"119\" width=\"126\" src=\"/-/media/default-website/port.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.bootstrape-item:nth-child(43) > .zoomin.item > a[rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adanienterprises.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/default-website/adani-enterprises.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.bootstrape-item:nth-child(44) > .zoomin.item > a[rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adanigreenenergy.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/default-website/adani-green-energy.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.bootstrape-item:nth-child(45) > .zoomin.item > a[href$=\"adanigas.com/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adanigas.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/default-website/adani-gas.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.bootstrape-item:nth-child(46) > .zoomin.item > a[href$=\"adanipower.com/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adanipower.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/default-website/adani-power.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.bootstrape-item:nth-child(47) > .zoomin.item > a[rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adanielectricity.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/default-website/adani-electricity.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.bootstrape-item:nth-child(48) > .zoomin.item > a[href$=\"adanisolar.com/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://adanisolar.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/default-website/adani-solar.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.bootstrape-item:nth-child(49) > .zoomin.item > a[rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adaniaustralia.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/default-website/adani-australia.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.bootstrape-item:nth-child(50) > .zoomin.item > a[href$=\"www.adanirealty.com\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adanirealty.com\" target=\"_blank\"><img alt=\"\" src=\"/-/media/default-website/realty.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.bootstrape-item:nth-child(51) > .zoomin.item > a[href$=\"adaniwilmar.com/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adaniwilmar.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/default-website/adani-wilmar.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".py-4 > a[href$=\"adani.com/\"][target=\"_blank\"]",
+          "html": "<a href=\"https://www.adani.com/\" target=\"_blank\"><img src=\"%2F-%2Fmedia%2F41F1F040918C46E3BCACE28BD97FA71C.ashx\" class=\"img-fluid\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".nav > .nav-item:nth-child(1)",
+          "html": "<li class=\"nav-item\">\n                <a class=\"nav-link active\" id=\"tab-1\" data-bs-toggle=\"tab\" href=\"#cont-tab-1\" role=\"tab\" aria-controls=\"tab1\" aria-selected=\"true\">Transmission</a>\n            </li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".nav > .nav-item:nth-child(2)",
+          "html": "<li class=\"nav-item\">\n                <a class=\"nav-link\" id=\"tab-2\" data-bs-toggle=\"tab\" href=\"#cont-tab-2\" role=\"tab\" aria-controls=\"tab2\" aria-selected=\"false\">Distribution</a>\n            </li>",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/Adani_Energy_Solutions_Limited/screenshots/Adani_Energy_Solutions_Limited_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/Adani_Energy_Solutions_Limited/screenshots/Adani_Energy_Solutions_Limited_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/Adani_Energy_Solutions_Limited/screenshots/Adani_Energy_Solutions_Limited_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 74,
+  "altTextViolations": 6,
+  "contrastViolations": 2,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/Adani_Energy_Solutions_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/Adani_Energy_Solutions_Limited/screenshots/Adani_Energy_Solutions_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Adani Energy Solutions Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `74`  \n> **Verified Contact Email:** `info@adanienergysolutions.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@adanienergysolutions.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **74 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `17` | Serious: `57` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 6 violations\n- 🎨 **Color Contrast Failures:** 2 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (6 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (2 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Adani Energy Solutions Limited\n- **Resolved URL:** [https://adanienergysolutions.com](https://adanienergysolutions.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@adanienergysolutions.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@adanienergysolutions.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@adanienergysolutions.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-required-children`** (CRITICAL)\n   - **Help:** Certain ARIA roles must contain particular children\n   - **Selector:** `.nav`\n2. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `#tab-1`\n3. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `#tab-2`\n4. **`[other] aria-valid-attr-value`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid values\n   - **Selector:** `#tab-1`\n5. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.bootstrape-dot[role=\"button\"]:nth-child(1)`\n6. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.bootstrape-dot.active[role=\"button\"]`\n7. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.bootstrape-dot[role=\"button\"]:nth-child(3)`\n8. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.case-study > .bootstrape-nav > .bootstrape-prev[role=\"presentation\"][type=\"button\"]`\n9. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.case-study > .bootstrape-nav > .bootstrape-next[role=\"presentation\"][type=\"button\"]`\n10. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `#other-ventures > .bootstrape-nav > .bootstrape-prev[role=\"presentation\"][type=\"button\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Adani_Energy_Solutions_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Adani_Energy_Solutions_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Adani_Energy_Solutions_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/Adani_Energy_Solutions_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/Adani_Energy_Solutions_Limited/screenshots/Adani_Energy_Solutions_Limited_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Adani Energy Solutions Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `74`  \n> **Verified Contact Email:** `info@adanienergysolutions.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@adanienergysolutions.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **74 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `17` | Serious: `57` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 6 violations\n- 🎨 **Color Contrast Failures:** 2 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (6 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (2 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Adani Energy Solutions Limited\n- **Resolved URL:** [https://adanienergysolutions.com](https://adanienergysolutions.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@adanienergysolutions.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@adanienergysolutions.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@adanienergysolutions.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-required-children`** (CRITICAL)\n   - **Help:** Certain ARIA roles must contain particular children\n   - **Selector:** `.nav`\n2. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `#tab-1`\n3. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `#tab-2`\n4. **`[other] aria-valid-attr-value`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid values\n   - **Selector:** `#tab-1`\n5. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.bootstrape-dot[role=\"button\"]:nth-child(1)`\n6. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.bootstrape-dot.active[role=\"button\"]`\n7. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.bootstrape-dot[role=\"button\"]:nth-child(3)`\n8. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.case-study > .bootstrape-nav > .bootstrape-prev[role=\"presentation\"][type=\"button\"]`\n9. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.case-study > .bootstrape-nav > .bootstrape-next[role=\"presentation\"][type=\"button\"]`\n10. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `#other-ventures > .bootstrape-nav > .bootstrape-prev[role=\"presentation\"][type=\"button\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Adani_Energy_Solutions_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Adani_Energy_Solutions_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Adani_Energy_Solutions_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/Adani_Energy_Solutions_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/Adani_Energy_Solutions_Limited/screenshots/Adani_Energy_Solutions_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Adani Energy Solutions Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `74`  \n> **Verified Contact Email:** `info@adanienergysolutions.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@adanienergysolutions.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **74 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `17` | Serious: `57` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 6 violations\n- 🎨 **Color Contrast Failures:** 2 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (6 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (2 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Adani Energy Solutions Limited\n- **Resolved URL:** [https://adanienergysolutions.com](https://adanienergysolutions.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@adanienergysolutions.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@adanienergysolutions.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@adanienergysolutions.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-required-children`** (CRITICAL)\n   - **Help:** Certain ARIA roles must contain particular children\n   - **Selector:** `.nav`\n2. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `#tab-1`\n3. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `#tab-2`\n4. **`[other] aria-valid-attr-value`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid values\n   - **Selector:** `#tab-1`\n5. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.bootstrape-dot[role=\"button\"]:nth-child(1)`\n6. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.bootstrape-dot.active[role=\"button\"]`\n7. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.bootstrape-dot[role=\"button\"]:nth-child(3)`\n8. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.case-study > .bootstrape-nav > .bootstrape-prev[role=\"presentation\"][type=\"button\"]`\n9. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.case-study > .bootstrape-nav > .bootstrape-next[role=\"presentation\"][type=\"button\"]`\n10. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `#other-ventures > .bootstrape-nav > .bootstrape-prev[role=\"presentation\"][type=\"button\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Adani_Energy_Solutions_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Adani_Energy_Solutions_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Adani_Energy_Solutions_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 74. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-10T14:08:50.845Z"
+}

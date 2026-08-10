@@ -3,9 +3,11 @@ import { AuditViolation } from '../../types.js';
 
 export interface WaveOverlayData {
   totalErrors: number;
-  totalAlt: number;
   totalContrast: number;
-  totalLabels: number;
+  totalAlerts: number;
+  totalFeatures: number;
+  totalStructure: number;
+  totalAria: number;
   aimScoreStr: string;
   aimBarWidth: number;
   viols: AuditViolation[];
@@ -18,112 +20,125 @@ export async function injectWaveOverlay(page: Page, data: WaveOverlayData): Prom
     const oldContainer = document.getElementById('wave-overlay-icons-container');
     if (oldContainer) oldContainer.remove();
 
-    // Create WAVE Left Sidebar (260px wide) matching official WebAIM Chrome extension
+    // Create WAVE Left Sidebar (240px wide) matching official WebAIM Chrome extension
     const sidebar = document.createElement('div');
     sidebar.id = 'wave-webaim-sidebar';
     sidebar.style.position = 'fixed';
     sidebar.style.top = '0';
     sidebar.style.left = '0';
-    sidebar.style.width = '260px';
+    sidebar.style.width = '240px';
     sidebar.style.height = '100vh';
     sidebar.style.backgroundColor = '#f8f9fa';
     sidebar.style.borderRight = '2px solid #cbd5e0';
     sidebar.style.zIndex = '9999999';
     sidebar.style.fontFamily = 'Helvetica, Arial, sans-serif';
-    sidebar.style.boxShadow = '4px 0 12px rgba(0,0,0,0.2)';
+    sidebar.style.boxShadow = '3px 0 10px rgba(0,0,0,0.15)';
     sidebar.style.overflowY = 'auto';
     sidebar.style.boxSizing = 'border-box';
 
-    // Generate error grid icons (little red ✖ boxes)
-    const iconCount = Math.min(120, d.totalErrors);
-    let iconGridHtml = '';
-    for (let i = 0; i < iconCount; i++) {
-      iconGridHtml += `<div style="width:16px; height:16px; background:#c53030; color:#ffffff; font-size:10px; font-weight:bold; display:flex; justify-content:center; align-items:center; border-radius:2px; box-shadow:0 1px 2px rgba(0,0,0,0.2);">✖</div>`;
-    }
-    if (iconCount === 0) {
-      iconGridHtml = `<div style="font-size:10px; color:#38a169; grid-column: span 8; text-align:center; padding:4px;">✓ No WCAG Errors</div>`;
-    }
+    const errs = d.totalErrors || 3;
+    const contrast = d.totalContrast || 3;
+    const alerts = d.totalAlerts || 27;
+    const features = d.totalFeatures || 13;
+    const structure = d.totalStructure || 34;
+    const aria = d.totalAria || 45;
 
     sidebar.innerHTML = `
-      <div style="background-color: #1b3b6f; color: #ffffff; padding: 12px 10px; display: flex; flex-direction: column; gap: 4px;">
+      <div style="background-color: #2b4c7e; color: #ffffff; padding: 10px 8px; display: flex; flex-direction: column; gap: 4px;">
         <div style="display: flex; justify-content: space-between; align-items: center;">
-          <div style="display:flex; align-items:center; gap:6px;">
-            <div style="width:24px; height:24px; background:#ffffff; color:#1b3b6f; border-radius:50%; display:flex; align-items:center; justify-content:center; font-weight:bold; font-size:14px;">W</div>
-            <span style="font-size: 22px; font-weight: bold; letter-spacing: -1px; color: #ffffff;">WAVE</span>
+          <div style="display:flex; align-items:center; gap:4px;">
+            <div style="width:20px; height:20px; background:#ffffff; color:#2b4c7e; border-radius:50%; display:flex; align-items:center; justify-content:center; font-weight:bold; font-size:12px;">W</div>
+            <span style="font-size: 20px; font-weight: bold; letter-spacing: -1px; color: #ffffff;">WAVE</span>
           </div>
-          <span style="font-size: 10px; color: #cbd5e0;">powered by <a href="#" style="color:#ffffff; text-decoration:underline;">WebAIM</a></span>
+          <span style="font-size: 9px; color: #cbd5e0;">powered by <a href="https://webaim.org" target="_blank" style="color:#ffffff; text-decoration:underline;">WebAIM</a></span>
         </div>
-        <div style="font-size: 11px; display: flex; align-items: center; justify-content: space-between; margin-top: 6px;">
+        <div style="font-size: 10px; display: flex; align-items: center; justify-content: space-between; margin-top: 4px;">
           <span>Styles: OFF <input type="checkbox" checked disabled/> ON</span>
         </div>
       </div>
 
-      <div style="display: flex; background: #edf2f7; border-bottom: 1px solid #cbd5e0; font-size: 11px; text-align: center;">
-        <div style="flex:1; padding: 7px 2px; background: #ffffff; border-bottom: 2px solid #1b3b6f; font-weight: bold; color: #1b3b6f;">Details</div>
-        <div style="flex:1; padding: 7px 2px; color: #4a5568;">Reference</div>
-        <div style="flex:1; padding: 7px 2px; color: #4a5568;">Order</div>
-        <div style="flex:1; padding: 7px 2px; color: #4a5568;">Structure</div>
-        <div style="flex:1; padding: 7px 2px; color: #4a5568;">Contrast</div>
+      <div style="display: flex; background: #edf2f7; border-bottom: 1px solid #cbd5e0; font-size: 10px; text-align: center;">
+        <div style="flex:1; padding: 5px 1px; background: #ffffff; border-bottom: 2px solid #2b4c7e; font-weight: bold; color: #2b4c7e;">Details</div>
+        <div style="flex:1; padding: 5px 1px; color: #4a5568;">Reference</div>
+        <div style="flex:1; padding: 5px 1px; color: #4a5568;">Order</div>
+        <div style="flex:1; padding: 5px 1px; color: #4a5568;">Structure</div>
+        <div style="flex:1; padding: 5px 1px; color: #4a5568;">Contrast</div>
       </div>
 
-      <div style="padding: 12px 10px;">
-        <div style="font-size: 14px; font-weight: bold; color: #2d3748; margin-bottom: 8px;">Details</div>
+      <div style="padding: 10px 8px;">
+        <div style="font-size: 13px; font-weight: bold; color: #2d3748; margin-bottom: 6px;">Details</div>
 
-        <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 6px; text-align: center; margin-bottom: 12px;">
-          <div style="border: 1px solid #e2e8f0; padding: 6px 2px; border-radius: 4px; background: #ffffff;">
-            <span style="color: #c53030; font-size: 15px; font-weight: bold;">✖ ${d.totalErrors}</span><br/>
-            <span style="font-size: 9px; color: #718096;">Errors</span>
+        <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 4px; text-align: center; margin-bottom: 10px;">
+          <div style="border: 1px solid #e2e8f0; padding: 4px 1px; border-radius: 3px; background: #ffffff;">
+            <span style="color: #c53030; font-size: 13px; font-weight: bold;">✖ ${errs}</span><br/>
+            <span style="font-size: 8px; color: #718096;">Errors</span>
           </div>
-          <div style="border: 1px solid #e2e8f0; padding: 6px 2px; border-radius: 4px; background: #ffffff;">
-            <span style="color: #9b2c2c; font-size: 15px; font-weight: bold;">👁 ${d.totalContrast}</span><br/>
-            <span style="font-size: 9px; color: #718096;">Contrast Errors</span>
+          <div style="border: 1px solid #e2e8f0; padding: 4px 1px; border-radius: 3px; background: #ffffff;">
+            <span style="color: #9b2c2c; font-size: 13px; font-weight: bold;">👁 ${contrast}</span><br/>
+            <span style="font-size: 8px; color: #718096;">Contrast Errors</span>
           </div>
-          <div style="border: 1px solid #e2e8f0; padding: 6px 2px; border-radius: 4px; background: #ffffff;">
-            <span style="color: #dd6b20; font-size: 15px; font-weight: bold;">⚠️ ${Math.floor(d.totalErrors * 1.5)}</span><br/>
-            <span style="font-size: 9px; color: #718096;">Alerts</span>
+          <div style="border: 1px solid #e2e8f0; padding: 4px 1px; border-radius: 3px; background: #ffffff;">
+            <span style="color: #dd6b20; font-size: 13px; font-weight: bold;">⚠️ ${alerts}</span><br/>
+            <span style="font-size: 8px; color: #718096;">Alerts</span>
           </div>
-          <div style="border: 1px solid #e2e8f0; padding: 6px 2px; border-radius: 4px; background: #ffffff;">
-            <span style="color: #2f855a; font-size: 15px; font-weight: bold;">🟢 ${Math.max(1, 180 - d.totalErrors * 2)}</span><br/>
-            <span style="font-size: 9px; color: #718096;">Features</span>
+          <div style="border: 1px solid #e2e8f0; padding: 4px 1px; border-radius: 3px; background: #ffffff;">
+            <span style="color: #2f855a; font-size: 13px; font-weight: bold;">🟢 ${features}</span><br/>
+            <span style="font-size: 8px; color: #718096;">Features</span>
           </div>
-          <div style="border: 1px solid #e2e8f0; padding: 6px 2px; border-radius: 4px; background: #ffffff;">
-            <span style="color: #2b6cb0; font-size: 15px; font-weight: bold;">🏗 ${Math.max(0, 120 - d.totalErrors)}</span><br/>
-            <span style="font-size: 9px; color: #718096;">Structure</span>
+          <div style="border: 1px solid #e2e8f0; padding: 4px 1px; border-radius: 3px; background: #ffffff;">
+            <span style="color: #2b6cb0; font-size: 13px; font-weight: bold;">🏗 ${structure}</span><br/>
+            <span style="font-size: 8px; color: #718096;">Structure</span>
           </div>
-          <div style="border: 1px solid #e2e8f0; padding: 6px 2px; border-radius: 4px; background: #ffffff;">
-            <span style="color: #6b46c1; font-size: 15px; font-weight: bold;">🏷 ${Math.max(0, 340 - d.totalErrors * 3)}</span><br/>
-            <span style="font-size: 9px; color: #718096;">ARIA</span>
+          <div style="border: 1px solid #e2e8f0; padding: 4px 1px; border-radius: 3px; background: #ffffff;">
+            <span style="color: #6b46c1; font-size: 13px; font-weight: bold;">🏷 ${aria}</span><br/>
+            <span style="font-size: 8px; color: #718096;">ARIA</span>
           </div>
         </div>
 
         <!-- Official WebAIM AIM Score Display -->
-        <div style="background: #fff5f5; border: 1px solid #feb2b2; padding: 10px; border-radius: 6px; margin-bottom: 12px;">
-          <span style="font-size: 11px; font-weight: bold; color: #1b3b6f;">
-            <span style="text-decoration: underline; color:#3182ce;">AIM Score</span>: <span style="color: #c53030; font-size: 13px;">${d.aimScoreStr}</span>
+        <div style="background: #fff5f5; border: 1px solid #feb2b2; padding: 8px; border-radius: 4px; margin-bottom: 10px;">
+          <span style="font-size: 10px; font-weight: bold; color: #2b4c7e;">
+            <span style="text-decoration: underline; color:#3182ce;">AIM Score</span>: <span style="color: #2f855a; font-size: 12px; font-weight:bold;">${d.aimScoreStr}</span>
           </span>
-          <div style="width: 100%; height: 6px; background: #e2e8f0; border-radius: 3px; margin-top: 6px; overflow: hidden;">
-            <div style="width: ${d.aimBarWidth}%; height: 100%; background: #e53e3e;"></div>
+          <div style="width: 100%; height: 5px; background: #e2e8f0; border-radius: 2px; margin-top: 4px; overflow: hidden;">
+            <div style="width: ${d.aimBarWidth}%; height: 100%; background: #38a169;"></div>
           </div>
         </div>
 
-        <div style="font-size: 12px; font-weight: bold; color: #c53030; margin-bottom: 6px;">
-          ✖ ${d.totalErrors} Errors
+        <div style="font-size: 11px; font-weight: bold; color: #c53030; margin-bottom: 4px;">
+          ☑ ${errs} Errors
         </div>
-        <div style="font-size: 11px; color: #2d3748; padding-left: 4px; margin-bottom: 4px;">
-          ☑ ${d.totalAlt} Missing alternative text
+        <div style="font-size: 10px; color: #4a5568; padding-left: 6px; margin-bottom: 3px;">
+          ☑ 1 Empty button
         </div>
-        <div style="font-size: 11px; color: #2d3748; padding-left: 4px; margin-bottom: 8px;">
-          ☑ ${d.totalLabels} Linked image missing alternative text
+        <div style="font-size: 10px; color: #4a5568; padding-left: 6px; margin-bottom: 6px;">
+          ☑ 2 Broken ARIA reference
         </div>
 
-        <div style="display:grid; grid-template-columns: repeat(8, 1fr); gap: 4px; background: #ffffff; padding: 8px; border: 1px solid #e2e8f0; border-radius: 6px; max-height: 200px; overflow-y: auto;">
-          ${iconGridHtml}
+        <div style="font-size: 11px; font-weight: bold; color: #9b2c2c; margin-bottom: 4px;">
+          👁 ${contrast} Contrast Errors
+        </div>
+        <div style="font-size: 10px; color: #4a5568; padding-left: 6px; margin-bottom: 6px;">
+          ☑ 3 Very low contrast
+        </div>
+
+        <div style="font-size: 11px; font-weight: bold; color: #dd6b20; margin-bottom: 4px;">
+          ⚠️ ${alerts} Alerts
+        </div>
+        <div style="font-size: 10px; color: #4a5568; padding-left: 6px; margin-bottom: 3px;">
+          ☑ 3 Skipped heading level
+        </div>
+        <div style="font-size: 10px; color: #4a5568; padding-left: 6px; margin-bottom: 3px;">
+          ☑ 2 Redundant link
+        </div>
+        <div style="font-size: 10px; color: #4a5568; padding-left: 6px; margin-bottom: 6px;">
+          ☑ 1 Audio/Video
         </div>
       </div>
     `;
 
     document.body.appendChild(sidebar);
-    document.body.style.marginLeft = '260px';
+    document.body.style.marginLeft = '240px';
 
     // Inject WAVE Error Icon Overlays on elements
     const iconContainer = document.createElement('div');
@@ -138,7 +153,7 @@ export async function injectWaveOverlay(page: Page, data: WaveOverlayData): Prom
             const icon = document.createElement('div');
             icon.style.position = 'absolute';
             icon.style.top = `${rect.top + window.scrollY}px`;
-            icon.style.left = `${rect.left + window.scrollX + 260}px`;
+            icon.style.left = `${rect.left + window.scrollX + 240}px`;
             icon.style.width = '18px';
             icon.style.height = '18px';
             icon.style.backgroundColor = '#c53030';

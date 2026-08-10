@@ -1,0 +1,453 @@
+{
+  "company": {
+    "srNo": 50,
+    "companyName": "Adani Enterprises Limited",
+    "readymadeWebsite": "https://adanielectricity.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (Adani Enterprises Limited)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://adanielectricity.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://adanielectricity.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "helpdesk.mumbaielectricity@adani.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://adanielectricity.com"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "helpdesk.mumbaielectricity@adani.com",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://adanielectricity.com"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://adanielectricity.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".owl-dot.active[role=\"button\"]",
+          "html": "<button role=\"button\" class=\"owl-dot active\"><span></span></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".owl-dot[role=\"button\"]:nth-child(2)",
+          "html": "<button role=\"button\" class=\"owl-dot\"><span></span></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".owl-dot[role=\"button\"]:nth-child(3)",
+          "html": "<button role=\"button\" class=\"owl-dot\"><span></span></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".owl-dot[role=\"button\"]:nth-child(4)",
+          "html": "<button role=\"button\" class=\"owl-dot\"><span></span></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".owl-dot[role=\"button\"]:nth-child(5)",
+          "html": "<button role=\"button\" class=\"owl-dot\"><span></span></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".refreshButton",
+          "html": "<button class=\"refreshButton\"><img src=\"/electricity_assets/images/refresh1.png\"></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".carousel-4 > .justify-item.section-header-main > aside > .hide-on-small-only.carousel-nav > .owl-prev.disabled[role=\"presentation\"]",
+          "html": "<button type=\"button\" role=\"presentation\" class=\"owl-prev disabled\"><i class=\"i-arrow-l\"></i></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".carousel-4 > .justify-item.section-header-main > aside > .hide-on-small-only.carousel-nav > .owl-next[role=\"presentation\"][type=\"button\"]",
+          "html": "<button type=\"button\" role=\"presentation\" class=\"owl-next\"><i class=\"i-arrow-r\"></i></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".carousel-5 > .justify-item.section-header-main > aside > .hide-on-small-only.carousel-nav > .owl-prev.disabled[role=\"presentation\"]",
+          "html": "<button type=\"button\" role=\"presentation\" class=\"owl-prev disabled\"><i class=\"i-arrow-l\"></i></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".carousel-5 > .justify-item.section-header-main > aside > .hide-on-small-only.carousel-nav > .owl-next[role=\"presentation\"][type=\"button\"]",
+          "html": "<button type=\"button\" role=\"presentation\" class=\"owl-next\"><i class=\"i-arrow-r\"></i></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".carousel-2 > .spl-slider[data-items-desktop=\"2\"][total-count=\"2\"] > .owl-stage-outer > .owl-stage > .active.owl-item:nth-child(1) > .card > a[target=\"\"] > .card-content > .prod-type",
+          "html": "<div class=\"prod-type\">Mumbai Business</div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".carousel-2 > .spl-slider[data-items-desktop=\"2\"][total-count=\"2\"] > .owl-stage-outer > .owl-stage > .active.owl-item:nth-child(2) > .card > a[target=\"\"] > .card-content > .prod-type",
+          "html": "<div class=\"prod-type\">SEEPZ Business</div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[href$=\"rooftop-solar\"][target=\"\"] > .card-content > .prod-type",
+          "html": "<div class=\"prod-type\">RENEWABLES</div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[href$=\"green-tariff\"][target=\"\"] > .card-content > .prod-type",
+          "html": "<div class=\"prod-type\">RENEWABLES</div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".user-icon.icon-box > img",
+          "html": "<img class=\"\" src=\"/-/media/ElectricityFeature/ElectricityNew/LoginRegisterImages/login.svg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".active.owl-item > .no-link-banner[data-gaeventlabel=\"\"][data-gaevent=\"banner_click\"] > .card > .crousel_background_image",
+          "html": "<img src=\"/-/media/Project/ElectricityNew/HeroBanner/Mansoon-Banner/Web-Banner/1247---Monsoon26_Web-Banner_-2362x984px-1.png\" class=\"crousel_background_image \">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".owl-item:nth-child(5) > .no-link-banner[data-gaeventlabel=\"\"][data-gaevent=\"banner_click\"] > .card > .crousel_background_image",
+          "html": "<img src=\"/-/media/Project/ElectricityNew/HeroBanner/BHIMOffer-BG.jpg\" class=\"crousel_background_image \">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".owl-item:nth-child(5) > .no-link-banner[data-gaeventlabel=\"\"][data-gaevent=\"banner_click\"] > .card > .ev-hero-desc > .desknpciBanner > div:nth-child(2) > img",
+          "html": "<img class=\"\" src=\"/-/media/Project/ElectricityNew/HeroBanner/BHIMOffer-Web.png\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".owl-item:nth-child(6) > a[data-gaeventlabel=\"For a Greener Earth\"] > .card > .crousel_background_image",
+          "html": "<img src=\"/-/media/Project/ElectricityNew/HeroBanner/banner6.png\" class=\"crousel_background_image \">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".owl-item:nth-child(7) > a[data-gaeventlabel=\"EV Charger Setup\"] > .card > .crousel_background_image",
+          "html": "<img src=\"/-/media/Project/ElectricityNew/HeroBanner/banner5.png\" class=\"crousel_background_image \">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".owl-item:nth-child(8) > .no-link-banner[data-gaeventlabel=\"Smart Meter\"][data-gaevent=\"banner_click\"] > .card > .crousel_background_image",
+          "html": "<img src=\"/-/media/Project/ElectricityNew/HeroBanner/web-banner_Opt-1.jpg\" class=\"crousel_background_image \">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".refreshButton > img",
+          "html": "<img src=\"/electricity_assets/images/refresh1.png\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/label?application=playwright",
+          "category": "form_labels",
+          "selector": "#caNumber",
+          "html": "<input id=\"caNumber\" type=\"number\" maxlength=\"9\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#business-dd",
+          "html": "<a href=\"javascript:void(0)\" class=\"dropdown-toggle-trigger\" data-target=\"businesses\" data-gaevent=\"top_pannel_interaction\" data-gaeventcategory=\"User Interaction\" data-gaeventaction=\"Top Pannel  Interaction\" data-gaeventlabel=\"Business\" id=\"business-dd\"><i class=\"i-grid\"></i></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".sidenav-trigger",
+          "html": "<a href=\"/en/\" data-target=\"slide-out\" class=\"sidenav-trigger btn_eves waves-light hover-icon\" data-gaevent=\"hamburger_menu_click\" data-gaeventcategory=\"User Interaction\" data-gaeventaction=\"Hamburger Menu Click\" data-gaeventlabel=\"NA\"><i class=\"i-hamburger i-30\"></i></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".active.owl-item > .no-link-banner[data-gaeventlabel=\"\"][data-gaevent=\"banner_click\"]",
+          "html": "<a href=\"\" target=\"\" data-gaevent=\"banner_click\" class=\"no-link-banner\" data-gaeventcategory=\"User Interaction\" data-gaeventaction=\"Banner Click\" data-gaeventlabel=\"\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(8) > .no-link-banner[data-gaeventlabel=\"Smart Meter\"][data-gaevent=\"banner_click\"]",
+          "html": "<a href=\"https://www.adanielectricity.com/smart-meter\" target=\"\" data-gaevent=\"banner_click\" class=\"no-link-banner\" data-gaeventcategory=\"User Interaction\" data-gaeventaction=\"Banner Click\" data-gaeventlabel=\"Smart Meter\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(1) > .medium-size[data-gaevent=\"social_media_follow\"][data-gaeventcategory=\"Social Media\"]",
+          "html": "<a href=\"https://www.facebook.com/AdaniElectricityMumbai/\" target=\"_blank\" class=\"btn_eves icon-holder medium-size\" data-gaevent=\"social_media_follow\" data-gaeventcategory=\"Social Media\" data-gaeventaction=\"Social Media Follow\" data-gaeventlabel=\"_blank\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(2) > .medium-size[data-gaevent=\"social_media_follow\"][data-gaeventcategory=\"Social Media\"]",
+          "html": "<a href=\"https://twitter.com/Adani_Elec_Mum\" target=\"_blank\" class=\"btn_eves icon-holder medium-size\" data-gaevent=\"social_media_follow\" data-gaeventcategory=\"Social Media\" data-gaeventaction=\"Social Media Follow\" data-gaeventlabel=\"_blank\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(3) > .medium-size[data-gaevent=\"social_media_follow\"][data-gaeventcategory=\"Social Media\"]",
+          "html": "<a href=\"https://in.linkedin.com/company/adani-electricity\" target=\"_blank\" class=\"btn_eves icon-holder medium-size\" data-gaevent=\"social_media_follow\" data-gaeventcategory=\"Social Media\" data-gaeventaction=\"Social Media Follow\" data-gaeventlabel=\"_blank\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(4) > .medium-size[data-gaevent=\"social_media_follow\"][data-gaeventcategory=\"Social Media\"]",
+          "html": "<a href=\"https://www.youtube.com/c/AdaniElectricityMumbaiLimited\" target=\"_blank\" class=\"btn_eves icon-holder medium-size\" data-gaevent=\"social_media_follow\" data-gaeventcategory=\"Social Media\" data-gaeventaction=\"Social Media Follow\" data-gaeventlabel=\"_blank\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(5) > .medium-size[data-gaevent=\"social_media_follow\"][data-gaeventcategory=\"Social Media\"]",
+          "html": "<a href=\"https://www.instagram.com/adanielectricitymumbai\" target=\"_blank\" class=\"btn_eves icon-holder medium-size\" data-gaevent=\"social_media_follow\" data-gaeventcategory=\"Social Media\" data-gaeventaction=\"Social Media Follow\" data-gaeventlabel=\"_blank\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "meta-viewport",
+          "impact": "moderate",
+          "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+          "help": "Zooming and scaling must not be disabled",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/meta-viewport?application=playwright",
+          "category": "other",
+          "selector": "meta[name=\"viewport\"]",
+          "html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/Adani_Enterprises_Limited/screenshots/Adani_Enterprises_Limited_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/Adani_Enterprises_Limited/screenshots/Adani_Enterprises_Limited_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/Adani_Enterprises_Limited/screenshots/Adani_Enterprises_Limited_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 33,
+  "altTextViolations": 8,
+  "contrastViolations": 4,
+  "labelViolations": 1,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/Adani_Enterprises_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/Adani_Enterprises_Limited/screenshots/Adani_Enterprises_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Adani Enterprises Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `33`  \n> **Verified Contact Email:** `helpdesk.mumbaielectricity@adani.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `helpdesk.mumbaielectricity@adani.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **33 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `19` | Serious: `13` | Moderate: `1`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 8 violations\n- 🎨 **Color Contrast Failures:** 4 violations\n- 📝 **Form & Structural Labels:** 1 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (8 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (4 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Form Labels & ARIA (1 issues):** Associate all `<input>` and `<select>` elements with explicit `<label for=\"...\">` tags or `aria-label` attributes.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Adani Enterprises Limited\n- **Resolved URL:** [https://adanielectricity.com](https://adanielectricity.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `helpdesk.mumbaielectricity@adani.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `helpdesk.mumbaielectricity@adani.com` | **Status:** `Verified` | **Source Page:** https://adanielectricity.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.owl-dot.active[role=\"button\"]`\n2. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.owl-dot[role=\"button\"]:nth-child(2)`\n3. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.owl-dot[role=\"button\"]:nth-child(3)`\n4. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.owl-dot[role=\"button\"]:nth-child(4)`\n5. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.owl-dot[role=\"button\"]:nth-child(5)`\n6. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.refreshButton`\n7. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.carousel-4 > .justify-item.section-header-main > aside > .hide-on-small-only.carousel-nav > .owl-prev.disabled[role=\"presentation\"]`\n8. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.carousel-4 > .justify-item.section-header-main > aside > .hide-on-small-only.carousel-nav > .owl-next[role=\"presentation\"][type=\"button\"]`\n9. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.carousel-5 > .justify-item.section-header-main > aside > .hide-on-small-only.carousel-nav > .owl-prev.disabled[role=\"presentation\"]`\n10. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.carousel-5 > .justify-item.section-header-main > aside > .hide-on-small-only.carousel-nav > .owl-next[role=\"presentation\"][type=\"button\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Adani_Enterprises_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Adani_Enterprises_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Adani_Enterprises_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/Adani_Enterprises_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/Adani_Enterprises_Limited/screenshots/Adani_Enterprises_Limited_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Adani Enterprises Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `33`  \n> **Verified Contact Email:** `helpdesk.mumbaielectricity@adani.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `helpdesk.mumbaielectricity@adani.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **33 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `19` | Serious: `13` | Moderate: `1`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 8 violations\n- 🎨 **Color Contrast Failures:** 4 violations\n- 📝 **Form & Structural Labels:** 1 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (8 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (4 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Form Labels & ARIA (1 issues):** Associate all `<input>` and `<select>` elements with explicit `<label for=\"...\">` tags or `aria-label` attributes.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Adani Enterprises Limited\n- **Resolved URL:** [https://adanielectricity.com](https://adanielectricity.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `helpdesk.mumbaielectricity@adani.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `helpdesk.mumbaielectricity@adani.com` | **Status:** `Verified` | **Source Page:** https://adanielectricity.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.owl-dot.active[role=\"button\"]`\n2. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.owl-dot[role=\"button\"]:nth-child(2)`\n3. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.owl-dot[role=\"button\"]:nth-child(3)`\n4. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.owl-dot[role=\"button\"]:nth-child(4)`\n5. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.owl-dot[role=\"button\"]:nth-child(5)`\n6. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.refreshButton`\n7. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.carousel-4 > .justify-item.section-header-main > aside > .hide-on-small-only.carousel-nav > .owl-prev.disabled[role=\"presentation\"]`\n8. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.carousel-4 > .justify-item.section-header-main > aside > .hide-on-small-only.carousel-nav > .owl-next[role=\"presentation\"][type=\"button\"]`\n9. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.carousel-5 > .justify-item.section-header-main > aside > .hide-on-small-only.carousel-nav > .owl-prev.disabled[role=\"presentation\"]`\n10. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.carousel-5 > .justify-item.section-header-main > aside > .hide-on-small-only.carousel-nav > .owl-next[role=\"presentation\"][type=\"button\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Adani_Enterprises_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Adani_Enterprises_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Adani_Enterprises_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/Adani_Enterprises_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/Adani_Enterprises_Limited/screenshots/Adani_Enterprises_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Adani Enterprises Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `33`  \n> **Verified Contact Email:** `helpdesk.mumbaielectricity@adani.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `helpdesk.mumbaielectricity@adani.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **33 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `19` | Serious: `13` | Moderate: `1`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 8 violations\n- 🎨 **Color Contrast Failures:** 4 violations\n- 📝 **Form & Structural Labels:** 1 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (8 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (4 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Form Labels & ARIA (1 issues):** Associate all `<input>` and `<select>` elements with explicit `<label for=\"...\">` tags or `aria-label` attributes.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Adani Enterprises Limited\n- **Resolved URL:** [https://adanielectricity.com](https://adanielectricity.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `helpdesk.mumbaielectricity@adani.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `helpdesk.mumbaielectricity@adani.com` | **Status:** `Verified` | **Source Page:** https://adanielectricity.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.owl-dot.active[role=\"button\"]`\n2. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.owl-dot[role=\"button\"]:nth-child(2)`\n3. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.owl-dot[role=\"button\"]:nth-child(3)`\n4. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.owl-dot[role=\"button\"]:nth-child(4)`\n5. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.owl-dot[role=\"button\"]:nth-child(5)`\n6. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.refreshButton`\n7. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.carousel-4 > .justify-item.section-header-main > aside > .hide-on-small-only.carousel-nav > .owl-prev.disabled[role=\"presentation\"]`\n8. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.carousel-4 > .justify-item.section-header-main > aside > .hide-on-small-only.carousel-nav > .owl-next[role=\"presentation\"][type=\"button\"]`\n9. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.carousel-5 > .justify-item.section-header-main > aside > .hide-on-small-only.carousel-nav > .owl-prev.disabled[role=\"presentation\"]`\n10. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.carousel-5 > .justify-item.section-header-main > aside > .hide-on-small-only.carousel-nav > .owl-next[role=\"presentation\"][type=\"button\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Adani_Enterprises_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Adani_Enterprises_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Adani_Enterprises_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 33. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-10T14:09:07.921Z"
+}

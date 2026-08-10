@@ -10,6 +10,7 @@ import { captureCompulsoryToolScreenshots } from '../screenshots/compulsory_scre
 import { generateDeliverablePairs } from '../deliverables_generator.js';
 import { generateRunReport } from '../run_report_generator.js';
 import { exportTrackerFiles, exportDigitalV13TrackerFile } from '../tracker.js';
+import { scanOneWave, isWaveScanAvailable } from '../evidence/waveFreeScan.js';
 
 import { defaultConfig, AppConfig, SearchMode } from '../config/config.js';
 import { SearchCache } from '../cache/search_cache.js';
@@ -252,7 +253,38 @@ export async function runWorkflowV11(
     console.log(`  -> Running Axe-Core & Lighthouse Scans...`);
     const pageResult = await auditPageWithAxe(page, 'Homepage', resolution.resolvedUrl);
 
-    console.log(`  -> Capturing Compulsory 3 Tool Screenshots (WAVE, Axe DevTools, Lighthouse)...`);
+    // Step 4a: REAL WAVE Free-Scan — captures actual screenshot from wave.webaim.org
+    let waveAimScore: number | undefined;
+    let waveAimScoreStr: string | undefined;
+    let waveScreenshotPath: string | undefined;
+
+    if (isWaveScanAvailable()) {
+      console.log(`  -> Running REAL WAVE Free-Scan via wave.webaim.org...`);
+      const waveBrowser = await chromium.launch({
+        headless: true,
+        args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage', '--disable-gpu', '--no-zygote', '--disable-extensions'],
+      });
+      try {
+        const waveResult = await scanOneWave(waveBrowser, resolution.resolvedUrl, {
+          outputDir: companyScreenshotsDir,
+          companyName: company.companyName,
+          timeoutMs: 45000,
+        });
+        if (waveResult.success) {
+          waveAimScore = waveResult.aimScore;
+          waveAimScoreStr = waveResult.aimScoreStr;
+          waveScreenshotPath = waveResult.screenshotPath;
+        }
+      } catch (waveErr: any) {
+        console.warn(`  [WAVE Warning] Free-scan failed: ${waveErr?.message?.slice(0, 100)}`);
+      }
+      await waveBrowser.close();
+    } else {
+      console.warn(`  [WAVE] Skipped — circuit breaker open or daily cap reached.`);
+    }
+
+    // Step 4b: Capture Axe DevTools & Lighthouse screenshots (synthetic overlays)
+    console.log(`  -> Capturing Axe DevTools & Lighthouse Screenshots...`);
     const toolScreenshots = await captureCompulsoryToolScreenshots(
       page,
       company.companyName,
@@ -261,7 +293,13 @@ export async function runWorkflowV11(
       pageResult.lighthouseScore,
       companyScreenshotsDir
     );
-    pageResult.screenshots = toolScreenshots.allCapturedPaths;
+
+    // Merge WAVE real screenshot into the captured paths
+    const allScreenshotPaths = [...toolScreenshots.allCapturedPaths];
+    if (waveScreenshotPath && fs.existsSync(waveScreenshotPath)) {
+      allScreenshotPaths.push(waveScreenshotPath);
+    }
+    pageResult.screenshots = allScreenshotPaths;
 
     const allViolations = pageResult.axeViolations;
     const altTextCount = allViolations.filter(v => v.category === 'missing_alt_text').length;
@@ -282,8 +320,10 @@ export async function runWorkflowV11(
       labelViolations: labelCount,
       keyboardViolations: keyboardCount,
       lighthouseAvgScore: pageResult.lighthouseScore,
+      waveAimScore,
+      waveAimScoreStr,
       deliverables: {} as any,
-      remarks: `Scanned 1 page. Violations: ${allViolations.length}. Lighthouse A11y: ${pageResult.lighthouseScore}/100.`,
+      remarks: `Scanned 1 page. Violations: ${allViolations.length}. WAVE AIM: ${waveAimScoreStr || 'N/A'}. Lighthouse A11y: ${pageResult.lighthouseScore}/100.`,
       timestamp: new Date().toISOString(),
     };
 

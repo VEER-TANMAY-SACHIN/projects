@@ -1,0 +1,515 @@
+{
+  "company": {
+    "srNo": 73,
+    "companyName": "Afcons Infrastructure Limited",
+    "readymadeWebsite": "https://afcons.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (Afcons Infrastructure Limited)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://afcons.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://afcons.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "compliance@afcons.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://afcons.com/contact-us/"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "compliance@afcons.com",
+        "type": "compliance_grievance",
+        "label": "Investor Grievance / Compliance Officer Email",
+        "status": "Verified",
+        "sourceUrl": "https://afcons.com/contact-us/"
+      },
+      {
+        "address": "compliance@afcons.com",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://afcons.com/contact-us/"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://afcons.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "aria-command-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA button, link and menuitem has an accessible name",
+          "help": "ARIA commands must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-command-name?application=playwright",
+          "category": "other",
+          "selector": ".leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(1)",
+          "html": "<div class=\"leaflet-marker-icon leaflet-zoom-animated leaflet-interactive\" tabindex=\"0\" role=\"button\" style=\"margin-left: -15px; margin-top: -40px; width: 30px; height: 40px; transform: translate3d(1119px, 57px, 0px); z-index: 57;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-command-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA button, link and menuitem has an accessible name",
+          "help": "ARIA commands must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-command-name?application=playwright",
+          "category": "other",
+          "selector": ".leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(2)",
+          "html": "<div class=\"leaflet-marker-icon leaflet-zoom-animated leaflet-interactive\" tabindex=\"0\" role=\"button\" style=\"margin-left: -15px; margin-top: -40px; width: 30px; height: 40px; transform: translate3d(931px, 180px, 0px); z-index: 180;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-command-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA button, link and menuitem has an accessible name",
+          "help": "ARIA commands must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-command-name?application=playwright",
+          "category": "other",
+          "selector": ".leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(3)",
+          "html": "<div class=\"leaflet-marker-icon leaflet-zoom-animated leaflet-interactive\" tabindex=\"0\" role=\"button\" style=\"margin-left: -15px; margin-top: -40px; width: 30px; height: 40px; transform: translate3d(1020px, 208px, 0px); z-index: 208;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-command-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA button, link and menuitem has an accessible name",
+          "help": "ARIA commands must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-command-name?application=playwright",
+          "category": "other",
+          "selector": ".leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(4)",
+          "html": "<div class=\"leaflet-marker-icon leaflet-zoom-animated leaflet-interactive\" tabindex=\"0\" role=\"button\" style=\"margin-left: -15px; margin-top: -40px; width: 30px; height: 40px; transform: translate3d(998px, 187px, 0px); z-index: 187;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-command-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA button, link and menuitem has an accessible name",
+          "help": "ARIA commands must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-command-name?application=playwright",
+          "category": "other",
+          "selector": ".leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(5)",
+          "html": "<div class=\"leaflet-marker-icon leaflet-zoom-animated leaflet-interactive\" tabindex=\"0\" role=\"button\" style=\"margin-left: -15px; margin-top: -40px; width: 30px; height: 40px; transform: translate3d(1041px, 225px, 0px); z-index: 225;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-command-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA button, link and menuitem has an accessible name",
+          "help": "ARIA commands must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-command-name?application=playwright",
+          "category": "other",
+          "selector": ".leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(6)",
+          "html": "<div class=\"leaflet-marker-icon leaflet-zoom-animated leaflet-interactive\" tabindex=\"0\" role=\"button\" style=\"margin-left: -15px; margin-top: -40px; width: 30px; height: 40px; transform: translate3d(1059px, 244px, 0px); z-index: 244;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-command-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA button, link and menuitem has an accessible name",
+          "help": "ARIA commands must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-command-name?application=playwright",
+          "category": "other",
+          "selector": ".leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(7)",
+          "html": "<div class=\"leaflet-marker-icon leaflet-zoom-animated leaflet-interactive\" tabindex=\"0\" role=\"button\" style=\"margin-left: -15px; margin-top: -40px; width: 30px; height: 40px; transform: translate3d(1008px, 279px, 0px); z-index: 279;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-command-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA button, link and menuitem has an accessible name",
+          "help": "ARIA commands must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-command-name?application=playwright",
+          "category": "other",
+          "selector": ".leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(8)",
+          "html": "<div class=\"leaflet-marker-icon leaflet-zoom-animated leaflet-interactive\" tabindex=\"0\" role=\"button\" style=\"margin-left: -15px; margin-top: -40px; width: 30px; height: 40px; transform: translate3d(1179px, 275px, 0px); z-index: 275;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-command-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA button, link and menuitem has an accessible name",
+          "help": "ARIA commands must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-command-name?application=playwright",
+          "category": "other",
+          "selector": ".leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(9)",
+          "html": "<div class=\"leaflet-marker-icon leaflet-zoom-animated leaflet-interactive\" tabindex=\"0\" role=\"button\" style=\"margin-left: -15px; margin-top: -40px; width: 30px; height: 40px; transform: translate3d(1228px, 200px, 0px); z-index: 200;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-command-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA button, link and menuitem has an accessible name",
+          "help": "ARIA commands must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-command-name?application=playwright",
+          "category": "other",
+          "selector": ".leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(10)",
+          "html": "<div class=\"leaflet-marker-icon leaflet-zoom-animated leaflet-interactive\" tabindex=\"0\" role=\"button\" style=\"margin-left: -15px; margin-top: -40px; width: 30px; height: 40px; transform: translate3d(1246px, 230px, 0px); z-index: 230;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-command-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA button, link and menuitem has an accessible name",
+          "help": "ARIA commands must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-command-name?application=playwright",
+          "category": "other",
+          "selector": ".leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(11)",
+          "html": "<div class=\"leaflet-marker-icon leaflet-zoom-animated leaflet-interactive\" tabindex=\"0\" role=\"button\" style=\"margin-left: -15px; margin-top: -40px; width: 30px; height: 40px; transform: translate3d(1191px, 324px, 0px); z-index: 324;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-command-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA button, link and menuitem has an accessible name",
+          "help": "ARIA commands must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-command-name?application=playwright",
+          "category": "other",
+          "selector": ".leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(12)",
+          "html": "<div class=\"leaflet-marker-icon leaflet-zoom-animated leaflet-interactive\" tabindex=\"0\" role=\"button\" style=\"margin-left: -15px; margin-top: -40px; width: 30px; height: 40px; transform: translate3d(1134px, 352px, 0px); z-index: 352;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-command-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA button, link and menuitem has an accessible name",
+          "help": "ARIA commands must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-command-name?application=playwright",
+          "category": "other",
+          "selector": ".leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(13)",
+          "html": "<div class=\"leaflet-marker-icon leaflet-zoom-animated leaflet-interactive\" tabindex=\"0\" role=\"button\" style=\"margin-left: -15px; margin-top: -40px; width: 30px; height: 40px; transform: translate3d(1380px, 374px, 0px); z-index: 374;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-command-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA button, link and menuitem has an accessible name",
+          "help": "ARIA commands must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-command-name?application=playwright",
+          "category": "other",
+          "selector": ".leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(14)",
+          "html": "<div class=\"leaflet-marker-icon leaflet-zoom-animated leaflet-interactive\" tabindex=\"0\" role=\"button\" style=\"margin-left: -15px; margin-top: -40px; width: 30px; height: 40px; transform: translate3d(670px, 251px, 0px); z-index: 251;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-command-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA button, link and menuitem has an accessible name",
+          "help": "ARIA commands must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-command-name?application=playwright",
+          "category": "other",
+          "selector": ".leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(15)",
+          "html": "<div class=\"leaflet-marker-icon leaflet-zoom-animated leaflet-interactive\" tabindex=\"0\" role=\"button\" style=\"margin-left: -15px; margin-top: -40px; width: 30px; height: 40px; transform: translate3d(630px, 300px, 0px); z-index: 300;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-command-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA button, link and menuitem has an accessible name",
+          "help": "ARIA commands must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-command-name?application=playwright",
+          "category": "other",
+          "selector": ".leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(16)",
+          "html": "<div class=\"leaflet-marker-icon leaflet-zoom-animated leaflet-interactive\" tabindex=\"0\" role=\"button\" style=\"margin-left: -15px; margin-top: -40px; width: 30px; height: 40px; transform: translate3d(679px, 333px, 0px); z-index: 333;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-command-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA button, link and menuitem has an accessible name",
+          "help": "ARIA commands must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-command-name?application=playwright",
+          "category": "other",
+          "selector": ".leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(17)",
+          "html": "<div class=\"leaflet-marker-icon leaflet-zoom-animated leaflet-interactive\" tabindex=\"0\" role=\"button\" style=\"margin-left: -15px; margin-top: -40px; width: 30px; height: 40px; transform: translate3d(697px, 324px, 0px); z-index: 324;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-command-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA button, link and menuitem has an accessible name",
+          "help": "ARIA commands must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-command-name?application=playwright",
+          "category": "other",
+          "selector": ".leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(18)",
+          "html": "<div class=\"leaflet-marker-icon leaflet-zoom-animated leaflet-interactive\" tabindex=\"0\" role=\"button\" style=\"margin-left: -15px; margin-top: -40px; width: 30px; height: 40px; transform: translate3d(726px, 324px, 0px); z-index: 324;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-command-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA button, link and menuitem has an accessible name",
+          "help": "ARIA commands must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-command-name?application=playwright",
+          "category": "other",
+          "selector": ".leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(19)",
+          "html": "<div class=\"leaflet-marker-icon leaflet-zoom-animated leaflet-interactive\" tabindex=\"0\" role=\"button\" style=\"margin-left: -15px; margin-top: -40px; width: 30px; height: 40px; transform: translate3d(741px, 317px, 0px); z-index: 317;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-command-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA button, link and menuitem has an accessible name",
+          "help": "ARIA commands must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-command-name?application=playwright",
+          "category": "other",
+          "selector": ".leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(20)",
+          "html": "<div class=\"leaflet-marker-icon leaflet-zoom-animated leaflet-interactive\" tabindex=\"0\" role=\"button\" style=\"margin-left: -15px; margin-top: -40px; width: 30px; height: 40px; transform: translate3d(798px, 374px, 0px); z-index: 374;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-command-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA button, link and menuitem has an accessible name",
+          "help": "ARIA commands must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-command-name?application=playwright",
+          "category": "other",
+          "selector": ".leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(21)",
+          "html": "<div class=\"leaflet-marker-icon leaflet-zoom-animated leaflet-interactive\" tabindex=\"0\" role=\"button\" style=\"margin-left: -15px; margin-top: -40px; width: 30px; height: 40px; transform: translate3d(902px, 380px, 0px); z-index: 380;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-command-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA button, link and menuitem has an accessible name",
+          "help": "ARIA commands must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-command-name?application=playwright",
+          "category": "other",
+          "selector": ".leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(22)",
+          "html": "<div class=\"leaflet-marker-icon leaflet-zoom-animated leaflet-interactive\" tabindex=\"0\" role=\"button\" style=\"margin-left: -15px; margin-top: -40px; width: 30px; height: 40px; transform: translate3d(931px, 405px, 0px); z-index: 405;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-command-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA button, link and menuitem has an accessible name",
+          "help": "ARIA commands must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-command-name?application=playwright",
+          "category": "other",
+          "selector": ".leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(23)",
+          "html": "<div class=\"leaflet-marker-icon leaflet-zoom-animated leaflet-interactive\" tabindex=\"0\" role=\"button\" style=\"margin-left: -15px; margin-top: -40px; width: 30px; height: 40px; transform: translate3d(890px, 444px, 0px); z-index: 444;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-command-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA button, link and menuitem has an accessible name",
+          "help": "ARIA commands must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-command-name?application=playwright",
+          "category": "other",
+          "selector": ".leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(24)",
+          "html": "<div class=\"leaflet-marker-icon leaflet-zoom-animated leaflet-interactive\" tabindex=\"0\" role=\"button\" style=\"margin-left: -15px; margin-top: -40px; width: 30px; height: 40px; transform: translate3d(902px, 479px, 0px); z-index: 479;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-command-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA button, link and menuitem has an accessible name",
+          "help": "ARIA commands must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-command-name?application=playwright",
+          "category": "other",
+          "selector": ".leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(25)",
+          "html": "<div class=\"leaflet-marker-icon leaflet-zoom-animated leaflet-interactive\" tabindex=\"0\" role=\"button\" style=\"margin-left: -15px; margin-top: -40px; width: 30px; height: 40px; transform: translate3d(934px, 477px, 0px); z-index: 477;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-command-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA button, link and menuitem has an accessible name",
+          "help": "ARIA commands must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-command-name?application=playwright",
+          "category": "other",
+          "selector": ".leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(26)",
+          "html": "<div class=\"leaflet-marker-icon leaflet-zoom-animated leaflet-interactive\" tabindex=\"0\" role=\"button\" style=\"margin-left: -15px; margin-top: -40px; width: 30px; height: 40px; transform: translate3d(998px, 489px, 0px); z-index: 489;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-command-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA button, link and menuitem has an accessible name",
+          "help": "ARIA commands must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-command-name?application=playwright",
+          "category": "other",
+          "selector": ".leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(27)",
+          "html": "<div class=\"leaflet-marker-icon leaflet-zoom-animated leaflet-interactive\" tabindex=\"0\" role=\"button\" style=\"margin-left: -15px; margin-top: -40px; width: 30px; height: 40px; transform: translate3d(1060px, 489px, 0px); z-index: 489;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".elementor-element-9500d9d > .elementor-widget-container > .elementor-heading-title.elementor-size-default > span",
+          "html": "<span style=\"color:#E31E26\"> Legacy</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".elementor-sticky--active > .elementor-column-gap-default.elementor-container > .elementor-element-1037fc0.elementor-top-column[data-id=\"1037fc0\"] > .elementor-element-populated.elementor-widget-wrap > .elementor-element-ab55db9.elementor-inner-section[data-id=\"ab55db9\"] > .elementor-column-gap-default.elementor-container > .elementor-element-929000e.elementor-col-25[data-id=\"929000e\"] > .elementor-element-populated.elementor-widget-wrap > .elementor-element-02a1e3c.elementor-widget-theme-site-logo[data-id=\"02a1e3c\"] > .elementor-widget-container > a[href$=\"afcons.com\"]",
+          "html": "<a href=\"https://afcons.com\">\n\t\t\t<img width=\"126\" height=\"33\" src=\"https://afcons.com/wp-content/uploads/2026/01/Afcons-Logo-Rounded.png\" class=\"attachment-full size-full wp-image-15330\" alt=\"\">\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".elementor-sticky--active > .elementor-column-gap-default.elementor-container > .elementor-element-1037fc0.elementor-top-column[data-id=\"1037fc0\"] > .elementor-element-populated.elementor-widget-wrap > .elementor-element-ab55db9.elementor-inner-section[data-id=\"ab55db9\"] > .elementor-column-gap-default.elementor-container > .elementor-element-41203b4.elementor-col-25[data-id=\"41203b4\"] > .elementor-element-populated.elementor-widget-wrap > .elementor-element-cc8edc0[data-id=\"cc8edc0\"][data-widget_type=\"image.default\"] > .elementor-widget-container > a[target=\"_blank\"]",
+          "html": "<a href=\"https://www.shapoorjipallonji.com/\" target=\"_blank\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".elementor-sticky--active > .elementor-column-gap-default.elementor-container > .elementor-element-1037fc0.elementor-top-column[data-id=\"1037fc0\"] > .elementor-element-populated.elementor-widget-wrap > .elementor-element-ab55db9.elementor-inner-section[data-id=\"ab55db9\"] > .elementor-column-gap-default.elementor-container > .elementor-element-a30f9ee.elementor-col-25[data-id=\"a30f9ee\"] > .elementor-element-populated.elementor-widget-wrap > .elementor-element-1b6a849.elementor-view-default.elementor-widget-icon > .elementor-widget-container > .elementor-icon-wrapper > .elementor-icon",
+          "html": "<a class=\"elementor-icon\" href=\"#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjExMTEiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".elementor-element-994759f > .elementor-widget-container > a[href$=\"afcons.com\"]",
+          "html": "<a href=\"https://afcons.com\">\n\t\t\t<img width=\"126\" height=\"33\" src=\"https://afcons.com/wp-content/uploads/2026/01/Afcons-Logo-Rounded.png\" class=\"attachment-full size-full wp-image-15330\" alt=\"\">\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "role-img-alt",
+          "impact": "serious",
+          "description": "Ensure [role=\"img\"] elements have alternative text",
+          "help": "[role=\"img\"] elements must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/role-img-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "a[data-elementor-lightbox-title=\"Ahmedabad Metro Inauguration\"] > .e-gallery-image.elementor-gallery-item__image[data-width=\"800\"]",
+          "html": "<div class=\"e-gallery-image elementor-gallery-item__image\" data-thumbnail=\"https://afcons.com/wp-content/uploads/2025/09/Ahmedabad-Metro-inauguration.jpg\" data-width=\"800\" data-height=\"614\" aria-label=\"\" role=\"img\"></div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "role-img-alt",
+          "impact": "serious",
+          "description": "Ensure [role=\"img\"] elements have alternative text",
+          "help": "[role=\"img\"] elements must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/role-img-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "a[data-elementor-lightbox-title=\"Chenab Bridge Inauguration\"] > .e-gallery-image.elementor-gallery-item__image[data-width=\"800\"]",
+          "html": "<div class=\"e-gallery-image elementor-gallery-item__image\" data-thumbnail=\"https://afcons.com/wp-content/uploads/2025/09/Chenab-Bridge-inauguration-.jpg\" data-width=\"800\" data-height=\"614\" aria-label=\"\" role=\"img\"></div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "role-img-alt",
+          "impact": "serious",
+          "description": "Ensure [role=\"img\"] elements have alternative text",
+          "help": "[role=\"img\"] elements must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/role-img-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "a[data-elementor-lightbox-title=\"Ghana Railway Inauguration\"] > .e-gallery-image.elementor-gallery-item__image[data-width=\"800\"]",
+          "html": "<div class=\"e-gallery-image elementor-gallery-item__image\" data-thumbnail=\"https://afcons.com/wp-content/uploads/2025/09/Ghana-Railway-Inauguration.jpg\" data-width=\"800\" data-height=\"614\" aria-label=\"\" role=\"img\"></div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "role-img-alt",
+          "impact": "serious",
+          "description": "Ensure [role=\"img\"] elements have alternative text",
+          "help": "[role=\"img\"] elements must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/role-img-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".e-gallery-item.elementor-gallery-item.elementor-animated-content:nth-child(4) > .e-gallery-image.elementor-gallery-item__image[data-width=\"800\"]",
+          "html": "<div class=\"e-gallery-image elementor-gallery-item__image\" data-thumbnail=\"https://afcons.com/wp-content/uploads/2025/09/Addu-City-Detour-Link-inauguration.jpg\" data-width=\"800\" data-height=\"614\" aria-label=\"\" role=\"img\"></div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "role-img-alt",
+          "impact": "serious",
+          "description": "Ensure [role=\"img\"] elements have alternative text",
+          "help": "[role=\"img\"] elements must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/role-img-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "a[data-elementor-lightbox-title=\"MG Setu Inauguration\"] > .e-gallery-image.elementor-gallery-item__image[data-width=\"800\"]",
+          "html": "<div class=\"e-gallery-image elementor-gallery-item__image\" data-thumbnail=\"https://afcons.com/wp-content/uploads/2025/09/MG-Setu-inauguration.png\" data-width=\"800\" data-height=\"614\" aria-label=\"\" role=\"img\"></div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "role-img-alt",
+          "impact": "serious",
+          "description": "Ensure [role=\"img\"] elements have alternative text",
+          "help": "[role=\"img\"] elements must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/role-img-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".e-gallery-item.elementor-gallery-item.elementor-animated-content:nth-child(6) > .e-gallery-image.elementor-gallery-item__image[data-width=\"800\"]",
+          "html": "<div class=\"e-gallery-image elementor-gallery-item__image\" data-thumbnail=\"https://afcons.com/wp-content/uploads/2025/09/Samruddhi-Mahamarg-PKG-14-inauguration.png\" data-width=\"800\" data-height=\"614\" aria-label=\"\" role=\"img\"></div>",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/Afcons_Infrastructure_Limited/screenshots/Afcons_Infrastructure_Limited_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/Afcons_Infrastructure_Limited/screenshots/Afcons_Infrastructure_Limited_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/Afcons_Infrastructure_Limited/screenshots/Afcons_Infrastructure_Limited_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 38,
+  "altTextViolations": 6,
+  "contrastViolations": 1,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/Afcons_Infrastructure_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/Afcons_Infrastructure_Limited/screenshots/Afcons_Infrastructure_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Afcons Infrastructure Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `38`  \n> **Verified Contact Email:** `compliance@afcons.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `compliance@afcons.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **38 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `38` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 6 violations\n- 🎨 **Color Contrast Failures:** 1 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (6 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (1 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Afcons Infrastructure Limited\n- **Resolved URL:** [https://afcons.com](https://afcons.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `compliance@afcons.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `compliance@afcons.com` | **Status:** `Verified` | **Source Page:** https://afcons.com/contact-us/\n- **General Contact Email:** `compliance@afcons.com` | **Status:** `Verified` | **Source Page:** https://afcons.com/contact-us/\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-command-name`** (SERIOUS)\n   - **Help:** ARIA commands must have an accessible name\n   - **Selector:** `.leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(1)`\n2. **`[other] aria-command-name`** (SERIOUS)\n   - **Help:** ARIA commands must have an accessible name\n   - **Selector:** `.leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(2)`\n3. **`[other] aria-command-name`** (SERIOUS)\n   - **Help:** ARIA commands must have an accessible name\n   - **Selector:** `.leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(3)`\n4. **`[other] aria-command-name`** (SERIOUS)\n   - **Help:** ARIA commands must have an accessible name\n   - **Selector:** `.leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(4)`\n5. **`[other] aria-command-name`** (SERIOUS)\n   - **Help:** ARIA commands must have an accessible name\n   - **Selector:** `.leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(5)`\n6. **`[other] aria-command-name`** (SERIOUS)\n   - **Help:** ARIA commands must have an accessible name\n   - **Selector:** `.leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(6)`\n7. **`[other] aria-command-name`** (SERIOUS)\n   - **Help:** ARIA commands must have an accessible name\n   - **Selector:** `.leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(7)`\n8. **`[other] aria-command-name`** (SERIOUS)\n   - **Help:** ARIA commands must have an accessible name\n   - **Selector:** `.leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(8)`\n9. **`[other] aria-command-name`** (SERIOUS)\n   - **Help:** ARIA commands must have an accessible name\n   - **Selector:** `.leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(9)`\n10. **`[other] aria-command-name`** (SERIOUS)\n   - **Help:** ARIA commands must have an accessible name\n   - **Selector:** `.leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(10)`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Afcons_Infrastructure_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Afcons_Infrastructure_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Afcons_Infrastructure_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/Afcons_Infrastructure_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/Afcons_Infrastructure_Limited/screenshots/Afcons_Infrastructure_Limited_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Afcons Infrastructure Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `38`  \n> **Verified Contact Email:** `compliance@afcons.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `compliance@afcons.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **38 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `38` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 6 violations\n- 🎨 **Color Contrast Failures:** 1 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (6 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (1 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Afcons Infrastructure Limited\n- **Resolved URL:** [https://afcons.com](https://afcons.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `compliance@afcons.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `compliance@afcons.com` | **Status:** `Verified` | **Source Page:** https://afcons.com/contact-us/\n- **General Contact Email:** `compliance@afcons.com` | **Status:** `Verified` | **Source Page:** https://afcons.com/contact-us/\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-command-name`** (SERIOUS)\n   - **Help:** ARIA commands must have an accessible name\n   - **Selector:** `.leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(1)`\n2. **`[other] aria-command-name`** (SERIOUS)\n   - **Help:** ARIA commands must have an accessible name\n   - **Selector:** `.leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(2)`\n3. **`[other] aria-command-name`** (SERIOUS)\n   - **Help:** ARIA commands must have an accessible name\n   - **Selector:** `.leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(3)`\n4. **`[other] aria-command-name`** (SERIOUS)\n   - **Help:** ARIA commands must have an accessible name\n   - **Selector:** `.leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(4)`\n5. **`[other] aria-command-name`** (SERIOUS)\n   - **Help:** ARIA commands must have an accessible name\n   - **Selector:** `.leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(5)`\n6. **`[other] aria-command-name`** (SERIOUS)\n   - **Help:** ARIA commands must have an accessible name\n   - **Selector:** `.leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(6)`\n7. **`[other] aria-command-name`** (SERIOUS)\n   - **Help:** ARIA commands must have an accessible name\n   - **Selector:** `.leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(7)`\n8. **`[other] aria-command-name`** (SERIOUS)\n   - **Help:** ARIA commands must have an accessible name\n   - **Selector:** `.leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(8)`\n9. **`[other] aria-command-name`** (SERIOUS)\n   - **Help:** ARIA commands must have an accessible name\n   - **Selector:** `.leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(9)`\n10. **`[other] aria-command-name`** (SERIOUS)\n   - **Help:** ARIA commands must have an accessible name\n   - **Selector:** `.leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(10)`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Afcons_Infrastructure_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Afcons_Infrastructure_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Afcons_Infrastructure_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/Afcons_Infrastructure_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse_tracker_enriched_clearbit_20260810_135733_attempt2_succesful_reviewnotdone_orchavatecore_digital_digital/Afcons_Infrastructure_Limited/screenshots/Afcons_Infrastructure_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Afcons Infrastructure Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `38`  \n> **Verified Contact Email:** `compliance@afcons.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `compliance@afcons.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **38 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `38` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 6 violations\n- 🎨 **Color Contrast Failures:** 1 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (6 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (1 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Afcons Infrastructure Limited\n- **Resolved URL:** [https://afcons.com](https://afcons.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `compliance@afcons.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `compliance@afcons.com` | **Status:** `Verified` | **Source Page:** https://afcons.com/contact-us/\n- **General Contact Email:** `compliance@afcons.com` | **Status:** `Verified` | **Source Page:** https://afcons.com/contact-us/\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-command-name`** (SERIOUS)\n   - **Help:** ARIA commands must have an accessible name\n   - **Selector:** `.leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(1)`\n2. **`[other] aria-command-name`** (SERIOUS)\n   - **Help:** ARIA commands must have an accessible name\n   - **Selector:** `.leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(2)`\n3. **`[other] aria-command-name`** (SERIOUS)\n   - **Help:** ARIA commands must have an accessible name\n   - **Selector:** `.leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(3)`\n4. **`[other] aria-command-name`** (SERIOUS)\n   - **Help:** ARIA commands must have an accessible name\n   - **Selector:** `.leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(4)`\n5. **`[other] aria-command-name`** (SERIOUS)\n   - **Help:** ARIA commands must have an accessible name\n   - **Selector:** `.leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(5)`\n6. **`[other] aria-command-name`** (SERIOUS)\n   - **Help:** ARIA commands must have an accessible name\n   - **Selector:** `.leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(6)`\n7. **`[other] aria-command-name`** (SERIOUS)\n   - **Help:** ARIA commands must have an accessible name\n   - **Selector:** `.leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(7)`\n8. **`[other] aria-command-name`** (SERIOUS)\n   - **Help:** ARIA commands must have an accessible name\n   - **Selector:** `.leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(8)`\n9. **`[other] aria-command-name`** (SERIOUS)\n   - **Help:** ARIA commands must have an accessible name\n   - **Selector:** `.leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(9)`\n10. **`[other] aria-command-name`** (SERIOUS)\n   - **Help:** ARIA commands must have an accessible name\n   - **Selector:** `.leaflet-marker-icon.leaflet-interactive.leaflet-zoom-animated:nth-child(10)`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Afcons_Infrastructure_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Afcons_Infrastructure_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Afcons_Infrastructure_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 38. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-10T14:13:21.786Z"
+}

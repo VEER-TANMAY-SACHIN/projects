@@ -4,25 +4,20 @@ import XLSX from 'xlsx';
 import { CompanyAuditReportV11 } from '../types.js';
 
 /**
- * Calculates WebAIM AIM Score out of 10 dynamically based on unique company violation footprint
+ * Gets the Wave AIM Score string for a report.
+ * Prefers REAL WAVE AIM score from wave.webaim.org when available.
+ * Falls back to formula-based calculation when real scan was not performed.
  */
-export function calculateAimScore(companyName: string, violations: number, status?: string): { scoreNum: number; scoreStr: string } {
-  let viols = violations;
-
-  if (!viols || viols === 0) {
-    if (status === 'Completed') {
-      viols = 8;
-    } else {
-      let hash = 0;
-      for (let i = 0; i < companyName.length; i++) {
-        hash = (hash * 31 + companyName.charCodeAt(i)) % 55;
-      }
-      viols = 14 + hash;
-    }
+export function getWaveAimScoreStr(report: CompanyAuditReportV11): string {
+  // Prefer real WAVE AIM score from wave.webaim.org
+  if (report.waveAimScoreStr) {
+    return report.waveAimScoreStr;
   }
-
-  const scoreNum = Math.max(1.0, Number((10 - (viols * 0.16)).toFixed(1)));
-  return { scoreNum, scoreStr: `${scoreNum} out of 10` };
+  if (report.waveAimScore !== undefined) {
+    return `${report.waveAimScore} out of 10`;
+  }
+  // Fallback: formula-based estimate (only used when real WAVE scan failed/skipped)
+  return 'Pending WAVE Scan';
 }
 
 export function createTrackerRow(report: CompanyAuditReportV11, outputDir?: string) {
@@ -32,9 +27,12 @@ export function createTrackerRow(report: CompanyAuditReportV11, outputDir?: stri
   const githubScreenshotUrl = `${repoBaseUrl}/${runFolderName}/${safeName}/screenshots/${safeName}_Homepage_WAVE_Overlay.png`;
   const githubMarkdownPath = `![WAVE Tool Screenshot](${githubScreenshotUrl})`;
 
-  const aimObj = calculateAimScore(report.company.companyName, report.totalViolations || 0, report.status);
+  const waveScore = getWaveAimScoreStr(report);
 
-  const email1 = report.emailDiscovery.primaryEmail.address && report.emailDiscovery.primaryEmail.address !== 'N/A' && !report.emailDiscovery.primaryEmail.address.includes('company.com')
+  // Only use emails actually found on the website — NO guessing
+  const email1 = report.emailDiscovery.primaryEmail.address
+    && report.emailDiscovery.primaryEmail.address !== 'N/A'
+    && !report.emailDiscovery.primaryEmail.address.includes('company.com')
     ? report.emailDiscovery.primaryEmail.address
     : 'Not publicly disclosed';
 
@@ -53,9 +51,9 @@ export function createTrackerRow(report: CompanyAuditReportV11, outputDir?: stri
     'Website Verified': report.resolution.resolvedUrl ? 'Yes' : 'No',
     'Scan Completed': report.status === 'Completed' ? 'Yes' : 'No',
     'Screenshot Taken': report.pages.some(p => p.screenshots.length > 0) ? 'Yes' : 'No',
-    'Wave Score': aimObj.scoreStr, // Dynamic WebAIM AIM Score out of 10
-    'Axe Score': report.totalViolations || 15,
-    'LH Score': report.lighthouseAvgScore || 30,
+    'Wave AIM Score': waveScore,
+    'Axe Score': report.totalViolations || 0,
+    'LH Score': report.lighthouseAvgScore || 0,
     'Screenshot link': githubMarkdownPath,
     'Contact Person 1': report.company.contactPerson && report.company.contactPerson !== 'N/A' ? report.company.contactPerson : `Company Secretary (${report.company.companyName})`,
     'Designation 1': 'Company Secretary & Compliance Officer',
@@ -67,7 +65,6 @@ export function createTrackerRow(report: CompanyAuditReportV11, outputDir?: stri
 }
 
 export function exportTrackerFiles(reports: CompanyAuditReportV11[], outputDir: string): void {
-  // Include ALL companies and websites regardless of Wave Score
   const rows = reports.map(r => createTrackerRow(r, outputDir));
   const headers = [
     'Sr. No.',
@@ -77,7 +74,7 @@ export function exportTrackerFiles(reports: CompanyAuditReportV11[], outputDir: 
     'Website Verified',
     'Scan Completed',
     'Screenshot Taken',
-    'Wave Score',
+    'Wave AIM Score',
     'Axe Score',
     'LH Score',
     'Screenshot link',
@@ -195,7 +192,7 @@ export function exportDigitalV13TrackerFile(reports: CompanyAuditReportV11[], ou
     'Website Verified',
     'Scan Completed',
     'Screenshot Taken',
-    'Wave Score',
+    'Wave AIM Score',
     'Axe Score',
     'LH Score',
     'Screenshot link',
@@ -207,15 +204,17 @@ export function exportDigitalV13TrackerFile(reports: CompanyAuditReportV11[], ou
     'Email ID 2'
   ];
 
-  // Include ALL companies and websites regardless of Wave Score
   const rows = reports.map((r, idx) => {
     const safeName = r.company.companyName.replace(/[^a-zA-Z0-9]/g, '_');
     const githubScreenshotUrl = `${repoBaseUrl}/${runFolderName}/${safeName}/screenshots/${safeName}_Homepage_WAVE_Overlay.png`;
     const githubMarkdownPath = `![WAVE Tool Screenshot](${githubScreenshotUrl})`;
 
-    const aimObj = calculateAimScore(r.company.companyName, r.totalViolations || 0, r.status);
+    const waveScore = getWaveAimScoreStr(r);
 
-    const email1 = r.emailDiscovery.primaryEmail.address && r.emailDiscovery.primaryEmail.address !== 'N/A' && !r.emailDiscovery.primaryEmail.address.includes('company.com')
+    // Only use emails actually found on the website — NO guessing
+    const email1 = r.emailDiscovery.primaryEmail.address
+      && r.emailDiscovery.primaryEmail.address !== 'N/A'
+      && !r.emailDiscovery.primaryEmail.address.includes('company.com')
       ? r.emailDiscovery.primaryEmail.address
       : 'Not publicly disclosed';
 
@@ -234,9 +233,9 @@ export function exportDigitalV13TrackerFile(reports: CompanyAuditReportV11[], ou
       'Website Verified': r.resolution.resolvedUrl ? 'Yes' : 'No',
       'Scan Completed': r.status === 'Completed' ? 'Yes' : 'No',
       'Screenshot Taken': r.pages.some(p => p.screenshots.length > 0) ? 'Yes' : 'No',
-      'Wave Score': aimObj.scoreStr, // Dynamic WebAIM AIM Score out of 10
-      'Axe Score': r.totalViolations || 15,
-      'LH Score': r.lighthouseAvgScore || 30,
+      'Wave AIM Score': waveScore,
+      'Axe Score': r.totalViolations || 0,
+      'LH Score': r.lighthouseAvgScore || 0,
       'Screenshot link': githubMarkdownPath,
       'Contact Person 1': r.company.contactPerson && r.company.contactPerson !== 'N/A' ? r.company.contactPerson : `Company Secretary (${r.company.companyName})`,
       'Designation 1': 'Company Secretary & Compliance Officer',
@@ -266,5 +265,5 @@ export function exportDigitalV13TrackerFile(reports: CompanyAuditReportV11[], ou
   const excelPath = path.join(outputDir, 'Simple_Accessibility_Outreach_Tracker_v13_SemiFinal.xlsx');
   XLSX.writeFile(workbook, excelPath);
 
-  console.log(`\n📊 Generated v1.3 Semi-Final Digital Outreach Tracker (All Companies Included): "${excelPath}"`);
+  console.log(`\n📊 Generated v1.3 Digital Outreach Tracker (Real WAVE AIM Scores): "${excelPath}"`);
 }
