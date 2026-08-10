@@ -53,7 +53,7 @@ export function createTrackerRow(report: CompanyAuditReportV11, outputDir?: stri
     'Website Verified': report.resolution.resolvedUrl ? 'Yes' : 'No',
     'Scan Completed': report.status === 'Completed' ? 'Yes' : 'No',
     'Screenshot Taken': report.pages.some(p => p.screenshots.length > 0) ? 'Yes' : 'No',
-    'Wave Score': aimObj.scoreStr, // Dynamic WebAIM AIM Score out of 10 (e.g. 1.5 out of 10, 3.1 out of 10)
+    'Wave Score': aimObj.scoreStr, // Dynamic WebAIM AIM Score out of 10
     'Axe Score': report.totalViolations || 15,
     'LH Score': report.lighthouseAvgScore || 30,
     'Screenshot link': githubMarkdownPath,
@@ -67,13 +67,8 @@ export function createTrackerRow(report: CompanyAuditReportV11, outputDir?: stri
 }
 
 export function exportTrackerFiles(reports: CompanyAuditReportV11[], outputDir: string): void {
-  // STRICT FILTERING RULE: Only include websites whose Wave AIM Score is strictly below 8.0!
-  const filteredReports = reports.filter(r => {
-    const aimObj = calculateAimScore(r.company.companyName, r.totalViolations || 0, r.status);
-    return aimObj.scoreNum < 8.0;
-  });
-
-  const rows = filteredReports.map(r => createTrackerRow(r, outputDir));
+  // Include ALL companies and websites regardless of Wave Score
+  const rows = reports.map(r => createTrackerRow(r, outputDir));
   const headers = [
     'Sr. No.',
     'Assigned To',
@@ -212,13 +207,8 @@ export function exportDigitalV13TrackerFile(reports: CompanyAuditReportV11[], ou
     'Email ID 2'
   ];
 
-  // STRICT FILTERING RULE: Only include websites whose Wave AIM Score is strictly below 8.0!
-  const filteredReports = reports.filter(r => {
-    const aimObj = calculateAimScore(r.company.companyName, r.totalViolations || 0, r.status);
-    return aimObj.scoreNum < 8.0;
-  });
-
-  const rows = filteredReports.map((r, idx) => {
+  // Include ALL companies and websites regardless of Wave Score
+  const rows = reports.map((r, idx) => {
     const safeName = r.company.companyName.replace(/[^a-zA-Z0-9]/g, '_');
     const githubScreenshotUrl = `${repoBaseUrl}/${runFolderName}/${safeName}/screenshots/${safeName}_Homepage_WAVE_Overlay.png`;
     const githubMarkdownPath = `![WAVE Tool Screenshot](${githubScreenshotUrl})`;
@@ -276,5 +266,5 @@ export function exportDigitalV13TrackerFile(reports: CompanyAuditReportV11[], ou
   const excelPath = path.join(outputDir, 'Simple_Accessibility_Outreach_Tracker_v13_SemiFinal.xlsx');
   XLSX.writeFile(workbook, excelPath);
 
-  console.log(`\n📊 Generated v1.3 Semi-Final Digital Outreach Tracker (< 8.0 AIM Score Filtered): "${excelPath}"`);
+  console.log(`\n📊 Generated v1.3 Semi-Final Digital Outreach Tracker (All Companies Included): "${excelPath}"`);
 }
