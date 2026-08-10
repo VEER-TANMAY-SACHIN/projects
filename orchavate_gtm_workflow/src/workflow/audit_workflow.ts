@@ -12,10 +12,8 @@ import { generateRunReport } from '../run_report_generator.js';
 import { exportTrackerFiles, exportDigitalV13TrackerFile } from '../tracker.js';
 
 import { defaultConfig, AppConfig, SearchMode } from '../config/config.js';
-import { renderCircuitBreakerMenu } from '../ui/menu.js';
 import { SearchCache } from '../cache/search_cache.js';
 import { ResolutionLogger } from '../logger/logger.js';
-import { CircuitBreaker } from '../circuit_breaker/circuit_breaker.js';
 
 const DESKTOP_USER_AGENTS = [
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
@@ -68,7 +66,6 @@ export async function runWorkflowV11(
 
   const cache = new SearchCache(baseOutputDir, config.cacheTTLMs, config.cacheEnabled);
   const logger = new ResolutionLogger(baseOutputDir);
-  const circuitBreaker = new CircuitBreaker(config.circuitBreakerThreshold, config.circuitBreakerMinProcessed);
 
   let currentMode: SearchMode = config.searchMode;
   let currentReadymadeMap = readymadeList || {};
@@ -122,44 +119,7 @@ export async function runWorkflowV11(
       timestamp: new Date().toISOString(),
     });
 
-    console.log(`  -> Resolution Source: ${resolution.source} (${resolution.confidence} Confidence)`);
-    console.log(`  -> Resolved URL: ${resolution.resolvedUrl || 'NONE'}`);
 
-    const triggered = circuitBreaker.recordResult({
-      resolvedUrl: resolution.resolvedUrl,
-      source: 'automated-search',
-      confidence: resolution.confidence,
-      hasConflict: resolution.hasConflict,
-      candidateDomains: [],
-      searchQueries: [],
-      searchDurationMs,
-      reason: resolution.conflictDetails || '',
-    });
-
-    if (triggered) {
-      const stats = circuitBreaker.getStats();
-      const msg = `⚠️ CIRCUIT BREAKER TRIGGERED at company #${company.srNo} (${company.companyName}): Failure rate reached ${stats.failureRatePercent}%.`;
-      console.warn(`\n  ${msg}`);
-      circuitBreakerEvents.push(msg);
-
-      if (!config.nonInteractive) {
-        const action = await renderCircuitBreakerMenu(stats);
-        if (action === 'ABORT') {
-          console.warn(`\n⛔ Execution paused and aborted by operator.\n`);
-          break;
-        } else if (action === 'SWITCH_READYMADE') {
-          currentMode = 'READYMADE';
-          circuitBreaker.resetCount();
-          console.log(`\n🔄 Switched to READYMADE mode for remaining batch.\n`);
-        } else if (action === 'RETRY') {
-          circuitBreaker.resetCount();
-          i--;
-          continue;
-        } else {
-          circuitBreaker.resetCount();
-        }
-      }
-    }
 
     if (resolution.hasConflict) {
       console.warn(`  ⚠️ CONFLICT FLAGGED: Self-search & readymade URL mismatch. Pausing scan for manual review.`);

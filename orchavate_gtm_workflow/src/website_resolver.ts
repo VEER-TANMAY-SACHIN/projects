@@ -1,1 +1,1 @@
-export { normalizeDomain, resolveWebsite, CircuitBreakerTracker } from './discovery/website_resolver.js';
+export { normalizeDomain, resolveWebsite } from './discovery/website_resolver.js';

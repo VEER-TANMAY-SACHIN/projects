@@ -3,7 +3,6 @@ import { WebsiteResolver, ResolutionResult } from '../resolvers/resolver_types.j
 import { AutomatedWebsiteResolver } from '../resolvers/automated_resolver.js';
 import { ReadymadeWebsiteResolver } from '../resolvers/readymade_resolver.js';
 import { HybridWebsiteResolver } from '../resolvers/hybrid_resolver.js';
-import { CircuitBreaker } from '../circuit_breaker/circuit_breaker.js';
 import { SearchCache } from '../cache/search_cache.js';
 
 export function normalizeDomain(urlStr: string): string {
@@ -59,42 +58,4 @@ export async function resolveWebsite(
     selfSearchUrl: result.selfSearchUrl,
     readymadeUrl: result.readymadeUrl,
   };
-}
-
-export class CircuitBreakerTracker {
-  private cb: CircuitBreaker;
-
-  constructor(thresholdRate = 0.30) {
-    this.cb = new CircuitBreaker(thresholdRate, 5);
-  }
-
-  public recordResult(resolution: WebsiteResolution): boolean {
-    return this.cb.recordResult({
-      resolvedUrl: resolution.resolvedUrl,
-      source: 'automated-search',
-      confidence: resolution.confidence,
-      hasConflict: resolution.hasConflict,
-      candidateDomains: [],
-      searchQueries: [],
-      searchDurationMs: 0,
-      reason: resolution.conflictDetails || '',
-    });
-  }
-
-  public getFailureRate(): number {
-    return this.cb.getStats().failureRatePercent;
-  }
-
-  public getStats() {
-    const s = this.cb.getStats();
-    return {
-      totalProcessed: s.totalProcessed,
-      lowConfidenceCount: s.failureCount,
-      failureRatePercent: s.failureRatePercent,
-    };
-  }
-
-  public reset(): void {
-    this.cb.resetCount();
-  }
 }

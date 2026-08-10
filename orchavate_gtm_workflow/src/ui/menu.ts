@@ -1,15 +1,12 @@
 import readline from 'readline';
 import fs from 'fs';
-import { AppConfig, SearchMode } from '../config/config.ts';
-import { CircuitBreakerStats } from '../circuit_breaker/circuit_breaker.ts';
+import { AppConfig, SearchMode } from '../config/config.js';
 
 export interface StartupMenuResult {
   mode: SearchMode;
   readymadeFilePath?: string;
   inputFilePath?: string;
 }
-
-export type CircuitBreakerAction = 'RESUME' | 'SWITCH_READYMADE' | 'RETRY' | 'ABORT';
 
 function promptUser(query: string): Promise<string> {
   const rl = readline.createInterface({
@@ -92,37 +89,7 @@ export async function renderStartupMenu(config: AppConfig): Promise<StartupMenuR
   return { mode: 'AUTOMATED_SEARCH' };
 }
 
-export async function renderCircuitBreakerMenu(stats: CircuitBreakerStats): Promise<CircuitBreakerAction> {
-  console.log(`\n======================================`);
-  console.log(`CIRCUIT BREAKER ACTIVATED`);
-  console.log(`======================================`);
-  console.log(`Processed: ${stats.totalProcessed}`);
-  console.log(`Failures: ${stats.failureCount}`);
-  console.log(`Failure Rate: ${stats.failureRatePercent}%\n`);
-  console.log(`Continue?`);
-  console.log(`1 Resume`);
-  console.log(`2 Switch to Readymade Mode`);
-  console.log(`3 Retry Search`);
-  console.log(`4 Abort`);
-  console.log(`======================================\n`);
-
-  const choice = await promptUser(`Select option (1/2/3/4) [default 1]: `);
-
-  switch (choice) {
-    case '2':
-      return 'SWITCH_READYMADE';
-    case '3':
-      return 'RETRY';
-    case '4':
-      return 'ABORT';
-    case '1':
-    default:
-      return 'RESUME';
-  }
-}
-
 export async function renderPipelineMenu(): Promise<'digital' | 'infrastructure' | 'art_experiences'> {
-
   console.log(`\n=====================================================`);
   console.log(`[ORCHAVATE v1.3] System Initialized.`);
   console.log(`Select Execution Pipeline:`);

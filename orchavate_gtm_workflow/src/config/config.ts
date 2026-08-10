@@ -8,8 +8,6 @@ export interface AppConfig {
   searchTimeoutMs: number;
   cacheEnabled: boolean;
   cacheTTLMs: number;
-  circuitBreakerThreshold: number; // e.g. 0.30 for 30%
-  circuitBreakerMinProcessed: number; // e.g. 5
   manualReviewThreshold: number;
   nonInteractive: boolean;
 }
@@ -22,8 +20,6 @@ export const defaultConfig: AppConfig = {
   searchTimeoutMs: 10000,
   cacheEnabled: true,
   cacheTTLMs: 7 * 24 * 60 * 60 * 1000, // 7 days
-  circuitBreakerThreshold: 0.30,
-  circuitBreakerMinProcessed: 5,
   manualReviewThreshold: 0.50,
   nonInteractive: false,
 };
