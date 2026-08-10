@@ -108,6 +108,71 @@ export function exportTrackerFiles(reports: CompanyAuditReportV11[], outputDir: 
 }
 
 /**
+ * Export Infrastructure Accessibility Audits Leads Tracker Excel file
+ */
+export function exportInfraTrackerFile(rows: any[], outputDir: string): void {
+  const headers = [
+    'Sr. No.',
+    'Company Name',
+    'Locations of Operation',
+    'CEO / Founder Name',
+    'ICP Rating',
+    'ICP Qualified',
+    'Contact Person',
+    'Designation / Role',
+    'Email ID',
+    'Email Status',
+    'LinkedIn Profile',
+    'Outreach Status',
+    'Last Updated Date',
+    'Notes'
+  ];
+
+  if (!fs.existsSync(outputDir)) {
+    fs.mkdirSync(outputDir, { recursive: true });
+  }
+
+  const worksheet = XLSX.utils.json_to_sheet(rows, { header: headers });
+  const workbook = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(workbook, worksheet, 'Infra Leads Tracker');
+
+  const excelPath = path.join(outputDir, 'Infrastructure_Accessibility_Audits_Leads_Tracker.xlsx');
+  XLSX.writeFile(workbook, excelPath);
+  console.log(`\n📊 Generated Infrastructure Accessibility Tracker: "${excelPath}"`);
+}
+
+/**
+ * Export Art & Experiences Prospecting Tracker Excel file
+ */
+export function exportArtExperiencesTrackerFile(rows: any[], outputDir: string): void {
+  const headers = [
+    'Sr. No.',
+    'Company Name',
+    'Trigger Signal / Announcement',
+    'Locations of Operation',
+    'Contact Person',
+    'Designation / Role',
+    'Email ID',
+    'Email Status',
+    'LinkedIn Profile',
+    'Outreach Status',
+    'Last Updated Date'
+  ];
+
+  if (!fs.existsSync(outputDir)) {
+    fs.mkdirSync(outputDir, { recursive: true });
+  }
+
+  const worksheet = XLSX.utils.json_to_sheet(rows, { header: headers });
+  const workbook = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(workbook, worksheet, 'Art & Exp Tracker');
+
+  const excelPath = path.join(outputDir, 'Art_Experiences_Prospecting_Tracker.xlsx');
+  XLSX.writeFile(workbook, excelPath);
+  console.log(`\n📊 Generated Art & Experiences Tracker: "${excelPath}"`);
+}
+
+/**
  * Export Digital Accessibility Tracker v1.3 Semi-Final Edition
  */
 export function exportDigitalV13TrackerFile(reports: CompanyAuditReportV11[], outputDir: string): void {
