@@ -175,10 +175,12 @@ print("a[1:4:-2] =", a[1:4:-2])
 
 #packages
 s="packages"
-s[0:9]
+print("s[0:9] =", s[0:9])
 
 #package
-s[0:8]
+print("s[0:8] =", s[0:8])
 #pack
-s[0:3]
+print("s[0:3] =", s[0:3])
+
+print("s[0:3] + s[3:8] =", s[0:3] + s[3:8])
 
