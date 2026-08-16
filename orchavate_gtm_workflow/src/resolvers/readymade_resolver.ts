@@ -42,7 +42,8 @@ export class ReadymadeWebsiteResolver implements WebsiteResolver {
     }
 
     const norm = normalizeDomain(formattedUrl);
-    const isValid = norm && !norm.includes('invalid') && !norm.includes('test');
+    const normLower = (norm || '').toLowerCase();
+    const isValid = normLower && !normLower.includes('not found') && !normLower.includes('notfound') && !normLower.includes('invalid') && !normLower.includes('test');
 
     return {
       resolvedUrl: isValid ? formattedUrl : '',

@@ -1,0 +1,321 @@
+{
+  "company": {
+    "srNo": 79,
+    "companyName": "Kansai Nerolac Paints Ltd",
+    "readymadeWebsite": "https://nerolacbd.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (Kansai Nerolac Paints Ltd)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://nerolacbd.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://nerolacbd.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "info@nerolacbd.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://nerolacbd.com/get-in-touch/"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "info@nerolacbd.com",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://nerolacbd.com/get-in-touch/"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://nerolacbd.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#menu-item-348 > .menu-link",
+          "html": "<a href=\"https://nerolacbd.com/products/\" class=\"menu-link\">Products</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#menu-item-349 > .menu-link",
+          "html": "<a href=\"https://nerolacbd.com/interior-wall-paint/\" class=\"menu-link\">Interior Wall Paint</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#menu-item-350 > .menu-link",
+          "html": "<a href=\"https://nerolacbd.com/exterior-wall-paint/\" class=\"menu-link\">Exterior Wall Paint</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#menu-item-352 > .menu-link",
+          "html": "<a href=\"https://nerolacbd.com/metal-enamel-paints/\" class=\"menu-link\">Metal Enamel Paints</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#menu-item-353 > .menu-link",
+          "html": "<a href=\"https://nerolacbd.com/paint-ancillary/\" class=\"menu-link\">Paint Ancillary</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#menu-item-358 > .menu-link",
+          "html": "<a href=\"https://nerolacbd.com/inspiration/\" class=\"menu-link\">Inspiration</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#menu-item-359 > .menu-link",
+          "html": "<a href=\"https://nerolacbd.com/new-style-guide/\" class=\"menu-link\">New Style Guide</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#menu-item-360 > .menu-link[href$=\"ideas/\"]",
+          "html": "<a href=\"https://nerolacbd.com/ideas/\" class=\"menu-link\">Ideas</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#menu-item-361 > .menu-link[href$=\"blog/\"]",
+          "html": "<a href=\"https://nerolacbd.com/blog/\" class=\"menu-link\">Blog</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#menu-item-363 > .menu-link",
+          "html": "<a href=\"https://nerolacbd.com/healthy-home-paints/\" class=\"menu-link\">Healthy Home Paints</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#menu-item-376 > .menu-link",
+          "html": "<a href=\"https://nerolacbd.com/about-us/\" class=\"menu-link\">ABOUT US</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#menu-item-377 > .menu-link",
+          "html": "<a href=\"https://nerolacbd.com/?page_id=371\" class=\"menu-link\">Career</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#menu-item-378 > .menu-link",
+          "html": "<a href=\"https://nerolacbd.com/our-financials/\" class=\"menu-link\">Our Financials</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[aria-current=\"page\"]",
+          "html": "<a href=\"https://nerolacbd.com/\" aria-current=\"page\" class=\"menu-link\">Home</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#menu-item-404 > .menu-link",
+          "html": "<a href=\"https://nerolacbd.com/privacy-policy-2/\" class=\"menu-link\">Privacy Policy</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#menu-item-405 > .menu-link",
+          "html": "<a href=\"https://nerolacbd.com/terms-conditions/\" class=\"menu-link\">Terms &amp; Conditions</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#menu-item-407 > .menu-link",
+          "html": "<a href=\"https://nerolacbd.com/site-map/\" class=\"menu-link\">Site Map</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#menu-item-408 > .menu-link",
+          "html": "<a href=\"https://nerolacbd.com/?page_id=397\" class=\"menu-link\">Bio Mediacal Waste</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[href$=\"kansai.com/\"]",
+          "html": "<a style=\"color: #b40e40\" href=\"http://www.kansai.com/\" target=\"_blank\" rel=\"noopener\">Kansai Paints</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-in-text-block",
+          "impact": "serious",
+          "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+          "help": "Links must be distinguishable without relying on color",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-in-text-block?application=playwright",
+          "category": "other",
+          "selector": "a[href$=\"kansai.com/\"]",
+          "html": "<a style=\"color: #b40e40\" href=\"http://www.kansai.com/\" target=\"_blank\" rel=\"noopener\">Kansai Paints</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[href$=\"nerolacbd.com\"]",
+          "html": "<a href=\"https://nerolacbd.com\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Kansai_Nerolac_Paints_Ltd/screenshots/Kansai_Nerolac_Paints_Ltd_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Kansai_Nerolac_Paints_Ltd/screenshots/Kansai_Nerolac_Paints_Ltd_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Kansai_Nerolac_Paints_Ltd/screenshots/Kansai_Nerolac_Paints_Ltd_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 21,
+  "altTextViolations": 0,
+  "contrastViolations": 19,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Kansai_Nerolac_Paints_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Kansai_Nerolac_Paints_Ltd/screenshots/Kansai_Nerolac_Paints_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Kansai Nerolac Paints Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `21`  \n> **Verified Contact Email:** `info@nerolacbd.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@nerolacbd.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **21 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `21` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 19 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (19 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Kansai Nerolac Paints Ltd\n- **Resolved URL:** [https://nerolacbd.com](https://nerolacbd.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@nerolacbd.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `info@nerolacbd.com` | **Status:** `Verified` | **Source Page:** https://nerolacbd.com/get-in-touch/\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-item-348 > .menu-link`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-item-349 > .menu-link`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-item-350 > .menu-link`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-item-352 > .menu-link`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-item-353 > .menu-link`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-item-358 > .menu-link`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-item-359 > .menu-link`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-item-360 > .menu-link[href$=\"ideas/\"]`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-item-361 > .menu-link[href$=\"blog/\"]`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-item-363 > .menu-link`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Kansai_Nerolac_Paints_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Kansai_Nerolac_Paints_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Kansai_Nerolac_Paints_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Kansai_Nerolac_Paints_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Kansai_Nerolac_Paints_Ltd/screenshots/Kansai_Nerolac_Paints_Ltd_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Kansai Nerolac Paints Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `21`  \n> **Verified Contact Email:** `info@nerolacbd.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@nerolacbd.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **21 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `21` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 19 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (19 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Kansai Nerolac Paints Ltd\n- **Resolved URL:** [https://nerolacbd.com](https://nerolacbd.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@nerolacbd.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `info@nerolacbd.com` | **Status:** `Verified` | **Source Page:** https://nerolacbd.com/get-in-touch/\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-item-348 > .menu-link`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-item-349 > .menu-link`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-item-350 > .menu-link`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-item-352 > .menu-link`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-item-353 > .menu-link`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-item-358 > .menu-link`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-item-359 > .menu-link`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-item-360 > .menu-link[href$=\"ideas/\"]`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-item-361 > .menu-link[href$=\"blog/\"]`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-item-363 > .menu-link`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Kansai_Nerolac_Paints_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Kansai_Nerolac_Paints_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Kansai_Nerolac_Paints_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Kansai_Nerolac_Paints_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Kansai_Nerolac_Paints_Ltd/screenshots/Kansai_Nerolac_Paints_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Kansai Nerolac Paints Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `21`  \n> **Verified Contact Email:** `info@nerolacbd.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@nerolacbd.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **21 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `21` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 19 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (19 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Kansai Nerolac Paints Ltd\n- **Resolved URL:** [https://nerolacbd.com](https://nerolacbd.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@nerolacbd.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `info@nerolacbd.com` | **Status:** `Verified` | **Source Page:** https://nerolacbd.com/get-in-touch/\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-item-348 > .menu-link`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-item-349 > .menu-link`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-item-350 > .menu-link`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-item-352 > .menu-link`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-item-353 > .menu-link`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-item-358 > .menu-link`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-item-359 > .menu-link`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-item-360 > .menu-link[href$=\"ideas/\"]`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-item-361 > .menu-link[href$=\"blog/\"]`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-item-363 > .menu-link`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Kansai_Nerolac_Paints_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Kansai_Nerolac_Paints_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Kansai_Nerolac_Paints_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 21. WAVE AIM: N/A. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-11T11:43:53.479Z"
+}

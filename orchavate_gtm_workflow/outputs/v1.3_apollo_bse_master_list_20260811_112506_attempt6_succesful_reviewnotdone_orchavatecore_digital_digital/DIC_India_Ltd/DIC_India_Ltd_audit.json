@@ -1,0 +1,49 @@
+{
+  "company": {
+    "srNo": 40,
+    "companyName": "DIC India Ltd",
+    "readymadeWebsite": "https://dicindialtd.co",
+    "assignedTo": "Unassigned",
+    "contactPerson": "N/A",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://dicindialtd.co",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://dicindialtd.co"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "N/A",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Not Found"
+    },
+    "regardingAccessibility": [],
+    "overallStatus": "Not Found",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": true,
+    "signatureMatched": "cloudflare"
+  },
+  "pages": [],
+  "status": "Blocked (Bot Protection)",
+  "totalViolations": 0,
+  "altTextViolations": 0,
+  "contrastViolations": 0,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 0,
+  "deliverables": {},
+  "remarks": "Blocked by Bot Protection (cloudflare)",
+  "timestamp": "2026-08-11T11:32:07.623Z"
+}

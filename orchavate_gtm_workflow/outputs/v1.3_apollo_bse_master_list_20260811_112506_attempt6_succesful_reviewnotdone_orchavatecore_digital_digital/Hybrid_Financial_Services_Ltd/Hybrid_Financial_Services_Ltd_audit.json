@@ -1,0 +1,96 @@
+{
+  "company": {
+    "srNo": 134,
+    "companyName": "Hybrid Financial Services Ltd",
+    "readymadeWebsite": "https://hybridfinance.co.in",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (Hybrid Financial Services Ltd)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://hybridfinance.co.in",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://hybridfinance.co.in"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "investor@hybridfinance.co.in",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://hybridfinance.co.in/contact-us.html"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "investor@hybridfinance.co.in",
+        "type": "compliance_grievance",
+        "label": "Investor Grievance / Compliance Officer Email",
+        "status": "Verified",
+        "sourceUrl": "https://hybridfinance.co.in/contact-us.html"
+      },
+      {
+        "address": "investor@hybridfinance.co.in",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://hybridfinance.co.in/contact-us.html"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://hybridfinance.co.in",
+      "accessible": true,
+      "axeViolations": [],
+      "lighthouseScore": 100,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Hybrid_Financial_Services_Ltd/screenshots/Hybrid_Financial_Services_Ltd_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Hybrid_Financial_Services_Ltd/screenshots/Hybrid_Financial_Services_Ltd_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Hybrid_Financial_Services_Ltd/screenshots/Hybrid_Financial_Services_Ltd_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 0,
+  "altTextViolations": 0,
+  "contrastViolations": 0,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 100,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Hybrid_Financial_Services_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Hybrid_Financial_Services_Ltd/screenshots/Hybrid_Financial_Services_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Hybrid Financial Services Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `100 / 100`  \n> **Total WCAG Violations:** `0`  \n> **Verified Contact Email:** `investor@hybridfinance.co.in`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟢 Excellent (Low Risk)\n- **What this Score Means:** The website adheres well to WCAG 2.1 AA accessibility standards. Disabled users and screen reader operators can navigate the platform with minimal friction.\n- **Business & Legal Risk:** Low compliance risk. Minor polish needed for complete digital inclusion.\n- **Primary Outreach Contact:** `investor@hybridfinance.co.in` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **100/100** on automated WCAG 2.1 AA accessibility testing with **0 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `100/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `0` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Clean Codebase:** No automated DOM accessibility defects found on scanned pages. Keep auditing dynamic components.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Hybrid Financial Services Ltd\n- **Resolved URL:** [https://hybridfinance.co.in](https://hybridfinance.co.in)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `investor@hybridfinance.co.in` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `investor@hybridfinance.co.in` | **Status:** `Verified` | **Source Page:** https://hybridfinance.co.in/contact-us.html\n- **General Contact Email:** `investor@hybridfinance.co.in` | **Status:** `Verified` | **Source Page:** https://hybridfinance.co.in/contact-us.html\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n*No WCAG accessibility violations detected.*\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Hybrid_Financial_Services_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Hybrid_Financial_Services_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Hybrid_Financial_Services_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Hybrid_Financial_Services_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Hybrid_Financial_Services_Ltd/screenshots/Hybrid_Financial_Services_Ltd_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Hybrid Financial Services Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `100 / 100`  \n> **Total WCAG Violations:** `0`  \n> **Verified Contact Email:** `investor@hybridfinance.co.in`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟢 Excellent (Low Risk)\n- **What this Score Means:** The website adheres well to WCAG 2.1 AA accessibility standards. Disabled users and screen reader operators can navigate the platform with minimal friction.\n- **Business & Legal Risk:** Low compliance risk. Minor polish needed for complete digital inclusion.\n- **Primary Outreach Contact:** `investor@hybridfinance.co.in` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **100/100** on automated WCAG 2.1 AA accessibility testing with **0 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `100/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `0` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Clean Codebase:** No automated DOM accessibility defects found on scanned pages. Keep auditing dynamic components.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Hybrid Financial Services Ltd\n- **Resolved URL:** [https://hybridfinance.co.in](https://hybridfinance.co.in)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `investor@hybridfinance.co.in` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `investor@hybridfinance.co.in` | **Status:** `Verified` | **Source Page:** https://hybridfinance.co.in/contact-us.html\n- **General Contact Email:** `investor@hybridfinance.co.in` | **Status:** `Verified` | **Source Page:** https://hybridfinance.co.in/contact-us.html\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n*No WCAG accessibility violations detected.*\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Hybrid_Financial_Services_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Hybrid_Financial_Services_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Hybrid_Financial_Services_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Hybrid_Financial_Services_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Hybrid_Financial_Services_Ltd/screenshots/Hybrid_Financial_Services_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Hybrid Financial Services Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `100 / 100`  \n> **Total WCAG Violations:** `0`  \n> **Verified Contact Email:** `investor@hybridfinance.co.in`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟢 Excellent (Low Risk)\n- **What this Score Means:** The website adheres well to WCAG 2.1 AA accessibility standards. Disabled users and screen reader operators can navigate the platform with minimal friction.\n- **Business & Legal Risk:** Low compliance risk. Minor polish needed for complete digital inclusion.\n- **Primary Outreach Contact:** `investor@hybridfinance.co.in` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **100/100** on automated WCAG 2.1 AA accessibility testing with **0 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `100/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `0` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Clean Codebase:** No automated DOM accessibility defects found on scanned pages. Keep auditing dynamic components.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Hybrid Financial Services Ltd\n- **Resolved URL:** [https://hybridfinance.co.in](https://hybridfinance.co.in)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `investor@hybridfinance.co.in` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `investor@hybridfinance.co.in` | **Status:** `Verified` | **Source Page:** https://hybridfinance.co.in/contact-us.html\n- **General Contact Email:** `investor@hybridfinance.co.in` | **Status:** `Verified` | **Source Page:** https://hybridfinance.co.in/contact-us.html\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n*No WCAG accessibility violations detected.*\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Hybrid_Financial_Services_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Hybrid_Financial_Services_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Hybrid_Financial_Services_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 0. WAVE AIM: N/A. Lighthouse A11y: 100/100.",
+  "timestamp": "2026-08-11T11:56:24.744Z"
+}

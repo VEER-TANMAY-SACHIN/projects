@@ -61,14 +61,46 @@ except Exception as e:
 
 
 # Find the company name column dynamically
-company_col = None
-for name in ['NAME OF COMPANY', 'COMPANY NAME', 'Company Name', 'Company', 'NAME', 'SECURITY NAME']:
-    if name in df.columns:
-        company_col = name
-        break
+def find_company_column(dataframe):
+    cols = list(dataframe.columns)
+    
+    # 1. Normalized priority pattern search (exact/near match)
+    priority_patterns = [
+        r'^company\s*name$', r'^issuer\s*name$', r'^name\s*of\s*company$',
+        r'^scrip\s*name$', r'^company$', r'^issuer$', r'^security\s*name$',
+        r'^organization\s*name$', r'^firm\s*name$', r'^entity\s*name$', r'^name$'
+    ]
+    for pat in priority_patterns:
+        for col in cols:
+            norm_col = str(col).strip().lower().replace('_', ' ')
+            if re.search(pat, norm_col):
+                return col
+
+    # 2. Partial match (contains key terms)
+    for col in cols:
+        norm_col = str(col).strip().lower()
+        if any(k in norm_col for k in ['issuer', 'company', 'scrip_name', 'security name', 'firm', 'organization']):
+            return col
+
+    # 3. Fallback: longest average text column excluding metadata/URLs
+    best_col = None
+    max_len = 0
+    for col in cols:
+        if dataframe[col].dtype == 'object':
+            sample = dataframe[col].dropna().astype(str)
+            if len(sample) > 0:
+                avg_len = sample.str.len().mean()
+                col_lower = str(col).lower()
+                if not any(k in col_lower for k in ['url', 'isin', 'status', 'segment', 'group', 'code', 'cd']) and avg_len > max_len:
+                    max_len = avg_len
+                    best_col = col
+
+    return best_col
+
+company_col = find_company_column(df)
 
 if not company_col:
-    print("Error: Could not find a Company Name column.")
+    print(f"Error: Could not automatically find a Company Name column in columns: {list(df.columns)}")
     sys.exit(1)
 
 total_rows = len(df)

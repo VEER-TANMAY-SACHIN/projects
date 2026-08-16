@@ -1,0 +1,233 @@
+{
+  "company": {
+    "srNo": 212,
+    "companyName": "UTL Industries Ltd",
+    "readymadeWebsite": "https://utleon.edu.mx",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (UTL Industries Ltd)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://utleon.edu.mx",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://utleon.edu.mx"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "difusion@utleon.edu.mx",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://utleon.edu.mx"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "difusion@utleon.edu.mx",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://utleon.edu.mx"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://utleon.edu.mx",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".v-btn--outlined > .v-btn__content",
+          "html": "<span class=\"v-btn__content\">\n\t\t\t\t\t\t\tCerrar\n\t\t\t\t\t\t</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div[aria-haspopup=\"true\"] > .v-responsive__content > .align-end.fill-height.row > span > b",
+          "html": "<b>OFERTA EDUCATIVA</b>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".col-4.col:nth-child(1) > .rounded-lg.v-image.v-responsive > .v-responsive__content > .align-end.fill-height.row > span > b",
+          "html": "<b style=\"font-size: 21px;\">PROCURADURÍA DE DERECHOS UNIVERSITARIOS Y DE GÉNERO</b>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".col-md-6.col-12:nth-child(2) > .row--dense.row > .col-8.col:nth-child(2) > .rounded-lg.v-image.v-responsive > .v-responsive__content > .align-end.fill-height.row > span > b",
+          "html": "<b style=\"font-size: 30px;\">INTERNACIONALIZACIÓN</b>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".col-8.col:nth-child(3) > .rounded-lg.v-image.v-responsive > .v-responsive__content > .align-end.fill-height.row > span > b",
+          "html": "<b style=\"font-size: 30px;\">TIENDA SOMOS LEONES</b>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".col-md-6.col-12:nth-child(2) > .row--dense.row > .col-4.col.align-center > .row--dense.row:nth-child(1) > .col-12.col > .rounded-lg.v-image.v-responsive > .v-responsive__content > .align-end.fill-height.row > span > b",
+          "html": "<b style=\"font-size: 25px;\">ACTIVIDADES DEPORTIVAS</b>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".col-md-6.col-12:nth-child(2) > .row--dense.row > .col-4.col.align-center > .row--dense.row:nth-child(2) > .col-12.col > .rounded-lg.v-image.v-responsive > .v-responsive__content > .align-end.fill-height.row > span > b",
+          "html": "<b style=\"font-size: 25px;\">ACTIVIDADES CULTURALES</b>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".col-md-2.col-12 > .rounded-lg.v-image.v-responsive > .v-responsive__content > .align-end.fill-height.row > span > b",
+          "html": "<b>TRANSPARENCIA</b>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".col-md-5.col-12:nth-child(2) > .rounded-lg.v-image[__max-height=\"100%\"] > .v-responsive__content > .align-end.fill-height.row > span > b",
+          "html": "<b>UTL SENIOR</b>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".col-md-5.col-12:nth-child(3) > .rounded-lg.v-image[__max-height=\"100%\"] > .v-responsive__content > .align-end.fill-height.row > span > b",
+          "html": "<b>¿QUIERES TRABAJAR EN LA UTL?</b>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "html-has-lang",
+          "impact": "serious",
+          "description": "Ensure every HTML document has a lang attribute",
+          "help": "<html> element must have a lang attribute",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/html-has-lang?application=playwright",
+          "category": "other",
+          "selector": "html",
+          "html": "<html class=\"swal2-shown swal2-height-auto\" data-uw-w-loader=\"\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "meta-viewport",
+          "impact": "moderate",
+          "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+          "help": "Zooming and scaling must not be disabled",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/meta-viewport?application=playwright",
+          "category": "other",
+          "selector": "head > meta[name=\"viewport\"]",
+          "html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "meta-viewport",
+          "impact": "moderate",
+          "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+          "help": "Zooming and scaling must not be disabled",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/meta-viewport?application=playwright",
+          "category": "other",
+          "selector": "body > meta[name=\"viewport\"]",
+          "html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui\" aria-hidden=\"true\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 48,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/UTL_Industries_Ltd/screenshots/UTL_Industries_Ltd_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/UTL_Industries_Ltd/screenshots/UTL_Industries_Ltd_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/UTL_Industries_Ltd/screenshots/UTL_Industries_Ltd_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 13,
+  "altTextViolations": 0,
+  "contrastViolations": 10,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 48,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/UTL_Industries_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/UTL_Industries_Ltd/screenshots/UTL_Industries_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — UTL Industries Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `48 / 100`  \n> **Total WCAG Violations:** `13`  \n> **Verified Contact Email:** `difusion@utleon.edu.mx`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `difusion@utleon.edu.mx` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **48/100** on automated WCAG 2.1 AA accessibility testing with **13 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `48/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `11` | Moderate: `2`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 10 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (10 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** UTL Industries Ltd\n- **Resolved URL:** [https://utleon.edu.mx](https://utleon.edu.mx)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `difusion@utleon.edu.mx` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `difusion@utleon.edu.mx` | **Status:** `Verified` | **Source Page:** https://utleon.edu.mx\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.v-btn--outlined > .v-btn__content`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `div[aria-haspopup=\"true\"] > .v-responsive__content > .align-end.fill-height.row > span > b`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.col-4.col:nth-child(1) > .rounded-lg.v-image.v-responsive > .v-responsive__content > .align-end.fill-height.row > span > b`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.col-md-6.col-12:nth-child(2) > .row--dense.row > .col-8.col:nth-child(2) > .rounded-lg.v-image.v-responsive > .v-responsive__content > .align-end.fill-height.row > span > b`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.col-8.col:nth-child(3) > .rounded-lg.v-image.v-responsive > .v-responsive__content > .align-end.fill-height.row > span > b`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.col-md-6.col-12:nth-child(2) > .row--dense.row > .col-4.col.align-center > .row--dense.row:nth-child(1) > .col-12.col > .rounded-lg.v-image.v-responsive > .v-responsive__content > .align-end.fill-height.row > span > b`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.col-md-6.col-12:nth-child(2) > .row--dense.row > .col-4.col.align-center > .row--dense.row:nth-child(2) > .col-12.col > .rounded-lg.v-image.v-responsive > .v-responsive__content > .align-end.fill-height.row > span > b`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.col-md-2.col-12 > .rounded-lg.v-image.v-responsive > .v-responsive__content > .align-end.fill-height.row > span > b`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.col-md-5.col-12:nth-child(2) > .rounded-lg.v-image[__max-height=\"100%\"] > .v-responsive__content > .align-end.fill-height.row > span > b`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.col-md-5.col-12:nth-child(3) > .rounded-lg.v-image[__max-height=\"100%\"] > .v-responsive__content > .align-end.fill-height.row > span > b`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/UTL_Industries_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/UTL_Industries_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/UTL_Industries_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/UTL_Industries_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/UTL_Industries_Ltd/screenshots/UTL_Industries_Ltd_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — UTL Industries Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `48 / 100`  \n> **Total WCAG Violations:** `13`  \n> **Verified Contact Email:** `difusion@utleon.edu.mx`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `difusion@utleon.edu.mx` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **48/100** on automated WCAG 2.1 AA accessibility testing with **13 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `48/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `11` | Moderate: `2`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 10 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (10 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** UTL Industries Ltd\n- **Resolved URL:** [https://utleon.edu.mx](https://utleon.edu.mx)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `difusion@utleon.edu.mx` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `difusion@utleon.edu.mx` | **Status:** `Verified` | **Source Page:** https://utleon.edu.mx\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.v-btn--outlined > .v-btn__content`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `div[aria-haspopup=\"true\"] > .v-responsive__content > .align-end.fill-height.row > span > b`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.col-4.col:nth-child(1) > .rounded-lg.v-image.v-responsive > .v-responsive__content > .align-end.fill-height.row > span > b`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.col-md-6.col-12:nth-child(2) > .row--dense.row > .col-8.col:nth-child(2) > .rounded-lg.v-image.v-responsive > .v-responsive__content > .align-end.fill-height.row > span > b`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.col-8.col:nth-child(3) > .rounded-lg.v-image.v-responsive > .v-responsive__content > .align-end.fill-height.row > span > b`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.col-md-6.col-12:nth-child(2) > .row--dense.row > .col-4.col.align-center > .row--dense.row:nth-child(1) > .col-12.col > .rounded-lg.v-image.v-responsive > .v-responsive__content > .align-end.fill-height.row > span > b`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.col-md-6.col-12:nth-child(2) > .row--dense.row > .col-4.col.align-center > .row--dense.row:nth-child(2) > .col-12.col > .rounded-lg.v-image.v-responsive > .v-responsive__content > .align-end.fill-height.row > span > b`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.col-md-2.col-12 > .rounded-lg.v-image.v-responsive > .v-responsive__content > .align-end.fill-height.row > span > b`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.col-md-5.col-12:nth-child(2) > .rounded-lg.v-image[__max-height=\"100%\"] > .v-responsive__content > .align-end.fill-height.row > span > b`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.col-md-5.col-12:nth-child(3) > .rounded-lg.v-image[__max-height=\"100%\"] > .v-responsive__content > .align-end.fill-height.row > span > b`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/UTL_Industries_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/UTL_Industries_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/UTL_Industries_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/UTL_Industries_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/UTL_Industries_Ltd/screenshots/UTL_Industries_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — UTL Industries Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `48 / 100`  \n> **Total WCAG Violations:** `13`  \n> **Verified Contact Email:** `difusion@utleon.edu.mx`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `difusion@utleon.edu.mx` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **48/100** on automated WCAG 2.1 AA accessibility testing with **13 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `48/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `11` | Moderate: `2`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 10 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (10 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** UTL Industries Ltd\n- **Resolved URL:** [https://utleon.edu.mx](https://utleon.edu.mx)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `difusion@utleon.edu.mx` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `difusion@utleon.edu.mx` | **Status:** `Verified` | **Source Page:** https://utleon.edu.mx\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.v-btn--outlined > .v-btn__content`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `div[aria-haspopup=\"true\"] > .v-responsive__content > .align-end.fill-height.row > span > b`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.col-4.col:nth-child(1) > .rounded-lg.v-image.v-responsive > .v-responsive__content > .align-end.fill-height.row > span > b`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.col-md-6.col-12:nth-child(2) > .row--dense.row > .col-8.col:nth-child(2) > .rounded-lg.v-image.v-responsive > .v-responsive__content > .align-end.fill-height.row > span > b`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.col-8.col:nth-child(3) > .rounded-lg.v-image.v-responsive > .v-responsive__content > .align-end.fill-height.row > span > b`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.col-md-6.col-12:nth-child(2) > .row--dense.row > .col-4.col.align-center > .row--dense.row:nth-child(1) > .col-12.col > .rounded-lg.v-image.v-responsive > .v-responsive__content > .align-end.fill-height.row > span > b`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.col-md-6.col-12:nth-child(2) > .row--dense.row > .col-4.col.align-center > .row--dense.row:nth-child(2) > .col-12.col > .rounded-lg.v-image.v-responsive > .v-responsive__content > .align-end.fill-height.row > span > b`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.col-md-2.col-12 > .rounded-lg.v-image.v-responsive > .v-responsive__content > .align-end.fill-height.row > span > b`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.col-md-5.col-12:nth-child(2) > .rounded-lg.v-image[__max-height=\"100%\"] > .v-responsive__content > .align-end.fill-height.row > span > b`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.col-md-5.col-12:nth-child(3) > .rounded-lg.v-image[__max-height=\"100%\"] > .v-responsive__content > .align-end.fill-height.row > span > b`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/UTL_Industries_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/UTL_Industries_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/UTL_Industries_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 13. WAVE AIM: N/A. Lighthouse A11y: 48/100.",
+  "timestamp": "2026-08-11T12:04:39.420Z"
+}

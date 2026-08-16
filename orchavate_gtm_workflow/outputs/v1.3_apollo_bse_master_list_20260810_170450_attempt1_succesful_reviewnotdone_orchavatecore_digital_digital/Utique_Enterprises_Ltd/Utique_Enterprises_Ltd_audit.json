@@ -1,0 +1,49 @@
+{
+  "company": {
+    "srNo": 7,
+    "companyName": "Utique Enterprises Ltd",
+    "readymadeWebsite": "https://www.bseindia.com/stock-share-price/utique-enterprises-ltd/utique/500014/",
+    "assignedTo": "Unassigned",
+    "contactPerson": "N/A",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://www.bseindia.com/stock-share-price/utique-enterprises-ltd/utique/500014/",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://www.bseindia.com/stock-share-price/utique-enterprises-ltd/utique/500014/"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "N/A",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Not Found"
+    },
+    "regardingAccessibility": [],
+    "overallStatus": "Not Found",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": true,
+    "signatureMatched": "access denied"
+  },
+  "pages": [],
+  "status": "Blocked (Bot Protection)",
+  "totalViolations": 0,
+  "altTextViolations": 0,
+  "contrastViolations": 0,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 0,
+  "deliverables": {},
+  "remarks": "Blocked by Bot Protection (access denied)",
+  "timestamp": "2026-08-10T17:04:51.336Z"
+}

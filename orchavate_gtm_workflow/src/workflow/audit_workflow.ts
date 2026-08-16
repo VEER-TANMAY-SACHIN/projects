@@ -161,8 +161,11 @@ export async function runWorkflowV11(
       continue;
     }
 
-    if (!resolution.resolvedUrl) {
-      console.error(`  ❌ Website Resolution Failed.`);
+    const rawUrl = (resolution.resolvedUrl || '').toLowerCase();
+    const isUrlValid = resolution.resolvedUrl && !rawUrl.includes('not found') && !rawUrl.includes('notfound') && (rawUrl.startsWith('http://') || rawUrl.startsWith('https://'));
+
+    if (!isUrlValid) {
+      console.error(`  ❌ Website Resolution Failed (No valid URL available).`);
       const report: CompanyAuditReportV11 = {
         company,
         resolution,
@@ -258,7 +261,7 @@ export async function runWorkflowV11(
     let waveAimScoreStr: string | undefined;
     let waveScreenshotPath: string | undefined;
 
-    if (isWaveScanAvailable()) {
+    if (!config.skipWave && isWaveScanAvailable()) {
       console.log(`  -> Running REAL WAVE Free-Scan via wave.webaim.org...`);
       const waveBrowser = await chromium.launch({
         headless: true,
@@ -279,6 +282,8 @@ export async function runWorkflowV11(
         console.warn(`  [WAVE Warning] Free-scan failed: ${waveErr?.message?.slice(0, 100)}`);
       }
       await waveBrowser.close();
+    } else if (config.skipWave) {
+      console.log(`  [WAVE] Skipped (--skip-wave enabled — running uncapped fast mode with formula AIM score)`);
     } else {
       console.warn(`  [WAVE] Skipped — circuit breaker open or daily cap reached.`);
     }
@@ -336,6 +341,13 @@ export async function runWorkflowV11(
     reports.push(report);
     console.log(`  ✓ Scan Completed: ${allViolations.length} WCAG violations found. Deliverables saved to "${companyDir}".`);
 
+    // Live Incremental Tracker Update: Export Excel & CSV after each completed company audit
+    try {
+      const runDirName = path.basename(baseOutputDir);
+      exportDigitalV13TrackerFile(reports, baseOutputDir); // 1. Run-folder specific tracker
+      exportDigitalV13TrackerFile(reports, process.cwd(), `${runDirName}_Tracker`); // 2. Separate unique run tracker in root
+    } catch (exportErr) {}
+
     await context.close();
 
     // 4-12s randomized rate limiting delay between domain scans
@@ -346,8 +358,10 @@ export async function runWorkflowV11(
   await browser.close();
 
   // Export Master Trackers (v1.2 & v1.3 Semi-Final) & Run Report at baseOutputDir
+  const runDirName = path.basename(baseOutputDir);
   exportTrackerFiles(reports, baseOutputDir);
   exportDigitalV13TrackerFile(reports, baseOutputDir);
+  exportDigitalV13TrackerFile(reports, process.cwd(), `${runDirName}_Tracker`);
 
 
   const durationSeconds = Math.round((Date.now() - startTime) / 1000);

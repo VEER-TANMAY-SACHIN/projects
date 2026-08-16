@@ -1,0 +1,294 @@
+{
+  "company": {
+    "srNo": 193,
+    "companyName": "Reliance Infrastructure Ltd",
+    "readymadeWebsite": "https://rinfra.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (Reliance Infrastructure Ltd)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://rinfra.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://rinfra.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "info@rinfra.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Unverified - guessed pattern"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "info@rinfra.com",
+        "type": "general",
+        "label": "General Contact Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      },
+      {
+        "address": "contact@rinfra.com",
+        "type": "compliance_grievance",
+        "label": "Investor Grievance Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      }
+    ],
+    "overallStatus": "Unverified - guessed pattern",
+    "evidenceScreenshots": [
+      "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Reliance_Infrastructure_Ltd/screenshots/Reliance_Infrastructure_Ltd_EmailEvidence_NotFound_ContactPage.png"
+    ]
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://rinfra.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "aria-input-field-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA input field has an accessible name",
+          "help": "ARIA input fields must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-input-field-name?application=playwright",
+          "category": "other",
+          "selector": "#yui_patched_v3_18_1_3_1786449482509_12",
+          "html": "<div id=\"yui_patched_v3_18_1_3_1786449482509_12\" role=\"listbox\" class=\"carousel-content\"><div class=\"image-viewer-base-image-list\" id=\"yui_patched_v3_18_1_3_1786449482509_55\" style=\"width: 1920px;\"><div class=\"image-viewer-base-image-list-inner\"></div></div></div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-input-field-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA input field has an accessible name",
+          "help": "ARIA input fields must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-input-field-name?application=playwright",
+          "category": "other",
+          "selector": "#yui_patched_v3_18_1_2_1786449482509_16",
+          "html": "<div id=\"yui_patched_v3_18_1_2_1786449482509_16\" role=\"listbox\" class=\"carousel-content\"><div class=\"image-viewer-base-image-list\" id=\"yui_patched_v3_18_1_2_1786449482509_62\" style=\"width: 1920px;\"><div class=\"image-viewer-base-image-list-inner\"></div></div></div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "description": "Ensure ARIA attributes are not prohibited for an element's role",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-prohibited-attr?application=playwright",
+          "category": "other",
+          "selector": "#yui_patched_v3_18_1_3_1786449482509_112 > .carousel-menu-pause.carousel-menu-item[aria-label=\"play\"]",
+          "html": "<a class=\"carousel-menu-item image-viewer-base-control carousel-menu-pause\" aria-label=\"play\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "description": "Ensure ARIA attributes are not prohibited for an element's role",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-prohibited-attr?application=playwright",
+          "category": "other",
+          "selector": "#yui_patched_v3_18_1_3_1786449482509_114 > .carousel-menu-prev.image-viewer-base-control-left[aria-label=\"previous\"]",
+          "html": "<a class=\"carousel-menu-item carousel-menu-prev image-viewer-base-control-left image-viewer-base-control\" aria-label=\"previous\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "description": "Ensure ARIA attributes are not prohibited for an element's role",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-prohibited-attr?application=playwright",
+          "category": "other",
+          "selector": "#yui_patched_v3_18_1_3_1786449482509_116 > .carousel-menu-next.image-viewer-base-control-right[aria-label=\"next\"]",
+          "html": "<a class=\"carousel-menu-item carousel-menu-next image-viewer-base-control-right image-viewer-base-control\" aria-label=\"next\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "description": "Ensure ARIA attributes are not prohibited for an element's role",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-prohibited-attr?application=playwright",
+          "category": "other",
+          "selector": "#yui_patched_v3_18_1_2_1786449482509_119 > .carousel-menu-pause.carousel-menu-item[aria-label=\"play\"]",
+          "html": "<a class=\"carousel-menu-item image-viewer-base-control carousel-menu-pause\" aria-label=\"play\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "description": "Ensure ARIA attributes are not prohibited for an element's role",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-prohibited-attr?application=playwright",
+          "category": "other",
+          "selector": "#yui_patched_v3_18_1_2_1786449482509_121 > .carousel-menu-prev.image-viewer-base-control-left[aria-label=\"previous\"]",
+          "html": "<a class=\"carousel-menu-item carousel-menu-prev image-viewer-base-control-left image-viewer-base-control\" aria-label=\"previous\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "description": "Ensure ARIA attributes are not prohibited for an element's role",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-prohibited-attr?application=playwright",
+          "category": "other",
+          "selector": "#yui_patched_v3_18_1_2_1786449482509_123 > .carousel-menu-next.image-viewer-base-control-right[aria-label=\"next\"]",
+          "html": "<a class=\"carousel-menu-item carousel-menu-next image-viewer-base-control-right image-viewer-base-control\" aria-label=\"next\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "description": "Ensure all ARIA attributes have valid values",
+          "help": "ARIA attributes must conform to valid values",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-valid-attr-value?application=playwright",
+          "category": "other",
+          "selector": "#yui_patched_v3_18_1_3_1786449482509_58",
+          "html": "<div class=\"carousel-menu\" id=\"yui_patched_v3_18_1_3_1786449482509_58\" aria-controls=\"carousel\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "description": "Ensure all ARIA attributes have valid values",
+          "help": "ARIA attributes must conform to valid values",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-valid-attr-value?application=playwright",
+          "category": "other",
+          "selector": "#yui_patched_v3_18_1_2_1786449482509_65",
+          "html": "<div class=\"carousel-menu\" id=\"yui_patched_v3_18_1_2_1786449482509_65\" aria-controls=\"carousel\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".desktop_navigation > .header > .col1.fleft > .Rlogo.fleft > a[href=\"/web/rinfra/index\"] > img",
+          "html": "<img src=\"/image/layout_set_logo?img_id=10546727&amp;t=1784823561669\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".news_ticker > img",
+          "html": "<img src=\"/o/com.rinfra.newsticker/images/latest-news.png\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "div[data-analytics-asset-id=\"1182326\"] > .middle_wrap3 > img",
+          "html": "<img src=\"/documents/1142822/10639864/infrastructure-small.jpg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "div[data-analytics-asset-id=\"1182333\"] > .middle_wrap3 > img",
+          "html": "<img src=\"/documents/1142822/10639864/epc-small.jpg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".desktop_navigation > .header > .col1.fleft > .Rlogo.fleft > a[href=\"/web/rinfra/index\"]",
+          "html": "<a href=\"/web/rinfra/index\"><img src=\"/image/layout_set_logo?img_id=10546727&amp;t=1784823561669\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".top_l2 > .fleft > .fb_icon[target=\"_blank\"]",
+          "html": "<a class=\"fb_icon\" target=\"_blank\" href=\"https://www.facebook.com/relianceinfrastructure\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".top_l2 > .fleft > .tw_icon[target=\"_blank\"]",
+          "html": "<a class=\"tw_icon\" target=\"_blank\" href=\"https://twitter.com/RInfraOfficial\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "marquee",
+          "impact": "serious",
+          "description": "Ensure <marquee> elements are not used",
+          "help": "<marquee> elements are deprecated and must not be used",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/marquee?application=playwright",
+          "category": "other",
+          "selector": "marquee",
+          "html": "<marquee class=\"ma11\" direction=\"left\" onmouseout=\"start();\" onmouseover=\"stop();\" scrolldelay=\"150\">\n\t\t\n\t</marquee>",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Reliance_Infrastructure_Ltd/screenshots/Reliance_Infrastructure_Ltd_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Reliance_Infrastructure_Ltd/screenshots/Reliance_Infrastructure_Ltd_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Reliance_Infrastructure_Ltd/screenshots/Reliance_Infrastructure_Ltd_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 18,
+  "altTextViolations": 4,
+  "contrastViolations": 0,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Reliance_Infrastructure_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Reliance_Infrastructure_Ltd/screenshots/Reliance_Infrastructure_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Reliance Infrastructure Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `18`  \n> **Verified Contact Email:** `info@rinfra.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@rinfra.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **18 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `6` | Serious: `12` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 4 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (4 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Reliance Infrastructure Ltd\n- **Resolved URL:** [https://rinfra.com](https://rinfra.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@rinfra.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@rinfra.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@rinfra.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-input-field-name`** (SERIOUS)\n   - **Help:** ARIA input fields must have an accessible name\n   - **Selector:** `#yui_patched_v3_18_1_3_1786449482509_12`\n2. **`[other] aria-input-field-name`** (SERIOUS)\n   - **Help:** ARIA input fields must have an accessible name\n   - **Selector:** `#yui_patched_v3_18_1_2_1786449482509_16`\n3. **`[other] aria-prohibited-attr`** (SERIOUS)\n   - **Help:** Elements must only use permitted ARIA attributes\n   - **Selector:** `#yui_patched_v3_18_1_3_1786449482509_112 > .carousel-menu-pause.carousel-menu-item[aria-label=\"play\"]`\n4. **`[other] aria-prohibited-attr`** (SERIOUS)\n   - **Help:** Elements must only use permitted ARIA attributes\n   - **Selector:** `#yui_patched_v3_18_1_3_1786449482509_114 > .carousel-menu-prev.image-viewer-base-control-left[aria-label=\"previous\"]`\n5. **`[other] aria-prohibited-attr`** (SERIOUS)\n   - **Help:** Elements must only use permitted ARIA attributes\n   - **Selector:** `#yui_patched_v3_18_1_3_1786449482509_116 > .carousel-menu-next.image-viewer-base-control-right[aria-label=\"next\"]`\n6. **`[other] aria-prohibited-attr`** (SERIOUS)\n   - **Help:** Elements must only use permitted ARIA attributes\n   - **Selector:** `#yui_patched_v3_18_1_2_1786449482509_119 > .carousel-menu-pause.carousel-menu-item[aria-label=\"play\"]`\n7. **`[other] aria-prohibited-attr`** (SERIOUS)\n   - **Help:** Elements must only use permitted ARIA attributes\n   - **Selector:** `#yui_patched_v3_18_1_2_1786449482509_121 > .carousel-menu-prev.image-viewer-base-control-left[aria-label=\"previous\"]`\n8. **`[other] aria-prohibited-attr`** (SERIOUS)\n   - **Help:** Elements must only use permitted ARIA attributes\n   - **Selector:** `#yui_patched_v3_18_1_2_1786449482509_123 > .carousel-menu-next.image-viewer-base-control-right[aria-label=\"next\"]`\n9. **`[other] aria-valid-attr-value`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid values\n   - **Selector:** `#yui_patched_v3_18_1_3_1786449482509_58`\n10. **`[other] aria-valid-attr-value`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid values\n   - **Selector:** `#yui_patched_v3_18_1_2_1786449482509_65`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Reliance_Infrastructure_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Reliance_Infrastructure_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Reliance_Infrastructure_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Reliance_Infrastructure_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Reliance_Infrastructure_Ltd/screenshots/Reliance_Infrastructure_Ltd_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Reliance Infrastructure Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `18`  \n> **Verified Contact Email:** `info@rinfra.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@rinfra.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **18 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `6` | Serious: `12` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 4 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (4 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Reliance Infrastructure Ltd\n- **Resolved URL:** [https://rinfra.com](https://rinfra.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@rinfra.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@rinfra.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@rinfra.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-input-field-name`** (SERIOUS)\n   - **Help:** ARIA input fields must have an accessible name\n   - **Selector:** `#yui_patched_v3_18_1_3_1786449482509_12`\n2. **`[other] aria-input-field-name`** (SERIOUS)\n   - **Help:** ARIA input fields must have an accessible name\n   - **Selector:** `#yui_patched_v3_18_1_2_1786449482509_16`\n3. **`[other] aria-prohibited-attr`** (SERIOUS)\n   - **Help:** Elements must only use permitted ARIA attributes\n   - **Selector:** `#yui_patched_v3_18_1_3_1786449482509_112 > .carousel-menu-pause.carousel-menu-item[aria-label=\"play\"]`\n4. **`[other] aria-prohibited-attr`** (SERIOUS)\n   - **Help:** Elements must only use permitted ARIA attributes\n   - **Selector:** `#yui_patched_v3_18_1_3_1786449482509_114 > .carousel-menu-prev.image-viewer-base-control-left[aria-label=\"previous\"]`\n5. **`[other] aria-prohibited-attr`** (SERIOUS)\n   - **Help:** Elements must only use permitted ARIA attributes\n   - **Selector:** `#yui_patched_v3_18_1_3_1786449482509_116 > .carousel-menu-next.image-viewer-base-control-right[aria-label=\"next\"]`\n6. **`[other] aria-prohibited-attr`** (SERIOUS)\n   - **Help:** Elements must only use permitted ARIA attributes\n   - **Selector:** `#yui_patched_v3_18_1_2_1786449482509_119 > .carousel-menu-pause.carousel-menu-item[aria-label=\"play\"]`\n7. **`[other] aria-prohibited-attr`** (SERIOUS)\n   - **Help:** Elements must only use permitted ARIA attributes\n   - **Selector:** `#yui_patched_v3_18_1_2_1786449482509_121 > .carousel-menu-prev.image-viewer-base-control-left[aria-label=\"previous\"]`\n8. **`[other] aria-prohibited-attr`** (SERIOUS)\n   - **Help:** Elements must only use permitted ARIA attributes\n   - **Selector:** `#yui_patched_v3_18_1_2_1786449482509_123 > .carousel-menu-next.image-viewer-base-control-right[aria-label=\"next\"]`\n9. **`[other] aria-valid-attr-value`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid values\n   - **Selector:** `#yui_patched_v3_18_1_3_1786449482509_58`\n10. **`[other] aria-valid-attr-value`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid values\n   - **Selector:** `#yui_patched_v3_18_1_2_1786449482509_65`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Reliance_Infrastructure_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Reliance_Infrastructure_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Reliance_Infrastructure_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Reliance_Infrastructure_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Reliance_Infrastructure_Ltd/screenshots/Reliance_Infrastructure_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Reliance Infrastructure Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `18`  \n> **Verified Contact Email:** `info@rinfra.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@rinfra.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **18 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `6` | Serious: `12` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 4 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (4 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Reliance Infrastructure Ltd\n- **Resolved URL:** [https://rinfra.com](https://rinfra.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@rinfra.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@rinfra.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@rinfra.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-input-field-name`** (SERIOUS)\n   - **Help:** ARIA input fields must have an accessible name\n   - **Selector:** `#yui_patched_v3_18_1_3_1786449482509_12`\n2. **`[other] aria-input-field-name`** (SERIOUS)\n   - **Help:** ARIA input fields must have an accessible name\n   - **Selector:** `#yui_patched_v3_18_1_2_1786449482509_16`\n3. **`[other] aria-prohibited-attr`** (SERIOUS)\n   - **Help:** Elements must only use permitted ARIA attributes\n   - **Selector:** `#yui_patched_v3_18_1_3_1786449482509_112 > .carousel-menu-pause.carousel-menu-item[aria-label=\"play\"]`\n4. **`[other] aria-prohibited-attr`** (SERIOUS)\n   - **Help:** Elements must only use permitted ARIA attributes\n   - **Selector:** `#yui_patched_v3_18_1_3_1786449482509_114 > .carousel-menu-prev.image-viewer-base-control-left[aria-label=\"previous\"]`\n5. **`[other] aria-prohibited-attr`** (SERIOUS)\n   - **Help:** Elements must only use permitted ARIA attributes\n   - **Selector:** `#yui_patched_v3_18_1_3_1786449482509_116 > .carousel-menu-next.image-viewer-base-control-right[aria-label=\"next\"]`\n6. **`[other] aria-prohibited-attr`** (SERIOUS)\n   - **Help:** Elements must only use permitted ARIA attributes\n   - **Selector:** `#yui_patched_v3_18_1_2_1786449482509_119 > .carousel-menu-pause.carousel-menu-item[aria-label=\"play\"]`\n7. **`[other] aria-prohibited-attr`** (SERIOUS)\n   - **Help:** Elements must only use permitted ARIA attributes\n   - **Selector:** `#yui_patched_v3_18_1_2_1786449482509_121 > .carousel-menu-prev.image-viewer-base-control-left[aria-label=\"previous\"]`\n8. **`[other] aria-prohibited-attr`** (SERIOUS)\n   - **Help:** Elements must only use permitted ARIA attributes\n   - **Selector:** `#yui_patched_v3_18_1_2_1786449482509_123 > .carousel-menu-next.image-viewer-base-control-right[aria-label=\"next\"]`\n9. **`[other] aria-valid-attr-value`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid values\n   - **Selector:** `#yui_patched_v3_18_1_3_1786449482509_58`\n10. **`[other] aria-valid-attr-value`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid values\n   - **Selector:** `#yui_patched_v3_18_1_2_1786449482509_65`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Reliance_Infrastructure_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Reliance_Infrastructure_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Reliance_Infrastructure_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 18. WAVE AIM: N/A. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-11T11:58:05.721Z"
+}

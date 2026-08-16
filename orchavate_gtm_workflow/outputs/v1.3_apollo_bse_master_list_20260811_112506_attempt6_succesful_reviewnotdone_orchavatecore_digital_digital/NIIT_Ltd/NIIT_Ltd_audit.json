@@ -1,0 +1,459 @@
+{
+  "company": {
+    "srNo": 156,
+    "companyName": "NIIT Ltd",
+    "readymadeWebsite": "https://niit.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (NIIT Ltd)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://niit.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://niit.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "info@niit.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Unverified - guessed pattern"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "info@niit.com",
+        "type": "general",
+        "label": "General Contact Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      },
+      {
+        "address": "contact@niit.com",
+        "type": "compliance_grievance",
+        "label": "Investor Grievance Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      }
+    ],
+    "overallStatus": "Unverified - guessed pattern",
+    "evidenceScreenshots": [
+      "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/NIIT_Ltd/screenshots/NIIT_Ltd_EmailEvidence_NotFound_ContactPage.png"
+    ]
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://niit.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".swiper-button-prev-custom",
+          "html": "<button class=\"swiper-button-prev-c...\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".swiper-button-next-custom",
+          "html": "<button class=\"swiper-button-next-c...\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".swiper-button-prev-custom-about",
+          "html": "<button class=\"swiper-button-prev-c...\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".swiper-button-next-custom-about",
+          "html": "<button class=\"swiper-button-next-c...\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".swiper-slide-active.swiper-slide[data-swiper-slide-index=\"0\"] > .sm\\:p-10.pr-3.items-start > .xs\\:text-2xl.pl-0.sm\\:max-w-xs > span:nth-child(1)",
+          "html": "<span>Create<!-- --> </span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".swiper-slide-active.swiper-slide[data-swiper-slide-index=\"0\"] > .sm\\:p-10.pr-3.items-start > .xs\\:text-2xl.pl-0.sm\\:max-w-xs > span:nth-child(2)",
+          "html": "<span>Smarter<!-- --> </span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".swiper-slide-active.swiper-slide[data-swiper-slide-index=\"0\"] > .sm\\:p-10.pr-3.items-start > .xs\\:text-2xl.pl-0.sm\\:max-w-xs > span:nth-child(3)",
+          "html": "<span>Campaigns<!-- --> </span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".swiper-slide-active.swiper-slide[data-swiper-slide-index=\"0\"] > .sm\\:p-10.pr-3.items-start > .lg\\:text-base.pr-5.text-gray-200",
+          "html": "<h3 class=\"text-xs sm:text-sm lg:text-base font-bold text-gray-200 mb-4 sm:mb-8 tracking-wider uppercase text-left pr-5\">Digital Marketing with AI</h3>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".min-w-\\[70px\\].sm\\:min-w-\\[120px\\].sm\\:justify-center:nth-child(1) > .sm\\:text-center.text-center > .lg\\:text-2xl.mb-0\\.5.sm\\:mb-1 > .items-baseline.inline-flex > span:nth-child(2)",
+          "html": "<span>Mn+</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".min-w-\\[70px\\].sm\\:min-w-\\[120px\\].sm\\:justify-center:nth-child(1) > .sm\\:text-center.text-center > .text-\\[7px\\].sm\\:text-\\[9px\\].lg\\:text-\\[11px\\]",
+          "html": "<p class=\"text-[7px] sm:text-[9px] lg:text-[11px] text-white font-bold uppercase tracking-widest leading-none\">Learners</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".min-w-\\[70px\\].sm\\:min-w-\\[120px\\].sm\\:justify-center:nth-child(2) > .sm\\:text-center.text-center > .lg\\:text-2xl.mb-0\\.5.sm\\:mb-1 > .items-baseline.inline-flex > span:nth-child(1)",
+          "html": "<span>43</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".min-w-\\[70px\\].sm\\:min-w-\\[120px\\].sm\\:justify-center:nth-child(2) > .sm\\:text-center.text-center > .text-\\[7px\\].sm\\:text-\\[9px\\].lg\\:text-\\[11px\\]",
+          "html": "<p class=\"text-[7px] sm:text-[9px] lg:text-[11px] text-white font-bold uppercase tracking-widest leading-none\">Hiring Partners</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".min-w-\\[70px\\].sm\\:min-w-\\[120px\\].sm\\:justify-center:nth-child(3) > .sm\\:text-center.text-center > .text-\\[7px\\].sm\\:text-\\[9px\\].lg\\:text-\\[11px\\]",
+          "html": "<p class=\"text-[7px] sm:text-[9px] lg:text-[11px] text-white font-bold uppercase tracking-widest leading-none\">Countries</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".xl\\:grid-cols-3 > .hover\\:shadow-2xl.rounded-3xl.hover\\:border-purple-200:nth-child(1) > .pb-0.p-2 > .h-28.sm\\:h-32.rounded-xl > .top-2.left-2.flex-wrap > .bg-green-600.px-2\\.5.text-\\[9px\\]",
+          "html": "<span class=\"px-2.5 py-0.5 bg-green-600 text-white text-[9px] font-bold uppercase rounded-full shadow-lg backdrop-blur-sm\">Newly Launched</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".xl\\:grid-cols-3 > .hover\\:shadow-2xl.rounded-3xl.hover\\:border-purple-200:nth-child(1) > .p-3.flex-1.flex-col > .justify-between.text-\\[10px\\].mb-2 > .bg-cyan-500.pb-0\\.5.py-1",
+          "html": "<span class=\"px-2 py-1 pb-0.5 font-bold uppercase rounded bg-cyan-500 text-white rounded-full shadow-lg backdrop-blur-sm tracking-wider\">CERTIFICATE</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".hover\\:shadow-2xl.rounded-3xl.hover\\:border-purple-200:nth-child(2) > .pb-0.p-2 > .h-28.sm\\:h-32.rounded-xl > .top-2.left-2.flex-wrap > .bg-green-600.px-2\\.5.text-\\[9px\\]",
+          "html": "<span class=\"px-2.5 py-0.5 bg-green-600 text-white text-[9px] font-bold uppercase rounded-full shadow-lg backdrop-blur-sm\">NCVET Accredited</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".hover\\:shadow-2xl.rounded-3xl.hover\\:border-purple-200:nth-child(2) > .p-3.flex-1.flex-col > .justify-between.text-\\[10px\\].mb-2 > .bg-cyan-500.pb-0\\.5.py-1",
+          "html": "<span class=\"px-2 py-1 pb-0.5 font-bold uppercase rounded bg-cyan-500 text-white rounded-full shadow-lg backdrop-blur-sm tracking-wider\">CERTIFICATE</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".hover\\:shadow-2xl.rounded-3xl.hover\\:border-purple-200:nth-child(3) > .pb-0.p-2 > .h-28.sm\\:h-32.rounded-xl > .top-2.left-2.flex-wrap > .bg-green-600.px-2\\.5.text-\\[9px\\]",
+          "html": "<span class=\"px-2.5 py-0.5 bg-green-600 text-white text-[9px] font-bold uppercase rounded-full shadow-lg backdrop-blur-sm\">Newly Launched</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".hover\\:shadow-2xl.rounded-3xl.hover\\:border-purple-200:nth-child(3) > .p-3.flex-1.flex-col > .justify-between.text-\\[10px\\].mb-2 > .bg-cyan-500.pb-0\\.5.py-1",
+          "html": "<span class=\"px-2 py-1 pb-0.5 font-bold uppercase rounded bg-cyan-500 text-white rounded-full shadow-lg backdrop-blur-sm tracking-wider\">CERTIFICATE</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".hover\\:shadow-2xl.rounded-3xl.hover\\:border-purple-200:nth-child(4) > .pb-0.p-2 > .h-28.sm\\:h-32.rounded-xl > .top-2.left-2.flex-wrap > .bg-green-600.px-2\\.5.text-\\[9px\\]",
+          "html": "<span class=\"px-2.5 py-0.5 bg-green-600 text-white text-[9px] font-bold uppercase rounded-full shadow-lg backdrop-blur-sm\">Newly Launched</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".hover\\:shadow-2xl.rounded-3xl.hover\\:border-purple-200:nth-child(4) > .p-3.flex-1.flex-col > .justify-between.text-\\[10px\\].mb-2 > .bg-cyan-500.pb-0\\.5.py-1",
+          "html": "<span class=\"px-2 py-1 pb-0.5 font-bold uppercase rounded bg-cyan-500 text-white rounded-full shadow-lg backdrop-blur-sm tracking-wider\">CERTIFICATE</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".hover\\:shadow-2xl.rounded-3xl.hover\\:border-purple-200:nth-child(5) > .p-3.flex-1.flex-col > .justify-between.text-\\[10px\\].mb-2 > .bg-cyan-500.pb-0\\.5.py-1",
+          "html": "<span class=\"px-2 py-1 pb-0.5 font-bold uppercase rounded bg-cyan-500 text-white rounded-full shadow-lg backdrop-blur-sm tracking-wider\">CERTIFICATE</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".hover\\:shadow-2xl.rounded-3xl.hover\\:border-purple-200:nth-child(6) > .pb-0.p-2 > .h-28.sm\\:h-32.rounded-xl > .top-2.left-2.flex-wrap > .bg-green-600.px-2\\.5.text-\\[9px\\]",
+          "html": "<span class=\"px-2.5 py-0.5 bg-green-600 text-white text-[9px] font-bold uppercase rounded-full shadow-lg backdrop-blur-sm\">Newly Launched</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".hover\\:shadow-2xl.rounded-3xl.hover\\:border-purple-200:nth-child(6) > .p-3.flex-1.flex-col > .justify-between.text-\\[10px\\].mb-2 > .bg-cyan-500.pb-0\\.5.py-1",
+          "html": "<span class=\"px-2 py-1 pb-0.5 font-bold uppercase rounded bg-cyan-500 text-white rounded-full shadow-lg backdrop-blur-sm tracking-wider\">CERTIFICATE</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".sm\\:rounded-2xl.backdrop-blur-lg.sm\\:p-8:nth-child(1) > .sm\\:gap-6.items-start.gap-3 > .min-w-0.flex-1 > .sm\\:mb-3.flex-wrap.gap-2 > .sm\\:px-3.sm\\:py-1.shadow-md",
+          "html": "<div class=\"px-2 sm:px-3 py-0.5 sm:py-1 rounded-full text-[10px] sm:text-xs font-bold text-white shadow-md\" style=\"background-color:var(--color-brand-success)\">Market Leader</div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".sm\\:rounded-2xl.backdrop-blur-lg.sm\\:p-8:nth-child(2) > .sm\\:gap-6.items-start.gap-3 > .min-w-0.flex-1 > .sm\\:mb-3.flex-wrap.gap-2 > .sm\\:px-3.sm\\:py-1.shadow-md",
+          "html": "<div class=\"px-2 sm:px-3 py-0.5 sm:py-1 rounded-full text-[10px] sm:text-xs font-bold text-white shadow-md\" style=\"background-color:#FDE047\">Achievement</div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".sm\\:p-6.backdrop-blur-lg.sm\\:rounded-xl:nth-child(1) > .inline-block.sm\\:px-3.sm\\:py-1",
+          "html": "<div class=\"inline-block px-2 sm:px-3 py-0.5 sm:py-1 rounded-full text-[9px] sm:text-xs font-bold text-white shadow-md\" style=\"background-color:var(--color-brand-accent)\">Proven Impact</div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".sm\\:p-6.backdrop-blur-lg.sm\\:rounded-xl:nth-child(2) > .inline-block.sm\\:px-3.sm\\:py-1",
+          "html": "<div class=\"inline-block px-2 sm:px-3 py-0.5 sm:py-1 rounded-full text-[9px] sm:text-xs font-bold text-white shadow-md\" style=\"background-color:#F9A8D4\">Global Benchmark</div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".sm\\:p-6.backdrop-blur-lg.sm\\:rounded-xl:nth-child(3) > .inline-block.sm\\:px-3.sm\\:py-1",
+          "html": "<div class=\"inline-block px-2 sm:px-3 py-0.5 sm:py-1 rounded-full text-[9px] sm:text-xs font-bold text-white shadow-md\" style=\"background-color:#6366F1\">Excellence</div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".sm\\:p-6.backdrop-blur-lg.sm\\:rounded-xl:nth-child(4) > .inline-block.sm\\:px-3.sm\\:py-1",
+          "html": "<div class=\"inline-block px-2 sm:px-3 py-0.5 sm:py-1 rounded-full text-[9px] sm:text-xs font-bold text-white shadow-md\" style=\"background-color:#7DD3FC\">Impact</div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "scrollable-region-focusable",
+          "impact": "serious",
+          "description": "Ensure elements that have scrollable content are accessible by keyboard in Safari",
+          "help": "Scrollable region must have keyboard access",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/scrollable-region-focusable?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": ".sm\\:divide-x",
+          "html": "<div class=\"flex flex-row justify-between items-center sm:divide-x divide-white/20 gap-1 sm:gap-4 overflow-x-auto no-scrollbar\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "select-name",
+          "impact": "critical",
+          "description": "Ensure select element has an accessible name",
+          "help": "Select element must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/select-name?application=playwright",
+          "category": "other",
+          "selector": ".focus\\:ring-purple-300",
+          "html": "<select class=\"w-full px-3 sm:px-5 py-3 sm:py-4 bg-white/95 backdrop-blur-sm border-2 border-white/30 rounded-lg sm:rounded-xl text-niit-charcoal focus:ring-4 focus:ring-purple-300 focus:border-transparent font-medium text-sm sm:text-lg appearance-none cursor-pointer\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "select-name",
+          "impact": "critical",
+          "description": "Ensure select element has an accessible name",
+          "help": "Select element must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/select-name?application=playwright",
+          "category": "other",
+          "selector": ".focus\\:ring-cyan-300",
+          "html": "<select class=\"w-full px-3 sm:px-5 py-3 sm:py-4 bg-white/95 backdrop-blur-sm border-2 border-white/30 rounded-lg sm:rounded-xl text-niit-charcoal focus:ring-4 focus:ring-cyan-300 focus:border-transparent font-medium text-sm sm:text-lg appearance-none cursor-pointer\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/NIIT_Ltd/screenshots/NIIT_Ltd_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/NIIT_Ltd/screenshots/NIIT_Ltd_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/NIIT_Ltd/screenshots/NIIT_Ltd_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 33,
+  "altTextViolations": 0,
+  "contrastViolations": 26,
+  "labelViolations": 0,
+  "keyboardViolations": 1,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/NIIT_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/NIIT_Ltd/screenshots/NIIT_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — NIIT Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `33`  \n> **Verified Contact Email:** `info@niit.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@niit.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **33 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `6` | Serious: `27` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 26 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 1 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (26 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Keyboard & Focus Management (1 issues):** Ensure all interactive buttons/links are focusable via `Tab` key and visual focus outlines are visible.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** NIIT Ltd\n- **Resolved URL:** [https://niit.com](https://niit.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@niit.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@niit.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@niit.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.swiper-button-prev-custom`\n2. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.swiper-button-next-custom`\n3. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.swiper-button-prev-custom-about`\n4. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.swiper-button-next-custom-about`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.swiper-slide-active.swiper-slide[data-swiper-slide-index=\"0\"] > .sm\\:p-10.pr-3.items-start > .xs\\:text-2xl.pl-0.sm\\:max-w-xs > span:nth-child(1)`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.swiper-slide-active.swiper-slide[data-swiper-slide-index=\"0\"] > .sm\\:p-10.pr-3.items-start > .xs\\:text-2xl.pl-0.sm\\:max-w-xs > span:nth-child(2)`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.swiper-slide-active.swiper-slide[data-swiper-slide-index=\"0\"] > .sm\\:p-10.pr-3.items-start > .xs\\:text-2xl.pl-0.sm\\:max-w-xs > span:nth-child(3)`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.swiper-slide-active.swiper-slide[data-swiper-slide-index=\"0\"] > .sm\\:p-10.pr-3.items-start > .lg\\:text-base.pr-5.text-gray-200`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.min-w-\\[70px\\].sm\\:min-w-\\[120px\\].sm\\:justify-center:nth-child(1) > .sm\\:text-center.text-center > .lg\\:text-2xl.mb-0\\.5.sm\\:mb-1 > .items-baseline.inline-flex > span:nth-child(2)`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.min-w-\\[70px\\].sm\\:min-w-\\[120px\\].sm\\:justify-center:nth-child(1) > .sm\\:text-center.text-center > .text-\\[7px\\].sm\\:text-\\[9px\\].lg\\:text-\\[11px\\]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/NIIT_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/NIIT_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/NIIT_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/NIIT_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/NIIT_Ltd/screenshots/NIIT_Ltd_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — NIIT Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `33`  \n> **Verified Contact Email:** `info@niit.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@niit.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **33 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `6` | Serious: `27` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 26 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 1 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (26 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Keyboard & Focus Management (1 issues):** Ensure all interactive buttons/links are focusable via `Tab` key and visual focus outlines are visible.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** NIIT Ltd\n- **Resolved URL:** [https://niit.com](https://niit.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@niit.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@niit.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@niit.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.swiper-button-prev-custom`\n2. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.swiper-button-next-custom`\n3. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.swiper-button-prev-custom-about`\n4. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.swiper-button-next-custom-about`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.swiper-slide-active.swiper-slide[data-swiper-slide-index=\"0\"] > .sm\\:p-10.pr-3.items-start > .xs\\:text-2xl.pl-0.sm\\:max-w-xs > span:nth-child(1)`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.swiper-slide-active.swiper-slide[data-swiper-slide-index=\"0\"] > .sm\\:p-10.pr-3.items-start > .xs\\:text-2xl.pl-0.sm\\:max-w-xs > span:nth-child(2)`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.swiper-slide-active.swiper-slide[data-swiper-slide-index=\"0\"] > .sm\\:p-10.pr-3.items-start > .xs\\:text-2xl.pl-0.sm\\:max-w-xs > span:nth-child(3)`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.swiper-slide-active.swiper-slide[data-swiper-slide-index=\"0\"] > .sm\\:p-10.pr-3.items-start > .lg\\:text-base.pr-5.text-gray-200`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.min-w-\\[70px\\].sm\\:min-w-\\[120px\\].sm\\:justify-center:nth-child(1) > .sm\\:text-center.text-center > .lg\\:text-2xl.mb-0\\.5.sm\\:mb-1 > .items-baseline.inline-flex > span:nth-child(2)`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.min-w-\\[70px\\].sm\\:min-w-\\[120px\\].sm\\:justify-center:nth-child(1) > .sm\\:text-center.text-center > .text-\\[7px\\].sm\\:text-\\[9px\\].lg\\:text-\\[11px\\]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/NIIT_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/NIIT_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/NIIT_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/NIIT_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/NIIT_Ltd/screenshots/NIIT_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — NIIT Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `33`  \n> **Verified Contact Email:** `info@niit.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@niit.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **33 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `6` | Serious: `27` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 26 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 1 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (26 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Keyboard & Focus Management (1 issues):** Ensure all interactive buttons/links are focusable via `Tab` key and visual focus outlines are visible.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** NIIT Ltd\n- **Resolved URL:** [https://niit.com](https://niit.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@niit.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@niit.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@niit.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.swiper-button-prev-custom`\n2. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.swiper-button-next-custom`\n3. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.swiper-button-prev-custom-about`\n4. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.swiper-button-next-custom-about`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.swiper-slide-active.swiper-slide[data-swiper-slide-index=\"0\"] > .sm\\:p-10.pr-3.items-start > .xs\\:text-2xl.pl-0.sm\\:max-w-xs > span:nth-child(1)`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.swiper-slide-active.swiper-slide[data-swiper-slide-index=\"0\"] > .sm\\:p-10.pr-3.items-start > .xs\\:text-2xl.pl-0.sm\\:max-w-xs > span:nth-child(2)`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.swiper-slide-active.swiper-slide[data-swiper-slide-index=\"0\"] > .sm\\:p-10.pr-3.items-start > .xs\\:text-2xl.pl-0.sm\\:max-w-xs > span:nth-child(3)`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.swiper-slide-active.swiper-slide[data-swiper-slide-index=\"0\"] > .sm\\:p-10.pr-3.items-start > .lg\\:text-base.pr-5.text-gray-200`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.min-w-\\[70px\\].sm\\:min-w-\\[120px\\].sm\\:justify-center:nth-child(1) > .sm\\:text-center.text-center > .lg\\:text-2xl.mb-0\\.5.sm\\:mb-1 > .items-baseline.inline-flex > span:nth-child(2)`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.min-w-\\[70px\\].sm\\:min-w-\\[120px\\].sm\\:justify-center:nth-child(1) > .sm\\:text-center.text-center > .text-\\[7px\\].sm\\:text-\\[9px\\].lg\\:text-\\[11px\\]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/NIIT_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/NIIT_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/NIIT_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 33. WAVE AIM: N/A. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-11T11:58:52.927Z"
+}

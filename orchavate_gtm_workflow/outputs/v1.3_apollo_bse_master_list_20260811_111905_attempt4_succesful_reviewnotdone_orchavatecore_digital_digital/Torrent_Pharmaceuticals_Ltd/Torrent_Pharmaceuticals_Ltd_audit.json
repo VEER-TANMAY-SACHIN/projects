@@ -1,0 +1,123 @@
+{
+  "company": {
+    "srNo": 208,
+    "companyName": "Torrent Pharmaceuticals Ltd",
+    "readymadeWebsite": "https://torrentfreak.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (Torrent Pharmaceuticals Ltd)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://torrentfreak.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://torrentfreak.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "contact@torrentfreak.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://torrentfreak.com/contact/"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "contact@torrentfreak.com",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://torrentfreak.com/contact/"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://torrentfreak.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".logo",
+          "html": "<a href=\"/\" class=\"logo\"><img src=\"https://torrentfreak.com/wp-content/themes/tf-theme-v2/build/assets/img/logo.svg\" alt=\"\" class=\"logo__image\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#widget-slider-prev",
+          "html": "<a href=\"#\" id=\"widget-slider-prev\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#widget-slider-next",
+          "html": "<a href=\"#\" id=\"widget-slider-next\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 88,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Torrent_Pharmaceuticals_Ltd/screenshots/Torrent_Pharmaceuticals_Ltd_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Torrent_Pharmaceuticals_Ltd/screenshots/Torrent_Pharmaceuticals_Ltd_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Torrent_Pharmaceuticals_Ltd/screenshots/Torrent_Pharmaceuticals_Ltd_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 3,
+  "altTextViolations": 0,
+  "contrastViolations": 0,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 88,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Torrent_Pharmaceuticals_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Torrent_Pharmaceuticals_Ltd/screenshots/Torrent_Pharmaceuticals_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Torrent Pharmaceuticals Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `88 / 100`  \n> **Total WCAG Violations:** `3`  \n> **Verified Contact Email:** `contact@torrentfreak.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `contact@torrentfreak.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **88/100** on automated WCAG 2.1 AA accessibility testing with **3 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `88/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `3` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Clean Codebase:** No automated DOM accessibility defects found on scanned pages. Keep auditing dynamic components.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Torrent Pharmaceuticals Ltd\n- **Resolved URL:** [https://torrentfreak.com](https://torrentfreak.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `contact@torrentfreak.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `contact@torrentfreak.com` | **Status:** `Verified` | **Source Page:** https://torrentfreak.com/contact/\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.logo`\n2. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `#widget-slider-prev`\n3. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `#widget-slider-next`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Torrent_Pharmaceuticals_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Torrent_Pharmaceuticals_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Torrent_Pharmaceuticals_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Torrent_Pharmaceuticals_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Torrent_Pharmaceuticals_Ltd/screenshots/Torrent_Pharmaceuticals_Ltd_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Torrent Pharmaceuticals Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `88 / 100`  \n> **Total WCAG Violations:** `3`  \n> **Verified Contact Email:** `contact@torrentfreak.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `contact@torrentfreak.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **88/100** on automated WCAG 2.1 AA accessibility testing with **3 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `88/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `3` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Clean Codebase:** No automated DOM accessibility defects found on scanned pages. Keep auditing dynamic components.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Torrent Pharmaceuticals Ltd\n- **Resolved URL:** [https://torrentfreak.com](https://torrentfreak.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `contact@torrentfreak.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `contact@torrentfreak.com` | **Status:** `Verified` | **Source Page:** https://torrentfreak.com/contact/\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.logo`\n2. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `#widget-slider-prev`\n3. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `#widget-slider-next`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Torrent_Pharmaceuticals_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Torrent_Pharmaceuticals_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Torrent_Pharmaceuticals_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Torrent_Pharmaceuticals_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Torrent_Pharmaceuticals_Ltd/screenshots/Torrent_Pharmaceuticals_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Torrent Pharmaceuticals Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `88 / 100`  \n> **Total WCAG Violations:** `3`  \n> **Verified Contact Email:** `contact@torrentfreak.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `contact@torrentfreak.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **88/100** on automated WCAG 2.1 AA accessibility testing with **3 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `88/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `3` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Clean Codebase:** No automated DOM accessibility defects found on scanned pages. Keep auditing dynamic components.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Torrent Pharmaceuticals Ltd\n- **Resolved URL:** [https://torrentfreak.com](https://torrentfreak.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `contact@torrentfreak.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `contact@torrentfreak.com` | **Status:** `Verified` | **Source Page:** https://torrentfreak.com/contact/\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.logo`\n2. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `#widget-slider-prev`\n3. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `#widget-slider-next`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Torrent_Pharmaceuticals_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Torrent_Pharmaceuticals_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Torrent_Pharmaceuticals_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 3. WAVE AIM: N/A. Lighthouse A11y: 88/100.",
+  "timestamp": "2026-08-11T12:03:36.753Z"
+}

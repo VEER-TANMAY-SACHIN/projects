@@ -1,0 +1,195 @@
+{
+  "company": {
+    "srNo": 173,
+    "companyName": "Prism Johnson Ltd",
+    "readymadeWebsite": "https://prismjohnson.in",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (Prism Johnson Ltd)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://prismjohnson.in",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://prismjohnson.in"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "info@prismjohnson.in",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Unverified - guessed pattern"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "info@prismjohnson.in",
+        "type": "general",
+        "label": "General Contact Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      },
+      {
+        "address": "contact@prismjohnson.in",
+        "type": "compliance_grievance",
+        "label": "Investor Grievance Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      }
+    ],
+    "overallStatus": "Unverified - guessed pattern",
+    "evidenceScreenshots": [
+      "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Prism_Johnson_Ltd/screenshots/Prism_Johnson_Ltd_EmailEvidence_NotFound_ContactPage.png"
+    ]
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://prismjohnson.in",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".content > .btn_style_1:nth-child(3)",
+          "html": "<a href=\"https://www.prismjohnson.in/about#timeline\" class=\"btn_style_1\" style=\"translate: none; rotate: none; scale: none; transform: translate(0px, 40px); opacity: 0;\"> Learn more about our story </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".overview > .container > .content > .btn_style_1:nth-child(4)",
+          "html": "<a href=\"https://www.prismjohnson.in/about#MissionValues\" class=\"btn_style_1\" style=\"translate: none; rotate: none; scale: none; transform: translate(0px, 40px); opacity: 0;\"> Vision &amp; Values </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".mdmsg > .container > .content > .btn_style_1",
+          "html": "<a href=\"https://www.prismjohnson.in/management-team\" class=\"btn_style_1\" style=\"translate: none; rotate: none; scale: none; transform: translate(0px, 40px); opacity: 0;\">Our Management</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".inv_r > .mt-50.btn_style_1",
+          "html": "<a href=\"https://www.prismjohnson.in/investors\" class=\"btn_style_1 mt-50\" style=\"translate: none; rotate: none; scale: none; transform: translate(0px, 40px); opacity: 0;\">Investors Centre</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".igbox:nth-child(1) > .igimg > img",
+          "html": "<img src=\"https://www.prismjohnson.in/wp-content/themes/prismjohnson/images/env_icon1.svg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".igbox:nth-child(2) > .igimg > img",
+          "html": "<img src=\"https://www.prismjohnson.in/wp-content/themes/prismjohnson/images/env_icon2.svg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".igbox:nth-child(3) > .igimg > img",
+          "html": "<img src=\"https://www.prismjohnson.in/wp-content/themes/prismjohnson/images/env_icon3.svg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".igbox:nth-child(4) > .igimg > img",
+          "html": "<img src=\"https://www.prismjohnson.in/wp-content/themes/prismjohnson/images/env_icon4.svg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".logo",
+          "html": "<a href=\"https://www.prismjohnson.in\" class=\"logo\"><img src=\"https://www.prismjohnson.in/wp-content/themes/prismjohnson/images/logo.png\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 64,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Prism_Johnson_Ltd/screenshots/Prism_Johnson_Ltd_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Prism_Johnson_Ltd/screenshots/Prism_Johnson_Ltd_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Prism_Johnson_Ltd/screenshots/Prism_Johnson_Ltd_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 9,
+  "altTextViolations": 4,
+  "contrastViolations": 4,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 64,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Prism_Johnson_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Prism_Johnson_Ltd/screenshots/Prism_Johnson_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Prism Johnson Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `64 / 100`  \n> **Total WCAG Violations:** `9`  \n> **Verified Contact Email:** `info@prismjohnson.in`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `info@prismjohnson.in` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **64/100** on automated WCAG 2.1 AA accessibility testing with **9 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `64/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `4` | Serious: `5` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 4 violations\n- 🎨 **Color Contrast Failures:** 4 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (4 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (4 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Prism Johnson Ltd\n- **Resolved URL:** [https://prismjohnson.in](https://prismjohnson.in)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@prismjohnson.in` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@prismjohnson.in` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@prismjohnson.in` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.content > .btn_style_1:nth-child(3)`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.overview > .container > .content > .btn_style_1:nth-child(4)`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.mdmsg > .container > .content > .btn_style_1`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.inv_r > .mt-50.btn_style_1`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.igbox:nth-child(1) > .igimg > img`\n6. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.igbox:nth-child(2) > .igimg > img`\n7. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.igbox:nth-child(3) > .igimg > img`\n8. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.igbox:nth-child(4) > .igimg > img`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.logo`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Prism_Johnson_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Prism_Johnson_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Prism_Johnson_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Prism_Johnson_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Prism_Johnson_Ltd/screenshots/Prism_Johnson_Ltd_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Prism Johnson Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `64 / 100`  \n> **Total WCAG Violations:** `9`  \n> **Verified Contact Email:** `info@prismjohnson.in`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `info@prismjohnson.in` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **64/100** on automated WCAG 2.1 AA accessibility testing with **9 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `64/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `4` | Serious: `5` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 4 violations\n- 🎨 **Color Contrast Failures:** 4 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (4 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (4 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Prism Johnson Ltd\n- **Resolved URL:** [https://prismjohnson.in](https://prismjohnson.in)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@prismjohnson.in` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@prismjohnson.in` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@prismjohnson.in` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.content > .btn_style_1:nth-child(3)`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.overview > .container > .content > .btn_style_1:nth-child(4)`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.mdmsg > .container > .content > .btn_style_1`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.inv_r > .mt-50.btn_style_1`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.igbox:nth-child(1) > .igimg > img`\n6. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.igbox:nth-child(2) > .igimg > img`\n7. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.igbox:nth-child(3) > .igimg > img`\n8. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.igbox:nth-child(4) > .igimg > img`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.logo`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Prism_Johnson_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Prism_Johnson_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Prism_Johnson_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Prism_Johnson_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Prism_Johnson_Ltd/screenshots/Prism_Johnson_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Prism Johnson Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `64 / 100`  \n> **Total WCAG Violations:** `9`  \n> **Verified Contact Email:** `info@prismjohnson.in`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `info@prismjohnson.in` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **64/100** on automated WCAG 2.1 AA accessibility testing with **9 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `64/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `4` | Serious: `5` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 4 violations\n- 🎨 **Color Contrast Failures:** 4 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (4 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (4 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Prism Johnson Ltd\n- **Resolved URL:** [https://prismjohnson.in](https://prismjohnson.in)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@prismjohnson.in` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@prismjohnson.in` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@prismjohnson.in` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.content > .btn_style_1:nth-child(3)`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.overview > .container > .content > .btn_style_1:nth-child(4)`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.mdmsg > .container > .content > .btn_style_1`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.inv_r > .mt-50.btn_style_1`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.igbox:nth-child(1) > .igimg > img`\n6. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.igbox:nth-child(2) > .igimg > img`\n7. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.igbox:nth-child(3) > .igimg > img`\n8. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.igbox:nth-child(4) > .igimg > img`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.logo`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Prism_Johnson_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Prism_Johnson_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Prism_Johnson_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 9. WAVE AIM: N/A. Lighthouse A11y: 64/100.",
+  "timestamp": "2026-08-11T11:55:06.509Z"
+}

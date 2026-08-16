@@ -1,0 +1,393 @@
+{
+  "company": {
+    "srNo": 122,
+    "companyName": "Kirloskar Ferrous Industries Ltd",
+    "readymadeWebsite": "https://kirloskarferrous.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (Kirloskar Ferrous Industries Ltd)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://kirloskarferrous.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://kirloskarferrous.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "info@kirloskarferrous.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Unverified - guessed pattern"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "info@kirloskarferrous.com",
+        "type": "general",
+        "label": "General Contact Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      },
+      {
+        "address": "contact@kirloskarferrous.com",
+        "type": "compliance_grievance",
+        "label": "Investor Grievance Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      }
+    ],
+    "overallStatus": "Unverified - guessed pattern",
+    "evidenceScreenshots": [
+      "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Kirloskar_Ferrous_Industries_Ltd/screenshots/Kirloskar_Ferrous_Industries_Ltd_EmailEvidence_NotFound_ContactPage.png"
+    ]
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://kirloskarferrous.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".cust-arrow-l",
+          "html": "<button type=\"button\" class=\"cust-arrow-l prev\">\n\t\t\t\t\t\t<i class=\"icon-angle-left\"></i>\n\t\t\t\t\t</button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".cust-arrow-r",
+          "html": "<button type=\"button\" class=\"cust-arrow-r next\">\n\t\t\t\t\t\t<i class=\"icon-angle-right\"></i>\n\t\t\t\t\t</button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".slick-current.slick-active[data-slick-index=\"0\"] > .heading.mt-20.tag-wrap > .tag.head_link[href=\"\"]",
+          "html": "<a href=\"\" class=\"tag head_link\" tabindex=\"0\">Automotive Engineering</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".slick-active[data-slick-index=\"1\"][aria-hidden=\"false\"] > .heading.mt-20.tag-wrap > .tag.head_link[href=\"\"]",
+          "html": "<a href=\"\" class=\"tag head_link\" tabindex=\"0\">Infrastructure and Construction</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".slick-active[data-slick-index=\"2\"][aria-hidden=\"false\"] > .heading.mt-20.tag-wrap > .tag.head_link[href=\"\"]",
+          "html": "<a href=\"\" class=\"tag head_link\" tabindex=\"0\">Agriculture</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".card_light.industries-card-content[data-slick-index=\"3\"] > .heading.mt-20.tag-wrap > .tag.head_link[href=\"\"]",
+          "html": "<a href=\"\" class=\"tag head_link\" tabindex=\"-1\">Manufacturing</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".white.see_more_link[href$=\"csr\"] > span",
+          "html": "<span>See More</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".sub-page-data.social-unit.csr-titlehome:nth-child(1) > h3",
+          "html": "<h3> Kirloskar Vasundhara International Film Festival</h3>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".sub-page-data.social-unit.csr-titlehome:nth-child(1) > .v-align.row > .col-lg-8.col-sm-12.col-xs-12 > p",
+          "html": "<p> Protecting the Earth and preserving it for generations to come is at the forefront of our minds.</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".sub-page-data.social-unit.csr-titlehome:nth-child(1) > .v-align.row > .col-lg-4.col-sm-12.col-xs-12 > .text-right.see_more > .white.see_more_link > span",
+          "html": "<span>Read More</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".sub-page-data.social-unit.csr-titlehome:nth-child(2) > h3",
+          "html": "<h3> Kirloskar Water and Sanitation Hygiene Initiative</h3>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".sub-page-data.social-unit.csr-titlehome:nth-child(2) > .v-align.row > .col-lg-8.col-sm-12.col-xs-12 > p",
+          "html": "<p> We aim to build much-needed awareness about water and sanitation hygiene amongst underprivileged children.</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[href$=\"kirloskar-wash-initiative\"] > span",
+          "html": "<span>Read More</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".head-dark > span:nth-child(1)",
+          "html": "<span>News </span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "frame-title",
+          "impact": "serious",
+          "description": "Ensure <iframe> and <frame> elements have an accessible name",
+          "help": "Frames must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/frame-title?application=playwright",
+          "category": "other",
+          "selector": "#tradingview_d94b9",
+          "html": "<iframe id=\"tradingview_d94b9\" src=\"https://s.tradingvie...\" style=\"width: 100%; height:...\" allowtransparency=\"true\" scrolling=\"no\" allowfullscreen=\"\" frameborder=\"0\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "#tradingview_d94b9 > img",
+          "html": "<img crossorigin=\"\" decoding=\"async\" src=\"https://s3-symbol-logo.tradingview.com/kirloskar-ferrous-ind-ltd.svg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".footer-logo",
+          "html": "<img loading=\"lazy\" src=\"/documents/d/ferrous/kirloskar-ferrous-logo\" class=\"img-responsive footer-logo\" width=\"185\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".bottom-logo",
+          "html": "<img loading=\"lazy\" src=\"https://www.kirloskarchillers.com/documents/174986/1540090/footer-logo.element.png/340c9967-38e6-259a-3700-6d0e4440a84b?t=1673077218378\" class=\"img-responsive bottom-logo\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".search",
+          "html": "<a class=\"search\" href=\"javascript:void(0)\" onclick=\"displaySearchBar()\">\n        <i class=\"icon-search\"></i>\n    </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(1) > a[target=\"_blank\"][rel=\"noopener noreferrer\"]",
+          "html": "<a href=\"https://www.facebook.com/kirloskarferrous\" target=\"_blank\" rel=\"noopener noreferrer\"><i class=\"icon-facebook\"></i></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(2) > a[target=\"_blank\"][rel=\"noopener noreferrer\"]",
+          "html": "<a href=\"https://www.instagram.com/kirloskar_limitless/\" target=\"_blank\" rel=\"noopener noreferrer\"><i class=\"icon-instagram\"></i></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(3) > a[target=\"_blank\"][rel=\"noopener noreferrer\"]",
+          "html": "<a href=\"https://www.linkedin.com/company/kirloskarferrous\" target=\"_blank\" rel=\"noopener noreferrer\"><i class=\"icon-linkedin\"></i></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(4) > a[target=\"_blank\"][rel=\"noopener noreferrer\"]",
+          "html": "<a href=\"https://www.youtube.com/channel/UCuNjXNZSDqJnUkbRCu1O2-Q\" target=\"_blank\" rel=\"noopener noreferrer\"><i class=\"icon-youtube\"></i></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "list",
+          "impact": "serious",
+          "description": "Ensure that lists are structured correctly",
+          "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/list?application=playwright",
+          "category": "other",
+          "selector": ".col-sm:nth-child(1) > .list-group",
+          "html": "<ul class=\"list-group\">\n\t\t\t\t\t\t\t\t<a href=\"/home\">Home</a>\n\t\t\t\t\t\t\t\t<a href=\"/about\">About</a>\n\t\t\t\t\t\t\t\t<a href=\"/industries\">Industries</a>\n\t\t\t\t\t\t\t\t<a href=\"/csr\">CSR</a>\n\t\t\t\t\t\t\t\t<a href=\"/sitemap\">Sitemap</a>\n\t\t\t\t</ul>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "list",
+          "impact": "serious",
+          "description": "Ensure that lists are structured correctly",
+          "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/list?application=playwright",
+          "category": "other",
+          "selector": ".col-sm:nth-child(2) > .list-group",
+          "html": "<ul class=\"list-group\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "list",
+          "impact": "serious",
+          "description": "Ensure that lists are structured correctly",
+          "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/list?application=playwright",
+          "category": "other",
+          "selector": ".col-sm:nth-child(3) > .list-group",
+          "html": "<ul class=\"list-group\">\n\t\t\t\t\t\t\t\t<a href=\"/products/pig-iron\">Pig Iron</a>\n\t\t\t\t\t\t\t\t<a href=\"/products/casting\">Casting</a>\n\t\t\t\t\t\t\t\t<a href=\"/steeln\">Steel</a>\n\t\t\t\t\t\t\t\t<a href=\"/tubes\">Tubes</a>\n\t\t\t\t\t\t\t\t<a href=\"/ipp\">IPP</a>\n\t\t\t\t</ul>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "list",
+          "impact": "serious",
+          "description": "Ensure that lists are structured correctly",
+          "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/list?application=playwright",
+          "category": "other",
+          "selector": ".col-sm:nth-child(4) > .list-group",
+          "html": "<ul class=\"list-group\">\n\t\t\t\t\t\t\t\t<a href=\"/investors/stock-price\">Stock Price</a>\n\t\t\t\t\t\t\t\t<a href=\"/investors/annual-reports\">Annual Reports</a>\n\t\t\t\t\t\t\t\t<a href=\"/investors/for-share-holders\">For Share Holders</a>\n\t\t\t\t</ul>",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Kirloskar_Ferrous_Industries_Ltd/screenshots/Kirloskar_Ferrous_Industries_Ltd_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Kirloskar_Ferrous_Industries_Ltd/screenshots/Kirloskar_Ferrous_Industries_Ltd_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Kirloskar_Ferrous_Industries_Ltd/screenshots/Kirloskar_Ferrous_Industries_Ltd_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 27,
+  "altTextViolations": 3,
+  "contrastViolations": 12,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Kirloskar_Ferrous_Industries_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Kirloskar_Ferrous_Industries_Ltd/screenshots/Kirloskar_Ferrous_Industries_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Kirloskar Ferrous Industries Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `27`  \n> **Verified Contact Email:** `info@kirloskarferrous.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@kirloskarferrous.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **27 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `5` | Serious: `22` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 3 violations\n- 🎨 **Color Contrast Failures:** 12 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (3 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (12 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Kirloskar Ferrous Industries Ltd\n- **Resolved URL:** [https://kirloskarferrous.com](https://kirloskarferrous.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@kirloskarferrous.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@kirloskarferrous.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@kirloskarferrous.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.cust-arrow-l`\n2. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.cust-arrow-r`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.slick-current.slick-active[data-slick-index=\"0\"] > .heading.mt-20.tag-wrap > .tag.head_link[href=\"\"]`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.slick-active[data-slick-index=\"1\"][aria-hidden=\"false\"] > .heading.mt-20.tag-wrap > .tag.head_link[href=\"\"]`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.slick-active[data-slick-index=\"2\"][aria-hidden=\"false\"] > .heading.mt-20.tag-wrap > .tag.head_link[href=\"\"]`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.card_light.industries-card-content[data-slick-index=\"3\"] > .heading.mt-20.tag-wrap > .tag.head_link[href=\"\"]`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.white.see_more_link[href$=\"csr\"] > span`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.sub-page-data.social-unit.csr-titlehome:nth-child(1) > h3`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.sub-page-data.social-unit.csr-titlehome:nth-child(1) > .v-align.row > .col-lg-8.col-sm-12.col-xs-12 > p`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.sub-page-data.social-unit.csr-titlehome:nth-child(1) > .v-align.row > .col-lg-4.col-sm-12.col-xs-12 > .text-right.see_more > .white.see_more_link > span`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Kirloskar_Ferrous_Industries_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Kirloskar_Ferrous_Industries_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Kirloskar_Ferrous_Industries_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Kirloskar_Ferrous_Industries_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Kirloskar_Ferrous_Industries_Ltd/screenshots/Kirloskar_Ferrous_Industries_Ltd_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Kirloskar Ferrous Industries Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `27`  \n> **Verified Contact Email:** `info@kirloskarferrous.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@kirloskarferrous.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **27 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `5` | Serious: `22` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 3 violations\n- 🎨 **Color Contrast Failures:** 12 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (3 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (12 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Kirloskar Ferrous Industries Ltd\n- **Resolved URL:** [https://kirloskarferrous.com](https://kirloskarferrous.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@kirloskarferrous.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@kirloskarferrous.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@kirloskarferrous.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.cust-arrow-l`\n2. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.cust-arrow-r`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.slick-current.slick-active[data-slick-index=\"0\"] > .heading.mt-20.tag-wrap > .tag.head_link[href=\"\"]`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.slick-active[data-slick-index=\"1\"][aria-hidden=\"false\"] > .heading.mt-20.tag-wrap > .tag.head_link[href=\"\"]`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.slick-active[data-slick-index=\"2\"][aria-hidden=\"false\"] > .heading.mt-20.tag-wrap > .tag.head_link[href=\"\"]`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.card_light.industries-card-content[data-slick-index=\"3\"] > .heading.mt-20.tag-wrap > .tag.head_link[href=\"\"]`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.white.see_more_link[href$=\"csr\"] > span`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.sub-page-data.social-unit.csr-titlehome:nth-child(1) > h3`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.sub-page-data.social-unit.csr-titlehome:nth-child(1) > .v-align.row > .col-lg-8.col-sm-12.col-xs-12 > p`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.sub-page-data.social-unit.csr-titlehome:nth-child(1) > .v-align.row > .col-lg-4.col-sm-12.col-xs-12 > .text-right.see_more > .white.see_more_link > span`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Kirloskar_Ferrous_Industries_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Kirloskar_Ferrous_Industries_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Kirloskar_Ferrous_Industries_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Kirloskar_Ferrous_Industries_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Kirloskar_Ferrous_Industries_Ltd/screenshots/Kirloskar_Ferrous_Industries_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Kirloskar Ferrous Industries Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `27`  \n> **Verified Contact Email:** `info@kirloskarferrous.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@kirloskarferrous.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **27 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `5` | Serious: `22` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 3 violations\n- 🎨 **Color Contrast Failures:** 12 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (3 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (12 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Kirloskar Ferrous Industries Ltd\n- **Resolved URL:** [https://kirloskarferrous.com](https://kirloskarferrous.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@kirloskarferrous.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@kirloskarferrous.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@kirloskarferrous.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.cust-arrow-l`\n2. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.cust-arrow-r`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.slick-current.slick-active[data-slick-index=\"0\"] > .heading.mt-20.tag-wrap > .tag.head_link[href=\"\"]`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.slick-active[data-slick-index=\"1\"][aria-hidden=\"false\"] > .heading.mt-20.tag-wrap > .tag.head_link[href=\"\"]`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.slick-active[data-slick-index=\"2\"][aria-hidden=\"false\"] > .heading.mt-20.tag-wrap > .tag.head_link[href=\"\"]`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.card_light.industries-card-content[data-slick-index=\"3\"] > .heading.mt-20.tag-wrap > .tag.head_link[href=\"\"]`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.white.see_more_link[href$=\"csr\"] > span`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.sub-page-data.social-unit.csr-titlehome:nth-child(1) > h3`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.sub-page-data.social-unit.csr-titlehome:nth-child(1) > .v-align.row > .col-lg-8.col-sm-12.col-xs-12 > p`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.sub-page-data.social-unit.csr-titlehome:nth-child(1) > .v-align.row > .col-lg-4.col-sm-12.col-xs-12 > .text-right.see_more > .white.see_more_link > span`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Kirloskar_Ferrous_Industries_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Kirloskar_Ferrous_Industries_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Kirloskar_Ferrous_Industries_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 27. WAVE AIM: N/A. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-11T11:54:40.756Z"
+}

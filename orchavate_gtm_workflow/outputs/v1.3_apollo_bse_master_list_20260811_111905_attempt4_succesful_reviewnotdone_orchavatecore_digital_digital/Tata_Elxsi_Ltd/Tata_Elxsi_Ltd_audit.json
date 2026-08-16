@@ -1,0 +1,508 @@
+{
+  "company": {
+    "srNo": 201,
+    "companyName": "Tata Elxsi Ltd",
+    "readymadeWebsite": "https://tataelxsi.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (Tata Elxsi Ltd)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://tataelxsi.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://tataelxsi.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "info@tataelxsi.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://tataelxsi.com"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "info@tataelxsi.com",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://tataelxsi.com"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://tataelxsi.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": "button[data-index=\"0\"]",
+          "html": "<button class=\"owl-dot active\" data-index=\"0\"></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": "button[data-index=\"1\"]",
+          "html": "<button class=\"owl-dot\" data-index=\"1\"></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": "button[data-index=\"2\"]",
+          "html": "<button class=\"owl-dot\" data-index=\"2\"></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": "button[data-index=\"3\"]",
+          "html": "<button class=\"owl-dot\" data-index=\"3\"></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": "button[data-index=\"4\"]",
+          "html": "<button class=\"owl-dot\" data-index=\"4\"></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": "button[data-index=\"5\"]",
+          "html": "<button class=\"owl-dot\" data-index=\"5\"></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": "button[data-index=\"6\"]",
+          "html": "<button class=\"owl-dot\" data-index=\"6\"></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".owl-prev.disabled[type=\"button\"]",
+          "html": "<button type=\"button\" role=\"presentation\" class=\"owl-prev disabled\"><span aria-label=\"Previous\">‹</span></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".ftrdsres > .owl-nav > .owl-next[type=\"button\"][role=\"presentation\"]",
+          "html": "<button type=\"button\" role=\"presentation\" class=\"owl-next\"><span aria-label=\"Next\">›</span></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "p[data-sr-id=\"9\"]",
+          "html": "<p data-sr-id=\"9\" style=\"; visibility: visibl...\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[data-sr-id=\"23\"]",
+          "html": "<a href=\"https://www.tataelxsi.com/careers\" class=\"botm3\" data-sr-id=\"23\" style=\"; visibility: visible;  -webkit-transform: translateY(50px) scale(1); opacity: 0;transform: translateY(50px) scale(1); opacity: 0;\">Know More</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".search > a[href=\"javascript:;\"]",
+          "html": "<a href=\"javascript:;\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.owl-item:nth-child(1) > .hmbnrcrsl > .hmbnrtxt > .hmlink",
+          "html": "<a href=\"https://www.tataelxsi.com/news-and-events/news/tata-elxsi-announces-the-launch-of-a-global-offshore-development-center-odc-for-terumo-corporation\" class=\"hmlink\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.owl-item:nth-child(2) > .hmbnrcrsl > .hmbnrtxt > .hmlink",
+          "html": "<a href=\"https://www.tataelxsi.com/news-and-events/press-releases/tata-elxsi-launches-devstudioai-a-multi-agent-aspice-aligned-genai-platform-to-accelerate-automotive-software-engineering\" class=\"hmlink\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.owl-item:nth-child(3) > .hmbnrcrsl > .hmbnrtxt > .hmlink",
+          "html": "<a href=\"https://www.tataelxsi.com/news-and-events/news/fast-chargers-are-critical-for-ev-industry-to-sustain-growth-euronews\" class=\"hmlink\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.owl-item:nth-child(4) > .hmbnrcrsl > .hmbnrtxt > .hmlink",
+          "html": "<a href=\"https://www.tataelxsi.com/news-and-events/news/how-tata-elxsi-is-delivering-intelligent-solutions-while-balancing-carbon-footprint\" class=\"hmlink\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".active.owl-item > .hmbnrcrsl > .hmbnrtxt > .hmlink",
+          "html": "<a href=\"https://www.tataelxsi.com/news-and-events/press-releases/tata-elxsi-launches-anatel-an-ai-native-software-development-platform-for-healthcare-and-med-tech-powered-by-openana\" class=\"hmlink\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(6) > .hmbnrcrsl > .hmbnrtxt > .hmlink",
+          "html": "<a href=\"https://www.tataelxsi.com/news-and-events/press-releases/tata-elxsi-launches-vitel-a-material-intelligence-solution-for-med-tech-powered-by-viridium-ai\" class=\"hmlink\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(7) > .hmbnrcrsl > .hmbnrtxt > .hmlink",
+          "html": "<a href=\"https://www.tataelxsi.com/news-and-events/press-releases/jsw-motors-and-tata-elxsi-form-strategic-partnership-to-power-next-generation-connected-software-defined-mobility-in-india\" class=\"hmlink\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(8) > .hmbnrcrsl > .hmbnrtxt > .hmlink",
+          "html": "<a href=\"https://www.tataelxsi.com/news-and-events/news/tata-elxsi-announces-the-launch-of-a-global-offshore-development-center-odc-for-terumo-corporation\" class=\"hmlink\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(9) > .hmbnrcrsl > .hmbnrtxt > .hmlink",
+          "html": "<a href=\"https://www.tataelxsi.com/news-and-events/press-releases/tata-elxsi-launches-devstudioai-a-multi-agent-aspice-aligned-genai-platform-to-accelerate-automotive-software-engineering\" class=\"hmlink\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(10) > .hmbnrcrsl > .hmbnrtxt > .hmlink",
+          "html": "<a href=\"https://www.tataelxsi.com/news-and-events/news/fast-chargers-are-critical-for-ev-industry-to-sustain-growth-euronews\" class=\"hmlink\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(11) > .hmbnrcrsl > .hmbnrtxt > .hmlink",
+          "html": "<a href=\"https://www.tataelxsi.com/news-and-events/news/how-tata-elxsi-is-delivering-intelligent-solutions-while-balancing-carbon-footprint\" class=\"hmlink\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.owl-item:nth-child(12) > .hmbnrcrsl > .hmbnrtxt > .hmlink",
+          "html": "<a href=\"https://www.tataelxsi.com/news-and-events/press-releases/tata-elxsi-launches-anatel-an-ai-native-software-development-platform-for-healthcare-and-med-tech-powered-by-openana\" class=\"hmlink\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.owl-item:nth-child(13) > .hmbnrcrsl > .hmbnrtxt > .hmlink",
+          "html": "<a href=\"https://www.tataelxsi.com/news-and-events/press-releases/tata-elxsi-launches-vitel-a-material-intelligence-solution-for-med-tech-powered-by-viridium-ai\" class=\"hmlink\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.owl-item:nth-child(14) > .hmbnrcrsl > .hmbnrtxt > .hmlink",
+          "html": "<a href=\"https://www.tataelxsi.com/news-and-events/press-releases/jsw-motors-and-tata-elxsi-form-strategic-partnership-to-power-next-generation-connected-software-defined-mobility-in-india\" class=\"hmlink\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.owl-item:nth-child(15) > .hmbnrcrsl > .hmbnrtxt > .hmlink",
+          "html": "<a href=\"https://www.tataelxsi.com/news-and-events/news/tata-elxsi-announces-the-launch-of-a-global-offshore-development-center-odc-for-terumo-corporation\" class=\"hmlink\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#togglePlayPause",
+          "html": "<a href=\"#\" id=\"togglePlayPause\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".hmlr2 > .hmbnrtxt > .hmlink",
+          "html": "<a href=\"https://www.tataelxsi.com/news-and-events/press-releases/sctimst-and-tata-elxsi-forge-strategic-partnership-to-accelerate-healthcare-innovation-and-medical-technology-development\" class=\"hmlink\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".hmlr3 > .hmbnrtxt > .hmlink[target=\"_blank\"]",
+          "html": "<a href=\"https://www.tataelxsi.com/news-and-events/press-releases/tata-elxsi-delivers-steady-growth-at-28-qoq-and-145-yoy-in-q1-fy27\" target=\"_blank\" class=\"hmlink\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".hmlr4 > .hmbnrtxt > .hmlink",
+          "html": "<a href=\"https://www.tataelxsi.com/news-and-events/press-releases/tata-elxsi-launches-a-global-technology-centre-for-medical-devices-from-bayer-in-radiology\" class=\"hmlink\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".hmbaner2 > .hmoverlbnr > .hmbnrtxt > .hmlink[target=\"_blank\"]",
+          "html": "<a href=\"https://www.tataelxsi.com/news-and-events/press-releases/tata-elxsi-and-sky-mark-a-major-milestone-in-ai-led-autonomous-network-transformation-with-neuron\" target=\"_blank\" class=\"hmlink\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".totop > a[href=\"javascript:;\"]",
+          "html": "<a href=\"javascript:;\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".lnkin",
+          "html": "<a href=\"https://www.linkedin.com/company/tataelxsi/?originalSubdomain=in\" target=\"_blank\" class=\"lnkin\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".insta",
+          "html": "<a href=\"https://www.instagram.com/tataelxsi_worldwide/\" target=\"_blank\" class=\"insta\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".twtr",
+          "html": "<a href=\"https://twitter.com/tataelxsi\" target=\"_blank\" class=\"twtr\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".fb",
+          "html": "<a href=\"https://www.facebook.com/ElxsiTata\" target=\"_blank\" class=\"fb\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".utbe",
+          "html": "<a href=\"https://www.youtube.com/channel/UCHr9K9n0INe57n39WJOUeiQ\" target=\"_blank\" class=\"utbe\"></a>",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Tata_Elxsi_Ltd/screenshots/Tata_Elxsi_Ltd_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Tata_Elxsi_Ltd/screenshots/Tata_Elxsi_Ltd_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Tata_Elxsi_Ltd/screenshots/Tata_Elxsi_Ltd_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 38,
+  "altTextViolations": 0,
+  "contrastViolations": 2,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Tata_Elxsi_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Tata_Elxsi_Ltd/screenshots/Tata_Elxsi_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Tata Elxsi Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `38`  \n> **Verified Contact Email:** `info@tataelxsi.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@tataelxsi.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **38 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `9` | Serious: `29` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 2 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (2 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Tata Elxsi Ltd\n- **Resolved URL:** [https://tataelxsi.com](https://tataelxsi.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@tataelxsi.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `info@tataelxsi.com` | **Status:** `Verified` | **Source Page:** https://tataelxsi.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `button[data-index=\"0\"]`\n2. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `button[data-index=\"1\"]`\n3. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `button[data-index=\"2\"]`\n4. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `button[data-index=\"3\"]`\n5. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `button[data-index=\"4\"]`\n6. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `button[data-index=\"5\"]`\n7. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `button[data-index=\"6\"]`\n8. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.owl-prev.disabled[type=\"button\"]`\n9. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.ftrdsres > .owl-nav > .owl-next[type=\"button\"][role=\"presentation\"]`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `p[data-sr-id=\"9\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Tata_Elxsi_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Tata_Elxsi_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Tata_Elxsi_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Tata_Elxsi_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Tata_Elxsi_Ltd/screenshots/Tata_Elxsi_Ltd_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Tata Elxsi Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `38`  \n> **Verified Contact Email:** `info@tataelxsi.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@tataelxsi.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **38 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `9` | Serious: `29` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 2 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (2 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Tata Elxsi Ltd\n- **Resolved URL:** [https://tataelxsi.com](https://tataelxsi.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@tataelxsi.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `info@tataelxsi.com` | **Status:** `Verified` | **Source Page:** https://tataelxsi.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `button[data-index=\"0\"]`\n2. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `button[data-index=\"1\"]`\n3. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `button[data-index=\"2\"]`\n4. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `button[data-index=\"3\"]`\n5. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `button[data-index=\"4\"]`\n6. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `button[data-index=\"5\"]`\n7. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `button[data-index=\"6\"]`\n8. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.owl-prev.disabled[type=\"button\"]`\n9. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.ftrdsres > .owl-nav > .owl-next[type=\"button\"][role=\"presentation\"]`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `p[data-sr-id=\"9\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Tata_Elxsi_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Tata_Elxsi_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Tata_Elxsi_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Tata_Elxsi_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Tata_Elxsi_Ltd/screenshots/Tata_Elxsi_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Tata Elxsi Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `38`  \n> **Verified Contact Email:** `info@tataelxsi.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@tataelxsi.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **38 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `9` | Serious: `29` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 2 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (2 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Tata Elxsi Ltd\n- **Resolved URL:** [https://tataelxsi.com](https://tataelxsi.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@tataelxsi.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `info@tataelxsi.com` | **Status:** `Verified` | **Source Page:** https://tataelxsi.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `button[data-index=\"0\"]`\n2. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `button[data-index=\"1\"]`\n3. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `button[data-index=\"2\"]`\n4. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `button[data-index=\"3\"]`\n5. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `button[data-index=\"4\"]`\n6. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `button[data-index=\"5\"]`\n7. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `button[data-index=\"6\"]`\n8. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.owl-prev.disabled[type=\"button\"]`\n9. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.ftrdsres > .owl-nav > .owl-next[type=\"button\"][role=\"presentation\"]`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `p[data-sr-id=\"9\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Tata_Elxsi_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Tata_Elxsi_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Tata_Elxsi_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 38. WAVE AIM: N/A. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-11T12:01:31.584Z"
+}

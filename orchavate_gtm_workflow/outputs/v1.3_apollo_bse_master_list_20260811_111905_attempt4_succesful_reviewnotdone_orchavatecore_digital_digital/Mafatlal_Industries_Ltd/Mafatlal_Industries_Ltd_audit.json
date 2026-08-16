@@ -1,0 +1,173 @@
+{
+  "company": {
+    "srNo": 135,
+    "companyName": "Mafatlal Industries Ltd",
+    "readymadeWebsite": "https://mafatlals.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (Mafatlal Industries Ltd)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://mafatlals.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://mafatlals.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "info@mafatlals.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Unverified - guessed pattern"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "info@mafatlals.com",
+        "type": "general",
+        "label": "General Contact Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      },
+      {
+        "address": "contact@mafatlals.com",
+        "type": "compliance_grievance",
+        "label": "Investor Grievance Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      }
+    ],
+    "overallStatus": "Unverified - guessed pattern",
+    "evidenceScreenshots": [
+      "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Mafatlal_Industries_Ltd/screenshots/Mafatlal_Industries_Ltd_EmailEvidence_NotFound_ContactPage.png"
+    ]
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://mafatlals.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "description": "Ensure an element's role supports its ARIA attributes",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-allowed-attr?application=playwright",
+          "category": "other",
+          "selector": "#menu-item-82 > .menu-link",
+          "html": "<a aria-expanded=\"false\" class=\"menu-link\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "description": "Ensure an element's role supports its ARIA attributes",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-allowed-attr?application=playwright",
+          "category": "other",
+          "selector": "#menu-item-86 > .menu-link",
+          "html": "<a aria-expanded=\"false\" class=\"menu-link\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "description": "Ensure an element's role supports its ARIA attributes",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-allowed-attr?application=playwright",
+          "category": "other",
+          "selector": "#menu-item-77523 > .menu-link",
+          "html": "<a aria-expanded=\"false\" class=\"menu-link\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "description": "Ensure an element's role supports its ARIA attributes",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-allowed-attr?application=playwright",
+          "category": "other",
+          "selector": "#menu-item-98 > .menu-link",
+          "html": "<a aria-expanded=\"false\" class=\"menu-link\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "description": "Ensure an element's role supports its ARIA attributes",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-allowed-attr?application=playwright",
+          "category": "other",
+          "selector": "#menu-item-150 > .menu-link",
+          "html": "<a aria-expanded=\"false\" class=\"menu-link\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".elementor-button-text",
+          "html": "<span class=\"elementor-button-text\">Explore All Outlets</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#masthead > div[data-toggle-type=\"off-canvas\"] > .ast-main-header-wrap.main-header-bar-wrap > .ast-primary-header-bar.ast-primary-header.main-header-bar > .ast-builder-grid-row-container.site-primary-header-wrap[data-section=\"section-primary-header-builder\"] > .ast-grid-center-col-layout.ast-builder-grid-row.ast-builder-grid-row-has-sides > .site-header-primary-section-right.ast-grid-right-section.site-header-section > aside > .widget.widget_block.widget_media_image > .wp-block-image.is-resized.size-full > a",
+          "html": "<a href=\"http://www.arvindmafatlalgroup.com/\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 72,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Mafatlal_Industries_Ltd/screenshots/Mafatlal_Industries_Ltd_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Mafatlal_Industries_Ltd/screenshots/Mafatlal_Industries_Ltd_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Mafatlal_Industries_Ltd/screenshots/Mafatlal_Industries_Ltd_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 7,
+  "altTextViolations": 0,
+  "contrastViolations": 1,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 72,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Mafatlal_Industries_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Mafatlal_Industries_Ltd/screenshots/Mafatlal_Industries_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Mafatlal Industries Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `72 / 100`  \n> **Total WCAG Violations:** `7`  \n> **Verified Contact Email:** `info@mafatlals.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `info@mafatlals.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **72/100** on automated WCAG 2.1 AA accessibility testing with **7 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `72/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `5` | Serious: `2` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 1 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (1 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Mafatlal Industries Ltd\n- **Resolved URL:** [https://mafatlals.com](https://mafatlals.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@mafatlals.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@mafatlals.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@mafatlals.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `#menu-item-82 > .menu-link`\n2. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `#menu-item-86 > .menu-link`\n3. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `#menu-item-77523 > .menu-link`\n4. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `#menu-item-98 > .menu-link`\n5. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `#menu-item-150 > .menu-link`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-button-text`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `#masthead > div[data-toggle-type=\"off-canvas\"] > .ast-main-header-wrap.main-header-bar-wrap > .ast-primary-header-bar.ast-primary-header.main-header-bar > .ast-builder-grid-row-container.site-primary-header-wrap[data-section=\"section-primary-header-builder\"] > .ast-grid-center-col-layout.ast-builder-grid-row.ast-builder-grid-row-has-sides > .site-header-primary-section-right.ast-grid-right-section.site-header-section > aside > .widget.widget_block.widget_media_image > .wp-block-image.is-resized.size-full > a`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Mafatlal_Industries_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Mafatlal_Industries_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Mafatlal_Industries_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Mafatlal_Industries_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Mafatlal_Industries_Ltd/screenshots/Mafatlal_Industries_Ltd_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Mafatlal Industries Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `72 / 100`  \n> **Total WCAG Violations:** `7`  \n> **Verified Contact Email:** `info@mafatlals.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `info@mafatlals.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **72/100** on automated WCAG 2.1 AA accessibility testing with **7 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `72/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `5` | Serious: `2` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 1 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (1 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Mafatlal Industries Ltd\n- **Resolved URL:** [https://mafatlals.com](https://mafatlals.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@mafatlals.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@mafatlals.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@mafatlals.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `#menu-item-82 > .menu-link`\n2. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `#menu-item-86 > .menu-link`\n3. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `#menu-item-77523 > .menu-link`\n4. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `#menu-item-98 > .menu-link`\n5. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `#menu-item-150 > .menu-link`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-button-text`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `#masthead > div[data-toggle-type=\"off-canvas\"] > .ast-main-header-wrap.main-header-bar-wrap > .ast-primary-header-bar.ast-primary-header.main-header-bar > .ast-builder-grid-row-container.site-primary-header-wrap[data-section=\"section-primary-header-builder\"] > .ast-grid-center-col-layout.ast-builder-grid-row.ast-builder-grid-row-has-sides > .site-header-primary-section-right.ast-grid-right-section.site-header-section > aside > .widget.widget_block.widget_media_image > .wp-block-image.is-resized.size-full > a`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Mafatlal_Industries_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Mafatlal_Industries_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Mafatlal_Industries_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Mafatlal_Industries_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Mafatlal_Industries_Ltd/screenshots/Mafatlal_Industries_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Mafatlal Industries Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `72 / 100`  \n> **Total WCAG Violations:** `7`  \n> **Verified Contact Email:** `info@mafatlals.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `info@mafatlals.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **72/100** on automated WCAG 2.1 AA accessibility testing with **7 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `72/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `5` | Serious: `2` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 1 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (1 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Mafatlal Industries Ltd\n- **Resolved URL:** [https://mafatlals.com](https://mafatlals.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@mafatlals.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@mafatlals.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@mafatlals.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `#menu-item-82 > .menu-link`\n2. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `#menu-item-86 > .menu-link`\n3. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `#menu-item-77523 > .menu-link`\n4. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `#menu-item-98 > .menu-link`\n5. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `#menu-item-150 > .menu-link`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-button-text`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `#masthead > div[data-toggle-type=\"off-canvas\"] > .ast-main-header-wrap.main-header-bar-wrap > .ast-primary-header-bar.ast-primary-header.main-header-bar > .ast-builder-grid-row-container.site-primary-header-wrap[data-section=\"section-primary-header-builder\"] > .ast-grid-center-col-layout.ast-builder-grid-row.ast-builder-grid-row-has-sides > .site-header-primary-section-right.ast-grid-right-section.site-header-section > aside > .widget.widget_block.widget_media_image > .wp-block-image.is-resized.size-full > a`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Mafatlal_Industries_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Mafatlal_Industries_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Mafatlal_Industries_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 7. WAVE AIM: N/A. Lighthouse A11y: 72/100.",
+  "timestamp": "2026-08-11T11:48:43.101Z"
+}

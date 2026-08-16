@@ -1,0 +1,218 @@
+{
+  "company": {
+    "srNo": 172,
+    "companyName": "Prime Securities Ltd",
+    "readymadeWebsite": "https://primesec.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (Prime Securities Ltd)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://primesec.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://primesec.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "prime@primesec.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://primesec.com"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "prime@primesec.com",
+        "type": "compliance_grievance",
+        "label": "Investor Grievance / Compliance Officer Email",
+        "status": "Verified",
+        "sourceUrl": "https://primesec.com"
+      },
+      {
+        "address": "prime@primesec.com",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://primesec.com"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://primesec.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".slick-prev",
+          "html": "<button type=\"button\" style=\"color: rgb(195, 51, 43); font-size: 20px;\" class=\"slick-prev circle-bg\"><i class=\"ultsl-arrow-left4\"></i></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".slick-next",
+          "html": "<button type=\"button\" style=\"color: rgb(195, 51, 43); font-size: 20px;\" class=\"slick-next circle-bg\"><i class=\"ultsl-arrow-right4\"></i></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".slider-prev",
+          "html": "<a href=\"\" class=\"slider-prev\" style=\"opacity: 1;\"><i class=\"fa fa-angle-left\"></i> </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".slider-next",
+          "html": "<a href=\"\" class=\"slider-next\" style=\"opacity: 1;\"><i class=\"fa fa-angle-right\"></i> </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".instance-15 > .vc_column-inner > .column-link[target=\"_self\"]",
+          "html": "<a class=\"column-link\" target=\"_self\" href=\"https://primesec.com/services/private-equity/\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".instance-16 > .vc_column-inner > .column-link[target=\"_self\"]",
+          "html": "<a class=\"column-link\" target=\"_self\" href=\"https://primesec.com/services/corporate-advisory/\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".instance-17 > .vc_column-inner > .column-link[target=\"_self\"]",
+          "html": "<a class=\"column-link\" target=\"_self\" href=\"https://primesec.com/services/debt-capital-markets/\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#menu-item-2742 > a[target=\"_blank\"]",
+          "html": "<a target=\"_blank\" href=\"https://www.linkedin.com/company/prime-sec/\"><i class=\"fa fa-linkedin\" alt=\"Linkedin Link\"></i></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[href$=\"Prime_Secu\"]",
+          "html": "<a target=\"_blank\" href=\"https://x.com/Prime_Secu\"><i class=\"fa fa-twitter\" alt=\"Twitter Link\"></i></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".slide-out-hover-icon-effect > div > .closed[href$=\"#sidewidgetarea\"]",
+          "html": "<a href=\"#sidewidgetarea\" class=\"closed\"> <span> <i class=\"lines-button x2\"> <i class=\"lines\"></i> </i> </span> </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "meta-viewport",
+          "impact": "moderate",
+          "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+          "help": "Zooming and scaling must not be disabled",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/meta-viewport?application=playwright",
+          "category": "other",
+          "selector": "meta[name=\"viewport\"]",
+          "html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 56,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Prime_Securities_Ltd/screenshots/Prime_Securities_Ltd_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Prime_Securities_Ltd/screenshots/Prime_Securities_Ltd_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Prime_Securities_Ltd/screenshots/Prime_Securities_Ltd_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 11,
+  "altTextViolations": 0,
+  "contrastViolations": 0,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 56,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Prime_Securities_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Prime_Securities_Ltd/screenshots/Prime_Securities_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Prime Securities Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `56 / 100`  \n> **Total WCAG Violations:** `11`  \n> **Verified Contact Email:** `prime@primesec.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `prime@primesec.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **56/100** on automated WCAG 2.1 AA accessibility testing with **11 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `56/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `2` | Serious: `8` | Moderate: `1`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Clean Codebase:** No automated DOM accessibility defects found on scanned pages. Keep auditing dynamic components.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Prime Securities Ltd\n- **Resolved URL:** [https://primesec.com](https://primesec.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `prime@primesec.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `prime@primesec.com` | **Status:** `Verified` | **Source Page:** https://primesec.com\n- **General Contact Email:** `prime@primesec.com` | **Status:** `Verified` | **Source Page:** https://primesec.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.slick-prev`\n2. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.slick-next`\n3. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.slider-prev`\n4. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.slider-next`\n5. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.instance-15 > .vc_column-inner > .column-link[target=\"_self\"]`\n6. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.instance-16 > .vc_column-inner > .column-link[target=\"_self\"]`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.instance-17 > .vc_column-inner > .column-link[target=\"_self\"]`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `#menu-item-2742 > a[target=\"_blank\"]`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `a[href$=\"Prime_Secu\"]`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.slide-out-hover-icon-effect > div > .closed[href$=\"#sidewidgetarea\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Prime_Securities_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Prime_Securities_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Prime_Securities_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Prime_Securities_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Prime_Securities_Ltd/screenshots/Prime_Securities_Ltd_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Prime Securities Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `56 / 100`  \n> **Total WCAG Violations:** `11`  \n> **Verified Contact Email:** `prime@primesec.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `prime@primesec.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **56/100** on automated WCAG 2.1 AA accessibility testing with **11 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `56/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `2` | Serious: `8` | Moderate: `1`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Clean Codebase:** No automated DOM accessibility defects found on scanned pages. Keep auditing dynamic components.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Prime Securities Ltd\n- **Resolved URL:** [https://primesec.com](https://primesec.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `prime@primesec.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `prime@primesec.com` | **Status:** `Verified` | **Source Page:** https://primesec.com\n- **General Contact Email:** `prime@primesec.com` | **Status:** `Verified` | **Source Page:** https://primesec.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.slick-prev`\n2. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.slick-next`\n3. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.slider-prev`\n4. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.slider-next`\n5. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.instance-15 > .vc_column-inner > .column-link[target=\"_self\"]`\n6. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.instance-16 > .vc_column-inner > .column-link[target=\"_self\"]`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.instance-17 > .vc_column-inner > .column-link[target=\"_self\"]`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `#menu-item-2742 > a[target=\"_blank\"]`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `a[href$=\"Prime_Secu\"]`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.slide-out-hover-icon-effect > div > .closed[href$=\"#sidewidgetarea\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Prime_Securities_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Prime_Securities_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Prime_Securities_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Prime_Securities_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Prime_Securities_Ltd/screenshots/Prime_Securities_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Prime Securities Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `56 / 100`  \n> **Total WCAG Violations:** `11`  \n> **Verified Contact Email:** `prime@primesec.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `prime@primesec.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **56/100** on automated WCAG 2.1 AA accessibility testing with **11 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `56/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `2` | Serious: `8` | Moderate: `1`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Clean Codebase:** No automated DOM accessibility defects found on scanned pages. Keep auditing dynamic components.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Prime Securities Ltd\n- **Resolved URL:** [https://primesec.com](https://primesec.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `prime@primesec.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `prime@primesec.com` | **Status:** `Verified` | **Source Page:** https://primesec.com\n- **General Contact Email:** `prime@primesec.com` | **Status:** `Verified` | **Source Page:** https://primesec.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.slick-prev`\n2. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.slick-next`\n3. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.slider-prev`\n4. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.slider-next`\n5. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.instance-15 > .vc_column-inner > .column-link[target=\"_self\"]`\n6. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.instance-16 > .vc_column-inner > .column-link[target=\"_self\"]`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.instance-17 > .vc_column-inner > .column-link[target=\"_self\"]`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `#menu-item-2742 > a[target=\"_blank\"]`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `a[href$=\"Prime_Secu\"]`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.slide-out-hover-icon-effect > div > .closed[href$=\"#sidewidgetarea\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Prime_Securities_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Prime_Securities_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Prime_Securities_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 11. WAVE AIM: N/A. Lighthouse A11y: 56/100.",
+  "timestamp": "2026-08-11T12:01:22.963Z"
+}

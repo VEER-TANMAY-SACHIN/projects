@@ -1,0 +1,255 @@
+{
+  "company": {
+    "srNo": 74,
+    "companyName": "Ganesh Benzoplast Ltd",
+    "readymadeWebsite": "https://ganeshbenzoplast.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (Ganesh Benzoplast Ltd)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://ganeshbenzoplast.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://ganeshbenzoplast.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "info@gblinfra.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://ganeshbenzoplast.com"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "info@gblinfra.com",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://ganeshbenzoplast.com"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://ganeshbenzoplast.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "html-has-lang",
+          "impact": "serious",
+          "description": "Ensure every HTML document has a lang attribute",
+          "help": "<html> element must have a lang attribute",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/html-has-lang?application=playwright",
+          "category": "other",
+          "selector": "html",
+          "html": "<html class=\" js flexbox flexboxl...\" style=\"\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "img[src$=\"logo.jpg\"]",
+          "html": "<img src=\"/images/logo.jpg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "#slick-slide00 > img[src$=\"slider1.jpg\"]",
+          "html": "<img src=\"/images/sliders/slider1.jpg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "#slick-slide10 > .business-box.fadeInUp.wow > a > .img > img",
+          "html": "<img src=\"/images/services/LiquidStorageTanks.jpg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "#slick-slide11 > .business-box.fadeInUp.wow > a > .img > img[src$=\"epc.jpg\"]",
+          "html": "<img src=\"/images/services/epc.jpg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "#slick-slide12 > .business-box.fadeInUp.wow > a > .img > img[src$=\"infra.jpg\"]",
+          "html": "<img src=\"/images/services/infra.jpg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "#slick-slide13 > .business-box.fadeInUp.wow > a[href$=\"Additives\"] > .img > img",
+          "html": "<img src=\"/images/services/LubricantAdditives.jpg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "img[src$=\"InvestorCenter.jpg\"]",
+          "html": "<img src=\"/images/InvestorCenter.jpg\" class=\"w-100\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "img[src$=\"Careers.jpg\"]",
+          "html": "<img src=\"/images/Careers.jpg\" class=\"w-100\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".logo > a[href=\"/\"]",
+          "html": "<a href=\"/\">\n                                <img src=\"/images/logo.jpg\">\n                            </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#slick-slide00 > .btn-knowmore[href$=\"AboutGroup\"]",
+          "html": "<a href=\"/AboutUs/AboutGroup\" class=\"btn-knowmore\" tabindex=\"0\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".mb-md-0 > .know-more > a",
+          "html": "<a href=\"/Investors/CorporateAnnouncement\"><i class=\"fa fa-plus\"></i></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".know-more > a[href$=\"Careers\"]",
+          "html": "<a href=\"/Careers/Careers\"><i class=\"fa fa-plus\"></i></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#back-to-top",
+          "html": "<a id=\"back-to-top\" href=\"#\"><i class=\"fa fa-arrow-up\"></i></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "meta-viewport",
+          "impact": "moderate",
+          "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+          "help": "Zooming and scaling must not be disabled",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/meta-viewport?application=playwright",
+          "category": "other",
+          "selector": "meta[name=\"viewport\"]",
+          "html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 40,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Ganesh_Benzoplast_Ltd/screenshots/Ganesh_Benzoplast_Ltd_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Ganesh_Benzoplast_Ltd/screenshots/Ganesh_Benzoplast_Ltd_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Ganesh_Benzoplast_Ltd/screenshots/Ganesh_Benzoplast_Ltd_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 15,
+  "altTextViolations": 8,
+  "contrastViolations": 0,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 40,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Ganesh_Benzoplast_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Ganesh_Benzoplast_Ltd/screenshots/Ganesh_Benzoplast_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Ganesh Benzoplast Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `40 / 100`  \n> **Total WCAG Violations:** `15`  \n> **Verified Contact Email:** `info@gblinfra.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@gblinfra.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **40/100** on automated WCAG 2.1 AA accessibility testing with **15 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `40/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `8` | Serious: `6` | Moderate: `1`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 8 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (8 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Ganesh Benzoplast Ltd\n- **Resolved URL:** [https://ganeshbenzoplast.com](https://ganeshbenzoplast.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@gblinfra.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `info@gblinfra.com` | **Status:** `Verified` | **Source Page:** https://ganeshbenzoplast.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] html-has-lang`** (SERIOUS)\n   - **Help:** <html> element must have a lang attribute\n   - **Selector:** `html`\n2. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `img[src$=\"logo.jpg\"]`\n3. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `#slick-slide00 > img[src$=\"slider1.jpg\"]`\n4. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `#slick-slide10 > .business-box.fadeInUp.wow > a > .img > img`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `#slick-slide11 > .business-box.fadeInUp.wow > a > .img > img[src$=\"epc.jpg\"]`\n6. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `#slick-slide12 > .business-box.fadeInUp.wow > a > .img > img[src$=\"infra.jpg\"]`\n7. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `#slick-slide13 > .business-box.fadeInUp.wow > a[href$=\"Additives\"] > .img > img`\n8. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `img[src$=\"InvestorCenter.jpg\"]`\n9. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `img[src$=\"Careers.jpg\"]`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.logo > a[href=\"/\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Ganesh_Benzoplast_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Ganesh_Benzoplast_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Ganesh_Benzoplast_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Ganesh_Benzoplast_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Ganesh_Benzoplast_Ltd/screenshots/Ganesh_Benzoplast_Ltd_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Ganesh Benzoplast Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `40 / 100`  \n> **Total WCAG Violations:** `15`  \n> **Verified Contact Email:** `info@gblinfra.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@gblinfra.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **40/100** on automated WCAG 2.1 AA accessibility testing with **15 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `40/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `8` | Serious: `6` | Moderate: `1`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 8 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (8 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Ganesh Benzoplast Ltd\n- **Resolved URL:** [https://ganeshbenzoplast.com](https://ganeshbenzoplast.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@gblinfra.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `info@gblinfra.com` | **Status:** `Verified` | **Source Page:** https://ganeshbenzoplast.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] html-has-lang`** (SERIOUS)\n   - **Help:** <html> element must have a lang attribute\n   - **Selector:** `html`\n2. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `img[src$=\"logo.jpg\"]`\n3. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `#slick-slide00 > img[src$=\"slider1.jpg\"]`\n4. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `#slick-slide10 > .business-box.fadeInUp.wow > a > .img > img`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `#slick-slide11 > .business-box.fadeInUp.wow > a > .img > img[src$=\"epc.jpg\"]`\n6. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `#slick-slide12 > .business-box.fadeInUp.wow > a > .img > img[src$=\"infra.jpg\"]`\n7. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `#slick-slide13 > .business-box.fadeInUp.wow > a[href$=\"Additives\"] > .img > img`\n8. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `img[src$=\"InvestorCenter.jpg\"]`\n9. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `img[src$=\"Careers.jpg\"]`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.logo > a[href=\"/\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Ganesh_Benzoplast_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Ganesh_Benzoplast_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Ganesh_Benzoplast_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Ganesh_Benzoplast_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Ganesh_Benzoplast_Ltd/screenshots/Ganesh_Benzoplast_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Ganesh Benzoplast Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `40 / 100`  \n> **Total WCAG Violations:** `15`  \n> **Verified Contact Email:** `info@gblinfra.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@gblinfra.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **40/100** on automated WCAG 2.1 AA accessibility testing with **15 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `40/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `8` | Serious: `6` | Moderate: `1`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 8 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (8 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Ganesh Benzoplast Ltd\n- **Resolved URL:** [https://ganeshbenzoplast.com](https://ganeshbenzoplast.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@gblinfra.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `info@gblinfra.com` | **Status:** `Verified` | **Source Page:** https://ganeshbenzoplast.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] html-has-lang`** (SERIOUS)\n   - **Help:** <html> element must have a lang attribute\n   - **Selector:** `html`\n2. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `img[src$=\"logo.jpg\"]`\n3. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `#slick-slide00 > img[src$=\"slider1.jpg\"]`\n4. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `#slick-slide10 > .business-box.fadeInUp.wow > a > .img > img`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `#slick-slide11 > .business-box.fadeInUp.wow > a > .img > img[src$=\"epc.jpg\"]`\n6. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `#slick-slide12 > .business-box.fadeInUp.wow > a > .img > img[src$=\"infra.jpg\"]`\n7. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `#slick-slide13 > .business-box.fadeInUp.wow > a[href$=\"Additives\"] > .img > img`\n8. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `img[src$=\"InvestorCenter.jpg\"]`\n9. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `img[src$=\"Careers.jpg\"]`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.logo > a[href=\"/\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Ganesh_Benzoplast_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Ganesh_Benzoplast_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Ganesh_Benzoplast_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 15. WAVE AIM: N/A. Lighthouse A11y: 40/100.",
+  "timestamp": "2026-08-11T11:45:07.733Z"
+}

@@ -1,0 +1,89 @@
+{
+  "company": {
+    "srNo": 14,
+    "companyName": "Bajaj Hindusthan Sugar Ltd",
+    "readymadeWebsite": "https://bajajhindusthan.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (Bajaj Hindusthan Sugar Ltd)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://bajajhindusthan.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://bajajhindusthan.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "info@bajajhindusthan.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Unverified - guessed pattern"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "info@bajajhindusthan.com",
+        "type": "general",
+        "label": "General Contact Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      },
+      {
+        "address": "contact@bajajhindusthan.com",
+        "type": "compliance_grievance",
+        "label": "Investor Grievance Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      }
+    ],
+    "overallStatus": "Unverified - guessed pattern",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://bajajhindusthan.com",
+      "accessible": false,
+      "axeViolations": [],
+      "lighthouseScore": 100,
+      "screenshots": []
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 0,
+  "altTextViolations": 0,
+  "contrastViolations": 0,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 100,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112005_attempt5_succesful_reviewnotdone_orchavatecore_digital_digital/Bajaj_Hindusthan_Sugar_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112005_attempt5_succesful_reviewnotdone_orchavatecore_digital_digital/Bajaj_Hindusthan_Sugar_Ltd/screenshots/Bajaj_Hindusthan_Sugar_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Bajaj Hindusthan Sugar Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `100 / 100`  \n> **Total WCAG Violations:** `0`  \n> **Verified Contact Email:** `info@bajajhindusthan.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟢 Excellent (Low Risk)\n- **What this Score Means:** The website adheres well to WCAG 2.1 AA accessibility standards. Disabled users and screen reader operators can navigate the platform with minimal friction.\n- **Business & Legal Risk:** Low compliance risk. Minor polish needed for complete digital inclusion.\n- **Primary Outreach Contact:** `info@bajajhindusthan.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **100/100** on automated WCAG 2.1 AA accessibility testing with **0 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `100/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `0` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Clean Codebase:** No automated DOM accessibility defects found on scanned pages. Keep auditing dynamic components.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Bajaj Hindusthan Sugar Ltd\n- **Resolved URL:** [https://bajajhindusthan.com](https://bajajhindusthan.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@bajajhindusthan.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@bajajhindusthan.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@bajajhindusthan.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n*No WCAG accessibility violations detected.*\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Bajaj_Hindusthan_Sugar_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Bajaj_Hindusthan_Sugar_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Bajaj_Hindusthan_Sugar_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112005_attempt5_succesful_reviewnotdone_orchavatecore_digital_digital/Bajaj_Hindusthan_Sugar_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112005_attempt5_succesful_reviewnotdone_orchavatecore_digital_digital/Bajaj_Hindusthan_Sugar_Ltd/screenshots/Bajaj_Hindusthan_Sugar_Ltd_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Bajaj Hindusthan Sugar Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `100 / 100`  \n> **Total WCAG Violations:** `0`  \n> **Verified Contact Email:** `info@bajajhindusthan.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟢 Excellent (Low Risk)\n- **What this Score Means:** The website adheres well to WCAG 2.1 AA accessibility standards. Disabled users and screen reader operators can navigate the platform with minimal friction.\n- **Business & Legal Risk:** Low compliance risk. Minor polish needed for complete digital inclusion.\n- **Primary Outreach Contact:** `info@bajajhindusthan.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **100/100** on automated WCAG 2.1 AA accessibility testing with **0 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `100/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `0` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Clean Codebase:** No automated DOM accessibility defects found on scanned pages. Keep auditing dynamic components.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Bajaj Hindusthan Sugar Ltd\n- **Resolved URL:** [https://bajajhindusthan.com](https://bajajhindusthan.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@bajajhindusthan.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@bajajhindusthan.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@bajajhindusthan.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n*No WCAG accessibility violations detected.*\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Bajaj_Hindusthan_Sugar_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Bajaj_Hindusthan_Sugar_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Bajaj_Hindusthan_Sugar_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112005_attempt5_succesful_reviewnotdone_orchavatecore_digital_digital/Bajaj_Hindusthan_Sugar_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112005_attempt5_succesful_reviewnotdone_orchavatecore_digital_digital/Bajaj_Hindusthan_Sugar_Ltd/screenshots/Bajaj_Hindusthan_Sugar_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Bajaj Hindusthan Sugar Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `100 / 100`  \n> **Total WCAG Violations:** `0`  \n> **Verified Contact Email:** `info@bajajhindusthan.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟢 Excellent (Low Risk)\n- **What this Score Means:** The website adheres well to WCAG 2.1 AA accessibility standards. Disabled users and screen reader operators can navigate the platform with minimal friction.\n- **Business & Legal Risk:** Low compliance risk. Minor polish needed for complete digital inclusion.\n- **Primary Outreach Contact:** `info@bajajhindusthan.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **100/100** on automated WCAG 2.1 AA accessibility testing with **0 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `100/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `0` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Clean Codebase:** No automated DOM accessibility defects found on scanned pages. Keep auditing dynamic components.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Bajaj Hindusthan Sugar Ltd\n- **Resolved URL:** [https://bajajhindusthan.com](https://bajajhindusthan.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@bajajhindusthan.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@bajajhindusthan.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@bajajhindusthan.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n*No WCAG accessibility violations detected.*\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Bajaj_Hindusthan_Sugar_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Bajaj_Hindusthan_Sugar_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Bajaj_Hindusthan_Sugar_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 0. WAVE AIM: N/A. Lighthouse A11y: 100/100.",
+  "timestamp": "2026-08-11T11:23:13.586Z"
+}

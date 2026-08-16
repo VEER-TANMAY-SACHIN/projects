@@ -1,0 +1,794 @@
+{
+  "company": {
+    "srNo": 30,
+    "companyName": "Blue Star Ltd",
+    "readymadeWebsite": "https://bluestarindia.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (Blue Star Ltd)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://bluestarindia.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://bluestarindia.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "investors@bluestarindia.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://bluestarindia.com"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "investors@bluestarindia.com",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://bluestarindia.com"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://bluestarindia.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".topclose",
+          "html": "<button class=\"topclose close-nmodal\"><img src=\"https://www.bluestarindia.com/media/294798/close.png\" alt=\"\" width=\"16\" height=\"16\"></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[href$=\"locations\"]",
+          "html": "<a href=\"/locations\">Locations</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[href$=\"dealer-locator\"]",
+          "html": "<a href=\"/contact-us/dealer-locator\">Dealers</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "li:nth-child(3) > a[href=\"#\"]",
+          "html": "<a href=\"#\" onclick=\"window.open('https://www.bluestarindia.com/apply-dealership/apply-dealership.aspx','name','width=630,height=660,toolbar=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes'); return false;\">Dealership Request</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "li:nth-child(4) > a[href$=\"the-blue-star-way\"]",
+          "html": "<a href=\"/careers/the-blue-star-way\">Careers</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[href$=\"enquiries\"]",
+          "html": "<a href=\"/contact-us/enquiries\">Contact Us</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[href$=\"tvcs\"]",
+          "html": "<a href=\"/about-us/our-company/tvcs\">TVCs</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".rightNav > ul > li:nth-child(7) > a[target=\"_blank\"][rel=\"noopener noreferrer\"]",
+          "html": "<a target=\"_blank\" href=\"https://consumer.bluestarindia.com/\" rel=\"noopener noreferrer\">Consumers</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[href$=\"resources\"]",
+          "html": "<a href=\"/resources\">Resources</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "h1",
+          "html": "<h1>Room Air Conditioners</h1>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "li:nth-child(1) > .categoryDiscription > p",
+          "html": "<p>The most technologically advanced and energy efficient air conditioning solutions for small spaces.</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "li:nth-child(2) > .categoryDiscription > h2",
+          "html": "<h2>Water Purifiers</h2>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "li:nth-child(2) > .categoryDiscription > p",
+          "html": "<p>Presenting a range of water purifiers, obsessed with purity.</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "li:nth-child(3) > .categoryDiscription > h2",
+          "html": "<h2>Air Purifiers</h2>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "li:nth-child(3) > .categoryDiscription > p",
+          "html": "<p>An array of purifiers built with superior technology for clean and healthy air in your home.</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".nomarginRight > .categoryDiscription > h2",
+          "html": "<h2>Air Coolers</h2>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".nomarginRight > .categoryDiscription > p",
+          "html": "<p>Sleek and elegant air coolers packed with smart features to provide efficient cooling.</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".projectCategory1.projectCategory:nth-child(2) > .slick-slider.slick-initialized > .slick-list.draggable[aria-live=\"polite\"] > .slick-track > .slick-active[data-slick-index=\"0\"][aria-hidden=\"false\"] > .categoryDiscription > h2",
+          "html": "<h2>Electro-Mechanical Projects</h2>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".projectCategory1.projectCategory:nth-child(2) > .slick-slider.slick-initialized > .slick-list.draggable[aria-live=\"polite\"] > .slick-track > .slick-active[data-slick-index=\"0\"][aria-hidden=\"false\"] > .categoryDiscription > p",
+          "html": "<p>Blue Star is India's leading integrated MEP service provider with over seven decades of experience.</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".projectCategory1.projectCategory:nth-child(2) > .slick-slider.slick-initialized > .slick-list.draggable[aria-live=\"polite\"] > .slick-track > .slick-active[data-slick-index=\"1\"][aria-hidden=\"false\"] > .categoryDiscription > h2",
+          "html": "<h2>Central Air Conditioning Products</h2>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".projectCategory1.projectCategory:nth-child(2) > .slick-slider.slick-initialized > .slick-list.draggable[aria-live=\"polite\"] > .slick-track > .slick-active[data-slick-index=\"1\"][aria-hidden=\"false\"] > .categoryDiscription > p",
+          "html": "<p>End-to-end solutions with a comprehensive range of VRF systems, ducted and packaged ACs, and chillers, among others.</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".projectCategory1.projectCategory:nth-child(2) > .slick-slider.slick-initialized > .slick-list.draggable[aria-live=\"polite\"] > .slick-track > .slick-active[data-slick-index=\"2\"][aria-hidden=\"false\"] > .categoryDiscription > h2",
+          "html": "<h2>Commercial Refrigeration</h2>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".projectCategory1.projectCategory:nth-child(2) > .slick-slider.slick-initialized > .slick-list.draggable[aria-live=\"polite\"] > .slick-track > .slick-active[data-slick-index=\"2\"][aria-hidden=\"false\"] > .categoryDiscription > p",
+          "html": "<p>Leaders in commercial refrigeration providing an array of freezers, coolers, bottled water dispensers, and more to small and large scale industries.</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".projectCategory1.projectCategory:nth-child(2) > .slick-slider.slick-initialized > .slick-list.draggable[aria-live=\"polite\"] > .slick-track > .slick-active[data-slick-index=\"3\"][aria-hidden=\"false\"] > .categoryDiscription > h2",
+          "html": "<h2>Water Coolers</h2>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".projectCategory1.projectCategory:nth-child(2) > .slick-slider.slick-initialized > .slick-list.draggable[aria-live=\"polite\"] > .slick-track > .slick-active[data-slick-index=\"3\"][aria-hidden=\"false\"] > .categoryDiscription > p",
+          "html": "<p>Get surprisingly fast cool water with this range of durable, value-for-money and eco-friendly coolers for commercial spaces.</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".projectCategory1.projectCategory:nth-child(3) > .slick-slider.slick-initialized > .slick-list.draggable[aria-live=\"polite\"] > .slick-track > .slick-active[data-slick-index=\"0\"][aria-hidden=\"false\"] > .categoryDiscription > h2",
+          "html": "<h2>After-Sales Service</h2>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".projectCategory1.projectCategory:nth-child(3) > .slick-slider.slick-initialized > .slick-list.draggable[aria-live=\"polite\"] > .slick-track > .slick-active[data-slick-index=\"0\"][aria-hidden=\"false\"] > .categoryDiscription > p",
+          "html": "<p>Providing you with the finest and most comprehensive range of service solutions.</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".projectCategory1.projectCategory:nth-child(3) > .slick-slider.slick-initialized > .slick-list.draggable[aria-live=\"polite\"] > .slick-track > .slick-active[data-slick-index=\"1\"][aria-hidden=\"false\"] > .categoryDiscription > h2",
+          "html": "<h2>Manufacturing and R&amp;D</h2>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".projectCategory1.projectCategory:nth-child(3) > .slick-slider.slick-initialized > .slick-list.draggable[aria-live=\"polite\"] > .slick-track > .slick-active[data-slick-index=\"1\"][aria-hidden=\"false\"] > .categoryDiscription > p",
+          "html": "<p>A manufacturing division with world-class calibre, and an R&amp;D team that consistently aims to develop and enhance products with up-to-date technology.</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".projectCategory1.projectCategory:nth-child(3) > .slick-slider.slick-initialized > .slick-list.draggable[aria-live=\"polite\"] > .slick-track > .slick-active[data-slick-index=\"2\"][aria-hidden=\"false\"] > .categoryDiscription > h2",
+          "html": "<h2>International Business Group</h2>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".projectCategory1.projectCategory:nth-child(3) > .slick-slider.slick-initialized > .slick-list.draggable[aria-live=\"polite\"] > .slick-track > .slick-active[data-slick-index=\"2\"][aria-hidden=\"false\"] > .categoryDiscription > p",
+          "html": "<p>This group manages joint ventures in Qatar, Malaysia and Oman, and product exports to the Middle East, SAARC, Africa, and ASEAN regions.</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".projectCategory1.projectCategory:nth-child(3) > .slick-slider.slick-initialized > .slick-list.draggable[aria-live=\"polite\"] > .slick-track > .slick-active[data-slick-index=\"3\"][aria-hidden=\"false\"] > .categoryDiscription > h2",
+          "html": "<h2>Professional Electronics &amp; Industrial Systems</h2>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".projectCategory1.projectCategory:nth-child(3) > .slick-slider.slick-initialized > .slick-list.draggable[aria-live=\"polite\"] > .slick-track > .slick-active[data-slick-index=\"3\"][aria-hidden=\"false\"] > .categoryDiscription > p",
+          "html": "<p>Advanced Technology Products. Turnkey Engineering Solutions.</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".slick-active[data-slick-index=\"0\"][aria-hidden=\"false\"] > .categoryDiscription > h3",
+          "html": "<h3>CAREERS</h3>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".projectCategory2 > .slick-slider.slick-initialized > .slick-list.draggable[aria-live=\"polite\"] > .slick-track > .slick-active[data-slick-index=\"0\"][aria-hidden=\"false\"] > .categoryDiscription > p",
+          "html": "<p>Partnering with the leader in a high-growth industry is a sensible career move. Join us for an opportunity to make it big!</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".slick-active[data-slick-index=\"1\"][aria-hidden=\"false\"] > .categoryDiscription > h3",
+          "html": "<h3>PRESS</h3>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".slick-active[data-slick-index=\"2\"][aria-hidden=\"false\"] > .categoryDiscription > h3",
+          "html": "<h3>Investors</h3>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".slick-active[data-slick-index=\"3\"][aria-hidden=\"false\"] > .categoryDiscription > h3",
+          "html": "<h3>Social Initiatives</h3>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".projectCategory2 > .slick-slider.slick-initialized > .slick-list.draggable[aria-live=\"polite\"] > .slick-track > .slick-active[data-slick-index=\"3\"][aria-hidden=\"false\"] > .categoryDiscription > p",
+          "html": "<p>Blue Star believes that organisations must look beyond making profits and should contribute to the development and welfare of society.</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[href$=\"e-waste-guidelines\"]",
+          "html": "<a href=\"/e-waste-guidelines\">E-Waste Guidelines</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[href$=\"sitemap\"]",
+          "html": "<a href=\"/sitemap\">Sitemap</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[href$=\"terms-of-use-of-website\"]",
+          "html": "<a href=\"/terms-of-use-of-website\">Terms of use of website</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[href$=\"privacy-policy\"]",
+          "html": "<a href=\"/privacy-policy\">Privacy Policy</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "img[src$=\"logo.png\"]",
+          "html": "<img src=\"/img/logo.png\" width=\"146\" height=\"30\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".slick-active[data-slick-index=\"0\"][aria-hidden=\"false\"] > .mob-hide[width=\"1920\"][height=\"636\"]",
+          "html": "<img src=\"/media/404608/bluestar_summer_capaign_1920x648.jpg\" class=\"mob-hide\" width=\"1920\" height=\"636\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "img[src$=\"facebook.png\"]",
+          "html": "<img src=\"/media/241084/facebook.png\" width=\"32\" height=\"32\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "img[src=\"/media/241081/x.png\"]",
+          "html": "<img src=\"/media/241081/x.png\" width=\"32\" height=\"32\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "img[src$=\"linkedin.png\"]",
+          "html": "<img src=\"/media/241082/linkedin.png\" width=\"32\" height=\"32\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "img[src$=\"instagram.png\"]",
+          "html": "<img src=\"/media/241083/instagram.png\" width=\"32\" height=\"32\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "img[src$=\"youtube.png\"]",
+          "html": "<img src=\"/media/241080/youtube.png\" width=\"32\" height=\"32\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/label?application=playwright",
+          "category": "form_labels",
+          "selector": "#txt_name_main",
+          "html": "<input type=\"text\" id=\"txt_name_main\" name=\"txt_name_main\" value=\"Name*\" maxlength=\"100\" onblur=\"this.value == ''? this.value =this.defaultValue : ''\" onfocus=\"this.value == this.defaultValue ? this.value = '' : ''\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/label?application=playwright",
+          "category": "form_labels",
+          "selector": "#txt_email_main",
+          "html": "<input type=\"text\" id=\"txt_email_main\" name=\"txt_email_main\" value=\"Email*\" maxlength=\"100\" onblur=\"this.value == ''? this.value =this.defaultValue : ''\" onfocus=\"this.value == this.defaultValue ? this.value = '' : ''\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/label?application=playwright",
+          "category": "form_labels",
+          "selector": "#txt_mobile_main",
+          "html": "<input type=\"text\" id=\"txt_mobile_main\" name=\"txt_mobile_main\" maxlength=\"10\" value=\"Mobile No.*\" onblur=\"this.value == ''? this.value =this.defaultValue : ''\" onfocus=\"this.value == this.defaultValue ? this.value = '' : ''\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/label?application=playwright",
+          "category": "form_labels",
+          "selector": "#txt_company_name_main",
+          "html": "<input type=\"text\" id=\"txt_company_name_main\" name=\"txt_company_name_main\" maxlength=\"50\" value=\"Company Name\" onblur=\"this.value == ''? this.value =this.defaultValue : ''\" onfocus=\"this.value == this.defaultValue ? this.value = '' : ''\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[href=\"/\"]",
+          "html": "<a href=\"/\"><img src=\"/img/logo.png\" width=\"146\" height=\"30\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".menu-link",
+          "html": "<a class=\"menu-link\" href=\"#menu\">\n<div class=\"navTrigger\">\n<ul>\n<li class=\"frst\"></li>\n<li class=\"scnd\"></li>\n<li class=\"thrd\"></li>\n</ul>\n</div>\n</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".facebook",
+          "html": "<a href=\"https://www.facebook.com/BlueStarLimited/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"facebook\"><img src=\"/media/241084/facebook.png\" width=\"32\" height=\"32\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".twitter",
+          "html": "<a href=\"https://twitter.com/BlueStarLtd\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"twitter\"><img src=\"/media/241081/x.png\" width=\"32\" height=\"32\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".in",
+          "html": "<a href=\"https://www.linkedin.com/company/blue-star-limited/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"in\"><img src=\"/media/241082/linkedin.png\" width=\"32\" height=\"32\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".instagram",
+          "html": "<a href=\"https://www.instagram.com/bluestar_ltd/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"instagram\"><img src=\"/media/241083/instagram.png\" width=\"32\" height=\"32\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".youtube",
+          "html": "<a href=\"https://www.youtube.com/user/BlueStarIndia\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"youtube\"><img src=\"/media/241080/youtube.png\" width=\"32\" height=\"32\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "meta-viewport",
+          "impact": "moderate",
+          "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+          "help": "Zooming and scaling must not be disabled",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/meta-viewport?application=playwright",
+          "category": "other",
+          "selector": "meta[name=\"viewport\"]",
+          "html": "<meta name=\"viewport\" content=\"width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "select-name",
+          "impact": "critical",
+          "description": "Ensure select element has an accessible name",
+          "help": "Select element must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/select-name?application=playwright",
+          "category": "other",
+          "selector": "#ddl_Products_main",
+          "html": "<select id=\"ddl_Products_main\" name=\"ddl_Products_main\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "select-name",
+          "impact": "critical",
+          "description": "Ensure select element has an accessible name",
+          "help": "Select element must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/select-name?application=playwright",
+          "category": "other",
+          "selector": "#ddl_state_main",
+          "html": "<select name=\"ddl_state_main\" id=\"ddl_state_main\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Blue_Star_Ltd/screenshots/Blue_Star_Ltd_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Blue_Star_Ltd/screenshots/Blue_Star_Ltd_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Blue_Star_Ltd/screenshots/Blue_Star_Ltd_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 64,
+  "altTextViolations": 7,
+  "contrastViolations": 42,
+  "labelViolations": 4,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Blue_Star_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Blue_Star_Ltd/screenshots/Blue_Star_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Blue Star Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `64`  \n> **Verified Contact Email:** `investors@bluestarindia.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `investors@bluestarindia.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **64 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `14` | Serious: `49` | Moderate: `1`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 7 violations\n- 🎨 **Color Contrast Failures:** 42 violations\n- 📝 **Form & Structural Labels:** 4 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (7 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (42 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Form Labels & ARIA (4 issues):** Associate all `<input>` and `<select>` elements with explicit `<label for=\"...\">` tags or `aria-label` attributes.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Blue Star Ltd\n- **Resolved URL:** [https://bluestarindia.com](https://bluestarindia.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `investors@bluestarindia.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `investors@bluestarindia.com` | **Status:** `Verified` | **Source Page:** https://bluestarindia.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.topclose`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"locations\"]`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"dealer-locator\"]`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `li:nth-child(3) > a[href=\"#\"]`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `li:nth-child(4) > a[href$=\"the-blue-star-way\"]`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"enquiries\"]`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"tvcs\"]`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.rightNav > ul > li:nth-child(7) > a[target=\"_blank\"][rel=\"noopener noreferrer\"]`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"resources\"]`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `h1`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Blue_Star_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Blue_Star_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Blue_Star_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Blue_Star_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Blue_Star_Ltd/screenshots/Blue_Star_Ltd_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Blue Star Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `64`  \n> **Verified Contact Email:** `investors@bluestarindia.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `investors@bluestarindia.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **64 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `14` | Serious: `49` | Moderate: `1`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 7 violations\n- 🎨 **Color Contrast Failures:** 42 violations\n- 📝 **Form & Structural Labels:** 4 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (7 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (42 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Form Labels & ARIA (4 issues):** Associate all `<input>` and `<select>` elements with explicit `<label for=\"...\">` tags or `aria-label` attributes.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Blue Star Ltd\n- **Resolved URL:** [https://bluestarindia.com](https://bluestarindia.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `investors@bluestarindia.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `investors@bluestarindia.com` | **Status:** `Verified` | **Source Page:** https://bluestarindia.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.topclose`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"locations\"]`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"dealer-locator\"]`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `li:nth-child(3) > a[href=\"#\"]`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `li:nth-child(4) > a[href$=\"the-blue-star-way\"]`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"enquiries\"]`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"tvcs\"]`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.rightNav > ul > li:nth-child(7) > a[target=\"_blank\"][rel=\"noopener noreferrer\"]`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"resources\"]`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `h1`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Blue_Star_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Blue_Star_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Blue_Star_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Blue_Star_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Blue_Star_Ltd/screenshots/Blue_Star_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Blue Star Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `64`  \n> **Verified Contact Email:** `investors@bluestarindia.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `investors@bluestarindia.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **64 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `14` | Serious: `49` | Moderate: `1`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 7 violations\n- 🎨 **Color Contrast Failures:** 42 violations\n- 📝 **Form & Structural Labels:** 4 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (7 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (42 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Form Labels & ARIA (4 issues):** Associate all `<input>` and `<select>` elements with explicit `<label for=\"...\">` tags or `aria-label` attributes.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Blue Star Ltd\n- **Resolved URL:** [https://bluestarindia.com](https://bluestarindia.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `investors@bluestarindia.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `investors@bluestarindia.com` | **Status:** `Verified` | **Source Page:** https://bluestarindia.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.topclose`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"locations\"]`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"dealer-locator\"]`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `li:nth-child(3) > a[href=\"#\"]`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `li:nth-child(4) > a[href$=\"the-blue-star-way\"]`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"enquiries\"]`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"tvcs\"]`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.rightNav > ul > li:nth-child(7) > a[target=\"_blank\"][rel=\"noopener noreferrer\"]`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"resources\"]`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `h1`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Blue_Star_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Blue_Star_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Blue_Star_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 64. WAVE AIM: N/A. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-11T11:24:11.369Z"
+}

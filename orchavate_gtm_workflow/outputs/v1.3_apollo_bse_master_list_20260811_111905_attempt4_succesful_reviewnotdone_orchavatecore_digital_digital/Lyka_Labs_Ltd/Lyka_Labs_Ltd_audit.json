@@ -1,0 +1,255 @@
+{
+  "company": {
+    "srNo": 132,
+    "companyName": "Lyka Labs Ltd",
+    "readymadeWebsite": "https://lykalabs.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (Lyka Labs Ltd)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://lykalabs.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://lykalabs.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "enquiry@lykalabs.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://lykalabs.com"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "enquiry@lykalabs.com",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://lykalabs.com"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://lykalabs.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".elementor-element-da6771f > .elementor-widget-container > .elementor-heading-title.elementor-size-default",
+          "html": "<h2 class=\"elementor-heading-title elementor-size-default\"><span style=\"color:#B2DDF2\">[ </span>OUR COMPANY <span style=\"color:#B2DDF2\">] </span></h2>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".elementor-button-link.elementor-button[href$=\"about/\"] > .elementor-button-content-wrapper > .elementor-button-text",
+          "html": "<span class=\"elementor-button-text\">Learn More</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".elementor-element-15ab053 > .elementor-widget-container > .elementor-button-wrapper > .elementor-button-link.elementor-button[href$=\"contact/\"] > .elementor-button-content-wrapper > .elementor-button-text",
+          "html": "<span class=\"elementor-button-text\">Contact Us</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".elementor-element-cc623ef > .elementor-widget-container > .elementor-heading-title.elementor-size-default",
+          "html": "<h2 class=\"elementor-heading-title elementor-size-default\"><span style=\"color:#B2DDF2\">[ </span>OUR CAPABILITIES <span style=\"color:#B2DDF2\">] </span></h2>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".elementor-element-fbddae3 > .elementor-widget-container > .elementor-heading-title.elementor-size-default",
+          "html": "<h2 class=\"elementor-heading-title elementor-size-default\"><span style=\"color:#B2DDF2\">[ </span>FACILITY  <span style=\"color:#B2DDF2\">] </span></h2>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".elementor-element-c88b3fa > .elementor-widget-container > .elementor-heading-title.elementor-size-default",
+          "html": "<h2 class=\"elementor-heading-title elementor-size-default\">01</h2>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".elementor-element-5e9ef27 > .elementor-widget-container > .elementor-heading-title.elementor-size-default",
+          "html": "<h2 class=\"elementor-heading-title elementor-size-default\">02</h2>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".elementor-element-e97ea51 > .elementor-widget-container > .elementor-heading-title.elementor-size-default",
+          "html": "<h2 class=\"elementor-heading-title elementor-size-default\">03</h2>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".elementor-element-10b97b6 > .elementor-widget-container > .elementor-heading-title.elementor-size-default",
+          "html": "<h2 class=\"elementor-heading-title elementor-size-default\">04</h2>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".elementor-element-e0429d1 > .elementor-widget-container > .elementor-heading-title.elementor-size-default",
+          "html": "<h2 class=\"elementor-heading-title elementor-size-default\">05</h2>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".elementor-element-454a1b7 > .elementor-widget-container > .elementor-heading-title.elementor-size-default",
+          "html": "<h2 class=\"elementor-heading-title elementor-size-default\">06</h2>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".elementor-element-ff404ff > .elementor-widget-container > .elementor-heading-title.elementor-size-default",
+          "html": "<h2 class=\"elementor-heading-title elementor-size-default\"><span style=\"color:#B2DDF2\">[ </span>  CAREERS AT LYKA  <span style=\"color:#B2DDF2\">] </span></h2>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".elementor-button-link.elementor-button[href$=\"careers/#job\"] > .elementor-button-content-wrapper > .elementor-button-text",
+          "html": "<span class=\"elementor-button-text\">Apply Now</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".elementor-button-link.elementor-button[href$=\"careers/\"] > .elementor-button-content-wrapper > .elementor-button-text",
+          "html": "<span class=\"elementor-button-text\">Know More</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "scrollable-region-focusable",
+          "impact": "serious",
+          "description": "Ensure elements that have scrollable content are accessible by keyboard in Safari",
+          "help": "Scrollable region must have keyboard access",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/scrollable-region-focusable?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": ".cards-scroll-container",
+          "html": "<div class=\"cards-scroll-container\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 40,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Lyka_Labs_Ltd/screenshots/Lyka_Labs_Ltd_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Lyka_Labs_Ltd/screenshots/Lyka_Labs_Ltd_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Lyka_Labs_Ltd/screenshots/Lyka_Labs_Ltd_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 15,
+  "altTextViolations": 0,
+  "contrastViolations": 14,
+  "labelViolations": 0,
+  "keyboardViolations": 1,
+  "lighthouseAvgScore": 40,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Lyka_Labs_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Lyka_Labs_Ltd/screenshots/Lyka_Labs_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Lyka Labs Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `40 / 100`  \n> **Total WCAG Violations:** `15`  \n> **Verified Contact Email:** `enquiry@lykalabs.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `enquiry@lykalabs.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **40/100** on automated WCAG 2.1 AA accessibility testing with **15 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `40/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `15` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 14 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 1 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (14 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Keyboard & Focus Management (1 issues):** Ensure all interactive buttons/links are focusable via `Tab` key and visual focus outlines are visible.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Lyka Labs Ltd\n- **Resolved URL:** [https://lykalabs.com](https://lykalabs.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `enquiry@lykalabs.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `enquiry@lykalabs.com` | **Status:** `Verified` | **Source Page:** https://lykalabs.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-element-da6771f > .elementor-widget-container > .elementor-heading-title.elementor-size-default`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-button-link.elementor-button[href$=\"about/\"] > .elementor-button-content-wrapper > .elementor-button-text`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-element-15ab053 > .elementor-widget-container > .elementor-button-wrapper > .elementor-button-link.elementor-button[href$=\"contact/\"] > .elementor-button-content-wrapper > .elementor-button-text`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-element-cc623ef > .elementor-widget-container > .elementor-heading-title.elementor-size-default`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-element-fbddae3 > .elementor-widget-container > .elementor-heading-title.elementor-size-default`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-element-c88b3fa > .elementor-widget-container > .elementor-heading-title.elementor-size-default`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-element-5e9ef27 > .elementor-widget-container > .elementor-heading-title.elementor-size-default`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-element-e97ea51 > .elementor-widget-container > .elementor-heading-title.elementor-size-default`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-element-10b97b6 > .elementor-widget-container > .elementor-heading-title.elementor-size-default`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-element-e0429d1 > .elementor-widget-container > .elementor-heading-title.elementor-size-default`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Lyka_Labs_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Lyka_Labs_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Lyka_Labs_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Lyka_Labs_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Lyka_Labs_Ltd/screenshots/Lyka_Labs_Ltd_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Lyka Labs Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `40 / 100`  \n> **Total WCAG Violations:** `15`  \n> **Verified Contact Email:** `enquiry@lykalabs.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `enquiry@lykalabs.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **40/100** on automated WCAG 2.1 AA accessibility testing with **15 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `40/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `15` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 14 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 1 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (14 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Keyboard & Focus Management (1 issues):** Ensure all interactive buttons/links are focusable via `Tab` key and visual focus outlines are visible.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Lyka Labs Ltd\n- **Resolved URL:** [https://lykalabs.com](https://lykalabs.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `enquiry@lykalabs.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `enquiry@lykalabs.com` | **Status:** `Verified` | **Source Page:** https://lykalabs.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-element-da6771f > .elementor-widget-container > .elementor-heading-title.elementor-size-default`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-button-link.elementor-button[href$=\"about/\"] > .elementor-button-content-wrapper > .elementor-button-text`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-element-15ab053 > .elementor-widget-container > .elementor-button-wrapper > .elementor-button-link.elementor-button[href$=\"contact/\"] > .elementor-button-content-wrapper > .elementor-button-text`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-element-cc623ef > .elementor-widget-container > .elementor-heading-title.elementor-size-default`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-element-fbddae3 > .elementor-widget-container > .elementor-heading-title.elementor-size-default`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-element-c88b3fa > .elementor-widget-container > .elementor-heading-title.elementor-size-default`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-element-5e9ef27 > .elementor-widget-container > .elementor-heading-title.elementor-size-default`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-element-e97ea51 > .elementor-widget-container > .elementor-heading-title.elementor-size-default`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-element-10b97b6 > .elementor-widget-container > .elementor-heading-title.elementor-size-default`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-element-e0429d1 > .elementor-widget-container > .elementor-heading-title.elementor-size-default`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Lyka_Labs_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Lyka_Labs_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Lyka_Labs_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Lyka_Labs_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Lyka_Labs_Ltd/screenshots/Lyka_Labs_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Lyka Labs Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `40 / 100`  \n> **Total WCAG Violations:** `15`  \n> **Verified Contact Email:** `enquiry@lykalabs.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `enquiry@lykalabs.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **40/100** on automated WCAG 2.1 AA accessibility testing with **15 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `40/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `15` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 14 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 1 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (14 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Keyboard & Focus Management (1 issues):** Ensure all interactive buttons/links are focusable via `Tab` key and visual focus outlines are visible.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Lyka Labs Ltd\n- **Resolved URL:** [https://lykalabs.com](https://lykalabs.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `enquiry@lykalabs.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `enquiry@lykalabs.com` | **Status:** `Verified` | **Source Page:** https://lykalabs.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-element-da6771f > .elementor-widget-container > .elementor-heading-title.elementor-size-default`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-button-link.elementor-button[href$=\"about/\"] > .elementor-button-content-wrapper > .elementor-button-text`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-element-15ab053 > .elementor-widget-container > .elementor-button-wrapper > .elementor-button-link.elementor-button[href$=\"contact/\"] > .elementor-button-content-wrapper > .elementor-button-text`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-element-cc623ef > .elementor-widget-container > .elementor-heading-title.elementor-size-default`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-element-fbddae3 > .elementor-widget-container > .elementor-heading-title.elementor-size-default`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-element-c88b3fa > .elementor-widget-container > .elementor-heading-title.elementor-size-default`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-element-5e9ef27 > .elementor-widget-container > .elementor-heading-title.elementor-size-default`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-element-e97ea51 > .elementor-widget-container > .elementor-heading-title.elementor-size-default`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-element-10b97b6 > .elementor-widget-container > .elementor-heading-title.elementor-size-default`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-element-e0429d1 > .elementor-widget-container > .elementor-heading-title.elementor-size-default`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Lyka_Labs_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Lyka_Labs_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Lyka_Labs_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 15. WAVE AIM: N/A. Lighthouse A11y: 40/100.",
+  "timestamp": "2026-08-11T11:48:05.515Z"
+}

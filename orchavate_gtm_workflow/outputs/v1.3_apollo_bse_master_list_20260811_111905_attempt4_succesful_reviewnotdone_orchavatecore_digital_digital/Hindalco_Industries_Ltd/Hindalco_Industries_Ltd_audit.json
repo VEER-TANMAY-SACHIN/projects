@@ -1,0 +1,790 @@
+{
+  "company": {
+    "srNo": 215,
+    "companyName": "Hindalco Industries Ltd",
+    "readymadeWebsite": "https://hindalco.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (Hindalco Industries Ltd)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://hindalco.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://hindalco.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "hilinvestors@adityabirla.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://hindalco.com"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "hilinvestors@adityabirla.com",
+        "type": "compliance_grievance",
+        "label": "Investor Grievance / Compliance Officer Email",
+        "status": "Verified",
+        "sourceUrl": "https://hindalco.com"
+      },
+      {
+        "address": "hilinvestors@adityabirla.com",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://hindalco.com"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://hindalco.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "iframe > #BasicChart_lnkNSE",
+          "html": "<a onclick=\"javascript:Load_ChartDataExc('NSE');showloder();\" id=\"BasicChart_lnkNSE\" class=\"active\" href=\"javascript:__doPostBack('BasicChart$lnkNSE','')\">NSE</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "iframe > #BasicChart_li3",
+          "html": "<a onclick=\"_fn_settype('30','D');\" id=\"BasicChart_li3\" href=\"javascript:__doPostBack('BasicChart$li3','')\">1M</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "iframe > #BasicChart_li5",
+          "html": "<a onclick=\"_fn_settype('182','D');\" id=\"BasicChart_li5\" href=\"javascript:__doPostBack('BasicChart$li5','')\">6M</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "iframe > #BasicChart_li6",
+          "html": "<a onclick=\"_fn_settype('365','D');\" id=\"BasicChart_li6\" href=\"javascript:__doPostBack('BasicChart$li6','')\">1Y</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "iframe > #BasicChart_li7",
+          "html": "<a onclick=\"_fn_settype('730','D');\" id=\"BasicChart_li7\" href=\"javascript:__doPostBack('BasicChart$li7','')\">2Y</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "iframe > #BasicChart_li9",
+          "html": "<a onclick=\"_fn_settype('1825','D');\" id=\"BasicChart_li9\" href=\"javascript:__doPostBack('BasicChart$li9','')\">Max</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".fadeInUp-view.mt-5[href$=\"people-stories\"] > span",
+          "html": "<span>Read more <img src=\"/assets/images/right-arrow-svg-white.svg\"></span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "frame-title",
+          "impact": "serious",
+          "description": "Ensure <iframe> and <frame> elements have an accessible name",
+          "help": "Frames must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/frame-title?application=playwright",
+          "category": "other",
+          "selector": "iframe",
+          "html": "<iframe src=\"https://content.dionglobal.in/hindalcoIR/homechartnew.aspx\" allowfullscreen=\"\" scrolling=\"no\"></iframe>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".aboutus_main-nav_item > .main-nav__list--lvl2.main-nav__list > .menu-bg > .figure > .figure-caption > .arrowHalf > img",
+          "html": "<img src=\"/assets/images/right-arrow-svg-white.svg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".businesses_main-nav_item > .main-nav__list--lvl2.main-nav__list > .menu-bg > .figure > .figure-caption > .arrowHalf > img",
+          "html": "<img src=\"/assets/images/right-arrow-svg-white.svg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".industriesweserve_main-nav_item > .main-nav__list--lvl2.main-nav__list > .menu-bg > .figure > .figure-caption > .arrowHalf > img",
+          "html": "<img src=\"/assets/images/right-arrow-svg-white.svg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".ourbrands_main-nav_item > .main-nav__list--lvl2.main-nav__list > .menu-bg > .figure > .figure-caption > .arrowHalf > img",
+          "html": "<img src=\"/assets/images/right-arrow-svg-white.svg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".sustainability_main-nav_item > .main-nav__list--lvl2.main-nav__list > .menu-bg > .figure > .figure-caption > .arrowHalf > img",
+          "html": "<img src=\"/assets/images/right-arrow-svg-white.svg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".investors_main-nav_item > .main-nav__list--lvl2.main-nav__list > .menu-bg > .figure > .figure-caption > .arrowHalf > img",
+          "html": "<img src=\"/assets/images/right-arrow-svg-white.svg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".contact_main-nav_item > .main-nav__list--lvl2.main-nav__list > .menu-bg > .figure > .figure-caption > .arrowHalf > img",
+          "html": "<img src=\"/assets/images/right-arrow-svg-white.svg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".readmore[href$=\"industries\"] > span > img",
+          "html": "<img src=\"/assets/images/right-arrow-svg-white.svg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".readmore-white > span > img",
+          "html": "<img src=\"/assets/images/right-arrow-svg-white.svg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".fadeInUp-view.mt-5[href$=\"people-stories\"] > span > img",
+          "html": "<img src=\"/assets/images/right-arrow-svg-white.svg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".facebook-link > .img-fluid",
+          "html": "<img class=\"img-fluid\" src=\"/Upload/Images/thumbnail/facebook.svg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".twitter-link > .img-fluid",
+          "html": "<img class=\"img-fluid\" src=\"/Upload/Images/thumbnail/twitter.svg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".linkedin-link > .img-fluid",
+          "html": "<img class=\"img-fluid\" src=\"/Upload/Images/thumbnail/linkedin.svg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".instagram-link > .img-fluid",
+          "html": "<img class=\"img-fluid\" src=\"/Upload/Images/thumbnail/instagram.svg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".youtube-link > .img-fluid",
+          "html": "<img class=\"img-fluid\" src=\"/Upload/Images/thumbnail/youtube.svg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/label?application=playwright",
+          "category": "form_labels",
+          "selector": ".d-none.d-sm-none.d-md-none:nth-child(1) > .main-nav__toggle-level2[type=\"checkbox\"]",
+          "html": "<input type=\"checkbox\" class=\"main-nav__toggle-level2\" id=\"toggle-level-media\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/label?application=playwright",
+          "category": "form_labels",
+          "selector": ".d-none.d-sm-none.d-md-none:nth-child(2) > .main-nav__toggle-level2[type=\"checkbox\"]",
+          "html": "<input type=\"checkbox\" class=\"main-nav__toggle-level2\" id=\"toggle-level-media\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/label?application=playwright",
+          "category": "form_labels",
+          "selector": "#toggle-level-About\\ us",
+          "html": "<input type=\"checkbox\" class=\"main-nav__toggle-level2\" id=\"toggle-level-About us\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/label?application=playwright",
+          "category": "form_labels",
+          "selector": "#toggle-level-Businesses",
+          "html": "<input type=\"checkbox\" class=\"main-nav__toggle-level2\" id=\"toggle-level-Businesses\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/label?application=playwright",
+          "category": "form_labels",
+          "selector": "#toggle-level-Aluminium",
+          "html": "<input type=\"checkbox\" class=\"main-nav__toggle-level3\" id=\"toggle-level-Aluminium\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/label?application=playwright",
+          "category": "form_labels",
+          "selector": "#toggle-level-Copper",
+          "html": "<input type=\"checkbox\" class=\"main-nav__toggle-level3\" id=\"toggle-level-Copper\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/label?application=playwright",
+          "category": "form_labels",
+          "selector": "#toggle-level-Specialty\\ Alumina",
+          "html": "<input type=\"checkbox\" class=\"main-nav__toggle-level3\" id=\"toggle-level-Specialty Alumina\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/label?application=playwright",
+          "category": "form_labels",
+          "selector": "#toggle-level-Industries\\ We\\ Serve",
+          "html": "<input type=\"checkbox\" class=\"main-nav__toggle-level2\" id=\"toggle-level-Industries We Serve\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/label?application=playwright",
+          "category": "form_labels",
+          "selector": "#toggle-level-Our\\ Brands",
+          "html": "<input type=\"checkbox\" class=\"main-nav__toggle-level2\" id=\"toggle-level-Our Brands\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/label?application=playwright",
+          "category": "form_labels",
+          "selector": "#toggle-level-Sustainability",
+          "html": "<input type=\"checkbox\" class=\"main-nav__toggle-level2\" id=\"toggle-level-Sustainability\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/label?application=playwright",
+          "category": "form_labels",
+          "selector": "#toggle-level-Planet",
+          "html": "<input type=\"checkbox\" class=\"main-nav__toggle-level3\" id=\"toggle-level-Planet\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/label?application=playwright",
+          "category": "form_labels",
+          "selector": "#toggle-level-People",
+          "html": "<input type=\"checkbox\" class=\"main-nav__toggle-level3\" id=\"toggle-level-People\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/label?application=playwright",
+          "category": "form_labels",
+          "selector": "#toggle-level-Investors",
+          "html": "<input type=\"checkbox\" class=\"main-nav__toggle-level2\" id=\"toggle-level-Investors\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/label?application=playwright",
+          "category": "form_labels",
+          "selector": "#toggle-level-Financial\\ Performance",
+          "html": "<input type=\"checkbox\" class=\"main-nav__toggle-level3\" id=\"toggle-level-Financial Performance\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/label?application=playwright",
+          "category": "form_labels",
+          "selector": "#toggle-level-Integrated\\ Report",
+          "html": "<input type=\"checkbox\" class=\"main-nav__toggle-level3\" id=\"toggle-level-Integrated Report\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/label?application=playwright",
+          "category": "form_labels",
+          "selector": "#toggle-level-Investors\\ Centre",
+          "html": "<input type=\"checkbox\" class=\"main-nav__toggle-level3\" id=\"toggle-level-Investors Centre\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/label?application=playwright",
+          "category": "form_labels",
+          "selector": "#toggle-level-Shareholder\\ Centre",
+          "html": "<input type=\"checkbox\" class=\"main-nav__toggle-level3\" id=\"toggle-level-Shareholder Centre\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/label?application=playwright",
+          "category": "form_labels",
+          "selector": "#toggle-level-Corporate\\ Governance",
+          "html": "<input type=\"checkbox\" class=\"main-nav__toggle-level3\" id=\"toggle-level-Corporate Governance\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/label?application=playwright",
+          "category": "form_labels",
+          "selector": "#toggle-level-Contact",
+          "html": "<input type=\"checkbox\" class=\"main-nav__toggle-level2\" id=\"toggle-level-Contact\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".stretched-link[href$=\"about-us\"]",
+          "html": "<a href=\"/about-us\" class=\"stretched-link\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".stretched-link[href$=\"businesses\"]",
+          "html": "<a href=\"/businesses\" class=\"stretched-link\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".stretched-link[href$=\"industries\"]",
+          "html": "<a href=\"/industries\" class=\"stretched-link\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".stretched-link[href$=\"our-brands\"]",
+          "html": "<a href=\"/our-brands\" class=\"stretched-link\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".stretched-link[href$=\"sustainability\"]",
+          "html": "<a href=\"/sustainability\" class=\"stretched-link\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".stretched-link[href$=\"investors\"]",
+          "html": "<a href=\"/investors\" class=\"stretched-link\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".stretched-link[href$=\"contact-us\"]",
+          "html": "<a href=\"/contact-us\" class=\"stretched-link\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".right-arrow-img[href$=\"operations\"]",
+          "html": "<a class=\"right-arrow-img\" href=\"/about-us/operations\" tabindex=\"0\"><img src=\"/assets/images/right-arrow-svg-white.svg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[href=\"/\"][target=\"_self\"]",
+          "html": "<a href=\"/\" target=\"_self\">\n                                    <img src=\"/Upload/Images/thumbnail/footer-logo.webp\" class=\"abg-logo img-fluid\" alt=\"\">\n                            </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".facebook-link",
+          "html": "<a href=\"https://www.facebook.com/HindalcoIndustries/\" target=\"_blank\" class=\"facebook-link\">\n                                        <img class=\"img-fluid\" src=\"/Upload/Images/thumbnail/facebook.svg\">\n                                    </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".twitter-link",
+          "html": "<a href=\"https://x.com/hindalco_world\" target=\"_blank\" class=\"twitter-link\">\n                                        <img class=\"img-fluid\" src=\"/Upload/Images/thumbnail/twitter.svg\">\n                                    </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".linkedin-link",
+          "html": "<a href=\"https://in.linkedin.com/company/hindalcoindustrieslimited\" target=\"_blank\" class=\"linkedin-link\">\n                                        <img class=\"img-fluid\" src=\"/Upload/Images/thumbnail/linkedin.svg\">\n                                    </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".instagram-link",
+          "html": "<a href=\"https://www.instagram.com/hindalcoworld/\" target=\"_blank\" class=\"instagram-link\">\n                                        <img class=\"img-fluid\" src=\"/Upload/Images/thumbnail/instagram.svg\">\n                                    </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".youtube-link",
+          "html": "<a href=\"https://www.youtube.com/@hindalcoindustries\" target=\"_blank\" class=\"youtube-link\">\n                                        <img class=\"img-fluid\" src=\"/Upload/Images/thumbnail/youtube.svg\">\n                                    </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "list",
+          "impact": "serious",
+          "description": "Ensure that lists are structured correctly",
+          "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/list?application=playwright",
+          "category": "other",
+          "selector": ".aboutus_main-nav_item > .main-nav__list--lvl2.main-nav__list",
+          "html": "<ul class=\"main-nav__list main-nav__list--lvl2\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "list",
+          "impact": "serious",
+          "description": "Ensure that lists are structured correctly",
+          "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/list?application=playwright",
+          "category": "other",
+          "selector": ".businesses_main-nav_item > .main-nav__list--lvl2.main-nav__list",
+          "html": "<ul class=\"main-nav__list main-nav__list--lvl2\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "list",
+          "impact": "serious",
+          "description": "Ensure that lists are structured correctly",
+          "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/list?application=playwright",
+          "category": "other",
+          "selector": ".industriesweserve_main-nav_item > .main-nav__list--lvl2.main-nav__list",
+          "html": "<ul class=\"main-nav__list main-nav__list--lvl2\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "list",
+          "impact": "serious",
+          "description": "Ensure that lists are structured correctly",
+          "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/list?application=playwright",
+          "category": "other",
+          "selector": ".ourbrands_main-nav_item > .main-nav__list--lvl2.main-nav__list",
+          "html": "<ul class=\"main-nav__list main-nav__list--lvl2\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "list",
+          "impact": "serious",
+          "description": "Ensure that lists are structured correctly",
+          "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/list?application=playwright",
+          "category": "other",
+          "selector": ".sustainability_main-nav_item > .main-nav__list--lvl2.main-nav__list",
+          "html": "<ul class=\"main-nav__list main-nav__list--lvl2\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "list",
+          "impact": "serious",
+          "description": "Ensure that lists are structured correctly",
+          "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/list?application=playwright",
+          "category": "other",
+          "selector": ".investors_main-nav_item > .main-nav__list--lvl2.main-nav__list",
+          "html": "<ul class=\"main-nav__list main-nav__list--lvl2\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "list",
+          "impact": "serious",
+          "description": "Ensure that lists are structured correctly",
+          "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/list?application=playwright",
+          "category": "other",
+          "selector": ".contact_main-nav_item > .main-nav__list--lvl2.main-nav__list",
+          "html": "<ul class=\"main-nav__list main-nav__list--lvl2\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Hindalco_Industries_Ltd/screenshots/Hindalco_Industries_Ltd_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Hindalco_Industries_Ltd/screenshots/Hindalco_Industries_Ltd_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Hindalco_Industries_Ltd/screenshots/Hindalco_Industries_Ltd_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 63,
+  "altTextViolations": 15,
+  "contrastViolations": 7,
+  "labelViolations": 19,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Hindalco_Industries_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Hindalco_Industries_Ltd/screenshots/Hindalco_Industries_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Hindalco Industries Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `63`  \n> **Verified Contact Email:** `hilinvestors@adityabirla.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `hilinvestors@adityabirla.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **63 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `34` | Serious: `29` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 15 violations\n- 🎨 **Color Contrast Failures:** 7 violations\n- 📝 **Form & Structural Labels:** 19 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (15 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (7 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Form Labels & ARIA (19 issues):** Associate all `<input>` and `<select>` elements with explicit `<label for=\"...\">` tags or `aria-label` attributes.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Hindalco Industries Ltd\n- **Resolved URL:** [https://hindalco.com](https://hindalco.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `hilinvestors@adityabirla.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `hilinvestors@adityabirla.com` | **Status:** `Verified` | **Source Page:** https://hindalco.com\n- **General Contact Email:** `hilinvestors@adityabirla.com` | **Status:** `Verified` | **Source Page:** https://hindalco.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `iframe > #BasicChart_lnkNSE`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `iframe > #BasicChart_li3`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `iframe > #BasicChart_li5`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `iframe > #BasicChart_li6`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `iframe > #BasicChart_li7`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `iframe > #BasicChart_li9`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.fadeInUp-view.mt-5[href$=\"people-stories\"] > span`\n8. **`[other] frame-title`** (SERIOUS)\n   - **Help:** Frames must have an accessible name\n   - **Selector:** `iframe`\n9. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.aboutus_main-nav_item > .main-nav__list--lvl2.main-nav__list > .menu-bg > .figure > .figure-caption > .arrowHalf > img`\n10. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.businesses_main-nav_item > .main-nav__list--lvl2.main-nav__list > .menu-bg > .figure > .figure-caption > .arrowHalf > img`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Hindalco_Industries_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Hindalco_Industries_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Hindalco_Industries_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Hindalco_Industries_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Hindalco_Industries_Ltd/screenshots/Hindalco_Industries_Ltd_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Hindalco Industries Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `63`  \n> **Verified Contact Email:** `hilinvestors@adityabirla.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `hilinvestors@adityabirla.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **63 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `34` | Serious: `29` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 15 violations\n- 🎨 **Color Contrast Failures:** 7 violations\n- 📝 **Form & Structural Labels:** 19 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (15 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (7 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Form Labels & ARIA (19 issues):** Associate all `<input>` and `<select>` elements with explicit `<label for=\"...\">` tags or `aria-label` attributes.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Hindalco Industries Ltd\n- **Resolved URL:** [https://hindalco.com](https://hindalco.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `hilinvestors@adityabirla.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `hilinvestors@adityabirla.com` | **Status:** `Verified` | **Source Page:** https://hindalco.com\n- **General Contact Email:** `hilinvestors@adityabirla.com` | **Status:** `Verified` | **Source Page:** https://hindalco.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `iframe > #BasicChart_lnkNSE`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `iframe > #BasicChart_li3`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `iframe > #BasicChart_li5`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `iframe > #BasicChart_li6`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `iframe > #BasicChart_li7`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `iframe > #BasicChart_li9`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.fadeInUp-view.mt-5[href$=\"people-stories\"] > span`\n8. **`[other] frame-title`** (SERIOUS)\n   - **Help:** Frames must have an accessible name\n   - **Selector:** `iframe`\n9. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.aboutus_main-nav_item > .main-nav__list--lvl2.main-nav__list > .menu-bg > .figure > .figure-caption > .arrowHalf > img`\n10. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.businesses_main-nav_item > .main-nav__list--lvl2.main-nav__list > .menu-bg > .figure > .figure-caption > .arrowHalf > img`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Hindalco_Industries_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Hindalco_Industries_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Hindalco_Industries_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Hindalco_Industries_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Hindalco_Industries_Ltd/screenshots/Hindalco_Industries_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Hindalco Industries Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `63`  \n> **Verified Contact Email:** `hilinvestors@adityabirla.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `hilinvestors@adityabirla.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **63 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `34` | Serious: `29` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 15 violations\n- 🎨 **Color Contrast Failures:** 7 violations\n- 📝 **Form & Structural Labels:** 19 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (15 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (7 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Form Labels & ARIA (19 issues):** Associate all `<input>` and `<select>` elements with explicit `<label for=\"...\">` tags or `aria-label` attributes.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Hindalco Industries Ltd\n- **Resolved URL:** [https://hindalco.com](https://hindalco.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `hilinvestors@adityabirla.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `hilinvestors@adityabirla.com` | **Status:** `Verified` | **Source Page:** https://hindalco.com\n- **General Contact Email:** `hilinvestors@adityabirla.com` | **Status:** `Verified` | **Source Page:** https://hindalco.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `iframe > #BasicChart_lnkNSE`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `iframe > #BasicChart_li3`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `iframe > #BasicChart_li5`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `iframe > #BasicChart_li6`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `iframe > #BasicChart_li7`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `iframe > #BasicChart_li9`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.fadeInUp-view.mt-5[href$=\"people-stories\"] > span`\n8. **`[other] frame-title`** (SERIOUS)\n   - **Help:** Frames must have an accessible name\n   - **Selector:** `iframe`\n9. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.aboutus_main-nav_item > .main-nav__list--lvl2.main-nav__list > .menu-bg > .figure > .figure-caption > .arrowHalf > img`\n10. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.businesses_main-nav_item > .main-nav__list--lvl2.main-nav__list > .menu-bg > .figure > .figure-caption > .arrowHalf > img`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Hindalco_Industries_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Hindalco_Industries_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Hindalco_Industries_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 63. WAVE AIM: N/A. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-11T12:05:08.468Z"
+}

@@ -1,0 +1,426 @@
+{
+  "company": {
+    "srNo": 100,
+    "companyName": "India Glycols Ltd",
+    "readymadeWebsite": "https://indiaglycols.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (India Glycols Ltd)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://indiaglycols.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://indiaglycols.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "info@indiaglycols.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Unverified - guessed pattern"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "info@indiaglycols.com",
+        "type": "general",
+        "label": "General Contact Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      },
+      {
+        "address": "contact@indiaglycols.com",
+        "type": "compliance_grievance",
+        "label": "Investor Grievance Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      }
+    ],
+    "overallStatus": "Unverified - guessed pattern",
+    "evidenceScreenshots": [
+      "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/India_Glycols_Ltd/screenshots/India_Glycols_Ltd_EmailEvidence_NotFound_ContactPage.png"
+    ]
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://indiaglycols.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "description": "Ensure an element's role supports its ARIA attributes",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-allowed-attr?application=playwright",
+          "category": "other",
+          "selector": "#sm-17864483508307737-1",
+          "html": "<a aria-expanded=\"false\" class=\"elementor-item menu-link has-submenu\" id=\"sm-17864483508307737-1\" aria-haspopup=\"true\" aria-controls=\"sm-17864483508307737-2\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "description": "Ensure an element's role supports its ARIA attributes",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-allowed-attr?application=playwright",
+          "category": "other",
+          "selector": "#sm-17864483508307737-3",
+          "html": "<a aria-expanded=\"false\" class=\"elementor-item menu-link has-submenu\" id=\"sm-17864483508307737-3\" aria-haspopup=\"true\" aria-controls=\"sm-17864483508307737-4\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "description": "Ensure an element's role supports its ARIA attributes",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-allowed-attr?application=playwright",
+          "category": "other",
+          "selector": "#sm-17864483508307737-5",
+          "html": "<a aria-expanded=\"false\" class=\"elementor-item menu-link has-submenu\" id=\"sm-17864483508307737-5\" aria-haspopup=\"true\" aria-controls=\"sm-17864483508307737-6\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "description": "Ensure an element's role supports its ARIA attributes",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-allowed-attr?application=playwright",
+          "category": "other",
+          "selector": "#sm-17864483508307737-7",
+          "html": "<a aria-expanded=\"false\" class=\"elementor-item menu-link has-submenu\" id=\"sm-17864483508307737-7\" aria-haspopup=\"true\" aria-controls=\"sm-17864483508307737-8\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "description": "Ensure an element's role supports its ARIA attributes",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-allowed-attr?application=playwright",
+          "category": "other",
+          "selector": "iframe > .ytmVideoInfoVideoTitle",
+          "html": "<a class=\"ytmVideoInfoVideoTitle\" aria-level=\"2\" href=\"https://www.youtube.com/watch?v=g9dpfVmg_3g\"><span class=\"ytAttributedStringHost ytmVideoInfoLink ytAttributedStringWhiteSpaceNoWrap\" style=\"\">India Glycols Limited (IGL) - Corporate Film</span></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "#slick-slide04",
+          "html": "<div class=\"aboutuse-slider-row slick-slide\" data-slick-index=\"4\" aria-hidden=\"true\" tabindex=\"0\" role=\"tabpanel\" id=\"slick-slide04\" aria-describedby=\"slick-slide-control04\" style=\"width: 191px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "description": "Ensure ARIA attributes are not prohibited for an element's role",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-prohibited-attr?application=playwright",
+          "category": "other",
+          "selector": "iframe > #movie_player",
+          "html": "<div class=\"html5-video-player ytp-hide-controls ytp-exp-bottom-control-flexbox ytp-modern-caption ytp-livebadge-color unstarted-mode\" tabindex=\"\" id=\"movie_player\" data-version=\"/s/player/341562bc/player_embed_es6.vflset/en_GB/base.js\" aria-label=\"YouTube Video Player\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": "iframe > .ytmVideoInfoChannelAvatar",
+          "html": "<button class=\"ytmVideoInfoLink ytmVideoInfoChannelAvatar\"><img class=\"ytCoreImageHost ytmVideoInfoChannelLogo ytCoreImageFillParentHeight ytCoreImageFillParentWidth ytCoreImageContentModeScaleAspectFill\" alt=\"thumbnail-image\" style=\"background-color: transparent;\"></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[href$=\"legal-disclaimer/\"]",
+          "html": "<a href=\"/legal-disclaimer/\">Legal Disclaimer</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".elementor-element-747c240 > .elementor-widget-container > .elementor-heading-title.elementor-size-default",
+          "html": "<p class=\"elementor-heading-title elementor-size-default\">Design By <a href=\"https://rockpaperscissors.studio/\" target=\"_blank\">Rock Paper Scissors Studio,</a> Developed by <a href=\"https://metadesignsolutions.com/\" target=\"_blank\">MetaDesign Solutions Pvt. Ltd.</a></p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".elementor-heading-title.elementor-size-default > a[target=\"_blank\"]:nth-child(1)",
+          "html": "<a href=\"https://rockpaperscissors.studio/\" target=\"_blank\">Rock Paper Scissors Studio,</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[target=\"_blank\"]:nth-child(2)",
+          "html": "<a href=\"https://metadesignsolutions.com/\" target=\"_blank\">MetaDesign Solutions Pvt. Ltd.</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".swiper-slide-prev > .swiper-slide-inner > .swiper-slide-contents > .elementor-slide-description > img[decoding=\"async\"]",
+          "html": "<img decoding=\"async\" src=\"https://www.indiaglycols.com/wp-content/uploads/2023/03/banner-logo.png\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".swiper-slide-duplicate-prev > .swiper-slide-inner > .swiper-slide-contents > .elementor-slide-description > img[decoding=\"async\"]",
+          "html": "<img decoding=\"async\" src=\"https://www.indiaglycols.com/wp-content/uploads/2023/03/banner-logo.png\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".elementor-repeater-item-7767ce8[data-swiper-slide-index=\"3\"][aria-label=\"4 / 4\"]:nth-child(12) > .swiper-slide-inner > .swiper-slide-contents > .elementor-slide-description > img[decoding=\"async\"]",
+          "html": "<img decoding=\"async\" src=\"https://www.indiaglycols.com/wp-content/uploads/2023/03/banner-logo.png\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[href$=\"www.indiaglycols.com\"]",
+          "html": "<a href=\"https://www.indiaglycols.com\">\n\t\t\t\t\t\t\t<img width=\"199\" height=\"146\" src=\"https://www.indiaglycols.com/wp-content/uploads/2023/03/IGL-logo2-1.svg\" class=\"attachment-full size-full wp-image-7790\" alt=\"\">\t\t\t\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".blog-post:nth-child(1) > .row > .col-md-8 > .blog-action > .share[href=\"javascript:;\"]",
+          "html": "<a href=\"javascript:;\" class=\"share\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".blog-post:nth-child(2) > .row > .col-md-8 > .blog-action > .share[href=\"javascript:;\"]",
+          "html": "<a href=\"javascript:;\" class=\"share\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "role-img-alt",
+          "impact": "serious",
+          "description": "Ensure [role=\"img\"] elements have alternative text",
+          "help": "[role=\"img\"] elements must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/role-img-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".swiper-slide-duplicate-active.elementor-repeater-item-f12cbc4[data-swiper-slide-index=\"0\"]:nth-child(1) > .swiper-slide-bg[role=\"img\"]",
+          "html": "<div class=\"swiper-slide-bg\" role=\"img\"></div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "role-img-alt",
+          "impact": "serious",
+          "description": "Ensure [role=\"img\"] elements have alternative text",
+          "help": "[role=\"img\"] elements must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/role-img-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".swiper-slide-duplicate-next.elementor-repeater-item-a741f87[data-swiper-slide-index=\"1\"]:nth-child(2) > .swiper-slide-bg[role=\"img\"]",
+          "html": "<div class=\"swiper-slide-bg\" role=\"img\"></div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "role-img-alt",
+          "impact": "serious",
+          "description": "Ensure [role=\"img\"] elements have alternative text",
+          "help": "[role=\"img\"] elements must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/role-img-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".elementor-repeater-item-5a7b1c1[data-swiper-slide-index=\"2\"][aria-label=\"3 / 4\"]:nth-child(3) > .swiper-slide-bg[role=\"img\"]",
+          "html": "<div class=\"swiper-slide-bg\" role=\"img\"></div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "role-img-alt",
+          "impact": "serious",
+          "description": "Ensure [role=\"img\"] elements have alternative text",
+          "help": "[role=\"img\"] elements must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/role-img-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".swiper-slide-prev > .swiper-slide-bg[role=\"img\"]",
+          "html": "<div class=\"swiper-slide-bg\" role=\"img\"></div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "role-img-alt",
+          "impact": "serious",
+          "description": "Ensure [role=\"img\"] elements have alternative text",
+          "help": "[role=\"img\"] elements must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/role-img-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".elementor-ken-burns--active",
+          "html": "<div class=\"swiper-slide-bg elementor-ken-burns--active\" role=\"img\"></div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "role-img-alt",
+          "impact": "serious",
+          "description": "Ensure [role=\"img\"] elements have alternative text",
+          "help": "[role=\"img\"] elements must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/role-img-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".swiper-slide-next > .swiper-slide-bg[role=\"img\"]",
+          "html": "<div class=\"swiper-slide-bg\" role=\"img\"></div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "role-img-alt",
+          "impact": "serious",
+          "description": "Ensure [role=\"img\"] elements have alternative text",
+          "help": "[role=\"img\"] elements must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/role-img-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".elementor-repeater-item-5a7b1c1[data-swiper-slide-index=\"2\"][aria-label=\"3 / 4\"]:nth-child(7) > .swiper-slide-bg[role=\"img\"]",
+          "html": "<div class=\"swiper-slide-bg\" role=\"img\"></div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "role-img-alt",
+          "impact": "serious",
+          "description": "Ensure [role=\"img\"] elements have alternative text",
+          "help": "[role=\"img\"] elements must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/role-img-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".swiper-slide-duplicate-prev > .swiper-slide-bg[role=\"img\"]",
+          "html": "<div class=\"swiper-slide-bg\" role=\"img\"></div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "role-img-alt",
+          "impact": "serious",
+          "description": "Ensure [role=\"img\"] elements have alternative text",
+          "help": "[role=\"img\"] elements must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/role-img-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".swiper-slide-duplicate-active.elementor-repeater-item-f12cbc4[data-swiper-slide-index=\"0\"]:nth-child(9) > .swiper-slide-bg[role=\"img\"]",
+          "html": "<div class=\"swiper-slide-bg\" role=\"img\"></div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "role-img-alt",
+          "impact": "serious",
+          "description": "Ensure [role=\"img\"] elements have alternative text",
+          "help": "[role=\"img\"] elements must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/role-img-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".swiper-slide-duplicate-next.elementor-repeater-item-a741f87[data-swiper-slide-index=\"1\"]:nth-child(10) > .swiper-slide-bg[role=\"img\"]",
+          "html": "<div class=\"swiper-slide-bg\" role=\"img\"></div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "role-img-alt",
+          "impact": "serious",
+          "description": "Ensure [role=\"img\"] elements have alternative text",
+          "help": "[role=\"img\"] elements must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/role-img-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".elementor-repeater-item-5a7b1c1[data-swiper-slide-index=\"2\"][aria-label=\"3 / 4\"]:nth-child(11) > .swiper-slide-bg[role=\"img\"]",
+          "html": "<div class=\"swiper-slide-bg\" role=\"img\"></div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "role-img-alt",
+          "impact": "serious",
+          "description": "Ensure [role=\"img\"] elements have alternative text",
+          "help": "[role=\"img\"] elements must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/role-img-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".elementor-repeater-item-7767ce8[data-swiper-slide-index=\"3\"][aria-label=\"4 / 4\"]:nth-child(12) > .swiper-slide-bg[role=\"img\"]",
+          "html": "<div class=\"swiper-slide-bg\" role=\"img\"></div>",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/India_Glycols_Ltd/screenshots/India_Glycols_Ltd_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/India_Glycols_Ltd/screenshots/India_Glycols_Ltd_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/India_Glycols_Ltd/screenshots/India_Glycols_Ltd_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 30,
+  "altTextViolations": 15,
+  "contrastViolations": 4,
+  "labelViolations": 0,
+  "keyboardViolations": 1,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/India_Glycols_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/India_Glycols_Ltd/screenshots/India_Glycols_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — India Glycols Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `30`  \n> **Verified Contact Email:** `info@indiaglycols.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@indiaglycols.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **30 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `9` | Serious: `21` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 15 violations\n- 🎨 **Color Contrast Failures:** 4 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 1 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (15 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (4 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Keyboard & Focus Management (1 issues):** Ensure all interactive buttons/links are focusable via `Tab` key and visual focus outlines are visible.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** India Glycols Ltd\n- **Resolved URL:** [https://indiaglycols.com](https://indiaglycols.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@indiaglycols.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@indiaglycols.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@indiaglycols.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `#sm-17864483508307737-1`\n2. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `#sm-17864483508307737-3`\n3. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `#sm-17864483508307737-5`\n4. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `#sm-17864483508307737-7`\n5. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `iframe > .ytmVideoInfoVideoTitle`\n6. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#slick-slide04`\n7. **`[other] aria-prohibited-attr`** (SERIOUS)\n   - **Help:** Elements must only use permitted ARIA attributes\n   - **Selector:** `iframe > #movie_player`\n8. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `iframe > .ytmVideoInfoChannelAvatar`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"legal-disclaimer/\"]`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-element-747c240 > .elementor-widget-container > .elementor-heading-title.elementor-size-default`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/India_Glycols_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/India_Glycols_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/India_Glycols_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/India_Glycols_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/India_Glycols_Ltd/screenshots/India_Glycols_Ltd_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — India Glycols Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `30`  \n> **Verified Contact Email:** `info@indiaglycols.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@indiaglycols.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **30 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `9` | Serious: `21` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 15 violations\n- 🎨 **Color Contrast Failures:** 4 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 1 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (15 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (4 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Keyboard & Focus Management (1 issues):** Ensure all interactive buttons/links are focusable via `Tab` key and visual focus outlines are visible.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** India Glycols Ltd\n- **Resolved URL:** [https://indiaglycols.com](https://indiaglycols.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@indiaglycols.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@indiaglycols.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@indiaglycols.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `#sm-17864483508307737-1`\n2. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `#sm-17864483508307737-3`\n3. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `#sm-17864483508307737-5`\n4. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `#sm-17864483508307737-7`\n5. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `iframe > .ytmVideoInfoVideoTitle`\n6. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#slick-slide04`\n7. **`[other] aria-prohibited-attr`** (SERIOUS)\n   - **Help:** Elements must only use permitted ARIA attributes\n   - **Selector:** `iframe > #movie_player`\n8. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `iframe > .ytmVideoInfoChannelAvatar`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"legal-disclaimer/\"]`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-element-747c240 > .elementor-widget-container > .elementor-heading-title.elementor-size-default`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/India_Glycols_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/India_Glycols_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/India_Glycols_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/India_Glycols_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/India_Glycols_Ltd/screenshots/India_Glycols_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — India Glycols Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `30`  \n> **Verified Contact Email:** `info@indiaglycols.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@indiaglycols.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **30 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `9` | Serious: `21` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 15 violations\n- 🎨 **Color Contrast Failures:** 4 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 1 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (15 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (4 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Keyboard & Focus Management (1 issues):** Ensure all interactive buttons/links are focusable via `Tab` key and visual focus outlines are visible.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** India Glycols Ltd\n- **Resolved URL:** [https://indiaglycols.com](https://indiaglycols.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@indiaglycols.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@indiaglycols.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@indiaglycols.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `#sm-17864483508307737-1`\n2. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `#sm-17864483508307737-3`\n3. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `#sm-17864483508307737-5`\n4. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `#sm-17864483508307737-7`\n5. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `iframe > .ytmVideoInfoVideoTitle`\n6. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#slick-slide04`\n7. **`[other] aria-prohibited-attr`** (SERIOUS)\n   - **Help:** Elements must only use permitted ARIA attributes\n   - **Selector:** `iframe > #movie_player`\n8. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `iframe > .ytmVideoInfoChannelAvatar`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"legal-disclaimer/\"]`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-element-747c240 > .elementor-widget-container > .elementor-heading-title.elementor-size-default`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/India_Glycols_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/India_Glycols_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/India_Glycols_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 30. WAVE AIM: N/A. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-11T11:39:14.647Z"
+}

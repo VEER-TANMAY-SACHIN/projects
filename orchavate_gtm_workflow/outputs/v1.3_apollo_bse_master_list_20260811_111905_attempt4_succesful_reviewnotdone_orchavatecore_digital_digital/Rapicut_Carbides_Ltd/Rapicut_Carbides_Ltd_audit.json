@@ -1,0 +1,251 @@
+{
+  "company": {
+    "srNo": 183,
+    "companyName": "Rapicut Carbides Ltd",
+    "readymadeWebsite": "https://rapicutcarbides.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (Rapicut Carbides Ltd)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://rapicutcarbides.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://rapicutcarbides.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "sales@rapicutcarbides.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://rapicutcarbides.com"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "investors@rapicutcarbides.com",
+        "type": "compliance_grievance",
+        "label": "Investor Grievance / Compliance Officer Email",
+        "status": "Verified",
+        "sourceUrl": "https://rapicutcarbides.com/investor-relations/annual-reports"
+      },
+      {
+        "address": "sales@rapicutcarbides.com",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://rapicutcarbides.com"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://rapicutcarbides.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".ht-btn",
+          "html": "<button type=\"submit\" class=\"ht-btn ht-btn--default ht-btn--default--style3 border-0\">SUBMIT</button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".cookie-consent__message",
+          "html": "<span class=\"cookie-consent__message\">\n        To ensure optimal functionality and a seamless experience on this site, enabling cookies is required. Please adjust your browser settings to allow cookies.\n    </span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".swiper-slide-active > .category-thumb > img",
+          "html": "<img src=\"/storage/categories/FHIlUjbKHBO3givgTRrOcvReZEYOvUzuqjST9xbA.jpeg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".swiper-slide-next > .category-thumb > img",
+          "html": "<img src=\"/storage/categories/to8fot1E8y85hg5lKo6cfE0yfDuDdhgW6UUJJ1SG.jpeg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".swiper-slide-visible.category-box.swiper-slide:nth-child(3) > .category-thumb > img",
+          "html": "<img src=\"/storage/categories/9bjDnBUuTXXzcKMCGrUE3EVytvnH73oL4vwwB6f9.jpeg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".swiper-slide-visible.category-box.swiper-slide:nth-child(4) > .category-thumb > img",
+          "html": "<img src=\"/storage/categories/HrFe8DZKzqbKM0UIImcUEjQpSCSqoeRiZFcJTeTG.jpg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".category-box.swiper-slide.industry-four-slider__single-slide:nth-child(5) > .category-thumb > img",
+          "html": "<img src=\"/storage/categories/NfRqT12sDNfJYALl9R5XAufvrBOrcIu2ZrBrhvNq.jpg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".header-wrapper__inner > .logo > a[href=\"/\"]",
+          "html": "<a href=\"/\">\n\t\t\t\t\t\t\t\t\t<img src=\"https://rapicutcarbides.com/front/img/logo.png\" class=\"img-fluid\" alt=\"\">\n\t\t\t\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".footer-logo > a[href=\"#\"]",
+          "html": "<a href=\"#\">\n                    <img src=\"https://rapicutcarbides.com/front/img/logo.png\" class=\"img-fluid\" alt=\"\">\n                  </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[data-tippy=\"Facebook\"]",
+          "html": "<a href=\"https://www.facebook.com/rapicut.carbideslimited\" target=\"_blank\" data-tippy=\"Facebook\" data-tippy-inertia=\"false\" data-tippy-animation=\"shift-away\" data-tippy-delay=\"50\" data-tippy-arrow=\"true\" data-tippy-theme=\"sharpborder__black\" data-tippy-placement=\"top\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[data-tippy=\"Twitter\"]",
+          "html": "<a href=\"https://twitter.com/rapicutcarbides\" target=\"_blank\" data-tippy=\"Twitter\" data-tippy-inertia=\"false\" data-tippy-animation=\"shift-away\" data-tippy-delay=\"50\" data-tippy-arrow=\"true\" data-tippy-theme=\"sharpborder__black\" data-tippy-placement=\"top\"><i class=\"ion-social-twitter\"></i></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[data-tippy=\"Instagram\"]",
+          "html": "<a href=\"https://www.instagram.com/rapicutcarbides/\" target=\"_blank\" data-tippy=\"Instagram\" data-tippy-inertia=\"false\" data-tippy-animation=\"shift-away\" data-tippy-delay=\"50\" data-tippy-arrow=\"true\" data-tippy-theme=\"sharpborder__black\" data-tippy-placement=\"top\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[href=\"index.html\"]",
+          "html": "<a href=\"index.html\">\n                            <img src=\"https://rapicutcarbides.com/front/img/logo/logo-dark.png\" class=\"img-fluid\" alt=\"\">\n                        </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#mobile-menu-close-trigger",
+          "html": "<a class=\"mobile-navigation-close-icon\" id=\"mobile-menu-close-trigger\" href=\"javascript:void(0)\">\n                            <i class=\"ion-ios-close-empty\"></i>\n                        </a>",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 44,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Rapicut_Carbides_Ltd/screenshots/Rapicut_Carbides_Ltd_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Rapicut_Carbides_Ltd/screenshots/Rapicut_Carbides_Ltd_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Rapicut_Carbides_Ltd/screenshots/Rapicut_Carbides_Ltd_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 14,
+  "altTextViolations": 5,
+  "contrastViolations": 2,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 44,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Rapicut_Carbides_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Rapicut_Carbides_Ltd/screenshots/Rapicut_Carbides_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Rapicut Carbides Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `44 / 100`  \n> **Total WCAG Violations:** `14`  \n> **Verified Contact Email:** `sales@rapicutcarbides.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `sales@rapicutcarbides.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **44/100** on automated WCAG 2.1 AA accessibility testing with **14 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `44/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `5` | Serious: `9` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 5 violations\n- 🎨 **Color Contrast Failures:** 2 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (5 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (2 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Rapicut Carbides Ltd\n- **Resolved URL:** [https://rapicutcarbides.com](https://rapicutcarbides.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `sales@rapicutcarbides.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `investors@rapicutcarbides.com` | **Status:** `Verified` | **Source Page:** https://rapicutcarbides.com/investor-relations/annual-reports\n- **General Contact Email:** `sales@rapicutcarbides.com` | **Status:** `Verified` | **Source Page:** https://rapicutcarbides.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.ht-btn`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.cookie-consent__message`\n3. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.swiper-slide-active > .category-thumb > img`\n4. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.swiper-slide-next > .category-thumb > img`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.swiper-slide-visible.category-box.swiper-slide:nth-child(3) > .category-thumb > img`\n6. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.swiper-slide-visible.category-box.swiper-slide:nth-child(4) > .category-thumb > img`\n7. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.category-box.swiper-slide.industry-four-slider__single-slide:nth-child(5) > .category-thumb > img`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.header-wrapper__inner > .logo > a[href=\"/\"]`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.footer-logo > a[href=\"#\"]`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `a[data-tippy=\"Facebook\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Rapicut_Carbides_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Rapicut_Carbides_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Rapicut_Carbides_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Rapicut_Carbides_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Rapicut_Carbides_Ltd/screenshots/Rapicut_Carbides_Ltd_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Rapicut Carbides Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `44 / 100`  \n> **Total WCAG Violations:** `14`  \n> **Verified Contact Email:** `sales@rapicutcarbides.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `sales@rapicutcarbides.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **44/100** on automated WCAG 2.1 AA accessibility testing with **14 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `44/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `5` | Serious: `9` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 5 violations\n- 🎨 **Color Contrast Failures:** 2 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (5 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (2 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Rapicut Carbides Ltd\n- **Resolved URL:** [https://rapicutcarbides.com](https://rapicutcarbides.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `sales@rapicutcarbides.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `investors@rapicutcarbides.com` | **Status:** `Verified` | **Source Page:** https://rapicutcarbides.com/investor-relations/annual-reports\n- **General Contact Email:** `sales@rapicutcarbides.com` | **Status:** `Verified` | **Source Page:** https://rapicutcarbides.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.ht-btn`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.cookie-consent__message`\n3. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.swiper-slide-active > .category-thumb > img`\n4. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.swiper-slide-next > .category-thumb > img`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.swiper-slide-visible.category-box.swiper-slide:nth-child(3) > .category-thumb > img`\n6. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.swiper-slide-visible.category-box.swiper-slide:nth-child(4) > .category-thumb > img`\n7. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.category-box.swiper-slide.industry-four-slider__single-slide:nth-child(5) > .category-thumb > img`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.header-wrapper__inner > .logo > a[href=\"/\"]`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.footer-logo > a[href=\"#\"]`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `a[data-tippy=\"Facebook\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Rapicut_Carbides_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Rapicut_Carbides_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Rapicut_Carbides_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Rapicut_Carbides_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Rapicut_Carbides_Ltd/screenshots/Rapicut_Carbides_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Rapicut Carbides Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `44 / 100`  \n> **Total WCAG Violations:** `14`  \n> **Verified Contact Email:** `sales@rapicutcarbides.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `sales@rapicutcarbides.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **44/100** on automated WCAG 2.1 AA accessibility testing with **14 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `44/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `5` | Serious: `9` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 5 violations\n- 🎨 **Color Contrast Failures:** 2 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (5 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (2 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Rapicut Carbides Ltd\n- **Resolved URL:** [https://rapicutcarbides.com](https://rapicutcarbides.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `sales@rapicutcarbides.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `investors@rapicutcarbides.com` | **Status:** `Verified` | **Source Page:** https://rapicutcarbides.com/investor-relations/annual-reports\n- **General Contact Email:** `sales@rapicutcarbides.com` | **Status:** `Verified` | **Source Page:** https://rapicutcarbides.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.ht-btn`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.cookie-consent__message`\n3. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.swiper-slide-active > .category-thumb > img`\n4. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.swiper-slide-next > .category-thumb > img`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.swiper-slide-visible.category-box.swiper-slide:nth-child(3) > .category-thumb > img`\n6. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.swiper-slide-visible.category-box.swiper-slide:nth-child(4) > .category-thumb > img`\n7. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.category-box.swiper-slide.industry-four-slider__single-slide:nth-child(5) > .category-thumb > img`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.header-wrapper__inner > .logo > a[href=\"/\"]`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.footer-logo > a[href=\"#\"]`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `a[data-tippy=\"Facebook\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Rapicut_Carbides_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Rapicut_Carbides_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Rapicut_Carbides_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 14. WAVE AIM: N/A. Lighthouse A11y: 44/100.",
+  "timestamp": "2026-08-11T11:56:50.965Z"
+}

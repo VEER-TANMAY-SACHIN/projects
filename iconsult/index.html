@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iConsult - Multi-User Linktree & About Me Platform</title>
+  <meta name="description" content="Create your custom, beautiful Linktree & About Me page in seconds with iConsult. Free static hosting powered by Firebase.">
+  
+  <!-- FontAwesome Icons & Google Fonts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="theme-midnight">
+
+  <!-- Public Profile Render Container (Hidden when on Landing Page) -->
+  <main id="profile-section" class="profile-view" style="display: none;">
+    <div id="profile-container" class="container">
+      <div style="text-align: center; padding: 4rem;">
+        <div class="loading-spinner" style="margin: 0 auto 1rem;"></div>
+        <p class="text-secondary">Loading profile...</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- App Landing Page Container (Displayed when no ?user= parameter is provided) -->
+  <div id="landing-section">
+    <!-- Navbar -->
+    <header class="navbar">
+      <div class="container nav-content">
+        <a href="index.html" class="brand-logo">
+          iConsult <span class="dot"></span>
+        </a>
+        <div class="nav-actions">
+          <a href="auth.html" class="btn btn-secondary btn-sm">Sign In</a>
+          <a href="auth.html" class="btn btn-primary btn-sm">Get Started</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero container">
+      <div class="hero-badge">
+        <i class="fa-solid fa-sparkles"></i> 100% Free Static Architecture (GitHub Pages + Firebase)
+      </div>
+      
+      <h1 class="heading-xl">
+        One link for all your <br>
+        <span class="text-gradient">Content, Links & About Me</span>
+      </h1>
+
+      <p class="hero-subtitle">
+        Build your personalized digital hub in minutes. Connect your audience to your socials, portfolio, store, and bio with a single, sleek link.
+      </p>
+
+      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+        <a href="auth.html" class="btn btn-primary btn-pill">
+          Create Your Free Page <i class="fa-solid fa-arrow-right"></i>
+        </a>
+        <a href="index.html?user=demo" class="btn btn-secondary btn-pill">
+          View Demo Profile
+        </a>
+      </div>
+    </section>
+
+    <!-- Features Showcase -->
+    <section class="container" style="padding-bottom: 5rem;">
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fa-solid fa-user-astronaut"></i></div>
+          <h3 class="heading-md" style="margin-bottom: 0.5rem;">Custom Profiles</h3>
+          <p class="text-secondary">Personalize your avatar, display name, handle, tagline, and bio with custom styling options.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fa-solid fa-palette"></i></div>
+          <h3 class="heading-md" style="margin-bottom: 0.5rem;">5 Visual Themes</h3>
+          <p class="text-secondary">Choose between Midnight Glass, Sunset Glow, Cyber Neon, Forest Emerald, and Clean Minimal styles.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fa-solid fa-qrcode"></i></div>
+          <h3 class="heading-md" style="margin-bottom: 0.5rem;">Instant Sharing & QR</h3>
+          <p class="text-secondary">Share your personal handle anywhere. Built-in vector QR code generation for physical cards and bio links.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="border-top: 1px solid var(--surface-border); padding: 2rem 0; text-align: center; color: var(--text-muted); font-size: 0.875rem;">
+      <div class="container">
+        <p>&copy; 2026 iConsult Platform. Built with Vanilla HTML, CSS, Modular JS & Firebase v10.</p>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Modular JavaScript Setup -->
+  <script type="module" src="js/public-profile.js"></script>
+</body>
+</html>

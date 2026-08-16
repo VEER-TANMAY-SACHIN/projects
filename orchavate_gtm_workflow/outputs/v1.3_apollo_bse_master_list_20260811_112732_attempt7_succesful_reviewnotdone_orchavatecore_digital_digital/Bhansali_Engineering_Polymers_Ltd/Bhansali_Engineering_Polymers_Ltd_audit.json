@@ -1,0 +1,152 @@
+{
+  "company": {
+    "srNo": 26,
+    "companyName": "Bhansali Engineering Polymers Ltd",
+    "readymadeWebsite": "https://bhansaliabs.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (Bhansali Engineering Polymers Ltd)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://bhansaliabs.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://bhansaliabs.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "rnt.helpdesk@in.mpms.mufg.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://bhansaliabs.com"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "Investors@Bhansaliabs.com",
+        "type": "compliance_grievance",
+        "label": "Investor Grievance / Compliance Officer Email",
+        "status": "Verified",
+        "sourceUrl": "https://bhansaliabs.com/investorcontact"
+      },
+      {
+        "address": "rnt.helpdesk@in.mpms.mufg.com",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://bhansaliabs.com"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://bhansaliabs.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".tradingview-widget-copyright",
+          "html": "<div class=\"tradingview-widget-copyright\" style=\"width: 100%;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "html-has-lang",
+          "impact": "serious",
+          "description": "Ensure every HTML document has a lang attribute",
+          "help": "<html> element must have a lang attribute",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/html-has-lang?application=playwright",
+          "category": "other",
+          "selector": "html",
+          "html": "<html>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".financial_img > img",
+          "html": "<img src=\"https://bhansaliabs.com/frontend/img/graph.png\" style=\"height: 70%;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[href$=\"bhansaliabs.com\"]",
+          "html": "<a href=\"https://bhansaliabs.com\">\n                    <img class=\"top-logo-img\" src=\"https://bhansaliabs.com/frontend/img/full logo-new.png\" alt=\"\">\n                    <img class=\"res-top-logo\" src=\"https://bhansaliabs.com/frontend/img/final logo-sm.png\" alt=\"\">\n                </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "meta-viewport",
+          "impact": "moderate",
+          "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+          "help": "Zooming and scaling must not be disabled",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/meta-viewport?application=playwright",
+          "category": "other",
+          "selector": "meta[name=\"viewport\"]",
+          "html": "<meta content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0\" name=\"viewport\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 80,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Bhansali_Engineering_Polymers_Ltd/screenshots/Bhansali_Engineering_Polymers_Ltd_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Bhansali_Engineering_Polymers_Ltd/screenshots/Bhansali_Engineering_Polymers_Ltd_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Bhansali_Engineering_Polymers_Ltd/screenshots/Bhansali_Engineering_Polymers_Ltd_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 5,
+  "altTextViolations": 1,
+  "contrastViolations": 1,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 80,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Bhansali_Engineering_Polymers_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Bhansali_Engineering_Polymers_Ltd/screenshots/Bhansali_Engineering_Polymers_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Bhansali Engineering Polymers Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `80 / 100`  \n> **Total WCAG Violations:** `5`  \n> **Verified Contact Email:** `rnt.helpdesk@in.mpms.mufg.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `rnt.helpdesk@in.mpms.mufg.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **80/100** on automated WCAG 2.1 AA accessibility testing with **5 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `80/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `1` | Serious: `3` | Moderate: `1`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 1 violations\n- 🎨 **Color Contrast Failures:** 1 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (1 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (1 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Bhansali Engineering Polymers Ltd\n- **Resolved URL:** [https://bhansaliabs.com](https://bhansaliabs.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `rnt.helpdesk@in.mpms.mufg.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `Investors@Bhansaliabs.com` | **Status:** `Verified` | **Source Page:** https://bhansaliabs.com/investorcontact\n- **General Contact Email:** `rnt.helpdesk@in.mpms.mufg.com` | **Status:** `Verified` | **Source Page:** https://bhansaliabs.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.tradingview-widget-copyright`\n2. **`[other] html-has-lang`** (SERIOUS)\n   - **Help:** <html> element must have a lang attribute\n   - **Selector:** `html`\n3. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.financial_img > img`\n4. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `a[href$=\"bhansaliabs.com\"]`\n5. **`[other] meta-viewport`** (MODERATE)\n   - **Help:** Zooming and scaling must not be disabled\n   - **Selector:** `meta[name=\"viewport\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Bhansali_Engineering_Polymers_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Bhansali_Engineering_Polymers_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Bhansali_Engineering_Polymers_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Bhansali_Engineering_Polymers_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Bhansali_Engineering_Polymers_Ltd/screenshots/Bhansali_Engineering_Polymers_Ltd_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Bhansali Engineering Polymers Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `80 / 100`  \n> **Total WCAG Violations:** `5`  \n> **Verified Contact Email:** `rnt.helpdesk@in.mpms.mufg.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `rnt.helpdesk@in.mpms.mufg.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **80/100** on automated WCAG 2.1 AA accessibility testing with **5 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `80/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `1` | Serious: `3` | Moderate: `1`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 1 violations\n- 🎨 **Color Contrast Failures:** 1 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (1 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (1 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Bhansali Engineering Polymers Ltd\n- **Resolved URL:** [https://bhansaliabs.com](https://bhansaliabs.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `rnt.helpdesk@in.mpms.mufg.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `Investors@Bhansaliabs.com` | **Status:** `Verified` | **Source Page:** https://bhansaliabs.com/investorcontact\n- **General Contact Email:** `rnt.helpdesk@in.mpms.mufg.com` | **Status:** `Verified` | **Source Page:** https://bhansaliabs.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.tradingview-widget-copyright`\n2. **`[other] html-has-lang`** (SERIOUS)\n   - **Help:** <html> element must have a lang attribute\n   - **Selector:** `html`\n3. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.financial_img > img`\n4. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `a[href$=\"bhansaliabs.com\"]`\n5. **`[other] meta-viewport`** (MODERATE)\n   - **Help:** Zooming and scaling must not be disabled\n   - **Selector:** `meta[name=\"viewport\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Bhansali_Engineering_Polymers_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Bhansali_Engineering_Polymers_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Bhansali_Engineering_Polymers_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Bhansali_Engineering_Polymers_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Bhansali_Engineering_Polymers_Ltd/screenshots/Bhansali_Engineering_Polymers_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Bhansali Engineering Polymers Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `80 / 100`  \n> **Total WCAG Violations:** `5`  \n> **Verified Contact Email:** `rnt.helpdesk@in.mpms.mufg.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `rnt.helpdesk@in.mpms.mufg.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **80/100** on automated WCAG 2.1 AA accessibility testing with **5 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `80/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `1` | Serious: `3` | Moderate: `1`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 1 violations\n- 🎨 **Color Contrast Failures:** 1 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (1 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (1 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Bhansali Engineering Polymers Ltd\n- **Resolved URL:** [https://bhansaliabs.com](https://bhansaliabs.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `rnt.helpdesk@in.mpms.mufg.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `Investors@Bhansaliabs.com` | **Status:** `Verified` | **Source Page:** https://bhansaliabs.com/investorcontact\n- **General Contact Email:** `rnt.helpdesk@in.mpms.mufg.com` | **Status:** `Verified` | **Source Page:** https://bhansaliabs.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.tradingview-widget-copyright`\n2. **`[other] html-has-lang`** (SERIOUS)\n   - **Help:** <html> element must have a lang attribute\n   - **Selector:** `html`\n3. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.financial_img > img`\n4. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `a[href$=\"bhansaliabs.com\"]`\n5. **`[other] meta-viewport`** (MODERATE)\n   - **Help:** Zooming and scaling must not be disabled\n   - **Selector:** `meta[name=\"viewport\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Bhansali_Engineering_Polymers_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Bhansali_Engineering_Polymers_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Bhansali_Engineering_Polymers_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 5. WAVE AIM: N/A. Lighthouse A11y: 80/100.",
+  "timestamp": "2026-08-11T11:35:05.575Z"
+}

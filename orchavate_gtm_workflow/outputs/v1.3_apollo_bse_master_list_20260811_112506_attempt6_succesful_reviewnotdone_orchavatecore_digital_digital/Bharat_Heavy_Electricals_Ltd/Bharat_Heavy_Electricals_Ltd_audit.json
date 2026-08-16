@@ -1,0 +1,163 @@
+{
+  "company": {
+    "srNo": 46,
+    "companyName": "Bharat Heavy Electricals Ltd",
+    "readymadeWebsite": "https://bhel.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (Bharat Heavy Electricals Ltd)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://bhel.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://bhel.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "investor@bigshareonline.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://bhel.com/investor-grievance-redressal-mechanism"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "investor@bigshareonline.com",
+        "type": "compliance_grievance",
+        "label": "Investor Grievance / Compliance Officer Email",
+        "status": "Verified",
+        "sourceUrl": "https://bhel.com/investor-grievance-redressal-mechanism"
+      },
+      {
+        "address": "investor@bigshareonline.com",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://bhel.com/investor-grievance-redressal-mechanism"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://bhel.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".business_solution_carosel > .owl-dots > .owl-dot.active",
+          "html": "<button role=\"button\" class=\"owl-dot active\"><span></span></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".business_solution_carosel > .owl-dots > .owl-dot:nth-child(2)",
+          "html": "<button role=\"button\" class=\"owl-dot\"><span></span></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "frame-title",
+          "impact": "serious",
+          "description": "Ensure <iframe> and <frame> elements have an accessible name",
+          "help": "Frames must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/frame-title?application=playwright",
+          "category": "other",
+          "selector": ".col-12.col-md-3:nth-child(1) > .ab-social-cart > iframe",
+          "html": "<iframe src=\"https://widgets.sociablekit.com/twitter-feed/iframe/25629959\" style=\"width: 100%; height: 550px;\"></iframe>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "frame-title",
+          "impact": "serious",
+          "description": "Ensure <iframe> and <frame> elements have an accessible name",
+          "help": "Frames must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/frame-title?application=playwright",
+          "category": "other",
+          "selector": ".col-12.col-md-3:nth-child(2) > .ab-social-cart > iframe",
+          "html": "<iframe src=\"https://widgets.sociablekit.com/linkedin-page-posts/iframe/25629988\" style=\"width: 100%; height: 550px;\"></iframe>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "frame-title",
+          "impact": "serious",
+          "description": "Ensure <iframe> and <frame> elements have an accessible name",
+          "help": "Frames must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/frame-title?application=playwright",
+          "category": "other",
+          "selector": "iframe[allow=\"encrypted-media\"]",
+          "html": "<iframe src=\"https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FBHELOfficial&tabs=timeline&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true\" style=\"width: 100%; height: 550px; border:none;overflow:hidden\" allow=\"encrypted-media\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "frame-title",
+          "impact": "serious",
+          "description": "Ensure <iframe> and <frame> elements have an accessible name",
+          "help": "Frames must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/frame-title?application=playwright",
+          "category": "other",
+          "selector": ".w-100",
+          "html": "<iframe style=\"width:100%;height:550px\" class=\"w-100 h-100\" src=\"https://www.instagram.com/bhel.india/embed\"></iframe>",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 76,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Bharat_Heavy_Electricals_Ltd/screenshots/Bharat_Heavy_Electricals_Ltd_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Bharat_Heavy_Electricals_Ltd/screenshots/Bharat_Heavy_Electricals_Ltd_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Bharat_Heavy_Electricals_Ltd/screenshots/Bharat_Heavy_Electricals_Ltd_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 6,
+  "altTextViolations": 0,
+  "contrastViolations": 0,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 76,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Bharat_Heavy_Electricals_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Bharat_Heavy_Electricals_Ltd/screenshots/Bharat_Heavy_Electricals_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Bharat Heavy Electricals Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `76 / 100`  \n> **Total WCAG Violations:** `6`  \n> **Verified Contact Email:** `investor@bigshareonline.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `investor@bigshareonline.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **76/100** on automated WCAG 2.1 AA accessibility testing with **6 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `76/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `2` | Serious: `4` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Clean Codebase:** No automated DOM accessibility defects found on scanned pages. Keep auditing dynamic components.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Bharat Heavy Electricals Ltd\n- **Resolved URL:** [https://bhel.com](https://bhel.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `investor@bigshareonline.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `investor@bigshareonline.com` | **Status:** `Verified` | **Source Page:** https://bhel.com/investor-grievance-redressal-mechanism\n- **General Contact Email:** `investor@bigshareonline.com` | **Status:** `Verified` | **Source Page:** https://bhel.com/investor-grievance-redressal-mechanism\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.business_solution_carosel > .owl-dots > .owl-dot.active`\n2. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.business_solution_carosel > .owl-dots > .owl-dot:nth-child(2)`\n3. **`[other] frame-title`** (SERIOUS)\n   - **Help:** Frames must have an accessible name\n   - **Selector:** `.col-12.col-md-3:nth-child(1) > .ab-social-cart > iframe`\n4. **`[other] frame-title`** (SERIOUS)\n   - **Help:** Frames must have an accessible name\n   - **Selector:** `.col-12.col-md-3:nth-child(2) > .ab-social-cart > iframe`\n5. **`[other] frame-title`** (SERIOUS)\n   - **Help:** Frames must have an accessible name\n   - **Selector:** `iframe[allow=\"encrypted-media\"]`\n6. **`[other] frame-title`** (SERIOUS)\n   - **Help:** Frames must have an accessible name\n   - **Selector:** `.w-100`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Bharat_Heavy_Electricals_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Bharat_Heavy_Electricals_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Bharat_Heavy_Electricals_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Bharat_Heavy_Electricals_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Bharat_Heavy_Electricals_Ltd/screenshots/Bharat_Heavy_Electricals_Ltd_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Bharat Heavy Electricals Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `76 / 100`  \n> **Total WCAG Violations:** `6`  \n> **Verified Contact Email:** `investor@bigshareonline.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `investor@bigshareonline.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **76/100** on automated WCAG 2.1 AA accessibility testing with **6 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `76/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `2` | Serious: `4` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Clean Codebase:** No automated DOM accessibility defects found on scanned pages. Keep auditing dynamic components.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Bharat Heavy Electricals Ltd\n- **Resolved URL:** [https://bhel.com](https://bhel.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `investor@bigshareonline.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `investor@bigshareonline.com` | **Status:** `Verified` | **Source Page:** https://bhel.com/investor-grievance-redressal-mechanism\n- **General Contact Email:** `investor@bigshareonline.com` | **Status:** `Verified` | **Source Page:** https://bhel.com/investor-grievance-redressal-mechanism\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.business_solution_carosel > .owl-dots > .owl-dot.active`\n2. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.business_solution_carosel > .owl-dots > .owl-dot:nth-child(2)`\n3. **`[other] frame-title`** (SERIOUS)\n   - **Help:** Frames must have an accessible name\n   - **Selector:** `.col-12.col-md-3:nth-child(1) > .ab-social-cart > iframe`\n4. **`[other] frame-title`** (SERIOUS)\n   - **Help:** Frames must have an accessible name\n   - **Selector:** `.col-12.col-md-3:nth-child(2) > .ab-social-cart > iframe`\n5. **`[other] frame-title`** (SERIOUS)\n   - **Help:** Frames must have an accessible name\n   - **Selector:** `iframe[allow=\"encrypted-media\"]`\n6. **`[other] frame-title`** (SERIOUS)\n   - **Help:** Frames must have an accessible name\n   - **Selector:** `.w-100`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Bharat_Heavy_Electricals_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Bharat_Heavy_Electricals_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Bharat_Heavy_Electricals_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Bharat_Heavy_Electricals_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Bharat_Heavy_Electricals_Ltd/screenshots/Bharat_Heavy_Electricals_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Bharat Heavy Electricals Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `76 / 100`  \n> **Total WCAG Violations:** `6`  \n> **Verified Contact Email:** `investor@bigshareonline.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `investor@bigshareonline.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **76/100** on automated WCAG 2.1 AA accessibility testing with **6 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `76/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `2` | Serious: `4` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Clean Codebase:** No automated DOM accessibility defects found on scanned pages. Keep auditing dynamic components.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Bharat Heavy Electricals Ltd\n- **Resolved URL:** [https://bhel.com](https://bhel.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `investor@bigshareonline.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `investor@bigshareonline.com` | **Status:** `Verified` | **Source Page:** https://bhel.com/investor-grievance-redressal-mechanism\n- **General Contact Email:** `investor@bigshareonline.com` | **Status:** `Verified` | **Source Page:** https://bhel.com/investor-grievance-redressal-mechanism\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.business_solution_carosel > .owl-dots > .owl-dot.active`\n2. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.business_solution_carosel > .owl-dots > .owl-dot:nth-child(2)`\n3. **`[other] frame-title`** (SERIOUS)\n   - **Help:** Frames must have an accessible name\n   - **Selector:** `.col-12.col-md-3:nth-child(1) > .ab-social-cart > iframe`\n4. **`[other] frame-title`** (SERIOUS)\n   - **Help:** Frames must have an accessible name\n   - **Selector:** `.col-12.col-md-3:nth-child(2) > .ab-social-cart > iframe`\n5. **`[other] frame-title`** (SERIOUS)\n   - **Help:** Frames must have an accessible name\n   - **Selector:** `iframe[allow=\"encrypted-media\"]`\n6. **`[other] frame-title`** (SERIOUS)\n   - **Help:** Frames must have an accessible name\n   - **Selector:** `.w-100`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Bharat_Heavy_Electricals_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Bharat_Heavy_Electricals_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Bharat_Heavy_Electricals_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 6. WAVE AIM: N/A. Lighthouse A11y: 76/100.",
+  "timestamp": "2026-08-11T11:34:01.276Z"
+}

@@ -1,0 +1,178 @@
+{
+  "company": {
+    "srNo": 37,
+    "companyName": "Chambal Fertilisers & Chemicals Ltd",
+    "readymadeWebsite": "https://chambalfertilisers.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (Chambal Fertilisers & Chemicals Ltd)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://chambalfertilisers.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://chambalfertilisers.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "einward.ris@Kfintech.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://chambalfertilisers.com"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "einward.ris@Kfintech.com",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://chambalfertilisers.com"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://chambalfertilisers.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "frame-title",
+          "impact": "serious",
+          "description": "Ensure <iframe> and <frame> elements have an accessible name",
+          "help": "Frames must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/frame-title?application=playwright",
+          "category": "other",
+          "selector": "#ticks",
+          "html": "<iframe width=\"730\" scrolling=\"No\" height=\"20\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\" src=\"https://cmlinks.in/Chambal/tickerIframe.aspx\" id=\"ticks\"></iframe>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "frame-title",
+          "impact": "serious",
+          "description": "Ensure <iframe> and <frame> elements have an accessible name",
+          "help": "Frames must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/frame-title?application=playwright",
+          "category": "other",
+          "selector": "#ticks > #ticks",
+          "html": "<iframe id=\"ticks\" src=\"https://cmlinks.in/Chambal/ticker.aspx\" width=\"730\" height=\"20\" marginwidth=\"0\" marginheight=\"0\" frameborder=\"0\" scrolling=\"No\"></iframe>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "img[src$=\"chambalgjk3.jpg\"]",
+          "html": "<img src=\"chambalgjk3.jpg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "#ticks > #ticks > #tdbse",
+          "html": "<img id=\"tdbse\" src=\"../Chambal/images/BSEON.gif\" style=\"CURSOR: default\" onclick=\"javascript:getTickerData('BSE');\" width=\"29\" height=\"20\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "#ticks > #ticks > #tdnse",
+          "html": "<img id=\"tdnse\" src=\"../Chambal/images/NSEOF.gif\" style=\"CURSOR: pointer\" onclick=\"javascript:getTickerData('NSE');\" width=\"29\" height=\"20\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/label?application=playwright",
+          "category": "form_labels",
+          "selector": "#mod-search-searchword",
+          "html": "<input name=\"searchword\" id=\"mod-search-searchword\" maxlength=\"20\" class=\"txtdata\" type=\"text\" size=\"20\" value=\"\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "marquee",
+          "impact": "serious",
+          "description": "Ensure <marquee> elements are not used",
+          "help": "<marquee> elements are deprecated and must not be used",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/marquee?application=playwright",
+          "category": "other",
+          "selector": "#ticks > #ticks > #MarqueeId",
+          "html": "<marquee id=\"MarqueeId\" onmouseover=\"this.stop();\" target=\"_self\" onmouseout=\"this.start();\" truespeed=\"\" scrollamount=\"2\" scrolldelay=\"35\" direction=\"left\" width=\"100%\" height=\"20\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "marquee",
+          "impact": "serious",
+          "description": "Ensure <marquee> elements are not used",
+          "help": "<marquee> elements are deprecated and must not be used",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/marquee?application=playwright",
+          "category": "other",
+          "selector": "marquee",
+          "html": "<marquee style=\"width: 700px;margin: 0 auto;\" onmouseout=\"start()\" onmouseover=\"stop()\" scrollamount=\"5\" direction=\"left\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 68,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Chambal_Fertilisers___Chemicals_Ltd/screenshots/Chambal_Fertilisers___Chemicals_Ltd_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Chambal_Fertilisers___Chemicals_Ltd/screenshots/Chambal_Fertilisers___Chemicals_Ltd_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Chambal_Fertilisers___Chemicals_Ltd/screenshots/Chambal_Fertilisers___Chemicals_Ltd_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 8,
+  "altTextViolations": 3,
+  "contrastViolations": 0,
+  "labelViolations": 1,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 68,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Chambal_Fertilisers___Chemicals_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Chambal_Fertilisers___Chemicals_Ltd/screenshots/Chambal_Fertilisers___Chemicals_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Chambal Fertilisers & Chemicals Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `68 / 100`  \n> **Total WCAG Violations:** `8`  \n> **Verified Contact Email:** `einward.ris@Kfintech.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `einward.ris@Kfintech.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **68/100** on automated WCAG 2.1 AA accessibility testing with **8 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `68/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `4` | Serious: `4` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 3 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 1 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (3 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Form Labels & ARIA (1 issues):** Associate all `<input>` and `<select>` elements with explicit `<label for=\"...\">` tags or `aria-label` attributes.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Chambal Fertilisers & Chemicals Ltd\n- **Resolved URL:** [https://chambalfertilisers.com](https://chambalfertilisers.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `einward.ris@Kfintech.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `einward.ris@Kfintech.com` | **Status:** `Verified` | **Source Page:** https://chambalfertilisers.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] frame-title`** (SERIOUS)\n   - **Help:** Frames must have an accessible name\n   - **Selector:** `#ticks`\n2. **`[other] frame-title`** (SERIOUS)\n   - **Help:** Frames must have an accessible name\n   - **Selector:** `#ticks > #ticks`\n3. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `img[src$=\"chambalgjk3.jpg\"]`\n4. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `#ticks > #ticks > #tdbse`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `#ticks > #ticks > #tdnse`\n6. **`[form_labels] label`** (CRITICAL)\n   - **Help:** Form elements must have labels\n   - **Selector:** `#mod-search-searchword`\n7. **`[other] marquee`** (SERIOUS)\n   - **Help:** <marquee> elements are deprecated and must not be used\n   - **Selector:** `#ticks > #ticks > #MarqueeId`\n8. **`[other] marquee`** (SERIOUS)\n   - **Help:** <marquee> elements are deprecated and must not be used\n   - **Selector:** `marquee`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Chambal_Fertilisers___Chemicals_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Chambal_Fertilisers___Chemicals_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Chambal_Fertilisers___Chemicals_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Chambal_Fertilisers___Chemicals_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Chambal_Fertilisers___Chemicals_Ltd/screenshots/Chambal_Fertilisers___Chemicals_Ltd_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Chambal Fertilisers & Chemicals Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `68 / 100`  \n> **Total WCAG Violations:** `8`  \n> **Verified Contact Email:** `einward.ris@Kfintech.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `einward.ris@Kfintech.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **68/100** on automated WCAG 2.1 AA accessibility testing with **8 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `68/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `4` | Serious: `4` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 3 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 1 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (3 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Form Labels & ARIA (1 issues):** Associate all `<input>` and `<select>` elements with explicit `<label for=\"...\">` tags or `aria-label` attributes.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Chambal Fertilisers & Chemicals Ltd\n- **Resolved URL:** [https://chambalfertilisers.com](https://chambalfertilisers.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `einward.ris@Kfintech.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `einward.ris@Kfintech.com` | **Status:** `Verified` | **Source Page:** https://chambalfertilisers.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] frame-title`** (SERIOUS)\n   - **Help:** Frames must have an accessible name\n   - **Selector:** `#ticks`\n2. **`[other] frame-title`** (SERIOUS)\n   - **Help:** Frames must have an accessible name\n   - **Selector:** `#ticks > #ticks`\n3. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `img[src$=\"chambalgjk3.jpg\"]`\n4. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `#ticks > #ticks > #tdbse`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `#ticks > #ticks > #tdnse`\n6. **`[form_labels] label`** (CRITICAL)\n   - **Help:** Form elements must have labels\n   - **Selector:** `#mod-search-searchword`\n7. **`[other] marquee`** (SERIOUS)\n   - **Help:** <marquee> elements are deprecated and must not be used\n   - **Selector:** `#ticks > #ticks > #MarqueeId`\n8. **`[other] marquee`** (SERIOUS)\n   - **Help:** <marquee> elements are deprecated and must not be used\n   - **Selector:** `marquee`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Chambal_Fertilisers___Chemicals_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Chambal_Fertilisers___Chemicals_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Chambal_Fertilisers___Chemicals_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Chambal_Fertilisers___Chemicals_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Chambal_Fertilisers___Chemicals_Ltd/screenshots/Chambal_Fertilisers___Chemicals_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Chambal Fertilisers & Chemicals Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `68 / 100`  \n> **Total WCAG Violations:** `8`  \n> **Verified Contact Email:** `einward.ris@Kfintech.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `einward.ris@Kfintech.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **68/100** on automated WCAG 2.1 AA accessibility testing with **8 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `68/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `4` | Serious: `4` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 3 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 1 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (3 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Form Labels & ARIA (1 issues):** Associate all `<input>` and `<select>` elements with explicit `<label for=\"...\">` tags or `aria-label` attributes.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Chambal Fertilisers & Chemicals Ltd\n- **Resolved URL:** [https://chambalfertilisers.com](https://chambalfertilisers.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `einward.ris@Kfintech.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `einward.ris@Kfintech.com` | **Status:** `Verified` | **Source Page:** https://chambalfertilisers.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] frame-title`** (SERIOUS)\n   - **Help:** Frames must have an accessible name\n   - **Selector:** `#ticks`\n2. **`[other] frame-title`** (SERIOUS)\n   - **Help:** Frames must have an accessible name\n   - **Selector:** `#ticks > #ticks`\n3. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `img[src$=\"chambalgjk3.jpg\"]`\n4. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `#ticks > #ticks > #tdbse`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `#ticks > #ticks > #tdnse`\n6. **`[form_labels] label`** (CRITICAL)\n   - **Help:** Form elements must have labels\n   - **Selector:** `#mod-search-searchword`\n7. **`[other] marquee`** (SERIOUS)\n   - **Help:** <marquee> elements are deprecated and must not be used\n   - **Selector:** `#ticks > #ticks > #MarqueeId`\n8. **`[other] marquee`** (SERIOUS)\n   - **Help:** <marquee> elements are deprecated and must not be used\n   - **Selector:** `marquee`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Chambal_Fertilisers___Chemicals_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Chambal_Fertilisers___Chemicals_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Chambal_Fertilisers___Chemicals_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 8. WAVE AIM: N/A. Lighthouse A11y: 68/100.",
+  "timestamp": "2026-08-11T11:36:58.469Z"
+}

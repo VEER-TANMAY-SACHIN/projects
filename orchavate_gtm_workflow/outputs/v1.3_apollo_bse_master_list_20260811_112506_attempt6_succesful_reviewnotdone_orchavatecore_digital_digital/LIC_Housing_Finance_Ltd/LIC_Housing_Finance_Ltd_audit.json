@@ -1,0 +1,398 @@
+{
+  "company": {
+    "srNo": 130,
+    "companyName": "LIC Housing Finance Ltd",
+    "readymadeWebsite": "https://lichousing.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (LIC Housing Finance Ltd)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://lichousing.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://lichousing.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "customersupport@lichousing.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://lichousing.com"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "customersupport@lichousing.com",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://lichousing.com"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://lichousing.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[data-event-key=\"tab1\"]",
+          "html": "<a data-event-key=\"tab1\" role=\"button\" data-rr-ui-event-key=\"tab1\" class=\"nav-link\" tabindex=\"0\" href=\"#\">Corporate Offerings</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[data-event-key=\"tab2\"]",
+          "html": "<a data-event-key=\"tab2\" role=\"button\" data-rr-ui-event-key=\"tab2\" class=\"nav-link\" tabindex=\"0\" href=\"#\">Deposits</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[data-event-key=\"loan_eligibility_calculator\"]",
+          "html": "<a data-event-key=\"loan_eligibility_calculator\" role=\"button\" data-rr-ui-event-key=\"loan_eligibility_calculator\" class=\"nav-link\" tabindex=\"0\" href=\"#\">Loan Eligibility Calculator</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[data-event-key=\"balance_transfer_calculator\"]",
+          "html": "<a data-event-key=\"balance_transfer_calculator\" role=\"button\" data-rr-ui-event-key=\"balance_transfer_calculator\" class=\"nav-link\" tabindex=\"0\" href=\"#\">Balance Transfer Calculator</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[data-event-key=\"affordability_calculator\"]",
+          "html": "<a data-event-key=\"affordability_calculator\" role=\"button\" data-rr-ui-event-key=\"affordability_calculator\" class=\"nav-link\" tabindex=\"0\" href=\"#\">Affordability Calculator</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[data-event-key=\"newsEvents\"]",
+          "html": "<a data-event-key=\"newsEvents\" role=\"button\" data-rr-ui-event-key=\"newsEvents\" class=\"nav-link\" tabindex=\"0\" href=\"#\">Latest News</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/label?application=playwright",
+          "category": "form_labels",
+          "selector": "input[min=\"50000\"]",
+          "html": "<input class=\"range-slider_range\" type=\"range\" min=\"50000\" max=\"10000000\" style=\"background:linear-gradient(90deg, rgb(25, 78, 144) 10.005002501250624%, rgb(224, 224, 224) 10.005002501250624%)\" value=\"1000000\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/label?application=playwright",
+          "category": "form_labels",
+          "selector": ".range-slider_value[value=\"1000000\"][type=\"number\"]",
+          "html": "<input type=\"number\" class=\"form-control range-slider_value\" value=\"1000000\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/label?application=playwright",
+          "category": "form_labels",
+          "selector": ".active.tab-pane[role=\"tabpanel\"] > .row > .col-lg.col-calc > .calc-slider > .range-slider:nth-child(2) > .align-items-center.row > .col-sm > input[min=\"1\"][max=\"100\"][value=\"7.15\"]",
+          "html": "<input class=\"range-slider_range\" type=\"range\" min=\"1\" max=\"100\" style=\"background:linear-gradient(90deg, rgb(25, 78, 144) 7.15%, rgb(224, 224, 224) 7.15%)\" value=\"7.15\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/label?application=playwright",
+          "category": "form_labels",
+          "selector": ".active.tab-pane[role=\"tabpanel\"] > .row > .col-lg.col-calc > .calc-slider > .range-slider:nth-child(2) > .align-items-center.row > .col-sm-auto > .range-slider_value[value=\"7.15\"][type=\"number\"]",
+          "html": "<input type=\"number\" class=\"form-control range-slider_value\" value=\"7.15\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/label?application=playwright",
+          "category": "form_labels",
+          "selector": ".range-slider:nth-child(3) > .align-items-center.row > .col-sm > input[min=\"12\"][max=\"360\"][value=\"12\"]",
+          "html": "<input class=\"range-slider_range\" type=\"range\" min=\"12\" max=\"360\" style=\"background:linear-gradient(90deg, rgb(25, 78, 144) 0%, rgb(224, 224, 224) 0%)\" value=\"12\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/label?application=playwright",
+          "category": "form_labels",
+          "selector": ".range-slider:nth-child(3) > .align-items-center.row > .col-sm-auto > .range-slider_value[value=\"12\"][type=\"number\"]",
+          "html": "<input type=\"number\" class=\"form-control range-slider_value\" value=\"12\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".navbar-brand",
+          "html": "<a class=\"navbar-brand\" href=\"/\"><img src=\"/images/lic-hfl-logo.svg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".sticky-nav > a[rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a href=\"https://wa.me/918369998182?text=Hey%20there%20!\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"/images/icons/whatasApp.png\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".sticky-nav > a[href=\"#\"]",
+          "html": "<a href=\"#\"><img src=\"/images/icons/emi_calc.png\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".swiper-slide:nth-child(1) > .homy-list > .app-cta > a[target=\"\"]:nth-child(1)",
+          "html": "<a href=\"https://apps.apple.com/in/app/lichfl-home-loans/id1498302597\" target=\"\"><img src=\"https://cdn.lichousing.com/2024/11/apple_store.png\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".swiper-slide:nth-child(1) > .homy-list > .app-cta > a[target=\"\"]:nth-child(2)",
+          "html": "<a href=\"https://play.google.com/store/apps/details?id=application.lichfl.online&amp;hl=en_IN&amp;gl=US\" target=\"\"><img src=\"https://cdn.lichousing.com/2024/11/play_store.png\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".swiper-slide:nth-child(2) > .homy-list > .app-cta > a[target=\"\"]:nth-child(1)",
+          "html": "<a href=\"https://apps.apple.com/in/app/lichfl-home-loans/id1498302597\" target=\"\"><img src=\"https://cdn.lichousing.com/2024/11/apple_store.png\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".swiper-slide:nth-child(2) > .homy-list > .app-cta > a[target=\"\"]:nth-child(2)",
+          "html": "<a href=\"https://play.google.com/store/apps/details?id=application.lichfl.online&amp;hl=en_IN&amp;gl=US\" target=\"\"><img src=\"https://cdn.lichousing.com/2024/11/play_store.png\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[href$=\"Repay Certificate\"]",
+          "html": "<a href=\"Repay Certificate\" target=\"\"><img alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[href=\"#\"][target=\"\"]",
+          "html": "<a href=\"#\" target=\"\"><img alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[href=\"\"][target=\"\"]:nth-child(1)",
+          "html": "<a href=\"\" target=\"\"><img alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[href=\"\"][target=\"\"]:nth-child(2)",
+          "html": "<a href=\"\" target=\"\"><img alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".footer-social > a[rel=\"noopener noreferrer\"][target=\"_blank\"]:nth-child(1)",
+          "html": "<a href=\"https://www.facebook.com/lichousingloans/\" target=\"_blank\" rel=\"noopener noreferrer\"><i class=\"fa-brands fa-facebook-f\"></i></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[href$=\"LIC_HFL\"]",
+          "html": "<a href=\"https://x.com/LIC_HFL\" target=\"_blank\" rel=\"noopener noreferrer\"><i class=\"fa-brands fa-x-twitter\"></i></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[rel=\"noopener noreferrer\"][target=\"_blank\"]:nth-child(3)",
+          "html": "<a href=\"https://www.instagram.com/lichfl_official\" target=\"_blank\" rel=\"noopener noreferrer\"><i class=\"fa-brands fa-instagram\"></i></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[rel=\"noopener noreferrer\"][target=\"_blank\"]:nth-child(4)",
+          "html": "<a href=\"https://www.linkedin.com/company/lic-housing-finance-limited/\" target=\"_blank\" rel=\"noopener noreferrer\"><i class=\"fa-brands fa-linkedin-in\"></i></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[rel=\"noopener noreferrer\"][target=\"_blank\"]:nth-child(5)",
+          "html": "<a href=\"https://www.youtube.com/c/Lichousingfinanceloans\" target=\"_blank\" rel=\"noopener noreferrer\"><i class=\"fa-brands fa-youtube\"></i></a>",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/LIC_Housing_Finance_Ltd/screenshots/LIC_Housing_Finance_Ltd_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/LIC_Housing_Finance_Ltd/screenshots/LIC_Housing_Finance_Ltd_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/LIC_Housing_Finance_Ltd/screenshots/LIC_Housing_Finance_Ltd_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 28,
+  "altTextViolations": 0,
+  "contrastViolations": 6,
+  "labelViolations": 6,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/LIC_Housing_Finance_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/LIC_Housing_Finance_Ltd/screenshots/LIC_Housing_Finance_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — LIC Housing Finance Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `28`  \n> **Verified Contact Email:** `customersupport@lichousing.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `customersupport@lichousing.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **28 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `6` | Serious: `22` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 6 violations\n- 📝 **Form & Structural Labels:** 6 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (6 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Form Labels & ARIA (6 issues):** Associate all `<input>` and `<select>` elements with explicit `<label for=\"...\">` tags or `aria-label` attributes.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** LIC Housing Finance Ltd\n- **Resolved URL:** [https://lichousing.com](https://lichousing.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `customersupport@lichousing.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `customersupport@lichousing.com` | **Status:** `Verified` | **Source Page:** https://lichousing.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[data-event-key=\"tab1\"]`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[data-event-key=\"tab2\"]`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[data-event-key=\"loan_eligibility_calculator\"]`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[data-event-key=\"balance_transfer_calculator\"]`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[data-event-key=\"affordability_calculator\"]`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[data-event-key=\"newsEvents\"]`\n7. **`[form_labels] label`** (CRITICAL)\n   - **Help:** Form elements must have labels\n   - **Selector:** `input[min=\"50000\"]`\n8. **`[form_labels] label`** (CRITICAL)\n   - **Help:** Form elements must have labels\n   - **Selector:** `.range-slider_value[value=\"1000000\"][type=\"number\"]`\n9. **`[form_labels] label`** (CRITICAL)\n   - **Help:** Form elements must have labels\n   - **Selector:** `.active.tab-pane[role=\"tabpanel\"] > .row > .col-lg.col-calc > .calc-slider > .range-slider:nth-child(2) > .align-items-center.row > .col-sm > input[min=\"1\"][max=\"100\"][value=\"7.15\"]`\n10. **`[form_labels] label`** (CRITICAL)\n   - **Help:** Form elements must have labels\n   - **Selector:** `.active.tab-pane[role=\"tabpanel\"] > .row > .col-lg.col-calc > .calc-slider > .range-slider:nth-child(2) > .align-items-center.row > .col-sm-auto > .range-slider_value[value=\"7.15\"][type=\"number\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/LIC_Housing_Finance_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/LIC_Housing_Finance_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/LIC_Housing_Finance_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/LIC_Housing_Finance_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/LIC_Housing_Finance_Ltd/screenshots/LIC_Housing_Finance_Ltd_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — LIC Housing Finance Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `28`  \n> **Verified Contact Email:** `customersupport@lichousing.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `customersupport@lichousing.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **28 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `6` | Serious: `22` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 6 violations\n- 📝 **Form & Structural Labels:** 6 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (6 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Form Labels & ARIA (6 issues):** Associate all `<input>` and `<select>` elements with explicit `<label for=\"...\">` tags or `aria-label` attributes.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** LIC Housing Finance Ltd\n- **Resolved URL:** [https://lichousing.com](https://lichousing.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `customersupport@lichousing.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `customersupport@lichousing.com` | **Status:** `Verified` | **Source Page:** https://lichousing.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[data-event-key=\"tab1\"]`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[data-event-key=\"tab2\"]`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[data-event-key=\"loan_eligibility_calculator\"]`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[data-event-key=\"balance_transfer_calculator\"]`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[data-event-key=\"affordability_calculator\"]`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[data-event-key=\"newsEvents\"]`\n7. **`[form_labels] label`** (CRITICAL)\n   - **Help:** Form elements must have labels\n   - **Selector:** `input[min=\"50000\"]`\n8. **`[form_labels] label`** (CRITICAL)\n   - **Help:** Form elements must have labels\n   - **Selector:** `.range-slider_value[value=\"1000000\"][type=\"number\"]`\n9. **`[form_labels] label`** (CRITICAL)\n   - **Help:** Form elements must have labels\n   - **Selector:** `.active.tab-pane[role=\"tabpanel\"] > .row > .col-lg.col-calc > .calc-slider > .range-slider:nth-child(2) > .align-items-center.row > .col-sm > input[min=\"1\"][max=\"100\"][value=\"7.15\"]`\n10. **`[form_labels] label`** (CRITICAL)\n   - **Help:** Form elements must have labels\n   - **Selector:** `.active.tab-pane[role=\"tabpanel\"] > .row > .col-lg.col-calc > .calc-slider > .range-slider:nth-child(2) > .align-items-center.row > .col-sm-auto > .range-slider_value[value=\"7.15\"][type=\"number\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/LIC_Housing_Finance_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/LIC_Housing_Finance_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/LIC_Housing_Finance_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/LIC_Housing_Finance_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/LIC_Housing_Finance_Ltd/screenshots/LIC_Housing_Finance_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — LIC Housing Finance Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `28`  \n> **Verified Contact Email:** `customersupport@lichousing.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `customersupport@lichousing.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **28 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `6` | Serious: `22` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 6 violations\n- 📝 **Form & Structural Labels:** 6 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (6 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Form Labels & ARIA (6 issues):** Associate all `<input>` and `<select>` elements with explicit `<label for=\"...\">` tags or `aria-label` attributes.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** LIC Housing Finance Ltd\n- **Resolved URL:** [https://lichousing.com](https://lichousing.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `customersupport@lichousing.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `customersupport@lichousing.com` | **Status:** `Verified` | **Source Page:** https://lichousing.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[data-event-key=\"tab1\"]`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[data-event-key=\"tab2\"]`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[data-event-key=\"loan_eligibility_calculator\"]`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[data-event-key=\"balance_transfer_calculator\"]`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[data-event-key=\"affordability_calculator\"]`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[data-event-key=\"newsEvents\"]`\n7. **`[form_labels] label`** (CRITICAL)\n   - **Help:** Form elements must have labels\n   - **Selector:** `input[min=\"50000\"]`\n8. **`[form_labels] label`** (CRITICAL)\n   - **Help:** Form elements must have labels\n   - **Selector:** `.range-slider_value[value=\"1000000\"][type=\"number\"]`\n9. **`[form_labels] label`** (CRITICAL)\n   - **Help:** Form elements must have labels\n   - **Selector:** `.active.tab-pane[role=\"tabpanel\"] > .row > .col-lg.col-calc > .calc-slider > .range-slider:nth-child(2) > .align-items-center.row > .col-sm > input[min=\"1\"][max=\"100\"][value=\"7.15\"]`\n10. **`[form_labels] label`** (CRITICAL)\n   - **Help:** Form elements must have labels\n   - **Selector:** `.active.tab-pane[role=\"tabpanel\"] > .row > .col-lg.col-calc > .calc-slider > .range-slider:nth-child(2) > .align-items-center.row > .col-sm-auto > .range-slider_value[value=\"7.15\"][type=\"number\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/LIC_Housing_Finance_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/LIC_Housing_Finance_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/LIC_Housing_Finance_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 28. WAVE AIM: N/A. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-11T11:55:38.809Z"
+}

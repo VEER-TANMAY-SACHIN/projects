@@ -1,0 +1,250 @@
+{
+  "company": {
+    "srNo": 39,
+    "companyName": "Cipla Ltd",
+    "readymadeWebsite": "https://cipla.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (Cipla Ltd)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://cipla.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://cipla.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "info@cipla.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Unverified - guessed pattern"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "info@cipla.com",
+        "type": "general",
+        "label": "General Contact Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      },
+      {
+        "address": "contact@cipla.com",
+        "type": "compliance_grievance",
+        "label": "Investor Grievance Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      }
+    ],
+    "overallStatus": "Unverified - guessed pattern",
+    "evidenceScreenshots": [
+      "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Cipla_Ltd/screenshots/Cipla_Ltd_EmailEvidence_NotFound_ContactPage.png"
+    ]
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://cipla.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "#pills-purpose-686 > .our-purpose-image > .anims-reveal > .img-fluid[width=\"1500\"][height=\"660\"]",
+          "html": "<img loading=\"lazy\" src=\"/sites/default/files/2025-08/our-purpose.webp\" width=\"1500\" height=\"660\" typeof=\"foaf:Image\" class=\"img-fluid\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "figure[data-delay=\"1\"] > a > .img-fluid[height=\"371\"][width=\"700\"]",
+          "html": "<img loading=\"lazy\" src=\"/sites/default/files/2025-08/respiratory.webp\" width=\"700\" height=\"371\" typeof=\"foaf:Image\" class=\"img-fluid\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "img[height=\"462\"]",
+          "html": "<img loading=\"lazy\" src=\"/sites/default/files/2025-08/oncology.webp\" width=\"700\" height=\"462\" typeof=\"foaf:Image\" class=\"img-fluid\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "figure[data-delay=\"5\"] > a > .img-fluid[height=\"371\"][width=\"700\"]",
+          "html": "<img loading=\"lazy\" src=\"/sites/default/files/2025-08/hiv.webp\" width=\"700\" height=\"371\" typeof=\"foaf:Image\" class=\"img-fluid\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "figure[data-delay=\"8\"] > a > .img-fluid[height=\"371\"][width=\"700\"]",
+          "html": "<img loading=\"lazy\" src=\"/sites/default/files/2025-08/other-therapied.webp\" width=\"700\" height=\"371\" typeof=\"foaf:Image\" class=\"img-fluid\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "div[aria-label=\"1 / 5\"] > .card-component-two > .card-component-content > h3 > span > .img-fluid[loading=\"lazy\"][typeof=\"foaf:Image\"]",
+          "html": "<img loading=\"lazy\" src=\"/sites/default/files/2025-07/standing-icon1_0.svg\" typeof=\"foaf:Image\" class=\"img-fluid\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "div[aria-label=\"2 / 5\"] > .card-component-two > .card-component-content > h3 > span > .img-fluid[width=\"100\"][height=\"100\"]",
+          "html": "<img loading=\"lazy\" src=\"/sites/default/files/2025-07/skilling-icon_0.png\" width=\"100\" height=\"100\" typeof=\"foaf:Image\" class=\"img-fluid\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "div[aria-label=\"3 / 5\"] > .card-component-two > .card-component-content > h3 > span > .img-fluid[loading=\"lazy\"][typeof=\"foaf:Image\"]",
+          "html": "<img loading=\"lazy\" src=\"/sites/default/files/2025-07/standing-icon2.svg\" typeof=\"foaf:Image\" class=\"img-fluid\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "div[aria-label=\"4 / 5\"] > .card-component-two > .card-component-content > h3 > span > .img-fluid[loading=\"lazy\"][typeof=\"foaf:Image\"]",
+          "html": "<img loading=\"lazy\" src=\"/sites/default/files/2025-07/standing-icon3_0.svg\" typeof=\"foaf:Image\" class=\"img-fluid\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "div[aria-label=\"5 / 5\"] > .card-component-two > .card-component-content > h3 > span > .img-fluid[width=\"100\"][height=\"100\"]",
+          "html": "<img loading=\"lazy\" src=\"/sites/default/files/2025-07/disaster-icon.png\" width=\"100\" height=\"100\" typeof=\"foaf:Image\" class=\"img-fluid\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "a[aria-label=\"Twitter\"] > img",
+          "html": "<img src=\"https://www.cipla.com/sites/default/files/2025-07/twitter-x.png\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".swiper-slide-active[aria-label=\"1 / 7\"][data-swiper-slide-index=\"0\"] > a",
+          "html": "<a href=\"https://www.cipla.com/sites/default/files/Cipla-Annual-Report-FY2025-26.pdf\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[href$=\"virtualtour.cipla.com/\"]",
+          "html": "<a href=\"https://virtualtour.cipla.com/\" target=\"_blank\" rel=\"noopener noreferrer\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".swiper-slide[aria-label=\"4 / 7\"][data-swiper-slide-index=\"3\"] > a[rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a href=\"https://www.cipla.com/sites/default/files/The_Cipla_Story_A_Legacy_of_Care.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 44,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Cipla_Ltd/screenshots/Cipla_Ltd_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Cipla_Ltd/screenshots/Cipla_Ltd_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Cipla_Ltd/screenshots/Cipla_Ltd_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 14,
+  "altTextViolations": 11,
+  "contrastViolations": 0,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 44,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Cipla_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Cipla_Ltd/screenshots/Cipla_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Cipla Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `44 / 100`  \n> **Total WCAG Violations:** `14`  \n> **Verified Contact Email:** `info@cipla.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@cipla.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **44/100** on automated WCAG 2.1 AA accessibility testing with **14 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `44/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `11` | Serious: `3` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 11 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (11 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Cipla Ltd\n- **Resolved URL:** [https://cipla.com](https://cipla.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@cipla.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@cipla.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@cipla.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `#pills-purpose-686 > .our-purpose-image > .anims-reveal > .img-fluid[width=\"1500\"][height=\"660\"]`\n2. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `figure[data-delay=\"1\"] > a > .img-fluid[height=\"371\"][width=\"700\"]`\n3. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `img[height=\"462\"]`\n4. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `figure[data-delay=\"5\"] > a > .img-fluid[height=\"371\"][width=\"700\"]`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `figure[data-delay=\"8\"] > a > .img-fluid[height=\"371\"][width=\"700\"]`\n6. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `div[aria-label=\"1 / 5\"] > .card-component-two > .card-component-content > h3 > span > .img-fluid[loading=\"lazy\"][typeof=\"foaf:Image\"]`\n7. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `div[aria-label=\"2 / 5\"] > .card-component-two > .card-component-content > h3 > span > .img-fluid[width=\"100\"][height=\"100\"]`\n8. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `div[aria-label=\"3 / 5\"] > .card-component-two > .card-component-content > h3 > span > .img-fluid[loading=\"lazy\"][typeof=\"foaf:Image\"]`\n9. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `div[aria-label=\"4 / 5\"] > .card-component-two > .card-component-content > h3 > span > .img-fluid[loading=\"lazy\"][typeof=\"foaf:Image\"]`\n10. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `div[aria-label=\"5 / 5\"] > .card-component-two > .card-component-content > h3 > span > .img-fluid[width=\"100\"][height=\"100\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Cipla_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Cipla_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Cipla_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Cipla_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Cipla_Ltd/screenshots/Cipla_Ltd_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Cipla Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `44 / 100`  \n> **Total WCAG Violations:** `14`  \n> **Verified Contact Email:** `info@cipla.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@cipla.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **44/100** on automated WCAG 2.1 AA accessibility testing with **14 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `44/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `11` | Serious: `3` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 11 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (11 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Cipla Ltd\n- **Resolved URL:** [https://cipla.com](https://cipla.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@cipla.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@cipla.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@cipla.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `#pills-purpose-686 > .our-purpose-image > .anims-reveal > .img-fluid[width=\"1500\"][height=\"660\"]`\n2. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `figure[data-delay=\"1\"] > a > .img-fluid[height=\"371\"][width=\"700\"]`\n3. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `img[height=\"462\"]`\n4. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `figure[data-delay=\"5\"] > a > .img-fluid[height=\"371\"][width=\"700\"]`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `figure[data-delay=\"8\"] > a > .img-fluid[height=\"371\"][width=\"700\"]`\n6. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `div[aria-label=\"1 / 5\"] > .card-component-two > .card-component-content > h3 > span > .img-fluid[loading=\"lazy\"][typeof=\"foaf:Image\"]`\n7. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `div[aria-label=\"2 / 5\"] > .card-component-two > .card-component-content > h3 > span > .img-fluid[width=\"100\"][height=\"100\"]`\n8. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `div[aria-label=\"3 / 5\"] > .card-component-two > .card-component-content > h3 > span > .img-fluid[loading=\"lazy\"][typeof=\"foaf:Image\"]`\n9. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `div[aria-label=\"4 / 5\"] > .card-component-two > .card-component-content > h3 > span > .img-fluid[loading=\"lazy\"][typeof=\"foaf:Image\"]`\n10. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `div[aria-label=\"5 / 5\"] > .card-component-two > .card-component-content > h3 > span > .img-fluid[width=\"100\"][height=\"100\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Cipla_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Cipla_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Cipla_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Cipla_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Cipla_Ltd/screenshots/Cipla_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Cipla Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `44 / 100`  \n> **Total WCAG Violations:** `14`  \n> **Verified Contact Email:** `info@cipla.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@cipla.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **44/100** on automated WCAG 2.1 AA accessibility testing with **14 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `44/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `11` | Serious: `3` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 11 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (11 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Cipla Ltd\n- **Resolved URL:** [https://cipla.com](https://cipla.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@cipla.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@cipla.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@cipla.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `#pills-purpose-686 > .our-purpose-image > .anims-reveal > .img-fluid[width=\"1500\"][height=\"660\"]`\n2. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `figure[data-delay=\"1\"] > a > .img-fluid[height=\"371\"][width=\"700\"]`\n3. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `img[height=\"462\"]`\n4. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `figure[data-delay=\"5\"] > a > .img-fluid[height=\"371\"][width=\"700\"]`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `figure[data-delay=\"8\"] > a > .img-fluid[height=\"371\"][width=\"700\"]`\n6. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `div[aria-label=\"1 / 5\"] > .card-component-two > .card-component-content > h3 > span > .img-fluid[loading=\"lazy\"][typeof=\"foaf:Image\"]`\n7. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `div[aria-label=\"2 / 5\"] > .card-component-two > .card-component-content > h3 > span > .img-fluid[width=\"100\"][height=\"100\"]`\n8. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `div[aria-label=\"3 / 5\"] > .card-component-two > .card-component-content > h3 > span > .img-fluid[loading=\"lazy\"][typeof=\"foaf:Image\"]`\n9. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `div[aria-label=\"4 / 5\"] > .card-component-two > .card-component-content > h3 > span > .img-fluid[loading=\"lazy\"][typeof=\"foaf:Image\"]`\n10. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `div[aria-label=\"5 / 5\"] > .card-component-two > .card-component-content > h3 > span > .img-fluid[width=\"100\"][height=\"100\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Cipla_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Cipla_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Cipla_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 14. WAVE AIM: N/A. Lighthouse A11y: 44/100.",
+  "timestamp": "2026-08-11T11:31:59.296Z"
+}

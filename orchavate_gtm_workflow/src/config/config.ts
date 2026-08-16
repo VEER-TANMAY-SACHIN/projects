@@ -10,6 +10,7 @@ export interface AppConfig {
   cacheTTLMs: number;
   manualReviewThreshold: number;
   nonInteractive: boolean;
+  skipWave: boolean;           // --skip-wave: skip WAVE free-scan, use synthetic overlay instead
 }
 
 export const defaultConfig: AppConfig = {
@@ -22,6 +23,7 @@ export const defaultConfig: AppConfig = {
   cacheTTLMs: 7 * 24 * 60 * 60 * 1000, // 7 days
   manualReviewThreshold: 0.50,
   nonInteractive: false,
+  skipWave: false,
 };
 
 export function parseCliConfig(args: string[]): Partial<AppConfig> {
@@ -52,6 +54,10 @@ export function parseCliConfig(args: string[]): Partial<AppConfig> {
 
   if (args.includes('--non-interactive') || args.includes('-y')) {
     config.nonInteractive = true;
+  }
+
+  if (args.includes('--skip-wave')) {
+    config.skipWave = true;
   }
 
   return config;

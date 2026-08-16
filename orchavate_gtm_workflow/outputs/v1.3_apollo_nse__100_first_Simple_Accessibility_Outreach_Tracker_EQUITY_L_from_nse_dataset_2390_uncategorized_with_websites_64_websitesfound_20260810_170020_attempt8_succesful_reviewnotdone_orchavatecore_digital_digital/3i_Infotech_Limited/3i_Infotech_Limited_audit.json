@@ -1,0 +1,287 @@
+{
+  "company": {
+    "srNo": 5,
+    "companyName": "3i Infotech Limited",
+    "readymadeWebsite": "3i-infotech.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (3i Infotech Limited)",
+    "emailId": "None",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://3i-infotech.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://3i-infotech.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "marketing@3i-infotech.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://3i-infotech.com"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "marketing@3i-infotech.com",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://3i-infotech.com"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://3i-infotech.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": "button[data-target=\".aux-search-popup-bed4454\"]",
+          "html": "<button class=\"aux-search-submit aux-search-fullscreen\" data-target=\".aux-search-popup-bed4454\">\n<i class=\"auxicon auxicon-search auxin-front-icon\"></i>\n<span class=\"aux-submit-text\"></span>\n</button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".elementor-element-e03899e > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(1) > .elementor-icon-list-text > img[decoding=\"async\"]",
+          "html": "<img decoding=\"async\" src=\"https://www.3i-infotech.com/wp-content/uploads/2025/04/Arrow-icon.png\" style=\"width:16px;display:inline-block;margin-right: 5px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".elementor-element-e03899e > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(2) > .elementor-icon-list-text > img[decoding=\"async\"]",
+          "html": "<img decoding=\"async\" src=\"https://www.3i-infotech.com/wp-content/uploads/2025/04/Arrow-icon.png\" style=\"width:16px;display:inline-block;margin-right: 5px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".elementor-element-e03899e > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(3) > .elementor-icon-list-text > img[decoding=\"async\"]",
+          "html": "<img decoding=\"async\" src=\"https://www.3i-infotech.com/wp-content/uploads/2025/04/Arrow-icon.png\" style=\"width:16px;display:inline-block;margin-right: 5px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".elementor-element-e03899e > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(4) > .elementor-icon-list-text > img[decoding=\"async\"]",
+          "html": "<img decoding=\"async\" src=\"https://www.3i-infotech.com/wp-content/uploads/2025/04/Arrow-icon.png\" style=\"width:16px;display:inline-block;margin-right: 5px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".elementor-element-e03899e > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(5) > .elementor-icon-list-text > img[decoding=\"async\"]",
+          "html": "<img decoding=\"async\" src=\"https://www.3i-infotech.com/wp-content/uploads/2025/04/Arrow-icon.png\" style=\"width:16px;display:inline-block;margin-right: 5px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".elementor-element-4ae10a0 > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(1) > .elementor-icon-list-text > img[decoding=\"async\"]",
+          "html": "<img decoding=\"async\" src=\"https://www.3i-infotech.com/wp-content/uploads/2025/04/Arrow-icon.png\" style=\"width:16px;display:inline-block;margin-right: 2px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".elementor-element-4ae10a0 > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(2) > .elementor-icon-list-text > img[decoding=\"async\"]",
+          "html": "<img decoding=\"async\" src=\"https://www.3i-infotech.com/wp-content/uploads/2025/04/Arrow-icon.png\" style=\"width:16px;display:inline-block;margin-right: 5px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".elementor-element-4ae10a0 > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(3) > .elementor-icon-list-text > img[decoding=\"async\"]",
+          "html": "<img decoding=\"async\" src=\"https://www.3i-infotech.com/wp-content/uploads/2025/04/Arrow-icon.png\" style=\"width:16px;display:inline-block;margin-right: 5px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".elementor-element-4ae10a0 > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(4) > .elementor-icon-list-text > img[decoding=\"async\"]",
+          "html": "<img decoding=\"async\" src=\"https://www.3i-infotech.com/wp-content/uploads/2025/04/Arrow-icon.png\" style=\"width:16px;display:inline-block;margin-right: 5px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".elementor-element-4ae10a0 > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(5) > .elementor-icon-list-text > img[decoding=\"async\"]",
+          "html": "<img decoding=\"async\" src=\"https://www.3i-infotech.com/wp-content/uploads/2025/04/Arrow-icon.png\" style=\"width:16px;display:inline-block;margin-right: 5px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".elementor-icon-list-item:nth-child(6) > .elementor-icon-list-text > img[decoding=\"async\"]",
+          "html": "<img decoding=\"async\" src=\"https://www.3i-infotech.com/wp-content/uploads/2025/04/Arrow-icon.png\" style=\"width:16px;display:inline-block;margin-right: 5px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".elementor-element-a81f41d > .elementor-widget-container > .elementor-icon-wrapper > .elementor-icon",
+          "html": "<a class=\"elementor-icon\" href=\"https://www.3i-infotech.com/a-strategic-compass-navigating-cloud-integration-strategies-in-the-bfsi-landscape/\" tabindex=\"0\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".elementor-element-ac8a84b > .elementor-widget-container > .elementor-icon-wrapper > .elementor-icon[href=\"#\"]",
+          "html": "<a class=\"elementor-icon\" href=\"#\" tabindex=\"0\">\n</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".elementor-element-7ec09b4 > .elementor-widget-container > .elementor-icon-wrapper > .elementor-icon",
+          "html": "<a class=\"elementor-icon\" href=\"https://www.3i-infotech.com/beyond-readiness-crafting-a-customized-cloud-strategy-with-nure-cloud-adoption-in-a-box/\" tabindex=\"0\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".elementor-element-d880e0d > .elementor-widget-container > .elementor-icon-wrapper > .elementor-icon[href=\"#\"]",
+          "html": "<a class=\"elementor-icon\" href=\"#\" tabindex=\"0\">\n</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".elementor-element-67a33b9 > .elementor-widget-container > .elementor-icon-wrapper > .elementor-icon",
+          "html": "<a class=\"elementor-icon\" href=\"https://www.3i-infotech.com/nure-single-partner-for-your-cloud-ecosystem/\" tabindex=\"0\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "meta-viewport",
+          "impact": "moderate",
+          "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+          "help": "Zooming and scaling must not be disabled",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/meta-viewport?application=playwright",
+          "category": "other",
+          "selector": "meta[name=\"viewport\"]",
+          "html": "<meta name=\"viewport\" content=\"initial-scale=1,user-scalable=no,width=device-width\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_170020_attempt8_succesful_reviewnotdone_orchavatecore_digital_digital/3i_Infotech_Limited/screenshots/3i_Infotech_Limited_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_170020_attempt8_succesful_reviewnotdone_orchavatecore_digital_digital/3i_Infotech_Limited/screenshots/3i_Infotech_Limited_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_170020_attempt8_succesful_reviewnotdone_orchavatecore_digital_digital/3i_Infotech_Limited/screenshots/3i_Infotech_Limited_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 18,
+  "altTextViolations": 11,
+  "contrastViolations": 0,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_170020_attempt8_succesful_reviewnotdone_orchavatecore_digital_digital/3i_Infotech_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_170020_attempt8_succesful_reviewnotdone_orchavatecore_digital_digital/3i_Infotech_Limited/screenshots/3i_Infotech_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — 3i Infotech Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `18`  \n> **Verified Contact Email:** `marketing@3i-infotech.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `marketing@3i-infotech.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **18 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `12` | Serious: `5` | Moderate: `1`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 11 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (11 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** 3i Infotech Limited\n- **Resolved URL:** [https://3i-infotech.com](https://3i-infotech.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `marketing@3i-infotech.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `marketing@3i-infotech.com` | **Status:** `Verified` | **Source Page:** https://3i-infotech.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `button[data-target=\".aux-search-popup-bed4454\"]`\n2. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.elementor-element-e03899e > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(1) > .elementor-icon-list-text > img[decoding=\"async\"]`\n3. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.elementor-element-e03899e > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(2) > .elementor-icon-list-text > img[decoding=\"async\"]`\n4. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.elementor-element-e03899e > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(3) > .elementor-icon-list-text > img[decoding=\"async\"]`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.elementor-element-e03899e > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(4) > .elementor-icon-list-text > img[decoding=\"async\"]`\n6. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.elementor-element-e03899e > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(5) > .elementor-icon-list-text > img[decoding=\"async\"]`\n7. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.elementor-element-4ae10a0 > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(1) > .elementor-icon-list-text > img[decoding=\"async\"]`\n8. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.elementor-element-4ae10a0 > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(2) > .elementor-icon-list-text > img[decoding=\"async\"]`\n9. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.elementor-element-4ae10a0 > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(3) > .elementor-icon-list-text > img[decoding=\"async\"]`\n10. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.elementor-element-4ae10a0 > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(4) > .elementor-icon-list-text > img[decoding=\"async\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/3i_Infotech_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/3i_Infotech_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/3i_Infotech_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_170020_attempt8_succesful_reviewnotdone_orchavatecore_digital_digital/3i_Infotech_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_170020_attempt8_succesful_reviewnotdone_orchavatecore_digital_digital/3i_Infotech_Limited/screenshots/3i_Infotech_Limited_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — 3i Infotech Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `18`  \n> **Verified Contact Email:** `marketing@3i-infotech.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `marketing@3i-infotech.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **18 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `12` | Serious: `5` | Moderate: `1`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 11 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (11 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** 3i Infotech Limited\n- **Resolved URL:** [https://3i-infotech.com](https://3i-infotech.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `marketing@3i-infotech.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `marketing@3i-infotech.com` | **Status:** `Verified` | **Source Page:** https://3i-infotech.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `button[data-target=\".aux-search-popup-bed4454\"]`\n2. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.elementor-element-e03899e > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(1) > .elementor-icon-list-text > img[decoding=\"async\"]`\n3. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.elementor-element-e03899e > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(2) > .elementor-icon-list-text > img[decoding=\"async\"]`\n4. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.elementor-element-e03899e > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(3) > .elementor-icon-list-text > img[decoding=\"async\"]`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.elementor-element-e03899e > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(4) > .elementor-icon-list-text > img[decoding=\"async\"]`\n6. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.elementor-element-e03899e > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(5) > .elementor-icon-list-text > img[decoding=\"async\"]`\n7. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.elementor-element-4ae10a0 > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(1) > .elementor-icon-list-text > img[decoding=\"async\"]`\n8. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.elementor-element-4ae10a0 > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(2) > .elementor-icon-list-text > img[decoding=\"async\"]`\n9. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.elementor-element-4ae10a0 > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(3) > .elementor-icon-list-text > img[decoding=\"async\"]`\n10. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.elementor-element-4ae10a0 > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(4) > .elementor-icon-list-text > img[decoding=\"async\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/3i_Infotech_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/3i_Infotech_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/3i_Infotech_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_170020_attempt8_succesful_reviewnotdone_orchavatecore_digital_digital/3i_Infotech_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_170020_attempt8_succesful_reviewnotdone_orchavatecore_digital_digital/3i_Infotech_Limited/screenshots/3i_Infotech_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — 3i Infotech Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `18`  \n> **Verified Contact Email:** `marketing@3i-infotech.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `marketing@3i-infotech.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **18 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `12` | Serious: `5` | Moderate: `1`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 11 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (11 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** 3i Infotech Limited\n- **Resolved URL:** [https://3i-infotech.com](https://3i-infotech.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `marketing@3i-infotech.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `marketing@3i-infotech.com` | **Status:** `Verified` | **Source Page:** https://3i-infotech.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `button[data-target=\".aux-search-popup-bed4454\"]`\n2. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.elementor-element-e03899e > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(1) > .elementor-icon-list-text > img[decoding=\"async\"]`\n3. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.elementor-element-e03899e > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(2) > .elementor-icon-list-text > img[decoding=\"async\"]`\n4. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.elementor-element-e03899e > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(3) > .elementor-icon-list-text > img[decoding=\"async\"]`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.elementor-element-e03899e > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(4) > .elementor-icon-list-text > img[decoding=\"async\"]`\n6. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.elementor-element-e03899e > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(5) > .elementor-icon-list-text > img[decoding=\"async\"]`\n7. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.elementor-element-4ae10a0 > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(1) > .elementor-icon-list-text > img[decoding=\"async\"]`\n8. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.elementor-element-4ae10a0 > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(2) > .elementor-icon-list-text > img[decoding=\"async\"]`\n9. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.elementor-element-4ae10a0 > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(3) > .elementor-icon-list-text > img[decoding=\"async\"]`\n10. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.elementor-element-4ae10a0 > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(4) > .elementor-icon-list-text > img[decoding=\"async\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/3i_Infotech_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/3i_Infotech_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/3i_Infotech_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 18. WAVE AIM: N/A. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-10T17:00:47.322Z"
+}

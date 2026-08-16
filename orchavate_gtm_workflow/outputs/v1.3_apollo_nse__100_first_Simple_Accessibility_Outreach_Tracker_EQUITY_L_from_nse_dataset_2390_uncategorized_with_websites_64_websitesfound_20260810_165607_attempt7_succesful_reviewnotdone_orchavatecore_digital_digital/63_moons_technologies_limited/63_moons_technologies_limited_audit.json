@@ -1,0 +1,186 @@
+{
+  "company": {
+    "srNo": 9,
+    "companyName": "63 moons technologies limited",
+    "readymadeWebsite": "63moons.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (63 moons technologies limited)",
+    "emailId": "None",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://63moons.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://63moons.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "info@63moons.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Unverified - guessed pattern"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "info@63moons.com",
+        "type": "general",
+        "label": "General Contact Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      },
+      {
+        "address": "contact@63moons.com",
+        "type": "compliance_grievance",
+        "label": "Investor Grievance Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      }
+    ],
+    "overallStatus": "Unverified - guessed pattern",
+    "evidenceScreenshots": [
+      "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_165607_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/63_moons_technologies_limited/screenshots/63_moons_technologies_limited_EmailEvidence_NotFound_ContactPage.png"
+    ]
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://63moons.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[href$=\"discover-63-moons.html\"] > .btn-u-md.btn-u.rounded-4x",
+          "html": "<button class=\"btn-u btn-u-md rounded-4x btn-u-red\" type=\"button\">Know More</button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[href$=\"cybersecurity.html\"] > .btn-u-md.btn-u.rounded-4x",
+          "html": "<button class=\"btn-u btn-u-md rounded-4x btn-u-red\" type=\"button\">Know More</button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[href$=\"legaltech.html\"] > .btn-u-md.btn-u.rounded-4x",
+          "html": "<button class=\"btn-u btn-u-md rounded-4x btn-u-red\" type=\"button\">Know More</button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".btn-u-sm",
+          "html": "<button class=\"btn-u rounded-4x btn-u-red sm-margin-bottom-20 btn-u-sm btn-u-md\" type=\"button\"><i class=\"fa fa-download\" aria-hidden=\"true\">&nbsp;&nbsp;</i>Download Annual Report</button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".pull-right.btn-u-md.btn-u",
+          "html": "<button class=\"btn-u btn-u-md rounded-4x btn-u-red pull-right\" type=\"button\">Know More</button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".active.item > .testimonial-info > .testimonial-author > em",
+          "html": "<em>Sr. Manager – New Ventures</em>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".btn-u-light.btn-u-hover[href$=\"current-openings.aspx\"]",
+          "html": "<a href=\"/careers/current-openings.aspx\" class=\"btn-u rounded-4x btn-u-red btn-u-hover btn-u-light\">More Openings</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "scrollable-region-focusable",
+          "impact": "serious",
+          "description": "Ensure elements that have scrollable content are accessible by keyboard in Safari",
+          "help": "Scrollable region must have keyboard access",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/scrollable-region-focusable?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": ".vdo-dis",
+          "html": "<div class=\"vdo-dis p10\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 68,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_165607_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/63_moons_technologies_limited/screenshots/63_moons_technologies_limited_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_165607_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/63_moons_technologies_limited/screenshots/63_moons_technologies_limited_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_165607_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/63_moons_technologies_limited/screenshots/63_moons_technologies_limited_Homepage_Lighthouse_Summary.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_165607_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/63_moons_technologies_limited/screenshots/63_moons_technologies_limited_Homepage_WAVE_Overlay.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 8,
+  "altTextViolations": 0,
+  "contrastViolations": 7,
+  "labelViolations": 0,
+  "keyboardViolations": 1,
+  "lighthouseAvgScore": 68,
+  "waveAimScore": null,
+  "waveAimScoreStr": "NaN out of 10",
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_165607_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/63_moons_technologies_limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_165607_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/63_moons_technologies_limited/screenshots/63_moons_technologies_limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — 63 moons technologies limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `68 / 100`  \n> **Total WCAG Violations:** `8`  \n> **Verified Contact Email:** `info@63moons.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `info@63moons.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **68/100** on automated WCAG 2.1 AA accessibility testing with **8 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `68/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `8` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 7 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 1 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (7 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Keyboard & Focus Management (1 issues):** Ensure all interactive buttons/links are focusable via `Tab` key and visual focus outlines are visible.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** 63 moons technologies limited\n- **Resolved URL:** [https://63moons.com](https://63moons.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@63moons.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@63moons.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@63moons.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"discover-63-moons.html\"] > .btn-u-md.btn-u.rounded-4x`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"cybersecurity.html\"] > .btn-u-md.btn-u.rounded-4x`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"legaltech.html\"] > .btn-u-md.btn-u.rounded-4x`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.btn-u-sm`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.pull-right.btn-u-md.btn-u`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.active.item > .testimonial-info > .testimonial-author > em`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.btn-u-light.btn-u-hover[href$=\"current-openings.aspx\"]`\n8. **`[keyboard_navigation] scrollable-region-focusable`** (SERIOUS)\n   - **Help:** Scrollable region must have keyboard access\n   - **Selector:** `.vdo-dis`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/63_moons_technologies_limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/63_moons_technologies_limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/63_moons_technologies_limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_165607_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/63_moons_technologies_limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_165607_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/63_moons_technologies_limited/screenshots/63_moons_technologies_limited_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — 63 moons technologies limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `68 / 100`  \n> **Total WCAG Violations:** `8`  \n> **Verified Contact Email:** `info@63moons.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `info@63moons.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **68/100** on automated WCAG 2.1 AA accessibility testing with **8 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `68/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `8` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 7 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 1 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (7 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Keyboard & Focus Management (1 issues):** Ensure all interactive buttons/links are focusable via `Tab` key and visual focus outlines are visible.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** 63 moons technologies limited\n- **Resolved URL:** [https://63moons.com](https://63moons.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@63moons.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@63moons.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@63moons.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"discover-63-moons.html\"] > .btn-u-md.btn-u.rounded-4x`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"cybersecurity.html\"] > .btn-u-md.btn-u.rounded-4x`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"legaltech.html\"] > .btn-u-md.btn-u.rounded-4x`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.btn-u-sm`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.pull-right.btn-u-md.btn-u`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.active.item > .testimonial-info > .testimonial-author > em`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.btn-u-light.btn-u-hover[href$=\"current-openings.aspx\"]`\n8. **`[keyboard_navigation] scrollable-region-focusable`** (SERIOUS)\n   - **Help:** Scrollable region must have keyboard access\n   - **Selector:** `.vdo-dis`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/63_moons_technologies_limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/63_moons_technologies_limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/63_moons_technologies_limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_165607_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/63_moons_technologies_limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_nse__100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized_with_websites_64_websitesfound_20260810_165607_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/63_moons_technologies_limited/screenshots/63_moons_technologies_limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — 63 moons technologies limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `68 / 100`  \n> **Total WCAG Violations:** `8`  \n> **Verified Contact Email:** `info@63moons.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `info@63moons.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **68/100** on automated WCAG 2.1 AA accessibility testing with **8 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `68/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `8` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 7 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 1 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (7 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Keyboard & Focus Management (1 issues):** Ensure all interactive buttons/links are focusable via `Tab` key and visual focus outlines are visible.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** 63 moons technologies limited\n- **Resolved URL:** [https://63moons.com](https://63moons.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@63moons.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@63moons.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@63moons.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"discover-63-moons.html\"] > .btn-u-md.btn-u.rounded-4x`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"cybersecurity.html\"] > .btn-u-md.btn-u.rounded-4x`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"legaltech.html\"] > .btn-u-md.btn-u.rounded-4x`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.btn-u-sm`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.pull-right.btn-u-md.btn-u`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.active.item > .testimonial-info > .testimonial-author > em`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.btn-u-light.btn-u-hover[href$=\"current-openings.aspx\"]`\n8. **`[keyboard_navigation] scrollable-region-focusable`** (SERIOUS)\n   - **Help:** Scrollable region must have keyboard access\n   - **Selector:** `.vdo-dis`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/63_moons_technologies_limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/63_moons_technologies_limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/63_moons_technologies_limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 8. WAVE AIM: NaN out of 10. Lighthouse A11y: 68/100.",
+  "timestamp": "2026-08-10T16:57:58.839Z"
+}

@@ -1,0 +1,273 @@
+{
+  "company": {
+    "srNo": 57,
+    "companyName": "Dhampur Sugar Mills Ltd",
+    "readymadeWebsite": "https://dhampursugar.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (Dhampur Sugar Mills Ltd)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://dhampursugar.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://dhampursugar.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "gaurav.kadnurrao@schbang.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://dhampursugar.com/investors/financial-performance"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "aparnagoel@dhampursugar.com",
+        "type": "compliance_grievance",
+        "label": "Investor Grievance / Compliance Officer Email",
+        "status": "Verified",
+        "sourceUrl": "https://dhampursugar.com/investors/investor-referencer"
+      },
+      {
+        "address": "gaurav.kadnurrao@schbang.com",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://dhampursugar.com/investors/financial-performance"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://dhampursugar.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".mainBtn-orange[href$=\"work-at-dhampur\"]",
+          "html": "<a href=\"career/work-at-dhampur\" class=\"mainBtn-orange\">Learn More\n                  <span class=\"rightArrow\"></span></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".firstSection > .fp-tableCell > .bannerImg",
+          "html": "<img src=\"https://api.dhampursugar.com/uploads/home_bg_c62e06697a.jpg\" class=\"bannerImg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".secondSection > .fp-tableCell > .bannerImg",
+          "html": "<img src=\"https://api.dhampursugar.com/uploads/second_slide_1_bd09b2705d.jpg\" class=\"bannerImg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "a[href$=\"sugar\"] > .bothWrap > .Imgwrap > img",
+          "html": "<img src=\"https://api.dhampursugar.com/uploads/bowl_sugar_8f6e4604d9.jpg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "li[data-aos-delay=\"400\"][data-aos-duration=\"400\"][data-aos=\"fade-up\"] > a > .bothWrap > .Imgwrap > img",
+          "html": "<img src=\"https://api.dhampursugar.com/uploads/mishticolage1_c8497e6237_9fcb614b1e.jpg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "a[href$=\"green-power\"] > .bothWrap > .Imgwrap > img",
+          "html": "<img src=\"https://api.dhampursugar.com/uploads/cogeneration_73f5b68b80.png\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "a[href$=\"chemicals\"] > .bothWrap > .Imgwrap > img",
+          "html": "<img src=\"https://api.dhampursugar.com/uploads/chemicals_c37c726832.png\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "li[data-aos-delay=\"1000\"][data-aos-duration=\"400\"][data-aos=\"fade-up\"] > a > .bothWrap > .Imgwrap > img",
+          "html": "<img src=\"https://api.dhampursugar.com/uploads/chemicals_ethyl_acetate_eabcac9bc1_326aa49ade.jpg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "li[data-aos-delay=\"1200\"][data-aos-duration=\"400\"][data-aos=\"fade-up\"] > a > .bothWrap > .Imgwrap > img",
+          "html": "<img src=\"https://api.dhampursugar.com/uploads/KRP_6789_02ad4fba6b.jpg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".leftImg[data-aos-delay=\"100\"][data-aos-anchor-placement=\"top-bottom\"] > img",
+          "html": "<img src=\"https://api.dhampursugar.com/uploads/farm_bb010350aa.jpg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".rightImg > img",
+          "html": "<img src=\"https://api.dhampursugar.com/uploads/home_webcast_bg_ac3657cf1e.jpg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".desktopMenu > .flex-shrink-0.text-white.mr-6 > a[href=\"/\"]",
+          "html": "<a href=\"/\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".linkedinShare[target=\"_blank\"]",
+          "html": "<a href=\"https://www.linkedin.com/company/dhampur-sugar-mills-limited/\" target=\"_blank\" class=\"linkedinShare\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".youtubeShare[target=\"_blank\"]",
+          "html": "<a href=\"https://www.youtube.com/@DhampurSugarMillsLimited\" target=\"_blank\" class=\"youtubeShare\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".rightPart > ul > li:nth-child(1) > .linkedinShare",
+          "html": "<a href=\"https://www.linkedin.com/company/dhampur-sugar-mills-limited/\" class=\"linkedinShare\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".rightPart > ul > li:nth-child(2) > .youtubeShare",
+          "html": "<a href=\"https://www.youtube.com/@DhampurSugarMillsLimited\" class=\"youtubeShare\"></a>",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 36,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Dhampur_Sugar_Mills_Ltd/screenshots/Dhampur_Sugar_Mills_Ltd_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Dhampur_Sugar_Mills_Ltd/screenshots/Dhampur_Sugar_Mills_Ltd_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Dhampur_Sugar_Mills_Ltd/screenshots/Dhampur_Sugar_Mills_Ltd_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 16,
+  "altTextViolations": 10,
+  "contrastViolations": 1,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 36,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Dhampur_Sugar_Mills_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Dhampur_Sugar_Mills_Ltd/screenshots/Dhampur_Sugar_Mills_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Dhampur Sugar Mills Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `36 / 100`  \n> **Total WCAG Violations:** `16`  \n> **Verified Contact Email:** `gaurav.kadnurrao@schbang.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `gaurav.kadnurrao@schbang.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **36/100** on automated WCAG 2.1 AA accessibility testing with **16 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `36/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `10` | Serious: `6` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 10 violations\n- 🎨 **Color Contrast Failures:** 1 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (10 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (1 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Dhampur Sugar Mills Ltd\n- **Resolved URL:** [https://dhampursugar.com](https://dhampursugar.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `gaurav.kadnurrao@schbang.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `aparnagoel@dhampursugar.com` | **Status:** `Verified` | **Source Page:** https://dhampursugar.com/investors/investor-referencer\n- **General Contact Email:** `gaurav.kadnurrao@schbang.com` | **Status:** `Verified` | **Source Page:** https://dhampursugar.com/investors/financial-performance\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.mainBtn-orange[href$=\"work-at-dhampur\"]`\n2. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.firstSection > .fp-tableCell > .bannerImg`\n3. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.secondSection > .fp-tableCell > .bannerImg`\n4. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `a[href$=\"sugar\"] > .bothWrap > .Imgwrap > img`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `li[data-aos-delay=\"400\"][data-aos-duration=\"400\"][data-aos=\"fade-up\"] > a > .bothWrap > .Imgwrap > img`\n6. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `a[href$=\"green-power\"] > .bothWrap > .Imgwrap > img`\n7. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `a[href$=\"chemicals\"] > .bothWrap > .Imgwrap > img`\n8. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `li[data-aos-delay=\"1000\"][data-aos-duration=\"400\"][data-aos=\"fade-up\"] > a > .bothWrap > .Imgwrap > img`\n9. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `li[data-aos-delay=\"1200\"][data-aos-duration=\"400\"][data-aos=\"fade-up\"] > a > .bothWrap > .Imgwrap > img`\n10. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.leftImg[data-aos-delay=\"100\"][data-aos-anchor-placement=\"top-bottom\"] > img`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Dhampur_Sugar_Mills_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Dhampur_Sugar_Mills_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Dhampur_Sugar_Mills_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Dhampur_Sugar_Mills_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Dhampur_Sugar_Mills_Ltd/screenshots/Dhampur_Sugar_Mills_Ltd_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Dhampur Sugar Mills Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `36 / 100`  \n> **Total WCAG Violations:** `16`  \n> **Verified Contact Email:** `gaurav.kadnurrao@schbang.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `gaurav.kadnurrao@schbang.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **36/100** on automated WCAG 2.1 AA accessibility testing with **16 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `36/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `10` | Serious: `6` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 10 violations\n- 🎨 **Color Contrast Failures:** 1 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (10 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (1 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Dhampur Sugar Mills Ltd\n- **Resolved URL:** [https://dhampursugar.com](https://dhampursugar.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `gaurav.kadnurrao@schbang.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `aparnagoel@dhampursugar.com` | **Status:** `Verified` | **Source Page:** https://dhampursugar.com/investors/investor-referencer\n- **General Contact Email:** `gaurav.kadnurrao@schbang.com` | **Status:** `Verified` | **Source Page:** https://dhampursugar.com/investors/financial-performance\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.mainBtn-orange[href$=\"work-at-dhampur\"]`\n2. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.firstSection > .fp-tableCell > .bannerImg`\n3. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.secondSection > .fp-tableCell > .bannerImg`\n4. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `a[href$=\"sugar\"] > .bothWrap > .Imgwrap > img`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `li[data-aos-delay=\"400\"][data-aos-duration=\"400\"][data-aos=\"fade-up\"] > a > .bothWrap > .Imgwrap > img`\n6. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `a[href$=\"green-power\"] > .bothWrap > .Imgwrap > img`\n7. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `a[href$=\"chemicals\"] > .bothWrap > .Imgwrap > img`\n8. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `li[data-aos-delay=\"1000\"][data-aos-duration=\"400\"][data-aos=\"fade-up\"] > a > .bothWrap > .Imgwrap > img`\n9. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `li[data-aos-delay=\"1200\"][data-aos-duration=\"400\"][data-aos=\"fade-up\"] > a > .bothWrap > .Imgwrap > img`\n10. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.leftImg[data-aos-delay=\"100\"][data-aos-anchor-placement=\"top-bottom\"] > img`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Dhampur_Sugar_Mills_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Dhampur_Sugar_Mills_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Dhampur_Sugar_Mills_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Dhampur_Sugar_Mills_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Dhampur_Sugar_Mills_Ltd/screenshots/Dhampur_Sugar_Mills_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Dhampur Sugar Mills Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `36 / 100`  \n> **Total WCAG Violations:** `16`  \n> **Verified Contact Email:** `gaurav.kadnurrao@schbang.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `gaurav.kadnurrao@schbang.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **36/100** on automated WCAG 2.1 AA accessibility testing with **16 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `36/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `10` | Serious: `6` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 10 violations\n- 🎨 **Color Contrast Failures:** 1 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (10 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (1 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Dhampur Sugar Mills Ltd\n- **Resolved URL:** [https://dhampursugar.com](https://dhampursugar.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `gaurav.kadnurrao@schbang.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `aparnagoel@dhampursugar.com` | **Status:** `Verified` | **Source Page:** https://dhampursugar.com/investors/investor-referencer\n- **General Contact Email:** `gaurav.kadnurrao@schbang.com` | **Status:** `Verified` | **Source Page:** https://dhampursugar.com/investors/financial-performance\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.mainBtn-orange[href$=\"work-at-dhampur\"]`\n2. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.firstSection > .fp-tableCell > .bannerImg`\n3. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.secondSection > .fp-tableCell > .bannerImg`\n4. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `a[href$=\"sugar\"] > .bothWrap > .Imgwrap > img`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `li[data-aos-delay=\"400\"][data-aos-duration=\"400\"][data-aos=\"fade-up\"] > a > .bothWrap > .Imgwrap > img`\n6. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `a[href$=\"green-power\"] > .bothWrap > .Imgwrap > img`\n7. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `a[href$=\"chemicals\"] > .bothWrap > .Imgwrap > img`\n8. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `li[data-aos-delay=\"1000\"][data-aos-duration=\"400\"][data-aos=\"fade-up\"] > a > .bothWrap > .Imgwrap > img`\n9. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `li[data-aos-delay=\"1200\"][data-aos-duration=\"400\"][data-aos=\"fade-up\"] > a > .bothWrap > .Imgwrap > img`\n10. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.leftImg[data-aos-delay=\"100\"][data-aos-anchor-placement=\"top-bottom\"] > img`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Dhampur_Sugar_Mills_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Dhampur_Sugar_Mills_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Dhampur_Sugar_Mills_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 16. WAVE AIM: N/A. Lighthouse A11y: 36/100.",
+  "timestamp": "2026-08-11T11:40:24.038Z"
+}
